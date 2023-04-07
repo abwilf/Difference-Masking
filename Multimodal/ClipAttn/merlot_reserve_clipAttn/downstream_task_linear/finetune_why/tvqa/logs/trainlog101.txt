@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000357~s09e16_seg02_clip_06 ~~~~~~~~
+ 36 to 62<|START|> why did leonard say they didn't do fun stuff after sheldon asked? 
+0   )  leonard said the reason they didn't do fun stuff was amy.      (14tok)
+1   )  leonard said they always did fun stuff and he didn't get what sheldon was asking.      (18tok)
+2 GT)  leonard said the reason they didn't do fun stuff was sheldon.      (14tok)
+3   )  leonard blamed the lack of fun on raj.      (10tok)
+4   )  leonard said the lack of fun suff was howard's fault.      (13tok)
+~~~~~~~~~~~ Example 1 001381~house_s07e22_seg02_clip_10 ~~~~~~~~
+ 33 to 65<|START|> why did the stripper tell taub to stop talking when he was talking to her?
+0 GT)  so that she could dance for him     (7tok)
+1   )  so that she could kiss him     (6tok)
+2   )  so that he could perform oral sex on her     (9tok)
+3   )  so that she could breastfeed him     (6tok)
+4   )  so that she could concentrate     (5tok)
+~~~~~~~~~~~ Example 2 006501~s02e10_seg02_clip_06 ~~~~~~~~
+ 12 to 87<|START|> why steph was upset after sheldon told about the sphygmomanometer?
+0   )  because sheldon is making jocks about her.     (9tok)
+1 GT)  because steph did not know that the blood pressure cuff is call sphygmomanometer.     (19tok)
+2   )  because sheldon is crying.     (5tok)
+3   )  because sheldon is spilling food on the floor.     (9tok)
+4   )  because sheldon is kissing steph.     (6tok)
+~~~~~~~~~~~ Example 3 008293~friends_s05e02_seg02_clip_04 ~~~~~~~~
+ 10 to 89<|START|> why did chandler kiss everyone in the room before leaving?
+0   )  he always does that.     (5tok)
+1   )  he wanted to taste everyone's lip product.     (9tok)
+2   )  he wanted to check if his breath smelled.     (9tok)
+3 GT)  he wanted to cover up for kissing monica.     (9tok)
+4   )  he was leaving them for good.     (7tok)
+Finished writing 50 questions; max len = 257

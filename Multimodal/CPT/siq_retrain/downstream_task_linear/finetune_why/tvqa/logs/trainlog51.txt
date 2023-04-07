@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001075~met_s06e24_seg02_clip_04 ~~~~~~~~
+ 17 to 82<|START|> why does barney think ted is getting back together with zoey after zoey texts ted's phone?
+0   )  barney thinks ted and zoey are getting back together because china plates.      (14tok)
+1   )  barney thinks ted and zoey are getting back together because of robin.     (13tok)
+2 GT)  barney thinks ted and zoey are getting back together because of light bulbs.      (15tok)
+3   )  barney thinks ted and zoey are getting back together because ted is having a mid life crisis.      (19tok)
+4   )  barney thinks ted and zoey are getting back together because zoey is blackmailing ted.      (17tok)
+~~~~~~~~~~~ Example 1 001587~castle_s07e06_seg02_clip_10 ~~~~~~~~
+ 7 to 36<|START|> why is castle rambling fast when he is trying to get beckett to let him help on the case?
+0   )  he is in a hurry to get somewhere     (8tok)
+1   )  she told him to talk fast     (6tok)
+2   )  she refuses to listen to him     (6tok)
+3   )  that is just how he is     (6tok)
+4 GT)  he is on a lot of coffee and nodoze and hasn't slept     (15tok)
+~~~~~~~~~~~ Example 2 002099~castle_s07e17_seg02_clip_11 ~~~~~~~~
+ 31 to 97<|START|> why did castle say he didn't want beckett to go out with zhang after he told ryan he didn't need his advice?
+0   )  because castle and beckett's marriage wasn't going well.      (14tok)
+1   )  becuase zhang is better looking than him.     (11tok)
+2   )  because he wanted to take her somewhere that night.     (10tok)
+3   )  because zhang had admitted he had feelings for beckett.     (13tok)
+4 GT)  because zhang is accomplished.     (6tok)
+~~~~~~~~~~~ Example 3 004915~friends_s03e23_seg02_clip_01 ~~~~~~~~
+ 20 to 80<|START|> why was ross upset when he was talking to joey and chandler?
+0   )  he was angry at being bankrupt.     (7tok)
+1   )  he just found out he was expecting a child.     (10tok)
+2   )  his foot was swollen.     (5tok)
+3 GT)  he was worried about a skin condition.     (8tok)
+4   )  he lost his job.     (5tok)
+Finished writing 66 questions; max len = 287

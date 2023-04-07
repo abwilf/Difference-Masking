@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 007714~castle_s06e20_seg02_clip_06 ~~~~~~~~
+ 12 to 30<|START|> why is harold upset when talking to castle and beckett?
+0   )  harold is upset because beckett questioned his son.     (11tok)
+1   )  harold is upset because castle accused him of being a rapist.     (13tok)
+2 GT)  harold is upset because he thinks castle and beckett are trying to trick him into saying something.     (20tok)
+3   )  harold is upset because castle and beckett have no leads on his missing wife.     (17tok)
+4   )  harold is upset because his brother's body has already been cremated by the city morgue.     (20tok)
+~~~~~~~~~~~ Example 1 008738~grey_s03e13_seg02_clip_05 ~~~~~~~~
+ 61 to 94<|START|> why does rachel ask to be told if jilly has cancer in private when talking to izzie?
+0   )  she won't be able to focus not knowing.     (10tok)
+1   )  she wants to know first.      (7tok)
+2 GT)  she doesn't want jilly to see her upset.     (11tok)
+3   )  she wants to be the one to tell jilly.     (11tok)
+4   )  she doesn't ask that.      (7tok)
+~~~~~~~~~~~ Example 2 019234~friends_s02e03_seg02_clip_17 ~~~~~~~~
+ 35 to 64<|START|> why did monicas high school boyfriend break up with her when rachel was telling chandler.
+0 GT)  because monica was too fat     (5tok)
+1   )  because teddy wanted space     (4tok)
+2   )  teddy was seeing another girl     (5tok)
+3   )  teddy was gay     (3tok)
+4   )  monica didn't have a boyfriend in high school.     (10tok)
+~~~~~~~~~~~ Example 3 020514~friends_s02e05_seg02_clip_17 ~~~~~~~~
+ 24 to 47<|START|> why did ross and chandler quickly shake steve's hand after he said his firm represents the band?
+0 GT)  ross and chandler wanted to meet the band     (8tok)
+1   )  ross and chandler were very excited to see steve.     (10tok)
+2   )  ross and chandler were ready to leave.     (8tok)
+3   )  ross and chandler like meeting new people.     (8tok)
+4   )  ross and chandler wanted to meet steve.     (8tok)
+Finished writing 44 questions; max len = 236

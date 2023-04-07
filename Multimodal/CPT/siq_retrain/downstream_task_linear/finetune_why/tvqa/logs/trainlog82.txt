@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002642~s08e06_seg02_clip_12 ~~~~~~~~
+ 41 to 86<|START|> why does amy use the walkie-talkies after sheldon yelling down to them?
+0   )  raj wants her too.     (5tok)
+1   )  she loves to use them.     (6tok)
+2   )  they can't hear her if she doesn't.     (10tok)
+3 GT)  because sheldon told her to use them.     (8tok)
+4   )  there phones are broken.     (5tok)
+~~~~~~~~~~~ Example 1 004690~house_s07e06_seg02_clip_14 ~~~~~~~~
+ 39 to 60<|START|> why does foreman tell house it was a mistake when he found out that he fired masters?
+0   )  because they need master's profession     (6tok)
+1   )  because they need master's personality     (6tok)
+2 GT)  because they need someone to keep them in check     (9tok)
+3   )  becasue masters is a good doctor     (8tok)
+4   )  becasue house fired her unfairly     (8tok)
+~~~~~~~~~~~ Example 2 010578~house_s03e05_seg02_clip_17 ~~~~~~~~
+ 31 to 67<|START|> why does foreman say he is giving patient a tranquilizer after he rushes in the room? 
+0   )  he is giving the patient a tranquilizer because the patient is about to go into shock and he needs to lower his heart rate.     (26tok)
+1   )  he is giving patient tranquilizer because he is becoming increasingly combative and aggressive.     (16tok)
+2   )  he is giving the patient a tranquilizer because the patient is having a nervous breakdown over his wife.     (20tok)
+3   )  he is giving the patient a tranquilizer because he is yelling and screaming that he wants to leave the hospital.     (22tok)
+4 GT)  he is giving patient tranquilizer because he is in pain and his morphine isn't working so he is knocking him out.     (25tok)
+~~~~~~~~~~~ Example 3 011090~house_s04e04_seg02_clip_20 ~~~~~~~~
+ 25 to 44<|START|> why did chase shush cole up after cole started talking about cameron?
+0   )  chase said cameron was listening in.     (7tok)
+1   )  chase said they needed to concentrate on the surgery.     (10tok)
+2   )  chase said he didn't want to hear office gossip.     (11tok)
+3 GT)  chase said house was watching.     (6tok)
+4   )  chase said he was tired of hearing about cameron from everyone.     (12tok)
+Finished writing 41 questions; max len = 230

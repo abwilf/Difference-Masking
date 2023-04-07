@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000070~s02e16_seg02_clip_15 ~~~~~~~~
+ -30 to 130<|START|> why sheldon is surprised when leonard told that szechwan palace is closed?
+0 GT)  because sheldon didn't that szechwan palace was closed.     (12tok)
+1   )  because leonard wanted go to eat in szechwan palace.     (12tok)
+2   )  because leonard loves szechwan palace.     (8tok)
+3   )  because leonard visited szechwan palace.     (8tok)
+4   )  because szechwan palace is destroyed.     (8tok)
+~~~~~~~~~~~ Example 1 003142~s01e09_seg02_clip_12 ~~~~~~~~
+ -15 to 116<|START|> why leonard is shouting after sheldon told that he screw up his presentation?
+0   )  because leonard had a toothache.     (7tok)
+1 GT)  because leonard felt offended.     (5tok)
+2   )  because leonard is happy.     (5tok)
+3   )  because leonard won a contest.     (6tok)
+4   )  because leonard won a prize.     (6tok)
+~~~~~~~~~~~ Example 2 011334~met_s02e16_seg01_clip_00 ~~~~~~~~
+ 8 to 90<|START|> why did robin say she didn't remember the romantic evening after ted described it?
+0   )  she got food poisoning.     (5tok)
+1   )  because she has a bad memory.     (7tok)
+2   )  she was drunk when they went.     (7tok)
+3   )  she was really sleepy that time.     (7tok)
+4 GT)  because it wasn't her.     (6tok)
+~~~~~~~~~~~ Example 3 015174~friends_s04e02_seg02_clip_06 ~~~~~~~~
+ 3 to 68<|START|> why did rachel get upset with monica when she learned she wanted to date chip?
+0   )  rachel was upset because she wants monica to date the mailman.     (13tok)
+1   )  rachel was upset because she wants monica to date a friend of hers.     (14tok)
+2   )  rachel was upset because she wants to date chip.     (10tok)
+3   )  rachel was upset because she thinks monica should stay single.     (11tok)
+4 GT)  rachel was upset because she dated chip in high school.     (11tok)
+Finished writing 58 questions; max len = 261

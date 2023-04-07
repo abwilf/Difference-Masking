@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003024~house_s06e21_seg02_clip_20 ~~~~~~~~
+ 71 to 85<|START|> why is house's patient laying on the ground when house is talking to her about prosthetic ?
+0 GT)  house's patient is stuck.     (6tok)
+1   )  house's patient is laying in the sun.     (9tok)
+2   )  house's patient is going to sleep.     (8tok)
+3   )  house's patient is getting up.     (7tok)
+4   )  house's patient fainted.     (6tok)
+~~~~~~~~~~~ Example 1 004304~friends_s05e21_seg02_clip_18 ~~~~~~~~
+ 41 to 58<|START|> why did ross jump up after chandler calls his name?
+0 GT)  ross was sleeping     (3tok)
+1   )  ross was picking his nose     (5tok)
+2   )  ross' pants were unzipped      (8tok)
+3   )  chandler hit ross in the face     (6tok)
+4   )  ross got caught sneaking food     (5tok)
+~~~~~~~~~~~ Example 2 005072~house_s05e07_seg02_clip_14 ~~~~~~~~
+ 70 to 85<|START|> why does house want for stewart to be forced feed after hearing about the wheat allergy?
+0 GT)  to put the patient in to pain to force him to come in     (13tok)
+1   )  to better run a more controlled experiment     (7tok)
+2   )  the previous procedures were inconclusive     (7tok)
+3   )  the patient had requested to be forced fed     (8tok)
+4   )  lab results show negative for a wheat allergy     (8tok)
+~~~~~~~~~~~ Example 3 005328~s03e21_seg01_clip_00 ~~~~~~~~
+ 7 to 64<|START|> why does sheldon want raj to sit alone after he sneezes
+0   )  sheldon is sad because raj made fun of him     (9tok)
+1   )  sheldon doesn't like raj     (5tok)
+2   )  sheldon is angry because raj stole his soda     (8tok)
+3 GT)  sheldon thinks raj is sick     (5tok)
+4   )  sheldon is embarrassed of raj.     (6tok)
+Finished writing 45 questions; max len = 294

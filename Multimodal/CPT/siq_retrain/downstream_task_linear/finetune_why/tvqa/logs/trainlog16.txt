@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 009232~friends_s01e16-17_seg02_clip_33 ~~~~~~~~
+ 33 to 66<|START|> why does rachel say she likes her job when talking to the doctors?
+0   )  she likes to eat     (4tok)
+1   )  she is a good cook     (5tok)
+2 GT)  she loves to boss people around      (7tok)
+3   )  she loves to be creative     (5tok)
+4   )  she likes to please people      (6tok)
+~~~~~~~~~~~ Example 1 019984~friends_s01e08_seg02_clip_04 ~~~~~~~~
+ 39 to 61<|START|> why did the geller family think that nana had passed when they were at the hospital visiting her?
+0   )  nana's life support got unplugged     (6tok)
+1   )  nana was very old     (4tok)
+2   )  ross told the family that nana was dead     (8tok)
+3 GT)  the nurse told them nana passed     (6tok)
+4   )  the geller family never thought nana had passed     (9tok)
+~~~~~~~~~~~ Example 2 023312~s05e06_seg02_clip_11 ~~~~~~~~
+ 43 to 86<|START|> why did sheldon get angry with amy when she asked if he might be conning down with a cool?
+0   )  he hates getting a cold.      (7tok)
+1   )  she wouldn't give him a tissue.      (9tok)
+2   )  they were late for their date.      (8tok)
+3   )  he didn't want to be sick.      (9tok)
+4 GT)  he felt she was suggesting he was common like the cold.      (13tok)
+~~~~~~~~~~~ Example 3 024080~castle_s08e13_seg02_clip_14 ~~~~~~~~
+ 41 to 86<|START|> why is there no public record of anita after the police search the data base?
+0   )  died before there was computers     (5tok)
+1   )  she was in witness protection     (5tok)
+2   )  had went off the grid years ago     (7tok)
+3 GT)  she was an undocumented citizen      (6tok)
+4   )  someone was hiding the information     (5tok)
+Finished writing 37 questions; max len = 274

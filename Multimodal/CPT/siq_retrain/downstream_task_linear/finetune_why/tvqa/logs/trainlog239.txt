@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000239~house_s01e05_seg02_clip_15 ~~~~~~~~
+ 18 to 81<|START|> why does house give cuddy the tea when they're in the hallway?
+0   )  because house thinks cuddy needs to relax     (8tok)
+1 GT)  because house thinks the tea is responsible, at least in part, for the nun's illness     (18tok)
+2   )  because house thinks cuddy's breath smells bad     (9tok)
+3   )  because house is trying to annoy cuddy     (8tok)
+4   )  because house is trying to sell tea     (7tok)
+~~~~~~~~~~~ Example 1 007151~s01e07_seg01_clip_00 ~~~~~~~~
+ 4 to 96<|START|> why does howard say they can't take away from bathroom time when discussing their options?
+0   )  because he has a weak bladder.     (7tok)
+1   )  because they're having hot peppers on the pizza.     (10tok)
+2   )  because he's had a lot to drink.     (9tok)
+3 GT)  because they're having anchovies on the pizza.     (9tok)
+4   )  because leonard is lactose intolerant.     (6tok)
+~~~~~~~~~~~ Example 2 014831~s08e02_seg02_clip_05 ~~~~~~~~
+ 70 to 85<|START|> why is sheldon upset after the guys walk in the room
+0   )  sheldon is upset because he was only a substitute teacher     (10tok)
+1   )  sheldon is upset because the students were bad     (8tok)
+2   )  sheldon is upset because the students walked out     (8tok)
+3 GT)  sheldon is upset because there wasn't any class     (9tok)
+4   )  sheldon is upset because they didn't like his fig newtons     (12tok)
+~~~~~~~~~~~ Example 3 016111~s07e01_seg02_clip_10 ~~~~~~~~
+ 2 to 69<|START|> why is penny upset after leonard left?
+0   )  she lost her best friend.     (6tok)
+1 GT)  she was picturing leonard with other women.     (9tok)
+2   )  she thought leonard broke up with her.     (8tok)
+3   )  she didn't want to be alone with sheldon.     (10tok)
+4   )  she was bored.     (4tok)
+Finished writing 46 questions; max len = 238

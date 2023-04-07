@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005100~friends_s09e19_seg02_clip_14 ~~~~~~~~
+ 18 to 81<|START|> why is rachel unable to finish her story about work after phoebe and monica talk about phoebe's music?
+0   )  rachel is unable to finish her story because phoebe tells her to stop talking.     (15tok)
+1   )  rachel is unable to finish her story because phoebe and monica leave.     (13tok)
+2   )  rachel is unable to finish her story because monica tells her to stop talking.     (15tok)
+3 GT)  rachel is unable to finish her story because phoebe is not done talking about monica's decision to fire her.     (21tok)
+4   )  rachel is unable to finish her story because phoebe starts to play a song.     (15tok)
+~~~~~~~~~~~ Example 1 006380~friends_s04e04_seg02_clip_15 ~~~~~~~~
+ 38 to 61<|START|> why can't phoebe be with rick after their session?
+0   )  she is a client.     (5tok)
+1   )  he is married.     (4tok)
+2   )  he has a girlfriend.     (5tok)
+3   )  she has a boyfriend.     (5tok)
+4 GT)  he is a client.     (5tok)
+~~~~~~~~~~~ Example 2 008172~house_s05e23_seg02_clip_24 ~~~~~~~~
+ 25 to 74<|START|> why does house think that cuddy is trying to help him after calling her a liar?
+0   )  she likes him romantically      (6tok)
+1   )  he is her work eye candy     (6tok)
+2   )  he makes her more money     (5tok)
+3 GT)  he is her company's asset      (7tok)
+4   )  she is being forced to do it     (7tok)
+~~~~~~~~~~~ Example 3 009708~s02e13_seg02_clip_11 ~~~~~~~~
+ 36 to 62<|START|> why is sheldon nervous when he looks at the rock wall
+0   )  he doesn't know how to rock climb     (8tok)
+1   )  his friend is falling off the wall     (7tok)
+2 GT)  it's bigger than he thought it would be     (9tok)
+3   )  he wishes it was a bigger wall     (7tok)
+4   )  he just fell off the wall.      (8tok)
+Finished writing 47 questions; max len = 218

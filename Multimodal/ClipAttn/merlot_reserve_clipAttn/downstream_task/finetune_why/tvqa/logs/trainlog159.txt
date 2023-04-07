@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000415~friends_s10e11_seg02_clip_26 ~~~~~~~~
+ 33 to 66<|START|> why was ross upset with chandler after he said "it was amazing?" 
+0   )  he found out chandler was getting a divorce.     (9tok)
+1 GT)  he found out chandler kissed her first.     (8tok)
+2   )  he found out chandler cheated on monica.     (8tok)
+3   )  he found out chandler took rachel out on a date.     (11tok)
+4   )  he found out chandler had sex with his ex-wife.     (12tok)
+~~~~~~~~~~~ Example 1 005791~castle_s04e06_seg02_clip_25 ~~~~~~~~
+ 39 to 60<|START|> why did beckett say smith wouldn't shoot them before he pulled out a knife? 
+0   )  he wouldn't get out of here alive.     (9tok)
+1   )  he doesn't have the guts.     (7tok)
+2 GT)  it won't fit the legend.     (7tok)
+3   )  our backup will be here any moment.     (8tok)
+4   )  i told esposito who we are meeting.     (10tok)
+~~~~~~~~~~~ Example 2 008607~castle_s05e10_seg02_clip_23 ~~~~~~~~
+ 16 to 83<|START|> why is castle suspicious of billy and garrison's dead wives after speaking with beckett and esposito?
+0   )  because the women are mother and daughter     (7tok)
+1   )  because there is more than two victims     (7tok)
+2   )  because neither of the women are related     (7tok)
+3   )  because the women are sisters     (5tok)
+4 GT)  because it's the same woman     (6tok)
+~~~~~~~~~~~ Example 3 015519~s04e24_seg02_clip_08 ~~~~~~~~
+ 25 to 74<|START|> why isn't leonard wearing the pin after sheldon gave it to him?
+0   )  leonard is wearing the pin.     (6tok)
+1   )  leonard lost it     (3tok)
+2   )  leonard is allergic to it     (5tok)
+3   )  penny thinks its ugly     (4tok)
+4 GT)  leonard thinks he's too cool     (6tok)
+Finished writing 45 questions; max len = 244

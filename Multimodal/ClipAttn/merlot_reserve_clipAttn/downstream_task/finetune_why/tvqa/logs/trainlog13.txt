@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001037~house_s08e20_seg02_clip_06 ~~~~~~~~
+ 7 to 91<|START|> why does house tell wilson he's impressed with how well he is pretending to be fine when they are driving to catch julie?
+0   )  wilson has just lost his job and his apartment in the same day.     (14tok)
+1   )  wilson is going to find out if he is julie's baby's father in one day.     (18tok)
+2 GT)  wilson is going to find out if he is going to live or die in three days.     (18tok)
+3   )  house is impressed with wilson's ability to pretend he knows how to drive.     (15tok)
+4   )  house is impressed with wilson's ability to pretend julie is not dying.     (14tok)
+~~~~~~~~~~~ Example 1 006925~s05e21_seg02_clip_15 ~~~~~~~~
+ 32 to 67<|START|> why did stephen hawking have a problem with sheldon's work when they were going over it?
+0   )  stephen hawking had a problem because there was a stain.     (11tok)
+1   )  stephen hawking had a problem because there was a picture.     (11tok)
+2   )  stephen hawking had a problem because there was a watermark.     (12tok)
+3 GT)  stephen hawking had a problem because there was a mistake.     (11tok)
+4   )  stephen hawking had a problem because there was a wet spot.     (12tok)
+~~~~~~~~~~~ Example 2 007437~friends_s10e17-18_seg02_clip_20 ~~~~~~~~
+ 18 to 53<|START|> why did joey rub ross's arm after he talked to him? 
+0   )  to get a static charge.     (6tok)
+1 GT)  to comfort him.     (4tok)
+2   )  to prepare to hit him.     (6tok)
+3   )  to rub the pain after he punched him.     (9tok)
+4   )  to butter him up to ask for money.     (9tok)
+~~~~~~~~~~~ Example 3 011533~house_s04e05_seg02_clip_06 ~~~~~~~~
+ 37 to 62<|START|> why did house make an announcement in the kitchen after being in the operating room?
+0   )  to announce to everyone that the milk was improperly stored.     (12tok)
+1   )  to announce to everyone that the beef was improperly stored.     (12tok)
+2   )  to announce to everyone that the chicken was improperly stored.     (12tok)
+3 GT)  to announce to everyone that the mayonnaise was improperly stored.      (13tok)
+4   )  to announce to everyone that the kitchen was closing.     (10tok)
+Finished writing 41 questions; max len = 229

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004052~house_s03e18_seg02_clip_26 ~~~~~~~~
+ 41 to 59<|START|> why was cameron surprised when chase said he wanted this to be more than it is?
+0   )  because chase had a girlfriend.     (6tok)
+1   )  because chase didn't seem like the relationship type.      (11tok)
+2   )  because she thought chase just saw her as a friend.     (11tok)
+3   )  because they were both too busy with their careers.     (10tok)
+4 GT)  because she thought they were clear.     (7tok)
+~~~~~~~~~~~ Example 1 010452~house_s08e07_seg02_clip_03 ~~~~~~~~
+ 12 to 88<|START|> why does emory tell house he's too late to examine his son when house asks him to see him?
+0 GT)  he's passed away     (4tok)
+1   )  he's been cured     (4tok)
+2   )  he's out of state     (5tok)
+3   )  he's moved to italy     (5tok)
+4   )  he's in a coma     (5tok)
+~~~~~~~~~~~ Example 2 018132~castle_s05e13_seg02_clip_24 ~~~~~~~~
+ 44 to 55<|START|> why did bracken think noah tried to kill him when he was talking about noah being his driver?
+0   )  beckett thought noah wanted to see what death looked like.     (13tok)
+1   )  bracken thought noah wanted revenge for firing him     (9tok)
+2   )  bracken thought noah had gone crazy.     (8tok)
+3   )  bracken thought noah wanted to take his wife.     (10tok)
+4 GT)  bracken thought someone gave noah a lot of money to kill him.     (14tok)
+~~~~~~~~~~~ Example 3 019156~s04e08_seg02_clip_08 ~~~~~~~~
+ 58 to 69<|START|> why did amy want penny to remove the nail polish after she finished putting it on her?
+0   )  amy could not stand the way the nail polish looked on her nails.     (14tok)
+1   )  amy did not like the brand of nail polish penny used.     (12tok)
+2   )  amy hated the way the nail polish smelled.     (9tok)
+3 GT)  amy did not like the fact this was the most pretty her nails ever looked before.     (17tok)
+4   )  amy only wanted to wear the nail polish for a couple of seconds.     (14tok)
+Finished writing 53 questions; max len = 267

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002107~met_s02e16_seg02_clip_05 ~~~~~~~~
+ 11 to 88<|START|> why is ted annoyed before robin calls him creepy and gross?
+0 GT)  robin is throwing his old girlfriends in his face.     (10tok)
+1   )  she didn't order him anything to eat.     (9tok)
+2   )  marshall's being a jerk.     (6tok)
+3   )  barney is flirting with robin.     (6tok)
+4   )  the waitress spilled beer all over his jacket.     (9tok)
+~~~~~~~~~~~ Example 1 003131~castle_s04e19_seg02_clip_16 ~~~~~~~~
+ 25 to 45<|START|> why did gates choose a special task for castle when everyone else went to boylan plaza?
+0   )  gates thought castle could help with the governor.     (9tok)
+1   )  gates heard that castle knew the mayor.     (8tok)
+2   )  gates knew castle was a writer.     (7tok)
+3 GT)  gates heard that castle is quite the speed reader.     (10tok)
+4   )  gates thought castle could a help with the witness.     (10tok)
+~~~~~~~~~~~ Example 2 004923~castle_s01e09_seg02_clip_04 ~~~~~~~~
+ 8 to 91<|START|> why can't the ransom call be traced even after it was recorded?
+0   )  they spoke with a fake kidnapper.     (8tok)
+1   )  the hung up too quick.     (6tok)
+2 GT)  the kidnapper used a internet voice over ip service.     (11tok)
+3   )  it's a burner phone.     (6tok)
+4   )  it's too much work to figure it out.     (10tok)
+~~~~~~~~~~~ Example 3 007739~s05e17_seg02_clip_16 ~~~~~~~~
+ 41 to 58<|START|> why is sheldon upset when he is talking?
+0   )  sheldon is upset because the cat is out of tune.     (11tok)
+1 GT)  sheldon is upset because the bird is out of tune.     (11tok)
+2   )  sheldon is upset because the dog is out of tune.     (11tok)
+3   )  sheldon is upset because the mouse is out of tune.     (11tok)
+4   )  sheldon is upset because the guitar is out of tune.     (11tok)
+Finished writing 53 questions; max len = 272

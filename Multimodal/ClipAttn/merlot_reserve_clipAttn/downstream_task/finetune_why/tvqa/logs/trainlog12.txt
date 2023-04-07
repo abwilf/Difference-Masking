@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000268~house_s07e19_seg02_clip_23 ~~~~~~~~
+ 10 to 90<|START|> why is the patient angry when she wakes up after surgery?
+0 GT)  she's missing an arm     (5tok)
+1   )  she didn't want to see the doctor     (8tok)
+2   )  her jello was taken     (4tok)
+3   )  some one took her warm blankets     (6tok)
+4   )  masters laughed at a thing she said     (7tok)
+~~~~~~~~~~~ Example 1 000524~castle_s06e09_seg02_clip_21 ~~~~~~~~
+ 29 to 70<|START|> why do they need carl to confess when they are interrogating him?
+0   )  they don't want the case to go to trial.     (11tok)
+1 GT)  there isn't enough evidence tying him to the murders.     (11tok)
+2   )  they can close the case if he confesses.     (10tok)
+3   )  they want to make a deal with him.     (9tok)
+4   )  they believe he is working for someone.     (8tok)
+~~~~~~~~~~~ Example 2 001036~met_s06e23_seg02_clip_10 ~~~~~~~~
+ 11 to 89<|START|> why doesn't the ghost want ted to save the arcadian when talking about architecture?
+0   )  because the ghost says that the arcadian is is the home of some of new york's wealthiest citizens.     (23tok)
+1   )  because the ghost says that the arcadian is obstructing a historical landmark.     (16tok)
+2 GT)  because the ghost says that the arcadian is badly built and architecturally unimportant.     (18tok)
+3   )  because the ghost says that the arcadian is permits petty crime.      (15tok)
+4   )  because the ghost says that the arcadian is falling over and needs to be demolished before it kills someone.     (22tok)
+~~~~~~~~~~~ Example 3 009740~castle_s01e02_seg02_clip_14 ~~~~~~~~
+ 34 to 65<|START|> why does the team rule out sara's boyfriend as the murderer after ryan's investigation?
+0 GT)  video evidence and a sign-in sheet suggest he is cheating, but wasn't around to kill sara.     (21tok)
+1   )  video evidence and a sign-in sheet place sara's boyfriend at ryan's school.     (17tok)
+2   )  sara's boyfriend was with mrs. peterson at the time.     (12tok)
+3   )  lannie's assistant said he was unreachable when ryan's school called.     (16tok)
+4   )  beckett said sara's boyfriend's fingerprints were not on the cell phone.     (16tok)
+Finished writing 49 questions; max len = 245

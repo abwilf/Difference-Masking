@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000519~friends_s07e13_seg02_clip_06 ~~~~~~~~
+ 45 to 55<|START|> why did ross's dad think the clown kit ross had as a kid was a makeup kit when ross showed it to him?
+0 GT)  ross did not touch the white in the clown kit.     (11tok)
+1   )  ross's dad read the label wrong.     (8tok)
+2   )  ross's dad wanted to believe his son liked makeup.     (11tok)
+3   )  ross's dad  was teasing him.      (9tok)
+4   )  ross's dad used the kit once and thought it was makeup.     (13tok)
+~~~~~~~~~~~ Example 1 006663~castle_s04e12_seg02_clip_21 ~~~~~~~~
+ 34 to 65<|START|> why is martha concerned about castle believing weldon is innocent before they discuss damian westlake going to prison?
+0 GT)  because castle believed his friend damian was innocent.     (9tok)
+1   )  because castle assumed damian westlake was innocent.     (9tok)
+2   )  because castle and damian were very young when he believe in his innocence.     (14tok)
+3   )  because martha doesn't want castle to wrong about weldon.     (12tok)
+4   )  because martha believes weldon maybe guilty.     (8tok)
+~~~~~~~~~~~ Example 2 007175~s03e07_seg01_clip_03 ~~~~~~~~
+ 12 to 58<|START|> why does penny leave the apartment after her and leonard start fighting?
+0   )  penny wants to talk to her friends.     (8tok)
+1   )  penny has a date.     (5tok)
+2 GT)  penny realizes they are making sheldon upset because he doesn't like fighting.     (14tok)
+3   )  penny has to go see her parents.     (8tok)
+4   )  penny realizes she is making leonard upset.     (8tok)
+~~~~~~~~~~~ Example 3 011527~s01e01_seg02_clip_02 ~~~~~~~~
+ 68 to 88<|START|> why was leonard upset when sheldon insulted astrology?
+0   )  because leonard just hated sheldon.     (6tok)
+1   )  because leonard believed in astrology and he felt insulted.      (11tok)
+2   )  because leonard knew sheldon secretly liked astrology and he wanted him to accept himself.      (16tok)
+3   )  because leonard hated when people argued over astrology.     (9tok)
+4 GT)  because penny believed in astrology and by belittling her beliefs, sheldon was embarrassing leonard.     (18tok)
+Finished writing 55 questions; max len = 244

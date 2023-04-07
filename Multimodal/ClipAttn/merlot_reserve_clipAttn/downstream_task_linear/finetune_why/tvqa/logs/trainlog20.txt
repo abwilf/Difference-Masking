@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000788~house_s05e08_seg02_clip_20 ~~~~~~~~
+ 4 to 67<|START|> why does sophia's father ask dr. hadley to reaffirm she is from princeton-plainsboro hospital after dr. hadley tells him he and his wife needed to be screened as bone marrow donation candidates? 
+0   )  he is surprised because dr. hadley seems very young to be at such a prestigious hospital.     (19tok)
+1   )  he is surprised because his daughter is at a different hospital.     (12tok)
+2 GT)  he is surprised because his daughter is at home and he knows nothing of her having leukemia.     (19tok)
+3   )  he is skeptical because he knows that scam artists try to use introductions like that.     (17tok)
+4   )  he is mystified because his daughter returned from hospital only last week.     (14tok)
+~~~~~~~~~~~ Example 1 010516~s08e03_seg02_clip_14 ~~~~~~~~
+ 12 to 86<|START|> why is howard throwing the first pitch when they are at a baseball game?
+0 GT)  it's space day.      (6tok)
+1   )  it's nerd day.      (6tok)
+2   )  it's idiot day.      (6tok)
+3   )  it's baseball day.      (6tok)
+4   )  it's christmas day.      (6tok)
+~~~~~~~~~~~ Example 2 012052~house_s01e13_seg02_clip_11 ~~~~~~~~
+ 28 to 71<|START|> why are the parents concern when the doctor announce their treatment plan?
+0 GT)  they are treating the patient for both possible conditions.     (10tok)
+1   )  the doctors are giving up.     (6tok)
+2   )  the treatment is dangerous.     (5tok)
+3   )  the child is not sick and should go home.     (10tok)
+4   )  the treatment is new.     (5tok)
+~~~~~~~~~~~ Example 3 012308~s09e16_seg01_clip_01 ~~~~~~~~
+ 64 to 92<|START|> why does howard get nervous when he pictures himself being a father?
+0   )  he has been a father before.      (8tok)
+1 GT)  he has never held a baby before.      (9tok)
+2   )  he is anxious about breakfast.      (7tok)
+3   )  he is always nervous when h e's hungry.      (11tok)
+4   )  he isn't sure he wants bernadette to be the mom.      (15tok)
+Finished writing 58 questions; max len = 282

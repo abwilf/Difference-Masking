@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001176~house_s05e24_seg02_clip_16 ~~~~~~~~
+ 20 to 78<|START|> why does wilson approach house when house is looking over the railing?
+0   )  wilson wants to know if house is tired     (8tok)
+1   )  wilson wants to know about a certain heart transplant technique     (10tok)
+2   )  wilson wants to know the time     (6tok)
+3   )  wilson wants to know if house wants lunch     (8tok)
+4 GT)  wilson wants to know about house and cuddy's relationship     (11tok)
+~~~~~~~~~~~ Example 1 001688~grey_s02e21_seg02_clip_09 ~~~~~~~~
+ 26 to 73<|START|> why is richard going to help ollie after she needs it?
+0   )  she's his mother's friend.     (7tok)
+1 GT)  she got him sober.     (5tok)
+2   )  it's his good deed for the day.     (9tok)
+3   )  he wants to be a better person.     (8tok)
+4   )  he has a crush on her.     (7tok)
+~~~~~~~~~~~ Example 2 003224~s07e09_seg02_clip_07 ~~~~~~~~
+ 6 to 36<|START|> why does leonard claim he is the victim after marrying penny?
+0   )  leonard is the victim of a robbery     (7tok)
+1 GT)  leonard is hurt after learning penny is still married to someone else.     (13tok)
+2   )  leonard is hurt over losing a jenga game to penny     (10tok)
+3   )  leonard is the victim of id theft.     (8tok)
+4   )  leonard is the victim of sheldon's tomfoolery     (11tok)
+~~~~~~~~~~~ Example 3 007576~s01e14_seg02_clip_08 ~~~~~~~~
+ -29 to 129<|START|> why does leonard say he set the time machine for the day before yesterday when he talks to sheldon?
+0 GT)  so he could prevent himself from buying the time machine     (10tok)
+1   )  so he could see penny     (5tok)
+2   )  so he could avoid today     (5tok)
+3   )  so he could buy a lottery ticket     (7tok)
+4   )  so he could buy a pizza again     (7tok)
+Finished writing 56 questions; max len = 270

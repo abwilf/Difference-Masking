@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001015~friends_s10e12_seg02_clip_01 ~~~~~~~~
+ 37 to 63<|START|> why is monica holding a clipboard when she talks to phoebe.
+0   )  she is listing everyone at central perk.     (8tok)
+1   )  she is doing a time study.     (7tok)
+2   )  it has her notes for class.     (7tok)
+3 GT)  she is planning a wedding.     (6tok)
+4   )  it's part of a work assignment.     (8tok)
+~~~~~~~~~~~ Example 1 005111~castle_s07e02_seg02_clip_20 ~~~~~~~~
+ 41 to 57<|START|> why does tory leave the room after castle enters to see the picture she is putting through the system
+0 GT)  tory gets a phone call     (5tok)
+1   )  tory is getting coffee     (4tok)
+2   )  tory is getting lunch     (4tok)
+3   )  going to the bathroom     (4tok)
+4   )  getting a file     (3tok)
+~~~~~~~~~~~ Example 2 005623~house_s04e12_seg02_clip_16 ~~~~~~~~
+ 39 to 59<|START|> why does yonatan arnoff feel he shouldn't see the injured woman when she is in her present condition?
+0   )  it's too painful     (4tok)
+1 GT)  it's disrespectful      (4tok)
+2   )  he can't  handle to realty of her being injured     (12tok)
+3   )  it's to sensual      (5tok)
+4   )  he feels too guilty      (5tok)
+~~~~~~~~~~~ Example 3 007415~castle_s04e09_seg02_clip_01 ~~~~~~~~
+ 35 to 64<|START|> why did lanie want to see beckett when she finished the autopsy?
+0   )  she wanted to tell her sarah had been shot with a revolver     (12tok)
+1   )  she wanted to tell her sarah was pregnant when she was killed     (12tok)
+2 GT)  she wanted to tell her sarah had been shot from long range     (12tok)
+3   )  she wanted to tell her sarah had been assaulted at some point before she was shot     (16tok)
+4   )  she wanted to tell her that sarah was shot more than once     (12tok)
+Finished writing 48 questions; max len = 256

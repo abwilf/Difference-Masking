@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001594~friends_s04e13_seg02_clip_18 ~~~~~~~~
+ 11 to 88<|START|> why was chandler angry after the woman slept with nick?
+0   )  nick had made a new year's resolution to stop sleeping around.     (13tok)
+1 GT)  chandler was no longer sure of who the woman really was.     (12tok)
+2   )  chandler had planned to pursue the woman.     (8tok)
+3   )  nick was already married.     (5tok)
+4   )  the woman was already married.     (6tok)
+~~~~~~~~~~~ Example 1 002874~s09e23_seg02_clip_10 ~~~~~~~~
+ 26 to 74<|START|> why is beverly interested in bernadette's husband when talking about her book?
+0   )  amy mentions bernadette's husband is cheating on her.     (12tok)
+1   )  amy mentions bernadette's husband is playing football.     (11tok)
+2 GT)  amy mentions bernadette's husband is a former astronaut.     (12tok)
+3   )  amy mentions bernadette's husband is going to come home soon.     (14tok)
+4   )  amy mentions bernadette's husband is dying.     (10tok)
+~~~~~~~~~~~ Example 2 006202~s04e02_seg02_clip_01 ~~~~~~~~
+ -3 to 102<|START|> why does sheldon say that he needs to change his diet when he is eating?
+0   )  sheldon says that he needs to change his diet for his parents.     (13tok)
+1   )  sheldon says that he needs to change his diet for mars.     (12tok)
+2   )  sheldon says that he needs to change his diet for the university.     (13tok)
+3   )  sheldon says that he needs to change his diet for mankind.     (12tok)
+4 GT)  sheldon says that he needs to change his diet for cybernetics.     (14tok)
+~~~~~~~~~~~ Example 3 007226~house_s03e13_seg02_clip_03 ~~~~~~~~
+ 57 to 72<|START|> why did cameron say "this is putrid" when she and chase were in someone's home?
+0 GT)  because the home was unsanitary with dirty dishes and other unclean things everywhere.     (17tok)
+1   )  because the colors used in the home were neon purples, pinks and oranges for the decor.     (18tok)
+2   )  because cameron and chase were looking at a dead body that had been there for days with bugs around it.     (21tok)
+3   )  cameron said it was putrid because there were animal skins tacked to the walls of the home.     (19tok)
+4   )  because the toilet in the home had overflowed with a large amount of human waste.     (17tok)
+Finished writing 46 questions; max len = 279

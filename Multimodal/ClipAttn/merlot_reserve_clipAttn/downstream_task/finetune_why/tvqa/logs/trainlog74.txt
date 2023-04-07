@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002890~friends_s07e06_seg02_clip_08 ~~~~~~~~
+ 15 to 84<|START|> why does joey leave when he and ross have spoken for a while?
+0   )  joey is happy to tell someone something.     (8tok)
+1 GT)  joey is exasperated with the conversation.     (10tok)
+2   )  joey is  too sad to stay.     (8tok)
+3   )  joey is going for a run.     (7tok)
+4   )  joey is late for work.     (6tok)
+~~~~~~~~~~~ Example 1 005194~house_s08e07_seg02_clip_18 ~~~~~~~~
+ -19 to 119<|START|> why does the doctor suggest to do hypnosis after the lady talks to the girl?
+0   )  because the girl had a traumatic event years ago.     (10tok)
+1   )  because the girl needs to get some sleep.     (9tok)
+2 GT)  because the girl has multiple personalities and that's the way to compare the symptoms of each personality.     (19tok)
+3   )  because it's fun and will make the girl laugh.     (11tok)
+4   )  because the doctor wants to check if his hypnosis training paid off.     (14tok)
+~~~~~~~~~~~ Example 2 006474~house_s07e13_seg02_clip_18 ~~~~~~~~
+ 71 to 85<|START|> why was it, did house tell the kids, that cuddy had let him know earlier before that she needed some time alone from house?
+0   )  it was because house couldn't reach any sort of emotionally level ground with cuddy.     (17tok)
+1   )  house wouldn't stop his drinking and playing his electric guitar in the middle of the night.     (18tok)
+2   )  because house wouldn't stop looking at pornography and lying to cuddy about everything.     (16tok)
+3 GT)  it was because house had used cuddy's toothbrush and wouldn't take the garbage out.     (18tok)
+4   )  because cuddy found out that house was still secretly taking vicodin and getting high.     (18tok)
+~~~~~~~~~~~ Example 3 009034~house_s02e21_seg02_clip_22 ~~~~~~~~
+ 67 to 90<|START|> why does house continue to look up after the bird he wants to catch takes off?
+0   )  he thinks he sees blood.     (6tok)
+1   )  he is trying to see which way the bird went.     (11tok)
+2   )  he looks up in disbelief that he could not catch him.     (12tok)
+3 GT)  he see's something against the pole in front of him.     (12tok)
+4   )  it is unclear.     (4tok)
+Finished writing 53 questions; max len = 243

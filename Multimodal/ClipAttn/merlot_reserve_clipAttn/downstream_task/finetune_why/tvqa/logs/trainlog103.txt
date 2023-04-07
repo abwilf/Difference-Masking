@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003943~castle_s08e12_seg02_clip_13 ~~~~~~~~
+ 38 to 60<|START|> why is it good that beckett kept the cigarettes from meadow after meadow found them in the classroom and was about to light up?
+0 GT)  beckett smelled peanuts, to which meadow is allergic     (11tok)
+1   )  meadow has asthma     (3tok)
+2   )  meadow is too young to smoke.     (7tok)
+3   )  she let meadow have them.     (6tok)
+4   )  they were patty's cigarettes.     (6tok)
+~~~~~~~~~~~ Example 1 008551~friends_s03e02_seg02_clip_08 ~~~~~~~~
+ 39 to 61<|START|> why is ross concerned with the rain when he is wearing a tuxedo?
+0   )  his ceiling leaks      (4tok)
+1   )  he doesn't want the girls' hair to get wet.     (12tok)
+2   )  he's afraid that traffic will be bad     (8tok)
+3 GT)  he thinks it will be harder to get a cab.     (11tok)
+4   )  he left his umbrella at home.     (7tok)
+~~~~~~~~~~~ Example 2 011623~s10e09_seg02_clip_10 ~~~~~~~~
+ 14 to 84<|START|> why is amy upset with sheldon when they're at the apartment?
+0 GT)  because sheldon headbutted a water fountain.     (9tok)
+1   )  because sheldon forgot to buy her dinner.     (8tok)
+2   )  because sheldon won't talk to her.     (8tok)
+3   )  because penny ate her sandwich.     (6tok)
+4   )  because sheldon lied about going to work.     (8tok)
+~~~~~~~~~~~ Example 3 012135~castle_s02e12_seg02_clip_11 ~~~~~~~~
+ 11 to 30<|START|> why was beckett on the phone when they first came onto the scene
+0 GT)  because she needed a warrant     (5tok)
+1   )  because she need the medical examiner     (6tok)
+2   )  because she was looking for backup     (6tok)
+3   )  because she was ordering a pizza     (6tok)
+4   )  because she wanted someone to bring her some coffee     (9tok)
+Finished writing 39 questions; max len = 247

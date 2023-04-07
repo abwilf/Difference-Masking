@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000068~s10e12_seg02_clip_02 ~~~~~~~~
+ 54 to 73<|START|> why was sheldon going to get a knife and fork when he was going to eat a sloppy joe?
+0   )  mary wanted sheldon to not eat using his hands.     (10tok)
+1   )  sheldon wanted to show off sophistication to amy.     (11tok)
+2 GT)  sheldon said that joe may be sloppy, but he isn't sloppy.     (14tok)
+3   )  amy wanted sheldon to get a knife and fork for her.     (12tok)
+4   )  sheldon was going to get it for mary.     (9tok)
+~~~~~~~~~~~ Example 1 001604~house_s06e18_seg02_clip_09 ~~~~~~~~
+ 19 to 80<|START|> why does taub need to leave after his pager rings?
+0   )  a patient is missing.     (5tok)
+1 GT)  a patient lost all movement in her legs.     (9tok)
+2   )  taub must perform a surgery.     (7tok)
+3   )  house wants to talk to taub.     (8tok)
+4   )  taub no longer wants to be with rachel.     (10tok)
+~~~~~~~~~~~ Example 2 006212~house_s05e16_seg02_clip_14 ~~~~~~~~
+ 43 to 55<|START|> why did house almost die when he was taking methadone?
+0 GT)  he nodded off     (4tok)
+1   )  he fell in the shower     (5tok)
+2   )  he overdosed     (3tok)
+3   )  he was driving     (3tok)
+4   )  he burned himself     (3tok)
+~~~~~~~~~~~ Example 3 006980~house_s08e18_seg02_clip_09 ~~~~~~~~
+ 37 to 61<|START|> why did chase tell xang not to scare his grandson after he explained the diagnosis to xang and lida?
+0 GT)  because it wouldn't help him get better.     (9tok)
+1   )  because he would make it worse.     (7tok)
+2   )  because he could have a heart attack.     (8tok)
+3   )  because he would reject treatment.     (6tok)
+4   )  because fear could make him regress mentally.     (8tok)
+Finished writing 58 questions; max len = 261

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001178~met_s06e18_seg02_clip_03 ~~~~~~~~
+ 39 to 59<|START|> why is barney concerned about the condition of his heart when he is on a date with nora?
+0 GT)  barney's friend's dad passed away from a heart attack     (11tok)
+1   )  barney has been eating a lot of cholestorl     (11tok)
+2   )  barney has been feeling chest pain     (6tok)
+3   )  barney has been feeling tingling in his arm     (8tok)
+4   )  barney feels his heart racing     (5tok)
+~~~~~~~~~~~ Example 1 002202~met_s02e05_seg02_clip_03 ~~~~~~~~
+ 2 to 40<|START|> why did barney say lily was desperate before they sat down?
+0   )  she wanted him to talk to her boyfriend for her.     (11tok)
+1   )  she needed to borrow money.     (6tok)
+2 GT)  she wanted to stay with him.     (7tok)
+3   )  she wanted him to go on a date with her.     (11tok)
+4   )  she wanted to cook the lobster in his fridge.     (10tok)
+~~~~~~~~~~~ Example 2 006298~friends_s08e23-24_seg02_clip_11 ~~~~~~~~
+ 7 to 64<|START|> why was joey upset when he was shaking the vending machine?
+0   )  the machine took his money     (5tok)
+1 GT)  he was mad a snack wouldn't fall down     (9tok)
+2   )  his snack was coming out but got stuck     (8tok)
+3   )  he was mad about something else and took it out on the machine     (13tok)
+4   )  to see what the machine would do if he shook it     (11tok)
+~~~~~~~~~~~ Example 3 012954~grey_s03e08_seg02_clip_23 ~~~~~~~~
+ 40 to 60<|START|> why does ellis tell meredith she can't stay when they are talking on the couch?
+0   )  because she has a meeting to go to     (8tok)
+1   )  because she is tired and wants to go to sleep     (10tok)
+2 GT)  because she is expecting someone     (5tok)
+3   )  because she doesn't like meredith     (6tok)
+4   )  because she wants to end the conversation     (7tok)
+Finished writing 41 questions; max len = 243

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000351~house_s08e22_seg02_clip_12 ~~~~~~~~
+ 9 to 33<|START|> why did the male patient say it was hard to schedule an appointment before foreman walked in?
+0   )  his doctor appointments     (3tok)
+1   )  his school schedule     (3tok)
+2   )  his money is low     (4tok)
+3 GT)  the hours he works     (4tok)
+4   )  his aa meetings      (4tok)
+~~~~~~~~~~~ Example 1 002655~s03e18_seg02_clip_14 ~~~~~~~~
+ 69 to 87<|START|> why does penny show concern for sheldon when they are sitting at the table?
+0 GT)  sheldon says, oh dear oh, and says he is getting dizzy     (13tok)
+1   )  sheldon begins to doze off     (6tok)
+2   )  sheldon is getting angry     (4tok)
+3   )  penny believes that sheldon is mad at her     (8tok)
+4   )  sheldon misses his mother     (4tok)
+~~~~~~~~~~~ Example 2 006239~castle_s03e15_seg02_clip_07 ~~~~~~~~
+ 42 to 57<|START|> why damian was surprised after talking to castle about his father's dead?
+0   )  because the killer of damian's father was found.     (10tok)
+1 GT)  because castle told damian that he was a suspect.     (10tok)
+2   )  because damian's father is not dead.     (8tok)
+3   )  because damian's father died of natural causes.     (9tok)
+4   )  because damian's father is alive.     (7tok)
+~~~~~~~~~~~ Example 3 007775~s04e15_seg02_clip_06 ~~~~~~~~
+ 36 to 63<|START|> why did president seaburt call sheldon after the fundraiser?
+0   )  to ask for more hand sanitzer     (7tok)
+1   )  to congratulate him on how much money they raised     (9tok)
+2   )  to invite him to the next fundraiser     (7tok)
+3 GT)  to tell sheldon not to show up to any more fundraisers.     (13tok)
+4   )  to tell him ms lathum was going to call     (11tok)
+Finished writing 49 questions; max len = 255

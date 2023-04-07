@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001721~house_s08e03_seg02_clip_27 ~~~~~~~~
+ 9 to 89<|START|> why did thirteen not get mad after house fired her?
+0   )  because thirteen did not like her job anyways     (8tok)
+1   )  because thirteen already had another job     (6tok)
+2 GT)  because thirteen said he was trying to save her     (9tok)
+3   )  because thirteen had already quit     (5tok)
+4   )  because thirteen was too tired to fight      (8tok)
+~~~~~~~~~~~ Example 1 003257~friends_s09e10_seg01_clip_00 ~~~~~~~~
+ 44 to 54<|START|> why is monica upset when chandler is leaving for tulsa?
+0   )  he won't be home for thanksgiving.      (9tok)
+1   )  he will be home for christmas.      (8tok)
+2 GT)  he won't be home for christmas.      (9tok)
+3   )  he isn't dressed warm enough.      (8tok)
+4   )  he hasn't finished wrapping her presents.      (9tok)
+~~~~~~~~~~~ Example 2 003513~met_s02e16_seg02_clip_12 ~~~~~~~~
+ 43 to 57<|START|> why would barney say it's not a joke in reference to his play when his friends scoff?
+0   )  he wants butts in seats!     (6tok)
+1   )  he wants to pick up some ladies     (7tok)
+2   )  he wants to bare his soul     (6tok)
+3 GT)  he wants to clarify that he is going to actually do this.     (13tok)
+4   )  he wants pictures of spider-man.     (8tok)
+~~~~~~~~~~~ Example 3 005305~friends_s01e10_seg02_clip_07 ~~~~~~~~
+ 3 to 95<|START|> why hasn't david kissed phoebe yet when they are in his lab?
+0 GT)  he was waiting until it was a phenomenal moment.     (10tok)
+1   )  david has never kissed a girl before.     (8tok)
+2   )  david isn't sure phoebe is attracted to him in that way.     (13tok)
+3   )  david was waiting until the third date.     (8tok)
+4   )  david was waiting for a sign for phoebe.     (9tok)
+Finished writing 51 questions; max len = 230

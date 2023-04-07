@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001255~friends_s04e19_seg02_clip_07 ~~~~~~~~
+ 6 to 93<|START|> why did joey point his hand at chandler when they were arguing?
+0   )  chandler would only go to the game if they offered more than just season seats.     (16tok)
+1   )  chandler didn't want to go.     (7tok)
+2 GT)  chandler said to screw the knicks.     (7tok)
+3   )  chandler was about to eat his pizza.     (8tok)
+4   )  chandler yelled.     (3tok)
+~~~~~~~~~~~ Example 1 001767~castle_s01e01_seg02_clip_11 ~~~~~~~~
+ 46 to 53<|START|> why is beckett intent on telling castle to stay in the car when they go after kyle?
+0   )  castle would get in the way.     (7tok)
+1   )  she doesn't want castle to get hurt.     (9tok)
+2 GT)  castle didn't listen to her the first time.     (10tok)
+3   )  she wants to protect castle.     (6tok)
+4   )  castle didn't know that he should stay.     (9tok)
+~~~~~~~~~~~ Example 2 003559~friends_s03e13_seg02_clip_01 ~~~~~~~~
+ 2 to 11<|START|> why did rachel jump up from the table after she checked her watch?
+0   )  because rachel had biscuits in the oven for too long.     (11tok)
+1   )  because rachel's watch had stopped working.     (8tok)
+2 GT)  because rachel had to go to work.     (8tok)
+3   )  because rachel was late for her doctor's appointment.     (10tok)
+4   )  because rachel spilled her coffee when she checked her watch.     (11tok)
+~~~~~~~~~~~ Example 3 008423~friends_s03e15_seg02_clip_00 ~~~~~~~~
+ 25 to 75<|START|> why does isaac switch customers with chloe when chandler says he's busy thinking?
+0   )  because isaac doesn't want to deal with anymore customers for the day     (13tok)
+1   )  because isaac hates chandler     (4tok)
+2   )  because isaac is going on break     (6tok)
+3   )  because isaac knows chandler has a crazy request     (8tok)
+4 GT)  because isaac knows chandler has a crush on chloe     (9tok)
+Finished writing 42 questions; max len = 262

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000601~house_s03e17_seg02_clip_04 ~~~~~~~~
+ 41 to 58<|START|> why are house and the students so confused when the tests all come back negative?
+0   )  they were so sure it had to be one of the conditions for which they were testing     (17tok)
+1   )  there are only two things that could cause the problem and those 2 have been eliminated     (16tok)
+2 GT)  there are only 5 things that could cause the problem and those 5 have been eliminated     (16tok)
+3   )  nothing else fits her set of symptoms     (7tok)
+4   )  there is only one other condition that could cause her problem but she would already be dead     (17tok)
+~~~~~~~~~~~ Example 1 001625~castle_s08e15_seg02_clip_14 ~~~~~~~~
+ 44 to 55<|START|> why did beckett tell ryan to get bardot's laptop to vikram after ryan came back with chinese food?
+0   )  beckett wanted vikram to re-test the laptop's surface for any possible fingerprints and fine sediment.     (22tok)
+1   )  beckett was "hangry" that ryan didn't ask her if she wanted any food, and she didn't want ryan to enjoy his meal.     (32tok)
+2 GT)  beckett had wanted to get the laptop to vikram to have him run a deeper search.     (20tok)
+3   )  beckett hoped that vikram could install a fresh operating system on it so she could have it.     (21tok)
+4   )  beckett wanted vikram to have the laptop to use for his work, since the department was too cheap to buy him a new one.     (29tok)
+~~~~~~~~~~~ Example 2 004185~grey_s02e24_seg02_clip_05 ~~~~~~~~
+ 36 to 63<|START|> why is marshall reading his chart after george hangs up the x-ray
+0   )  to see if george has fluid in his lungs.     (10tok)
+1   )  to found out if marshall has bronchitis     (9tok)
+2   )  to make george angry     (4tok)
+3   )  to see if marshall has broken bones     (7tok)
+4 GT)  to find out why marshall swerved into oncoming traffic and not remember it     (15tok)
+~~~~~~~~~~~ Example 3 004953~s06e21_seg01_clip_00 ~~~~~~~~
+ 36 to 90<|START|> why is sheldon stunned/upset after leonard begins clearing the coffee table?
+0   )  he tells sheldon he can't go with him to the comic store tomorrow.     (15tok)
+1   )  he tells sheldon he accidentally deleted some of his tv shows.     (12tok)
+2   )  he tells sheldon firefly was cancelled.     (7tok)
+3 GT)  he tells sheldon that alphas was cancelled.     (9tok)
+4   )  he tells sheldon there's no santa claus.      (10tok)
+Finished writing 43 questions; max len = 268

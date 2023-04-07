@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002351~house_s05e16_seg02_clip_23 ~~~~~~~~
+ 32 to 67<|START|> why didn't cuddy do house's letter of recommendation before he came looking for it? 
+0   )  she was busy raising her adopted daughter     (7tok)
+1 GT)  she was busy writing a list of requirements of his treatment     (11tok)
+2   )  she was busy with a fake swine flu outbreak     (9tok)
+3   )  she didn't want to do it at all     (9tok)
+4   )  she was busy with her friends     (6tok)
+~~~~~~~~~~~ Example 1 005167~friends_s01e10_seg02_clip_11 ~~~~~~~~
+ 7 to 92<|START|> why was max upset after phoebe asked why they were not going to minsk?
+0   )  because the university decided not to send them afterall     (10tok)
+1   )  because he spilled coffee on his computer     (7tok)
+2   )  because he was in love with her and couldn't tell her     (12tok)
+3 GT)  because david wanted to stay and make out with his girlfriend     (11tok)
+4   )  because she interrupted a conversation between him and david     (9tok)
+~~~~~~~~~~~ Example 2 006959~house_s07e23_seg02_clip_14 ~~~~~~~~
+ 2 to 98<|START|> why was afsoun in the other room when luca was talking to her?
+0   )  she was under observation     (4tok)
+1   )  she had an infectious condition     (5tok)
+2   )  she didn't want to be in the same room as him     (12tok)
+3   )  she had a compromised immune system     (6tok)
+4 GT)  she was having imaging performed     (5tok)
+~~~~~~~~~~~ Example 3 009775~met_s02e05_seg02_clip_14 ~~~~~~~~
+ 36 to 91<|START|> why marshall is not hally after talking with his friend?
+0   )  because marshall is tired.     (5tok)
+1   )  because marshall needs to buy a gift.     (8tok)
+2   )  because marshall had a headache.     (6tok)
+3   )  because marshall won't see lily.     (7tok)
+4 GT)  because marshall is going to vermont.     (7tok)
+Finished writing 61 questions; max len = 283

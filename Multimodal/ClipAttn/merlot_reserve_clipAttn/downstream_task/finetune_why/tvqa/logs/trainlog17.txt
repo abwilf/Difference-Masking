@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000529~friends_s03e06_seg02_clip_01 ~~~~~~~~
+ 40 to 58<|START|> why is monica upset with ross when she enters the apartment?
+0   )  monica is upset because she thought ross left the door open.      (13tok)
+1 GT)  monica is upset because ross has his foot on the coffee table.     (13tok)
+2   )  monica is upset because ross isn't using a coaster.     (11tok)
+3   )  monica is upset because ross has his feet on the sofa.     (12tok)
+4   )  monica is upset because ross is spilling water on the furniture.     (12tok)
+~~~~~~~~~~~ Example 1 004369~house_s02e07_seg02_clip_07 ~~~~~~~~
+ 37 to 62<|START|> why can foreman, house, and chase rule out there being ks in kalvin's lungs when they are discussing kalvin's new symptoms?
+0 GT)  chase would have seen ks when he was repairing the tear in kalvins lung.     (17tok)
+1   )  because ks isnt real.     (6tok)
+2   )  the medication would have killed it.     (7tok)
+3   )  because ks doesnt happen in men.     (7tok)
+4   )  because kalvin is immune to ks.     (8tok)
+~~~~~~~~~~~ Example 2 005649~house_s05e11_seg02_clip_16 ~~~~~~~~
+ 38 to 62<|START|> why didn't foreman go home the night before? 
+0   )  he was on call all night     (6tok)
+1 GT)  he started to read a file and couldn't put it down     (12tok)
+2   )  he was testing in the lab     (6tok)
+3   )  he was with a patient     (5tok)
+4   )  he was with house studying a case     (7tok)
+~~~~~~~~~~~ Example 3 011025~grey_s02e15_seg02_clip_15 ~~~~~~~~
+ 44 to 56<|START|> why does izzie tell cheyenne she came back for when they're having their conversation?
+0   )  izzie says she just came back to make fun of cheyenne.     (14tok)
+1   )  izzie says she just came back to play a game with cheyenne.     (15tok)
+2   )  izzie says she just came back to yell at cheyenne.     (13tok)
+3   )  izzie says she just came back to ask cheyenne on a date.     (15tok)
+4 GT)  izzie says she just came back to talk to cheyenne.     (13tok)
+Finished writing 52 questions; max len = 249

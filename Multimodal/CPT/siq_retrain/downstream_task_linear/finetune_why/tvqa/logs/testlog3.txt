@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 137649~friends_s09e15_seg02_clip_02 ~~~~~~~~
+ 33 to 66<|START|> why is leonard so passionate about phone service after joey quotes him?
+0 GT)  he just purchased a new cell phone     (7tok)
+1   )  he doesn't believe in cell phones     (7tok)
+2   )  he just lost his cell phone     (6tok)
+3   )  he almost lost a cousin because of bad wireless service.     (11tok)
+4   )  he can't hear who he is speaking with on the phone.     (13tok)
+~~~~~~~~~~~ Example 1 137689~grey_s02e12_seg02_clip_12 ~~~~~~~~
+ 30 to 98<|START|> why are mrs. epsteins kids nervous when they see their dad after surgery?
+0 GT)  mrs. epsteins kids are nervous because their dad lost his leg.      (16tok)
+1   )  mrs. epsteins kids are nervous because their dad may die.      (15tok)
+2   )  mrs. epsteins kids are nervous because their dad is abusive.      (15tok)
+3   )  mrs. epsteins kids are nervous because they have never met their dad.      (17tok)
+4   )  mrs. epsteins kids are nervous because their dad looks scary with his head bandaged up.      (21tok)
+~~~~~~~~~~~ Example 2 137713~house_s08e10_seg02_clip_00 ~~~~~~~~
+ 19 to 81<|START|> why did house say he had cut a deal with the patient after adams said they needed to call social services?
+0 GT)  because house thought she was a criminal and they would work together.      (14tok)
+1   )  because he wanted some money.     (6tok)
+2   )  because the patient had abusive parents.     (7tok)
+3   )  because the patient actually was 18.     (7tok)
+4   )  because he had agreed not to call social services if she didn't try to leave.     (17tok)
+~~~~~~~~~~~ Example 3 137794~castle_s06e16_seg02_clip_20 ~~~~~~~~
+ 6 to 36<|START|> why did holloway stop talking to castle when he went to look at his side
+0 GT)  castle was on his way to a meeting     (8tok)
+1   )  holloway had to go and meet a lunch date     (9tok)
+2   )  holloway had to take a call, his cell phone rang     (11tok)
+3   )  holloway was in a hurry to catch his flight     (9tok)
+4   )  castle never moved and remained talking to his companions     (9tok)
+Finished writing 89 questions; max len = 250

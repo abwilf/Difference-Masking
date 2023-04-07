@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000713~castle_s02e16_seg02_clip_17 ~~~~~~~~
+ 23 to 76<|START|> why does caraway lean back after beckett asks about his whereabouts at the time of the murder?
+0   )  caraway heard esposito outside the door.     (10tok)
+1   )  caraway is hungry.     (5tok)
+2   )  caraway is sleepy.     (5tok)
+3   )  caraway saw castle in the doorway.     (8tok)
+4 GT)  caraway is relieved and recognizes the irony that he was celebrating his anniversary with his wife.     (18tok)
+~~~~~~~~~~~ Example 1 006089~house_s07e02_seg02_clip_01 ~~~~~~~~
+ 27 to 71<|START|> why do the other doctors scold dr. house after wilson leaves the room?
+0   )  because he has an awefull attitud with them.     (12tok)
+1 GT)  because he was messing with authorities that have a high command.     (12tok)
+2   )  because he messed up with a patient.     (8tok)
+3   )  because he had a lot of bad ideas.     (9tok)
+4   )  because of an old fight.     (6tok)
+~~~~~~~~~~~ Example 2 009161~met_s05e05_seg02_clip_14 ~~~~~~~~
+ -47 to 147<|START|> why robin and barney were afraid after looking the child closing the door?
+0   )  because the child almost fell.     (6tok)
+1   )  because the restaurant was dark.     (6tok)
+2   )  because a woman threaten her.     (6tok)
+3 GT)  because the 3 men were corpulents.     (9tok)
+4   )  because robin is bleeding.     (5tok)
+~~~~~~~~~~~ Example 3 009929~friends_s07e23-24_seg01_clip_00 ~~~~~~~~
+ 20 to 51<|START|> why will is it the last time that there will be six single people at the coffee house when all of the friends are there?
+0   )  because single people aren't allowed.      (8tok)
+1 GT)  because chandler and monica are getting married tomorrow.      (10tok)
+2   )  because married people aren't allowed.      (8tok)
+3   )  because they are closing the coffee shop.      (9tok)
+4   )  because they are reopening the coffee shop.      (9tok)
+Finished writing 47 questions; max len = 256

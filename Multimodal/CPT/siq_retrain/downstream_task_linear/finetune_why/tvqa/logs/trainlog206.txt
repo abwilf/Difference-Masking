@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002254~house_s01e11_seg02_clip_18 ~~~~~~~~
+ 38 to 61<|START|> why does house first say he is sick when he talks with foreman?
+0   )  he said something must be going around the hospital     (9tok)
+1   )  he said he caught something from a patient     (8tok)
+2   )  he said he has a stomach virus     (7tok)
+3   )  he said he has a migraine     (6tok)
+4 GT)  he said the hospital sushi made him sick     (8tok)
+~~~~~~~~~~~ Example 1 002510~friends_s09e04_seg02_clip_15 ~~~~~~~~
+ 40 to 60<|START|> why is the girl on the couch upset when she is talking with joey about her parents?
+0   )  they are having a baby     (5tok)
+1 GT)  her parents are getting divorced     (5tok)
+2   )  they don't except her.     (6tok)
+3   )  they don't like her husband     (6tok)
+4   )  they want her to move home     (6tok)
+~~~~~~~~~~~ Example 2 007630~s05e20_seg02_clip_01 ~~~~~~~~
+ 14 to 56<|START|> why does mrs koothrappali say she married dr. koothrappali when they are video chatting with raj?
+0 GT)  for love     (2tok)
+1   )  it was arranged     (3tok)
+2   )  she was pregnant     (3tok)
+3   )  for his money     (3tok)
+4   )  because he is a doctor     (5tok)
+~~~~~~~~~~~ Example 3 007886~friends_s05e04_seg01_clip_01 ~~~~~~~~
+ 34 to 65<|START|> why does joey says that ross and him got kicked out of the movies when he talks to rachel?
+0   )  joey yelled out at the movie.     (7tok)
+1   )  ross booed the movie.     (6tok)
+2 GT)  ross was too loud on his phone.     (8tok)
+3   )  joey's ex was a worker who kicked them out.     (11tok)
+4   )  ross's ex was a worker who kicked them out.     (11tok)
+Finished writing 58 questions; max len = 276

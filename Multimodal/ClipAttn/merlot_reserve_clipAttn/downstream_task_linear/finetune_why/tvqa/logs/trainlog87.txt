@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002647~s09e22_seg02_clip_12 ~~~~~~~~
+ -14 to 115<|START|> why howard wash his hands after pee?
+0 GT)  because howard's hands are dirty.     (7tok)
+1   )  because howard touched the floor.     (6tok)
+2   )  because howard touched accidentally the toilet.     (7tok)
+3   )  because howard touched a buggy.     (6tok)
+4   )  because howard touched dirty.     (5tok)
+~~~~~~~~~~~ Example 1 006487~castle_s03e21_seg02_clip_01 ~~~~~~~~
+ 46 to 54<|START|> why did zach's coach say zach was at the pool so late when they were questioning him about zach?
+0   )  working.     (2tok)
+1 GT)  training.     (2tok)
+2   )  goofing off.     (4tok)
+3   )  helping some other kids on their form.     (8tok)
+4   )  studying.     (2tok)
+~~~~~~~~~~~ Example 2 009303~friends_s03e03_seg02_clip_06 ~~~~~~~~
+ 36 to 63<|START|> why does chandler stare at his knee after sitting on the couch with ross?
+0   )  because someone is watching he and ross cuddle.     (9tok)
+1   )  because ross is taking off his shirt.     (8tok)
+2   )  because chandler has a wet stain on his pants.     (10tok)
+3   )  because ross is sitting on his lap.     (8tok)
+4 GT)  because ross has his hand on chandler's thigh.     (10tok)
+~~~~~~~~~~~ Example 3 010583~friends_s02e12-13_seg02_clip_15 ~~~~~~~~
+ 29 to 70<|START|> why is erika so angry when she throws water in joey's face?
+0 GT)  she thinks he kissed sabrina     (5tok)
+1   )  she is trying to break up with him     (8tok)
+2   )  she thinks he smells     (4tok)
+3   )  she thinks joey cheated on her with rachel     (8tok)
+4   )  she thinks that joey is secretly gay     (7tok)
+Finished writing 57 questions; max len = 256

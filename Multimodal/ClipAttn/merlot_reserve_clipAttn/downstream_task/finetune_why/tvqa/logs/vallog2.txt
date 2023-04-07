@@ -1,0 +1,31 @@
+~~~~~~~~~~~ Example 0 122113~friends_s08e16_seg02_clip_16 ~~~~~~~~
+ 41 to 58<|START|> why does rachel ask if its hot in the restaurant after joeys reveals something to her? 
+0 GT)  rachel is overwhelmed     (3tok)
+1   )  rachel is cold     (3tok)
+2   )  rachel is making conversation      (5tok)
+3   )  rachel needs a fan     (4tok)
+4   )  rachel is sad     (3tok)
+~~~~~~~~~~~ Example 1 122305~castle_s08e17_seg02_clip_22 ~~~~~~~~
+ 3 to 96<|START|> why is the team of police interrupted when listening to the recording?
+0   )  alexis is outside being attacked     (5tok)
+1   )  beckett get yelled at     (6tok)
+2   )  castle comes in angry     (4tok)
+3   )  the power cuts out     (4tok)
+4 GT)  ryan gets a phone call     (5tok)
+~~~~~~~~~~~ Example 2 122321~s02e04_seg02_clip_09 ~~~~~~~~
+ -38 to 139<|START|> why does rajesh appear to be so happy when he heads downstairs
+0   )  rajesh discovered a new elementary particle.      (9tok)
+1   )  rajesh won a special grant.     (7tok)
+2 GT)  rajesh is spending time with penny.     (8tok)
+3   )  rajesh is meeting a special mentor.     (8tok)
+4   )  rajesh received a promotion at work.      (9tok)
+~~~~~~~~~~~ Example 3 122409~house_s04e04_seg02_clip_14 ~~~~~~~~
+ 0 to 99<|START|> why does connie disappear when we see things from house's perspective?
+0   )  irene is telling connie to stay out of it     (9tok)
+1   )  house is ignoring connie     (4tok)
+2   )  connie has left the room     (5tok)
+3 GT)  connie is a figment of irene's imagination     (9tok)
+4   )  house told connie to move behind him     (7tok)
+Have written 100 / 1907
+Have written 200 / 1907
+Finished writing 200 questions; max len = 279

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003580~s07e17_seg02_clip_12 ~~~~~~~~
+ -7 to 107<|START|> why is howard upset when talking with sheldon?
+0   )  because sheldon is shouting him.     (6tok)
+1 GT)  because sheldon is annoying.     (5tok)
+2   )  because sheldon is crazy.     (5tok)
+3   )  because sheldon  is disgusting.     (6tok)
+4   )  because sheldon zoom out.     (5tok)
+~~~~~~~~~~~ Example 1 005884~house_s06e05_seg02_clip_15 ~~~~~~~~
+ 34 to 65<|START|> why did house say it wasn't necessary when he was talking to cuddy?
+0   )  he didnt like cuddy.     (6tok)
+1 GT)  he wasn't ready to be a doctor again.     (10tok)
+2   )  he loved the hospital.     (5tok)
+3   )  he only like fast food.     (6tok)
+4   )  he hated kids.     (4tok)
+~~~~~~~~~~~ Example 2 011260~s06e04_seg02_clip_07 ~~~~~~~~
+ 32 to 67<|START|> why is bernadette wiping her nose when she is with howard?
+0 GT)  bernadette is sneezing because she is sick.     (10tok)
+1   )  bernadette is sneezing because she is tired.     (10tok)
+2   )  bernadette is sneezing because she is happy.     (10tok)
+3   )  bernadette is sneezing because she is upset.     (10tok)
+4   )  bernadette is sneezing because she is running.     (10tok)
+~~~~~~~~~~~ Example 3 012028~s07e22_seg02_clip_17 ~~~~~~~~
+ 5 to 37<|START|> why did leonard go see sheldon before sheldon asked him about the funeral?
+0   )  leonard wanted to borrow sheldon's computer.     (8tok)
+1   )  leonard wanted to borrow a couple of dollars.     (9tok)
+2 GT)  leonard heard sheldon was having a rough day.     (9tok)
+3   )  leonard wanted to sleep next to sheldon.     (8tok)
+4   )  leonard wanted to take sheldon out for dinner.     (9tok)
+Finished writing 54 questions; max len = 228

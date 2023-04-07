@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000033~house_s05e18_seg02_clip_25 ~~~~~~~~
+ 15 to 84<|START|> why does house say kutner has to pay for his dry cleaning after getting in his office?
+0   )  spilled coffee on his couch      (6tok)
+1   )  thinks he spilled the coffee     (5tok)
+2   )  wearing his extra suit     (4tok)
+3   )  using his shirt to save someone     (6tok)
+4 GT)  chair smells like cat pee     (5tok)
+~~~~~~~~~~~ Example 1 002337~grey_s02e11_seg02_clip_05 ~~~~~~~~
+ 35 to 91<|START|> why does derek suspect meredith thinks he's giving up the trailer after she asks about it when they are left alone?
+0   )  derek thinks meredith is making things up to make him angry     (11tok)
+1   )  derek suspects that meredth has been spying on him     (10tok)
+2   )  derek thinks he left his information on his computer screen      (11tok)
+3   )  derek thinks meredith is the real buyer of the trailer     (10tok)
+4 GT)  derek suspects addison is telling peole that     (8tok)
+~~~~~~~~~~~ Example 2 010017~met_s02e15_seg02_clip_10 ~~~~~~~~
+ 4 to 96<|START|> why does marshall talk to himself when looking in the mirror?
+0   )  because lily recommends that marshall practices his victory speech before every run.     (13tok)
+1   )  because lily recommends that marshall talk to the mirror to sort out his problems.     (15tok)
+2 GT)  because lily recommends that marshall give himself plenty of positive reinforcement to make him a better runner.     (18tok)
+3   )  because lily recommends that marshall talks to himself to keep from feeling lonely.     (14tok)
+4   )  because lily recommends that marshall spend more time looking at his reflection to work on his physical appearance.      (20tok)
+~~~~~~~~~~~ Example 3 010785~friends_s09e03_seg02_clip_05 ~~~~~~~~
+ 69 to 87<|START|> why was joey upset and rifling through the kitchen drawer after phoebe left?
+0   )  because joey already knew mary ellen and he didn't like her.     (13tok)
+1   )  because joey didn't want to go out to eat that night.     (13tok)
+2 GT)  because joey had made up a fictitious blind date named mike for phoebe.     (16tok)
+3   )  because joey had a migraine and couldn't find the aspirin.     (12tok)
+4   )  because joey needed to call another date and reschedule and he didn't want to.     (18tok)
+Finished writing 52 questions; max len = 244

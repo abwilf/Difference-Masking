@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001437~house_s05e07_seg02_clip_09 ~~~~~~~~
+ 41 to 59<|START|> why did cuddy say she's paged when she confronted cameron and chase?
+0   )  when doctors don't fill out the proper forms.     (10tok)
+1   )  when doctors ask for large amounts of anesthetics.     (11tok)
+2 GT)  when that much surgical equipment is signed out.     (9tok)
+3   )  when doctors don't bring in proper requisition forms.     (12tok)
+4   )  when doctors take beds out of the hospital.     (9tok)
+~~~~~~~~~~~ Example 1 003997~castle_s08e08_seg02_clip_02 ~~~~~~~~
+ 15 to 84<|START|> why does perlmutter go into the womans mouth in the morgue after talking to beckett about how long the victim was in the water?
+0   )  perlmutter wanted to see if she had brushed her teeth.     (14tok)
+1   )  she has a retainer.     (5tok)
+2   )  she had a sword in her throat.     (8tok)
+3   )  he didnt go into her mouth.     (7tok)
+4 GT)  he saw some kind of offloss tied to her back molar.     (14tok)
+~~~~~~~~~~~ Example 2 005277~house_s05e12_seg02_clip_15 ~~~~~~~~
+ 19 to 23<|START|> why was carlton earlier than when cuddy expected him to come by her house?
+0   )  he had a surprise supervision     (5tok)
+1 GT)  he had a cancellation and thought he get he review done     (11tok)
+2   )  he had to make sure she didn't expect him     (10tok)
+3   )  he told her he'd come but she forgot     (9tok)
+4   )  he was not suppose to go to her apartment     (9tok)
+~~~~~~~~~~~ Example 3 009373~friends_s08e19_seg02_clip_12 ~~~~~~~~
+ 20 to 50<|START|> why did the duck get to the nutter butter faster than the chicken when joey removed them from the cages at the same time
+0 GT)  joey used his foot to stop the chicken from moving forward, making the duck win     (16tok)
+1   )  the chicken was uninterested in the race so he just walked away in the other direction     (18tok)
+2   )  the duck attacked the chicken and made him run away      (11tok)
+3   )  phoebe used her hands to block the chicken, so it couldn't move     (14tok)
+4   )  phoebe scooted the duck along further with her feet so it could win     (14tok)
+Finished writing 51 questions; max len = 247

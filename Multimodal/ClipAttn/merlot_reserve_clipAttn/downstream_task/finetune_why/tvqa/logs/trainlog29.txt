@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005917~house_s03e19_seg02_clip_10 ~~~~~~~~
+ 45 to 82<|START|> why does house think that eddie gave him fake urine when he is talking to eddie?
+0   )  he is afraid to pee in a cup     (8tok)
+1   )  he might be hiding a pregnancy     (6tok)
+2   )  he might be hiding an illness     (6tok)
+3 GT)  he might be on steroids     (5tok)
+4   )  he is a wanted man with dna on police record     (10tok)
+~~~~~~~~~~~ Example 1 007709~friends_s03e13_seg02_clip_09 ~~~~~~~~
+ 12 to 30<|START|> why are chandler and joey cringing when they are at the coffee shop with ross, robert, and phoebe?
+0   )  they don't like men.      (7tok)
+1   )  they aren't seeing enough of robert.      (9tok)
+2   )  they don't like other people outside of their group.      (12tok)
+3   )  they don't want to meet robert.      (9tok)
+4 GT)  they are seeing way too much of robert.      (10tok)
+~~~~~~~~~~~ Example 2 009757~s09e16_seg02_clip_15 ~~~~~~~~
+ 59 to 96<|START|> why did penny say that they might be immature after leonard said they'd make amazing parents?
+0   )  sheldon said they would be bad parents.     (8tok)
+1   )  penny didn't want to be a parent at all.     (11tok)
+2   )  penny didn't want leonard to be the father of their children.     (13tok)
+3   )  leonard said that he thinks penny isn't ready.     (10tok)
+4 GT)  they might be immature when penny remembered that they drew on sheldon's face.     (15tok)
+~~~~~~~~~~~ Example 3 013341~friends_s05e15_seg02_clip_08 ~~~~~~~~
+ 26 to 73<|START|> why was chandler worried when he met with ross and joey
+0   )  he got a speeding ticket     (5tok)
+1 GT)  he was afraid monica would leave him     (7tok)
+2   )  his dog was missing     (4tok)
+3   )  he had a crush on rachel     (6tok)
+4   )  his credit card was stolen     (5tok)
+Finished writing 42 questions; max len = 248

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003277~friends_s10e04_seg02_clip_15 ~~~~~~~~
+ 14 to 84<|START|> why did monica take the dog from the table before she raced it ?
+0 GT)  monica wanted the dog for the race.     (8tok)
+1   )  monica was going to give it to joey.     (9tok)
+2   )  monica thinks it's cute and want to give it to rachel.     (13tok)
+3   )  monica wants to hide it .     (6tok)
+4   )  monica wants to wind it up .     (7tok)
+~~~~~~~~~~~ Example 1 003789~friends_s08e06_seg02_clip_15 ~~~~~~~~
+ 63 to 92<|START|> why does chandler let ross win after their arm wrestle
+0 GT)  to look good in front of a girl     (8tok)
+1   )  ross is stronger     (3tok)
+2   )  chandler is weak     (3tok)
+3   )  joey is talking to someone     (5tok)
+4   )  chandler is married     (3tok)
+~~~~~~~~~~~ Example 2 005581~s07e08_seg02_clip_09 ~~~~~~~~
+ -38 to 138<|START|> why was leonard frustrated while talking to penny after she walked in
+0   )  a stranger broke in pennys house     (7tok)
+1   )  penny was getting on leonards nerve     (7tok)
+2   )  leonard had a shirt that was itchy     (7tok)
+3 GT)  leonard was trying to find the video store owner to return a dvd     (13tok)
+4   )  leonard lost his favorite hat     (5tok)
+~~~~~~~~~~~ Example 3 010189~s03e10_seg02_clip_03 ~~~~~~~~
+ 15 to 84<|START|> why is penny asking about physics when she is speaking to sheldon?
+0   )  she is genuinely interested in learning about physics.     (9tok)
+1   )  she wants to go back to school.     (8tok)
+2 GT)  she wants to surprise leonard so she can talk to him about his job.     (15tok)
+3   )  she feels that she needs to understand physics to be in a relationship with leonard.     (16tok)
+4   )  she wants to be able to have more in-depth conversations with sheldon.     (15tok)
+Finished writing 42 questions; max len = 261

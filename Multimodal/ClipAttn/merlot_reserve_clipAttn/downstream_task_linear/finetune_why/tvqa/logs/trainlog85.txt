@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001877~s08e11_seg02_clip_07 ~~~~~~~~
+ 39 to 60<|START|> why does raj say that howard is the smartest when they are wearing white jumpsuits?
+0   )  because howard needs more self confidence.     (7tok)
+1   )  because howard has a phd.     (6tok)
+2   )  because howard knows how to get the bird.     (9tok)
+3 GT)  because it is christmas.     (5tok)
+4   )  because raj never finished college.     (6tok)
+~~~~~~~~~~~ Example 1 004949~castle_s05e21_seg02_clip_12 ~~~~~~~~
+ 42 to 58<|START|> why was beckett upset with castle when she was talking to him while he was sitting down?
+0   )  because he didn't trust ryan.     (7tok)
+1   )  because she was hungry.     (5tok)
+2   )  because she didn't trust him.     (7tok)
+3   )  because she didn't trust eric.     (7tok)
+4 GT)  because she thought he didn't trust her.     (9tok)
+~~~~~~~~~~~ Example 2 006229~friends_s06e17_seg01_clip_01 ~~~~~~~~
+ 2 to 11<|START|> why does chandler smile after phoebe expresses joy?
+0   )  chandler has to go to the bathroom.     (8tok)
+1   )  chandler is hungry.     (4tok)
+2   )  chandler is angry.     (4tok)
+3 GT)  chandler smiles to encourage and support phoebe.     (8tok)
+4   )  chandler is looking for monica.     (6tok)
+~~~~~~~~~~~ Example 3 012373~castle_s01e06_seg02_clip_02 ~~~~~~~~
+ 39 to 61<|START|> why did castle have sex with meredith when he says she's crazy?
+0   )  because he couldn't say no.     (7tok)
+1   )  because she made him do it.     (7tok)
+2 GT)  because sex with a crazy person is unbelievable.     (9tok)
+3   )  because no one else was available.     (7tok)
+4   )  because he had nothing else to do.     (8tok)
+Finished writing 51 questions; max len = 237

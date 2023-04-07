@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000596~house_s01e04_seg02_clip_01 ~~~~~~~~
+ 29 to 71<|START|> why does house press the case of an infection when wilson dismisses the claim?
+0   )  house wants to annoy wilson.     (6tok)
+1   )  house is trying to stall to avoid a surgery consult.     (11tok)
+2 GT)  house is intrigued and upset about the possibility of an infection circulating in the hospital.     (16tok)
+3   )  house is close to the parents of one of the sick babies.     (13tok)
+4   )  house hates the ob gyn that delivered the two sick babies.     (13tok)
+~~~~~~~~~~~ Example 1 003668~house_s07e14_seg02_clip_02 ~~~~~~~~
+ 11 to 88<|START|> why was diane uncomfortable after chase asked his questions? 
+0   )  they were about impotence.     (7tok)
+1   )  they were about his money.     (6tok)
+2   )  they were about his bankruptcy.     (6tok)
+3   )  they were about his flatulence.     (7tok)
+4 GT)  they were about bowel movements.     (6tok)
+~~~~~~~~~~~ Example 2 004436~friends_s04e13_seg02_clip_09 ~~~~~~~~
+ 13 to 86<|START|> why was monica upset after the guys left?
+0   )  monica was upset that joey didn't take any milk.     (11tok)
+1 GT)  monica was upset because she was supposed to be the hostess and everyone was leaving.     (16tok)
+2   )  monica was upset that phoebe didn't want any porn.     (11tok)
+3   )  monica was upset because the guys haven't suffered enough.     (11tok)
+4   )  monica was upset because rachel and phoebe didn't go with them.     (13tok)
+~~~~~~~~~~~ Example 3 006740~house_s05e07_seg02_clip_22 ~~~~~~~~
+ 38 to 62<|START|> why did chase tell cameron she came to him when she needed help on a case
+0   )  chase said cameron came to him because she need skilled hands     (11tok)
+1 GT)  chase said cameron came to him because he knew he would say no     (13tok)
+2   )  chase said cameron came to him because she needed reassuring      (11tok)
+3   )  chase said cameron came to him because she wanted them to work together again     (14tok)
+4   )  chase said cameron came to him because she didn't want him to be jealous     (15tok)
+Finished writing 47 questions; max len = 258

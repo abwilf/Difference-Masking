@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003005~friends_s10e09_seg02_clip_10 ~~~~~~~~
+ 35 to 64<|START|> why did chandler say "you should be" after the man said they were proud of their system? 
+0   )  it's the best around.     (6tok)
+1   )  it's top notch.     (5tok)
+2 GT)  they are really on top of stuff.     (8tok)
+3   )  he hasn't seen one better.     (7tok)
+4   )  they made him a parent.     (6tok)
+~~~~~~~~~~~ Example 1 005053~house_s02e23_seg02_clip_15 ~~~~~~~~
+ 71 to 84<|START|> why did house say he would let a woman die when wilson was giving house a hard time?
+0   )  just so house could laugh at wilson.     (8tok)
+1   )  just so house could say i told you so.     (10tok)
+2 GT)  just so wilson would stop annoying house.     (8tok)
+3   )  just so house could make wilson go away.     (9tok)
+4   )  just so house could say he was right.     (9tok)
+~~~~~~~~~~~ Example 2 005821~met_s06e12_seg01_clip_00 ~~~~~~~~
+ 32 to 67<|START|> why does lilly have to take a mop into the bathroom after marshall uses it?
+0   )  marshall wears his shoes in the bathroom/     (8tok)
+1   )  marshall has dirty feet.     (5tok)
+2   )  marshall floods the toilet.     (5tok)
+3   )  marshall floods the sink.     (5tok)
+4 GT)  marshall does not aim well.     (6tok)
+~~~~~~~~~~~ Example 3 006333~friends_s05e12_seg02_clip_12 ~~~~~~~~
+ 36 to 62<|START|> why did phoebe and joey ask ross if he was serious after ross told them about his great date with janice?
+0   )  phoebe and joey think that janice is boring.     (9tok)
+1   )  phoebe and joey saw janice abusing her pets.     (9tok)
+2 GT)  phoebe and joey think that ross doesn't need anyone but them.     (13tok)
+3   )  phoebe and joey think that janice is too poor to contribute to paying for dates.     (16tok)
+4   )  phoebe and joey think that janice is not trustworthy.     (10tok)
+Finished writing 49 questions; max len = 261

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005379~friends_s06e08_seg02_clip_17 ~~~~~~~~
+ -10 to 109<|START|> why did rachel get sad before ralph came through the door?
+0   )  rachel fell in the mud.     (6tok)
+1   )  rachel couldn't help kim.     (6tok)
+2   )  rachel spilled her coffee.     (5tok)
+3 GT)  rachel would never get promoted above kim.     (8tok)
+4   )  rachel miss her cat.     (5tok)
+~~~~~~~~~~~ Example 1 007683~met_s02e19_seg02_clip_10 ~~~~~~~~
+ 29 to 98<|START|> why was robin apparently nervous and gulping wine when lily was opening her gift?
+0   )  she though the gift was better than her own     (9tok)
+1   )  she had stolen the gift     (5tok)
+2   )  she had broken the gift     (5tok)
+3   )  she had gotten lily the same present     (7tok)
+4 GT)  she knew that the gift was going to be embarassing     (11tok)
+~~~~~~~~~~~ Example 2 008707~castle_s04e18_seg02_clip_14 ~~~~~~~~
+ 23 to 76<|START|> why does ryan want espisito to wear his wedding ring when they go to the strip club?
+0   )  to make him feel pretty     (5tok)
+1   )  to pretend their gay     (4tok)
+2   )  to cheat on his wife     (5tok)
+3 GT)  to see if he gets more attention from the strippers.     (11tok)
+4   )  so he doesn't loose it.     (7tok)
+~~~~~~~~~~~ Example 3 013059~castle_s03e17_seg02_clip_17 ~~~~~~~~
+ 39 to 59<|START|> why do officer rush into the room after fallon listens to beckett?
+0   )  shot were heard     (3tok)
+1 GT)  guns were taken out     (4tok)
+2   )  screaming was heard     (3tok)
+3   )  emergency drill     (2tok)
+4   )  called for backup     (3tok)
+Finished writing 45 questions; max len = 229

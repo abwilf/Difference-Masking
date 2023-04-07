@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004763~friends_s10e15_seg02_clip_02 ~~~~~~~~
+ 42 to 57<|START|> why ross was surprised after mr. zelner said the name of his son?
+0   )  because mr zelner wants to have more sons named ross.     (13tok)
+1   )  because mr zelner named his son donkey.     (10tok)
+2 GT)  because mr zelner's son name is ross.     (11tok)
+3   )  because mr zelner has a daughter named ross.     (11tok)
+4   )  because mr zelner wants to name his son ross.     (12tok)
+~~~~~~~~~~~ Example 1 014747~castle_s06e21_seg02_clip_11 ~~~~~~~~
+ 24 to 76<|START|> why does castle leave the room after playing scrabble with beckett?
+0   )  castle leaves the room because someone is knocking on the door.     (12tok)
+1   )  castle leaves the room because he's going to refill his wine glass.     (14tok)
+2   )  castle leaves the room because he needs to use the bathroom.     (12tok)
+3 GT)  castle leaves the room because beckett wins the game.     (12tok)
+4   )  castle leaves the room because he can hear his cell phone ringing.     (13tok)
+~~~~~~~~~~~ Example 2 017563~s09e10_seg02_clip_09 ~~~~~~~~
+ 37 to 61<|START|> why does howard laugh after bernadette asked him about a fan?
+0   )  because bernadette just opened a letter from one of howard's fans.      (16tok)
+1   )  because leonard doesn't really have a fan.      (10tok)
+2   )  because leonard has tons of fans from his band.      (11tok)
+3 GT)  because bernadette is not considering the band that leonard is part of as having enough popularity to have fan.      (23tok)
+4   )  because bernadette just spoke to howard's fan on the phone.       (15tok)
+~~~~~~~~~~~ Example 3 019099~friends_s09e20_seg02_clip_03 ~~~~~~~~
+ 26 to 72<|START|> why did joey tell he set up a nighttime tour of the button factory when they are talking about his parties?
+0 GT)  joey set it up so that they wouldn't know about his parties.     (14tok)
+1   )  joey set it up because he thought they would enjoy it.     (12tok)
+2   )  joey set it up because he loves the button factory.     (11tok)
+3   )  joey set it up to celebrate his birthday.     (9tok)
+4   )  joey set it up so that they could all learn how to make buttons together.     (16tok)
+Finished writing 46 questions; max len = 236

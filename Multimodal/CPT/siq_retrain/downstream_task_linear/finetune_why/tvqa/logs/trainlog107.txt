@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001643~met_s05e05_seg02_clip_17 ~~~~~~~~
+ 19 to 81<|START|> why did lily not mind the fact that marshall and ted didn't get her pizza after marshall and ted got back?
+0 GT)  the pizza made marshall and ted sick     (7tok)
+1   )  lily doesn't like pizza     (5tok)
+2   )  lily had already eaten and was full     (7tok)
+3   )  lily was on a diet     (5tok)
+4   )  lily had just ordered room service     (6tok)
+~~~~~~~~~~~ Example 1 004459~castle_s03e16_seg02_clip_20 ~~~~~~~~
+ 11 to 59<|START|> why doesn't castle believe that jamal is a killer when he is discussing the case with kate?
+0   )  ryan couldn't run down jamal's credit card.     (10tok)
+1   )  he has used jamal's moving service before     (8tok)
+2   )  jamal would have been in danger as well     (8tok)
+3   )  it's too easy, and castle needs a twist     (10tok)
+4 GT)  he wasn't nervous     (4tok)
+~~~~~~~~~~~ Example 2 005483~met_s03e05_seg02_clip_13 ~~~~~~~~
+ 39 to 60<|START|> why was barney so determined to get marshall a new girl when they are at the bar?
+0   )  marshall has only been with three girls.      (9tok)
+1 GT)  marshall has only been with one girl.      (9tok)
+2   )  marshall has only been with four girls.      (9tok)
+3   )  marshall has only been with five girls.      (9tok)
+4   )  marshall has only been with six girls.      (9tok)
+~~~~~~~~~~~ Example 3 009835~grey_s03e08_seg02_clip_19 ~~~~~~~~
+ 90 to 95<|START|> why did callie say she wanted kids after bailey asked her and addison about them?
+0 GT)  callie loved kids.     (4tok)
+1   )  callie wanted to have a big family.     (8tok)
+2   )  callie dreamed of having kids.     (6tok)
+3   )  callie wanted to keep herself busy at home.     (9tok)
+4   )  callie wanted to pass her nursing skills on to someone.     (11tok)
+Finished writing 61 questions; max len = 269

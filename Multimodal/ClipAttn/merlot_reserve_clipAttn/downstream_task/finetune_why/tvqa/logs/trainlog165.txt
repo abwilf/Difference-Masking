@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000421~met_s02e07_seg02_clip_01 ~~~~~~~~
+ 10 to 89<|START|> why lily said that she want to invite marshall to the party when sat on the chair?
+0   )  because lily wants to introduce marshall her new boyfriend.     (10tok)
+1 GT)  because lily think it will be weird if doesn't invite marshall.     (13tok)
+2   )  because lily wants to give marshall a book.     (9tok)
+3   )  because lily wants to tell a secret to marsall.     (11tok)
+4   )  because lily wants to kiss marshall.     (7tok)
+~~~~~~~~~~~ Example 1 000933~friends_s05e06_seg02_clip_05 ~~~~~~~~
+ 18 to 53<|START|> why is ross happy about riding the rail after he tells the others?
+0 GT)  because he thinks he has been given the gift of time.     (12tok)
+1   )  because he doesn't have to drive.     (8tok)
+2   )  there are not a lot of people on board.     (10tok)
+3   )  he can sleep more.     (5tok)
+4   )  he can catch up on work.      (8tok)
+~~~~~~~~~~~ Example 2 003237~castle_s06e15_seg02_clip_25 ~~~~~~~~
+ 37 to 62<|START|> why were the charges against lucas dropped after the incident?
+0   )  they couldn't find any evidence     (6tok)
+1   )  they found the real thief     (5tok)
+2   )  the things were already stolen goods     (6tok)
+3 GT)  the items he has stolen were recovered     (7tok)
+4   )  he had an accomplice     (5tok)
+~~~~~~~~~~~ Example 3 004517~friends_s10e08_seg02_clip_14 ~~~~~~~~
+ 1 to 13<|START|> why can't joey enter the apartment when talking to monica and chandler?
+0   )  joey can't enter the apartment because he's trapped in his own apartment.     (15tok)
+1   )  joey can't enter the apartment because monica's new dog won't allow him to step into the apartment.     (21tok)
+2   )  joey can't enter the apartment because ross is holding him back.     (13tok)
+3 GT)  joey can't enter the apartment because the chain is still latched to the door.     (17tok)
+4   )  joey can't enter the apartment because the front door is stuck and won't open.     (17tok)
+Finished writing 47 questions; max len = 259

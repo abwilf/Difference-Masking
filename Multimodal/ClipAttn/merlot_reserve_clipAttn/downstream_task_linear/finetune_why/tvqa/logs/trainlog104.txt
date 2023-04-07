@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001128~met_s02e17_seg02_clip_15 ~~~~~~~~
+ 33 to 67<|START|> why did barney not have the right answer after ted quizzed him on where the gas pedal was?
+0   )  barney wasn't paying attention to ted     (7tok)
+1   )  barney misunderstood ted's question     (5tok)
+2 GT)  barney never learned how to drive     (6tok)
+3   )  barney gave a sarcastic answer     (5tok)
+4   )  barney misspoke and corrected himself     (6tok)
+~~~~~~~~~~~ Example 1 002664~friends_s06e11_seg02_clip_10 ~~~~~~~~
+ 43 to 55<|START|> why joey can hear when his girlfriend was talking?
+0   )  because the girlfriend come out.     (6tok)
+1   )  because the girlfriend is shouting.     (6tok)
+2   )  because the girlfriend is talking on his ear.     (9tok)
+3 GT)  because the girlfriend talks laud.     (7tok)
+4   )  because the girlfriend was talking on front joey.     (9tok)
+~~~~~~~~~~~ Example 2 003432~castle_s06e19_seg02_clip_19 ~~~~~~~~
+ 6 to 92<|START|> why is the venezuelan diplomat defensive when speaking with detective beckett and castle?
+0   )  the venezuelan diplomat is defensive because detective beckett and castle believe that is he an international criminal wanted by interpol.      (26tok)
+1 GT)  because detective beckett and castle are grilling him over his interactions with armando garcia who also had the name of peter cordero.     (27tok)
+2   )  the venezuelan diplomat is defensive because detective beckett and castle think he is the suspect they are looking for.     (23tok)
+3   )  the venezuelan diplomat is defensive because detective beckett and castle accuse him of money laundering from a family baker business.      (25tok)
+4   )  the venezuelan diplomat is defensive because detective beckett and castle think he killed armando garcia.      (21tok)
+~~~~~~~~~~~ Example 3 006504~friends_s06e05_seg02_clip_05 ~~~~~~~~
+ 40 to 59<|START|> why is joey having the best morning after he walks into the apartment talking about his morning?
+0   )  joey is going out with a women he loves     (9tok)
+1   )  joey just landed a starring role     (6tok)
+2 GT)  joey still has the keys to his porsche     (8tok)
+3   )  joey got a new job     (5tok)
+4   )  joey is not having a good morning     (7tok)
+Finished writing 47 questions; max len = 249

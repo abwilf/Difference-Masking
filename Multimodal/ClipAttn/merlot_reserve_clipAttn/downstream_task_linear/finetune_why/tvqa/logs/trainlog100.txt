@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001636~friends_s03e18_seg02_clip_06 ~~~~~~~~
+ 37 to 63<|START|> why do joey and ross tell phoebe "no" after talking to her?
+0   )  she wanted a kiss from ross      (7tok)
+1   )  she asked them to give her money     (7tok)
+2   )  she was trying to sit on the chairs     (8tok)
+3   )  she tried to take their food     (6tok)
+4 GT)  they did not want her to lose everything     (8tok)
+~~~~~~~~~~~ Example 1 010596~castle_s06e08_seg02_clip_25 ~~~~~~~~
+ 13 to 87<|START|> why is castle leading beckett into the room when she closed her eyes?
+0   )  castle wanted to surprise beckett with a new car.     (12tok)
+1   )  castle wanted to surprise beckett with a romantic dinner.     (12tok)
+2   )  castle wanted to surprise beckett with a vase of roses.     (13tok)
+3 GT)  castle wanted to surprise beckett with the framed shells that were hanging on the wall.     (18tok)
+4   )  castle wanted to surprise beckett with a new bed.     (12tok)
+~~~~~~~~~~~ Example 2 015204~friends_s07e18_seg02_clip_09 ~~~~~~~~
+ 42 to 58<|START|> why does joey hit the table after the announcer announces the winner?
+0   )  joey forgot his speech     (4tok)
+1 GT)  joey didn't win     (4tok)
+2   )  joey forgot to smile     (4tok)
+3   )  joey won     (2tok)
+4   )  joey killed a bug     (4tok)
+~~~~~~~~~~~ Example 3 017252~friends_s01e22_seg02_clip_15 ~~~~~~~~
+ 6 to 37<|START|> why was chandler upset when phoebe said she was going to a work party? 
+0 GT)  chandler worked at the same place and hadn't been invited.      (13tok)
+1   )  chandler and phoebe had plans to go to a movie.      (12tok)
+2   )  phoebe was supposed to help chandler wash his car.      (11tok)
+3   )  chandler was developing feelings for phoebe and didn't want her to meet a guy at the party.      (20tok)
+4   )  phoebe had said she was done going to parties.      (11tok)
+Finished writing 38 questions; max len = 231

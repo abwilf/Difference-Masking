@@ -1,0 +1,90 @@
+Changes
+
+#1
+
+AssertionError: No super class method found for "decode"
+
+basic_classifier_with_f1.py: decode -> make_output_human_readable
+
+#2
+
+pip install pytorch_pretrained_bert
+
+#3
+
+allennlp.common.checks.ConfigurationError: Cannot register cls_pooler as Seq2VecEncoder; name already in use for ClsPooler
+
+/AANG/dont_stop_pretraining/modules/seq2vec_encoders/cls_pooler.py: @Seq2VecEncoder.register("cls_pooler") -> @Seq2VecEncoder.register("cls_pooler_x")
+
+#4
+
+TypeError: __init__() got an unexpected keyword argument 'do_lowercase'
+
+AANG/AutoSearchSpace/modelling.py", line 216:
+    tokenizer = PretrainedTransformerTokenizer(model_name, do_lowercase=False, start_tokens=["<s>"], end_tokens=["</s>"]) -> tokenizer = PretrainedTransformerTokenizer(model_name)
+    
+AANG/AutoSearchSpace/modelling.py", line 218:
+    indexers = {'tokens': PretrainedTransformerIndexer(model_name, do_lowercase=False)} -> indexers = {'tokens': PretrainedTransformerIndexer(model_name)}
+
+
+#5
+
+AANG/dont_stop_pretraining/dataset/dataset_readers/text_classification_json_reader_with_sampling.py", line 70:
+
+		super().__init__(lazy=lazy,
+						 token_indexers=token_indexers,
+						 tokenizer=tokenizer,
+						 max_sequence_length=max_sequence_length,
+						 skip_label_indexing=skip_label_indexing) ->
+
+		super().__init__(token_indexers=token_indexers,
+						 tokenizer=tokenizer,
+						 max_sequence_length=max_sequence_length,
+						 skip_label_indexing=skip_label_indexing)
+                         
+                         
+#6
+
+File "/work/sakter/AANG/AutoSearchSpace/modelling.py", line 225, in setup_datasets
+    pretrain_vocab = tokenizer._tokenizer.encoder
+AttributeError: 'PretrainedTransformerTokenizer' object has no attribute '_tokenizer'
+
+AANG/AutoSearchSpace/modelling.py", line 225,:
+    pretrain_vocab = tokenizer._tokenizer.encoder -> pretrain_vocab = self.add_transformer_vocab(tokenizer)
+    
+	def add_transformer_vocab(self, tokenizer: PreTrainedTokenizer, namespace: str = "tokens"):
+		"""
+		Copies tokens from a transformer tokenizer's vocab into the given namespace.
+		"""
+		vocab_items = tokenizer.tokenizer.get_vocab()
+		pretrain_vocab = Vocabulary()
+        
+		for word, idx in vocab_items.items():
+			pretrain_vocab._token_to_index[namespace][word] = idx
+			pretrain_vocab._index_to_token[namespace][idx] = word
+
+		pretrain_vocab._non_padded_namespaces.add(namespace)
+		return pretrain_vocab
+        
+        
+#7
+
+  File "/work/sakter/AANG/AutoSearchSpace/modelling.py", line 250, in setup_datasets
+    lens.append(sentence.shape[0])
+AttributeError: 'dict' object has no attribute 'shape'
+
+
+AANG/AutoSearchSpace/modelling.py", line 247:
+    sentence = tokens.as_tensor(tokens.get_padding_lengths())['tokens'] -> sentence = tokens.as_tensor(tokens.get_padding_lengths())['tokens']['token_ids']
+    
+    
+#8
+
+ File "/work/sakter/AANG/AutoSearchSpace/modelling.py", line 269, in setup_datasets
+    'pad_idx': tokenizer._tokenizer.pad_token_id,
+AttributeError: 'PretrainedTransformerTokenizer' object has no attribute '_tokenizer'
+
+AANG/AutoSearchSpace/modelling.py", line 269:
+    'pad_idx': tokenizer._tokenizer.pad_token_id, -> 'pad_idx': tokenizer.tokenizer.pad_token_id,
+    
+

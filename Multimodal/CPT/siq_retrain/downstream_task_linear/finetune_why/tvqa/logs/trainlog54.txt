@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001590~met_s04e01_seg02_clip_02 ~~~~~~~~
+ 66 to 90<|START|> why is barney upset about being in love when he is talking to lily
+0   )  because it makes him break out in hives     (8tok)
+1   )  because it makes him sick to his stomach     (8tok)
+2 GT)  because he can't eat and can't sleep     (9tok)
+3   )  because it feels things he doesn't want to     (9tok)
+4   )  because it means caring about something besides himself     (8tok)
+~~~~~~~~~~~ Example 1 003126~house_s06e03_seg02_clip_26 ~~~~~~~~
+ 74 to 83<|START|> why did wilson and house both yell out, "oh!" when they were sitting in the den after discussing the neigbor?
+0   )  because they both looked at the same time to see their neighbor looking in through the window.     (18tok)
+1   )  because a tv show that was airing at the time showed a kangaroo punch a man in his jaw.     (20tok)
+2   )  because a disoriented and nearly nude woman walked right in through the unlocked front door.     (17tok)
+3 GT)  because the tv program that had been playing just showed an alligator chomp down a frog.     (17tok)
+4   )  because just as they had relaxed to watch tv, a huge rat crawled right across the coffee table.     (20tok)
+~~~~~~~~~~~ Example 2 004662~s08e03_seg02_clip_16 ~~~~~~~~
+ -21 to 122<|START|> why the crowd are booing howard when he is on the field?
+0 GT)  because the ball doesn't arrive.     (7tok)
+1   )  because the ball disappear.     (5tok)
+2   )  because the ball was lost.     (6tok)
+3   )  because the ball is in howard's pocket.     (9tok)
+4   )  because the ball is red.     (6tok)
+~~~~~~~~~~~ Example 3 006966~house_s02e12_seg02_clip_02 ~~~~~~~~
+ 45 to 54<|START|> why did house give the patient medication when the patient was in the hospital?
+0   )  house wanted to treat the patient's stomach pain.     (10tok)
+1 GT)  house wanted to prevent the patient from getting a migraine.     (11tok)
+2   )  house wanted to make the patient feel better.     (9tok)
+3   )  house wanted to make the patient stop feeling pain in their leg.     (13tok)
+4   )  house wanted to prevent the patient from getting the flu.     (11tok)
+Finished writing 56 questions; max len = 230

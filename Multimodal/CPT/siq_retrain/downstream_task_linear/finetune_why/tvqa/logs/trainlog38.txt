@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002086~met_s05e05_seg02_clip_13 ~~~~~~~~
+ -12 to 111<|START|> why does ted throw the keys on the ground after marshall yells at him?
+0 GT)  marshall isn't wearing any pants     (6tok)
+1   )  ted has bad aim     (4tok)
+2   )  ted dropped the keys on accident     (6tok)
+3   )  ted didn't have the keys     (6tok)
+4   )  ted never threw the keys     (5tok)
+~~~~~~~~~~~ Example 1 005414~friends_s03e11_seg02_clip_07 ~~~~~~~~
+ 25 to 75<|START|> why is chandler upset about what happened when chandler was in the storage room?
+0   )  because chandler embarrassed himself.     (5tok)
+1   )  because chandler drank too much.     (6tok)
+2   )  because chandler is hungover.     (6tok)
+3 GT)  because chandler doesn't know which of joey's sisters' he was with.     (15tok)
+4   )  because joey made him mad.     (6tok)
+~~~~~~~~~~~ Example 2 009254~friends_s09e02_seg02_clip_04 ~~~~~~~~
+ 32 to 66<|START|> why does rachel miss the baby when she's talking amongst her friends in the living room?
+0   )  because the baby is not in the room     (8tok)
+1   )  because the baby is not in rachel's arms     (9tok)
+2 GT)  because the baby is sleeping     (5tok)
+3   )  because the baby is with ross     (6tok)
+4   )  because the baby is with its grandmother     (7tok)
+~~~~~~~~~~~ Example 3 013094~s09e13_seg01_clip_00 ~~~~~~~~
+ 8 to 91<|START|> why are raj, howard and leonard staring at the girls when they are preparing the food?
+0   )  raj, howard and leonard are all staring at emily's butt.     (13tok)
+1   )  raj, howard and leonard are angry that their girlfriends are bonding.     (13tok)
+2   )  raj, howard and leonard are afraid that their girlfriends are bonding.     (13tok)
+3   )  raj, howard and leonard are trying to listen to their girlfriends' conversation.     (15tok)
+4 GT)  raj, howard and leonard are in disbelief that their girlfriends are talking about comic book heroes.     (18tok)
+Finished writing 52 questions; max len = 236

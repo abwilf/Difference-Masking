@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 122039~s03e02_seg02_clip_10 ~~~~~~~~
+ 42 to 57<|START|> why is howard frustrated when he is talking to sheldon?
+0   )  because sheldon is being rude.     (6tok)
+1   )  because he doesn't like sheldon.     (7tok)
+2 GT)  because they are having an argument.     (7tok)
+3   )  because howard wanted to have a private meal with raj.     (11tok)
+4   )  because sheldon won't loan him money for food.     (10tok)
+~~~~~~~~~~~ Example 1 122063~friends_s08e11_seg02_clip_04 ~~~~~~~~
+ 35 to 63<|START|> why did ross think it was a weird idea to say "love ross and mona" on their card after she asked? 
+0 GT)  they hadn't said love to each other yet.     (10tok)
+1   )  he told her he didn't love her.     (9tok)
+2   )  he was disliked her.     (6tok)
+3   )  they weren't even dating.     (6tok)
+4   )  she is his stalker.     (5tok)
+~~~~~~~~~~~ Example 2 122183~s05e02_seg02_clip_09 ~~~~~~~~
+ 15 to 85<|START|> why does amy mock sheldon after he asks for help. 
+0   )  she didn't mock him at all.      (9tok)
+1   )  she doesn't feel she is mocking him.      (10tok)
+2   )  she has the same issue as sheldon     (7tok)
+3 GT)  she finds him to be going over board with control issues.      (13tok)
+4   )  she agrees to help sheldon.      (7tok)
+~~~~~~~~~~~ Example 3 122239~house_s08e19_seg02_clip_20 ~~~~~~~~
+ 59 to 97<|START|> why does wilson tell his patients not to torture themselves after they've been diagnosed?
+0 GT)  because there are no answers.     (6tok)
+1   )  because that's no way to live.     (8tok)
+2   )  because that won't make anything better.     (8tok)
+3   )  because it's not very nice to do that to yourself.     (12tok)
+4   )  because they should just try to be happy.     (9tok)
+Have written 100 / 1907
+Finished writing 198 questions; max len = 273

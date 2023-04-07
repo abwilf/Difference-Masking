@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000905~s05e15_seg02_clip_08 ~~~~~~~~
+ 39 to 59<|START|> why doesn't howard get to pick his nickname when talking to raj and leondard"
+0   )  howard's nickname has to come from his parents     (9tok)
+1 GT)  howard's nickname has to come from the other astronauts     (10tok)
+2   )  howard's nickname has to come from his employers     (9tok)
+3   )  howard's nickname has to come from his girlfriend     (9tok)
+4   )  howard's nickname has to come from sheldon     (8tok)
+~~~~~~~~~~~ Example 1 008585~house_s08e01_seg02_clip_02 ~~~~~~~~
+ 16 to 26<|START|> why was house threatening physical assault on the rollo in the cell before frankie came and stopped him?
+0   )  rollo insulted house's mother's name.     (9tok)
+1   )  rollo wanted house to be his girlfriend.     (9tok)
+2 GT)  rollo had chosen to steal house's tuna.     (10tok)
+3   )  rollo had bitten house on his bad leg.     (10tok)
+4   )  rollo was trying to cut house's friend.     (10tok)
+~~~~~~~~~~~ Example 2 011401~friends_s07e05_seg02_clip_09 ~~~~~~~~
+ 69 to 87<|START|> why does rachel get scared when she is in her office?
+0 GT)  someone comes up behind rachel     (5tok)
+1   )  someone jumps in front of rachel     (6tok)
+2   )  someone calls rachel outside     (4tok)
+3   )  the phone rings     (3tok)
+4   )  there is a loud knock on the door     (8tok)
+~~~~~~~~~~~ Example 3 011913~friends_s08e06_seg02_clip_02 ~~~~~~~~
+ 30 to 70<|START|> why did monica say she got the rabbit costume for chandler when she was talking to him
+0   )  because he loved having a rabbit's foot for good luck     (11tok)
+1   )  because he loves the rabbit in winnie the pooh     (9tok)
+2   )  because he owned a rabbit when he was a boy     (10tok)
+3 GT)  because he loves the velveteen rabbit book     (8tok)
+4   )  because he had a rabbit lined coat     (7tok)
+Finished writing 56 questions; max len = 237

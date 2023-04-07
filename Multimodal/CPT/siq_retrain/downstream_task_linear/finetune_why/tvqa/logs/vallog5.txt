@@ -1,0 +1,31 @@
+~~~~~~~~~~~ Example 0 122052~s07e07_seg02_clip_09 ~~~~~~~~
+ 8 to 35<|START|> why does howard say they're late after walking in?
+0   )  there was a lot of traffic.     (7tok)
+1   )  they went out to dinner.     (6tok)
+2 GT)  they had to swing by the lab.     (8tok)
+3   )  they got lost.     (4tok)
+4   )  bernie took forever getting ready.     (6tok)
+~~~~~~~~~~~ Example 1 122084~house_s03e16_seg02_clip_17 ~~~~~~~~
+ 7 to 93<|START|> why does house ask for dr. wilson's keys before he walks into his office?
+0   )  house's car was repossessed due to non-payment      (14tok)
+1   )  house won wilson's car in a bet they had going for over a year     (15tok)
+2   )  house was dropped off by the police that morning, and needed to borrow a car      (17tok)
+3 GT)  borrowing wilson's car because he can't ride his motorcycle in his condition     (14tok)
+4   )  there was a blizzard outside and house refused to walk in the snow with his cane     (16tok)
+~~~~~~~~~~~ Example 2 122140~s09e19_seg02_clip_16 ~~~~~~~~
+ 6 to 94<|START|> why does amy thank sheldon when they are sitting in his storage locker?
+0   )  because sheldon gives her a kiss.     (7tok)
+1 GT)  because sheldon trusts her enough to share the contents of his locker with her.     (15tok)
+2   )  because sheldon holds her hand.     (6tok)
+3   )  because sheldon tells her she's beautiful.     (8tok)
+4   )  because sheldon compliments her outfit.     (6tok)
+~~~~~~~~~~~ Example 3 122180~friends_s08e23-24_seg01_clip_01 ~~~~~~~~
+ 57 to 70<|START|> why does rachel need a room when she and ross arrive at the hospital?
+0   )  rachel bumped her head     (4tok)
+1 GT)  rachel is having a baby     (5tok)
+2   )  rachel skinned her knee     (4tok)
+3   )  rachel broke her hand     (4tok)
+4   )  rachel has gas     (3tok)
+Have written 100 / 1906
+Have written 200 / 1906
+Finished writing 211 questions; max len = 274

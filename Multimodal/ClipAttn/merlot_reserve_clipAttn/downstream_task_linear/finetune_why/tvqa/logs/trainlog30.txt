@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000286~s05e24_seg02_clip_00 ~~~~~~~~
+ 27 to 73<|START|> why did the astronauts call howard froot loops when they were going to space?
+0 GT)  howard lives with mom who makes froot loops for howard.     (12tok)
+1   )  howard pours himself froot loops daily.     (8tok)
+2   )  howard loves froot loops.     (6tok)
+3   )  howard gave the astronauts froot loops.     (8tok)
+4   )  howard was gay.     (4tok)
+~~~~~~~~~~~ Example 1 002334~castle_s08e20_seg02_clip_19 ~~~~~~~~
+ 72 to 84<|START|> why did beckett say el oso wasn't getting away even if castle had not tripped him when she was talking to castle?
+0   )  the drug lords car blew up so he could not get away.     (13tok)
+1   )  the building has a lock down on doors so he could not get away.     (15tok)
+2   )  the drug lord was going to turn himself in so he didn't get away.     (16tok)
+3   )  the drug lord was shot and could not get away.     (11tok)
+4 GT)  the dea had the building surrounded so could not get away.     (12tok)
+~~~~~~~~~~~ Example 2 002590~house_s03e16_seg02_clip_01 ~~~~~~~~
+ 8 to 91<|START|> why did house take on the case before talking to his team?
+0   )  he used to be a marine     (6tok)
+1   )  he was interested in the gulf     (6tok)
+2   )  he had been studying the syndrome for a while     (9tok)
+3   )  he wanted to be a hero     (6tok)
+4 GT)  he wanted to do cuddy a favor     (8tok)
+~~~~~~~~~~~ Example 3 003358~s03e12_seg02_clip_06 ~~~~~~~~
+ 40 to 58<|START|> why did martha come over when abby asked her?
+0   )  martha wanted abby's help.     (6tok)
+1   )  abby wanted martha to help her with a question.     (10tok)
+2 GT)  abby wanted her to meet raj and sheldon.     (9tok)
+3   )  abby wanted to ask martha a question.     (8tok)
+4   )  abby wanted martha to drive her home.     (8tok)
+Finished writing 53 questions; max len = 233

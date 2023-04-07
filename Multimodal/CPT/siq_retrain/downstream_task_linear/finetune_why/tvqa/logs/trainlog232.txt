@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003560~castle_s05e16_seg02_clip_14 ~~~~~~~~
+ 6 to 36<|START|> why is henri talking to the wall when he is in a room with castle?
+0   )  he is looking for an echo     (6tok)
+1   )  he is crazy     (3tok)
+2   )  he is communicating with ghosts     (5tok)
+3 GT)  he is talking to a bug device      (8tok)
+4   )  he is being silly     (4tok)
+~~~~~~~~~~~ Example 1 008936~castle_s02e09_seg02_clip_25 ~~~~~~~~
+ 39 to 59<|START|> why does alexis hug castle after the arrest scene?
+0   )  for her new car     (4tok)
+1   )  for her birthday party     (4tok)
+2 GT)  for being the best dad ever     (6tok)
+3   )  for being the best uncle     (5tok)
+4   )  for being a great listener     (5tok)
+~~~~~~~~~~~ Example 2 013800~s05e14_seg02_clip_04 ~~~~~~~~
+ 32 to 39<|START|> why did howard seem so pessimistic after raj left his office?
+0   )  howard  said he had to work overtime today.     (10tok)
+1   )  howard said raj had forgot his birthday.     (8tok)
+2   )  howard said he was having a very bad day.     (10tok)
+3   )  howard said he did not get enough sleep last night.     (11tok)
+4 GT)  howard said a girl would break raj's heart     (9tok)
+~~~~~~~~~~~ Example 3 014568~house_s04e11_seg02_clip_09 ~~~~~~~~
+ 34 to 65<|START|> why did cate say house is antisocial, when she was speaking with him?
+0   )  cate wanted to hurt house     (5tok)
+1   )  cate did not say that.     (6tok)
+2   )  because cate hates house     (4tok)
+3   )  because cate loves house     (4tok)
+4 GT)  house was projecting, and he is antisocial.     (11tok)
+Finished writing 42 questions; max len = 234

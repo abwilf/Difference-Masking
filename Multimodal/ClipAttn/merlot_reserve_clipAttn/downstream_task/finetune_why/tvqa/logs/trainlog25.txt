@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000025~friends_s03e18_seg02_clip_12 ~~~~~~~~
+ 34 to 65<|START|> why does pete say he left monica that large tip after she storms into his office?
+0   )  because he won the lottery and is slowly giving away his winnings to people he likes     (17tok)
+1   )  because he wants her to marry him tomorrow     (8tok)
+2   )  because he thought she was the best at her job he'd ever seen     (14tok)
+3   )  because he knows her mom is sick and he wants to help with the bills     (15tok)
+4 GT)  if he didn't, she wouldn't have visited him and there would be no tension between them     (19tok)
+~~~~~~~~~~~ Example 1 001561~s07e04_seg02_clip_03 ~~~~~~~~
+ 1 to 70<|START|> why did leonard have on his moms makeup when penny seen a picture of him?
+0   )  leonard had it on against his will an was mad.     (11tok)
+1   )  leonard use to be bi sexual.     (7tok)
+2   )  leonard was in a gay parade.     (7tok)
+3 GT)  leonard was pretending to be the hulk.     (8tok)
+4   )  leonard had on his mom make up an got caught taking a picture in it.     (16tok)
+~~~~~~~~~~~ Example 2 003097~s10e13_seg02_clip_12 ~~~~~~~~
+ 16 to 25<|START|> why does raj say not to wear socks after howard stands in them
+0   )  he did break his spine     (5tok)
+1   )  he almost broke his spine     (5tok)
+2   )  he did break his neck     (5tok)
+3 GT)  he almost broke his neck     (5tok)
+4   )  he hates his socks     (4tok)
+~~~~~~~~~~~ Example 3 006425~s02e23_seg02_clip_03 ~~~~~~~~
+ 23 to 47<|START|> why does sheldon appear upset after raj, howard, and leonard celebrate?
+0   )  sheldon has failed at his job.      (8tok)
+1   )  sheldon is mad at them.      (7tok)
+2   )  sheldon is holding a grudge.      (7tok)
+3 GT)  sheldon doesn't understand why they're celebrating as he hasn't finished his statement yet.      (18tok)
+4   )  sheldon has taken on more than he can handle.      (11tok)
+Finished writing 49 questions; max len = 246

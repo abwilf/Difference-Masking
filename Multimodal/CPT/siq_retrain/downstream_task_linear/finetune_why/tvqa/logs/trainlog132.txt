@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000388~house_s05e06_seg02_clip_25 ~~~~~~~~
+ 36 to 63<|START|> why did house say it was too bad before cuddy began to tear up?
+0 GT)  she would have been a great mother     (7tok)
+1   )  he needed her expertise     (4tok)
+2   )  the team will miss her     (5tok)
+3   )  she was about to get a raise     (7tok)
+4   )  she had saved someone's life      (7tok)
+~~~~~~~~~~~ Example 1 006532~friends_s06e15-16_seg02_clip_28 ~~~~~~~~
+ 50 to 77<|START|> why did chandler say that there would be a lot of pressure on him when talking to monica?
+0   )  because he is going out with a new girl     (9tok)
+1   )  because is his starting a new job     (7tok)
+2 GT)  because monica has been waiting a long time to have sex and he doesn't want to disappoint her     (19tok)
+3   )  because he is cooking a dinner for all his friends and family     (12tok)
+4   )  because he is trying to quit smoking     (7tok)
+~~~~~~~~~~~ Example 2 006788~met_s06e23_seg02_clip_00 ~~~~~~~~
+ 21 to 50<|START|> why are they taking ted's word about the arcadian when he was on the stage?
+0   )  because he was a friend of barney's who works at gnb     (13tok)
+1   )  because he is a successful architect     (6tok)
+2   )  because he was teaching architecture in a university      (9tok)
+3 GT)  because he is the architect of gnb bank who are trying to buy the land where the arcadian stood     (22tok)
+4   )  because he was the designer of the arcadian     (10tok)
+~~~~~~~~~~~ Example 3 011396~s04e13_seg02_clip_00 ~~~~~~~~
+ 43 to 55<|START|> why did penny looked mad after sheldon discussed how long it would take to go over the orientation ?
+0   )  penny was mad at leonard.     (6tok)
+1   )  penny does not like leonard.     (6tok)
+2   )  penny wanted to do all the speaking.     (8tok)
+3 GT)  penny did not think it should take a half out to discuss the trip.     (15tok)
+4   )  penny wanted to sit on the couch all by herself.     (11tok)
+Finished writing 46 questions; max len = 247

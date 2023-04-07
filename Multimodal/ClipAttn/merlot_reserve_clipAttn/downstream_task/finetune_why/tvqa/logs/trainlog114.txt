@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001394~house_s04e06_seg02_clip_07 ~~~~~~~~
+ 34 to 66<|START|> why did dr. terzi tell house he almost got her after they returned to her office?
+0   )  because house almost succeeded in getting both her and curtis to lose their tempers.     (16tok)
+1 GT)  because house baited her with the wrong country to try to find out where the cia agent got sick.     (21tok)
+2   )  because terzi hadn't really been paying close attention to what she was saying to house.     (18tok)
+3   )  because dr. terzi kept forgetting that house didn't have a security clearance.     (16tok)
+4   )  because dr. terzi had been up for two straight days and was losing her edge.     (18tok)
+~~~~~~~~~~~ Example 1 001650~s05e23_seg02_clip_13 ~~~~~~~~
+ 13 to 59<|START|> why was sheldon allowed to be a amtrak junior conductor after they realized he was too old.
+0 GT)  the amtrak employee made an exception for sheldon.     (11tok)
+1   )  sheldon won a prize.     (5tok)
+2   )  sheldon applied for the job.     (6tok)
+3   )  sheldon was the 1000th customer.     (7tok)
+4   )  sheldon was their best customer.     (6tok)
+~~~~~~~~~~~ Example 2 002930~friends_s09e15_seg02_clip_04 ~~~~~~~~
+ 1 to 69<|START|> why does lennart think the woman wants joey to work when lennart refuses to work with him?
+0   )  lennart thinks the woman thinks joey really is a good actor     (12tok)
+1   )  lennart thinks the woman is displaying nepotism     (10tok)
+2 GT)  lennart thinks the woman wants to sleep with joey     (10tok)
+3   )  lennart thinks the woman already has a contract     (9tok)
+4   )  lennart thinks the woman has bad taste     (8tok)
+~~~~~~~~~~~ Example 3 005746~grey_s02e12_seg02_clip_16 ~~~~~~~~
+ -8 to 108<|START|> why does meredith defend alex after he cheats on izzie?
+0 GT)  meredith defends alex because she considers alex, izzie, cristina, and george family, and wants everyone to get along in the spirit of christmas     (28tok)
+1   )  meredith defends alex because she has a crush on alex.     (11tok)
+2   )  meredith defends alex because he did her a favor.     (10tok)
+3   )  meredith defends alex because he bought her a nice christmas present.     (12tok)
+4   )  meredith defends alex because she thinks alex did not cheat on izzie.     (14tok)
+Finished writing 44 questions; max len = 225

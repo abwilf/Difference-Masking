@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002830~house_s05e16_seg02_clip_12 ~~~~~~~~
+ 44 to 56<|START|> why does kunter hold out his hand to taub after foreman enters the locker room?
+0   )  kunter holds out his hand to stop foreman from talking about his relationship with thirteen.     (17tok)
+1   )  kunter holds out his hand because he wants a high five from taub.     (16tok)
+2   )  kunter holds out his hand to show foreman he's not hiding anything.     (15tok)
+3 GT)  kunter holds out his hand so taub would pay him for winning the bet.     (17tok)
+4   )  kunter holds out his hand as a gesture to say he doesn't know the answer to foreman's question.     (22tok)
+~~~~~~~~~~~ Example 1 003342~s01e12_seg02_clip_03 ~~~~~~~~
+ -34 to 135<|START|> why did sheldon have to find something else to focus on when he was speaking with leonard while at his computer
+0   )  because he was bored with it     (6tok)
+1   )  because he was annoyed with his work     (7tok)
+2   )  because he felt incompetent     (5tok)
+3   )  because he was frustrated with his incompetence     (8tok)
+4 GT)  because his research was rendered pointless     (6tok)
+~~~~~~~~~~~ Example 2 006414~castle_s04e10_seg02_clip_18 ~~~~~~~~
+ 16 to 82<|START|> why does castle talk about cutting off beckett's hand when they talking?
+0   )  they are handcuffed and he is superior.     (8tok)
+1 GT)  they are handcuffed and it's smaller.     (8tok)
+2   )  he says so.     (4tok)
+3   )  her hand is in the way.     (7tok)
+4   )  it's necessary for them to get out.     (9tok)
+~~~~~~~~~~~ Example 3 007950~house_s04e02_seg02_clip_11 ~~~~~~~~
+ 11 to 87<|START|> why did greta tell 10 and 24 not to touch her before she ran out? 
+0 GT)  she thought they were going to hurt her.     (9tok)
+1   )  she had a phobia of needles.     (7tok)
+2   )  she heard they were abusive to their patients.     (9tok)
+3   )  she needed to get out of the hospital.     (9tok)
+4   )  she doesn't like to be touched.      (9tok)
+Finished writing 44 questions; max len = 234

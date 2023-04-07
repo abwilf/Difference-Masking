@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003422~house_s08e07_seg02_clip_12 ~~~~~~~~
+ 9 to 90<|START|> why was iris upset after she said she wouldn't talk to the police about her boyfriend?
+0 GT)  she was having vision problems.     (6tok)
+1   )  she missed her boyfriend.     (5tok)
+2   )  she told her mother she was really pregnant.     (9tok)
+3   )  she was starting to feel very sick.     (8tok)
+4   )  she doesn't trust policemen.      (7tok)
+~~~~~~~~~~~ Example 1 008030~s02e11_seg02_clip_00 ~~~~~~~~
+ 29 to 71<|START|> why was sheldon upset with leonard when he walked in the door?
+0   )  because sheldon needed a ride     (5tok)
+1 GT)  because leonard was late for bowling night     (7tok)
+2   )  because sheldon was hungry     (4tok)
+3   )  because raj was upset     (4tok)
+4   )  because leonard showed up too early     (6tok)
+~~~~~~~~~~~ Example 2 010590~house_s04e03_seg02_clip_26 ~~~~~~~~
+ 37 to 62<|START|> why did dr. schaffer fire dr. foreman after talking about the patient he saved?
+0   )  because the patient wanted him fired.     (7tok)
+1   )  because a patient died on his watch.     (8tok)
+2 GT)  because he confused saving her life with doing the right thing.     (12tok)
+3   )  because he couldn't answer her questions.     (8tok)
+4   )  because he was wrong.     (5tok)
+~~~~~~~~~~~ Example 3 015710~castle_s05e19_seg02_clip_10 ~~~~~~~~
+ 32 to 67<|START|> why does beckett think that castle is setting a ploy to get her to see him when he is at home?
+0   )  beckett doesn't think anything     (7tok)
+1   )  beckett thinks castle is bored     (7tok)
+2   )  beckett thinks castle is not happy being home     (10tok)
+3   )  beckett thinks castle likes to bug her     (9tok)
+4 GT)  beckett thinks castle wants to see her so he came up with a ploy     (17tok)
+Finished writing 34 questions; max len = 234

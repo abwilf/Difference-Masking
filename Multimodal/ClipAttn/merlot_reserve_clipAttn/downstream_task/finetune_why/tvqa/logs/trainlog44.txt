@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000812~friends_s05e08_seg02_clip_17 ~~~~~~~~
+ -13 to 112<|START|> why is chandler in the hospital when the doctor is treating him?
+0   )  he broke his arm     (4tok)
+1 GT)  he cut off his toe     (5tok)
+2   )  he has appendicitis     (5tok)
+3   )  he was shot     (3tok)
+4   )  he had a heart attack     (5tok)
+~~~~~~~~~~~ Example 1 001836~friends_s01e01_seg02_clip_19 ~~~~~~~~
+ 45 to 55<|START|> why did the guys move the table when monica was out in the hallway with her date?
+0   )  they wanted to find something under the table     (8tok)
+1   )  they were redecorating the room     (8tok)
+2 GT)  they wanted to see monica and her date     (8tok)
+3   )  they were putting the table on the rug     (8tok)
+4   )  they were moving the table off the rug     (8tok)
+~~~~~~~~~~~ Example 2 003884~friends_s06e01_seg02_clip_12 ~~~~~~~~
+ 14 to 85<|START|> why did rachel act upset when ross was asking her to grant him a favor?
+0   )  because he was asking her to go on a date with his friend.     (14tok)
+1   )  because ross always asks for favors.     (7tok)
+2   )  because ross was joking about something serious.     (8tok)
+3 GT)  because he was asking her to be his wife.     (10tok)
+4   )  because he was wanting to borrow money again.      (10tok)
+~~~~~~~~~~~ Example 3 004396~friends_s10e12_seg02_clip_07 ~~~~~~~~
+ 21 to 50<|START|> why can't phoebe choose between chandler and ross after one of the groomsmen fell out of the wedding?
+0   )  phoebe chooses ross.     (4tok)
+1   )  phoebe chooses joey.     (4tok)
+2   )  phoebe chooses chandler.     (4tok)
+3 GT)  phoebe loves both chandler and ross equally.     (8tok)
+4   )  phoebe makes monica decide for her.     (7tok)
+Finished writing 52 questions; max len = 260

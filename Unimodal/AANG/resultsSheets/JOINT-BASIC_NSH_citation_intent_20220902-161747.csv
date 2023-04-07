@@ -1,0 +1,2 @@
+auxlr,soptlr,classflr,wfrac,nconf_samp,primbsz,auxbsz,preft.f1.mean,preft.f1.std,postft.f1.mean,postft.f1.std,preft.acc.mean,preft.acc.std,postft.acc.mean,postft.acc.std
+1.0,0.1,0.0001,0.06,3,128,256,0.6194450333714485,0.041948623955249786,0.6304129635294278,0.0529165541132291,0.7625899280575539,0.028776978417266175,0.7661870503597122,0.03237410071942448

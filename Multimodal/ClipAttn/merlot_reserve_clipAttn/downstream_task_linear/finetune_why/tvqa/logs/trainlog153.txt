@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000921~s06e10_seg02_clip_08 ~~~~~~~~
+ 12 to 87<|START|> why did penny get frustrated when howard named the worm?
+0 GT)  penny was frustrated that howard was taking so long to hook the worm.     (14tok)
+1   )  penny wanted to name the worm.     (7tok)
+2   )  penny was late for dinner and wanted howard to hurry.     (11tok)
+3   )  penny wanted to go fishing.     (6tok)
+4   )  penny wanted to hook the worm.     (7tok)
+~~~~~~~~~~~ Example 1 001177~house_s01e04_seg02_clip_15 ~~~~~~~~
+ 45 to 53<|START|> why did dr. house think the reason was that dr. wilson did dr. cameron's job for her after he and dr. wilson stepped out of the elevator?
+0   )  dr. house thought the reason was that dr. wilson was angry at dr. cameron and wanted to get away from her as soon as possible.     (29tok)
+1   )  dr. house thought the reason was because dr. wilson thinks that dr. cameron is incompetent.     (20tok)
+2 GT)  dr. house thought that the reason dr. wilson did dr. cameron's job for her was that dr. wilson felt sorry for her.     (28tok)
+3   )  dr. house told dr. wilson the reason he had done dr. cameron's job for her is because he is a workaholic.     (28tok)
+4   )  dr. house told dr. wilson he believed the reason why he did dr. cameron's job for her is because he is an out-of-control perfectionist.     (33tok)
+~~~~~~~~~~~ Example 2 001945~house_s08e10_seg02_clip_02 ~~~~~~~~
+ 14 to 29<|START|> why does adams tell jane doe she's going through her things when taub is trying to examine her?
+0   )  because adams says it may help them determine where jane doe has been.     (14tok)
+1 GT)  because adams says it may help them determine why jane doe is sick.     (14tok)
+2   )  because adams says it may help them determine the cause of jane's kidney failure.     (16tok)
+3   )  because adams says it may help them determine figure out who jane really is.     (15tok)
+4   )  because adams says it may help them determine find out where jane is originally from.     (16tok)
+~~~~~~~~~~~ Example 3 002457~friends_s02e03_seg02_clip_00 ~~~~~~~~
+ 30 to 69<|START|> why was mr. heckles upset when he came to the door?
+0 GT)  he said they were stomping.     (6tok)
+1   )  he said they were too noisy.     (7tok)
+2   )  he said the music was too loud.     (8tok)
+3   )  he said they were banging doors.     (7tok)
+4   )  he said they were laughing too much.     (8tok)
+Finished writing 62 questions; max len = 261

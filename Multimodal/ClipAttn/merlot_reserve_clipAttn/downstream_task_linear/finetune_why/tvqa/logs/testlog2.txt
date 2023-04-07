@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 137345~friends_s05e19_seg02_clip_01 ~~~~~~~~
+ 35 to 63<|START|> why is ross happy that the pizza girl forgot the vegetarian pizza when talking with phoebe?
+0 GT)  because ross can make rachel jealous.      (8tok)
+1   )  because ross can order another pizza with pepperoni.     (9tok)
+2   )  because the pizza girl will have to come back with phoebe's pizza and ross can flirt with her.      (21tok)
+3   )  because the pizza girl will give ross her phone number.     (11tok)
+4   )  because the pizza girl will bring another pizza for joey's grandmother.      (14tok)
+~~~~~~~~~~~ Example 1 137412~castle_s06e11_seg02_clip_18 ~~~~~~~~
+ 1 to 40<|START|> why can't the rescuers hear ryan and esposito when they are trapped in the fire?
+0 GT)  there is too much noise outside     (6tok)
+1   )  they are too far down     (5tok)
+2   )  there is no one to hear them     (7tok)
+3   )  the fire is too loud     (5tok)
+4   )  they can't yell very loud.      (8tok)
+~~~~~~~~~~~ Example 2 137438~friends_s10e15_seg02_clip_13 ~~~~~~~~
+ 12 to 88<|START|> why was joey so surprised when he thought that estelle called him>
+0 GT)  estelle never called joey.     (6tok)
+1   )  estelle was very angry at joey for firing her.     (11tok)
+2   )  estelle didn't have joey's new number.     (10tok)
+3   )  estelle sounded very different.     (6tok)
+4   )  estelle had recently passed away.     (7tok)
+~~~~~~~~~~~ Example 3 137776~castle_s05e08_seg02_clip_11 ~~~~~~~~
+ 45 to 54<|START|> why was gates agitated when ryan approached her?
+0 GT)  gates did not like how much she had been working this week.     (13tok)
+1   )  gates's coffee was cold.     (6tok)
+2   )  gates did not want to have to tell some parents she lost their kids.     (15tok)
+3   )  gates did not get much sleep last night.     (9tok)
+4   )  gates was getting frustrated her lazy subordinates.     (10tok)
+Have written 100 / 953
+Finished writing 100 questions; max len = 260

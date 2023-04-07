@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004059~house_s08e12_seg02_clip_17 ~~~~~~~~
+ 29 to 71<|START|> why does taub seem paranoid when house is spying on him?
+0   )  taub had recently slept with a patient.     (9tok)
+1 GT)  taub was assigned obviously fraudulent lab work.     (10tok)
+2   )  taub thinks house will surprise him.     (8tok)
+3   )  taub is not supposed to be in the hospital wing that he is in.     (16tok)
+4   )  taub does not want to bother anyone.     (9tok)
+~~~~~~~~~~~ Example 1 004827~house_s02e05_seg02_clip_20 ~~~~~~~~
+ 13 to 87<|START|> why does house tell his parents he has to take a rain check after his mom asks if they came at a bad time?
+0 GT)  house them that he is busy with a difficult case and he has to cancel plans.     (17tok)
+1   )  he tells them he has to cancel because he doesn't like them and wants to go.     (18tok)
+2   )  he tells them he has to cancel because he has a date with someone.     (15tok)
+3   )  he tells them he has to cancel because he has to wash his dog and he needs a bath.     (20tok)
+4   )  he tells them he has to cancel because he needs space and rest after a case with his team.     (20tok)
+~~~~~~~~~~~ Example 2 005339~house_s06e21_seg02_clip_10 ~~~~~~~~
+ 43 to 57<|START|> why did cuddy not want to free hanna's leg after she said the leg was not getting circulation?
+0   )  the leg would smell bad.     (6tok)
+1   )  cuddy did not want hanna to see her crushed leg.     (12tok)
+2   )  cuddy did not want to see what the leg looked like.     (13tok)
+3   )  the leg would release a lot of blood everywhere.     (10tok)
+4 GT)  the leg would release poison that could stop hanna's heart.     (12tok)
+~~~~~~~~~~~ Example 3 006619~s08e15_seg02_clip_15 ~~~~~~~~
+ 7 to 35<|START|> why is everyone so hesitant to let sheldon say something to howard when he is going through a rough time?
+0   )  they are nervous he will make sense.      (9tok)
+1   )  they are jealous.      (5tok)
+2   )  sheldon always says the right things, he just doesn't want to.      (15tok)
+3 GT)  sheldon doesn't have a good track record of saying the right things at the right time.      (19tok)
+4   )  they don't want him to make things right.      (11tok)
+Finished writing 39 questions; max len = 276

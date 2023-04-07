@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 014954~friends_s07e18_seg02_clip_14 ~~~~~~~~
+ 14 to 28<|START|> why did ross change ned's grade when he graded his assignment?
+0   )  ross wanted to get caught so he would be fired.     (11tok)
+1   )  ross owed ned a favor.     (6tok)
+2   )  ross wanted to make sure ned passed to the next grade.     (12tok)
+3   )  ross was in a giving mood.     (7tok)
+4 GT)  ross thought ned was actually in love with him.     (10tok)
+~~~~~~~~~~~ Example 1 015466~s03e19_seg02_clip_07 ~~~~~~~~
+ 35 to 94<|START|> why is leonard annoyed when penny says she loves chili cheese fries?
+0   )  because he hates them     (4tok)
+1 GT)  because she hasn't said "i love you" to him yet.     (14tok)
+2   )  because he thinks she's lying     (6tok)
+3   )  because they taste bad     (4tok)
+4   )  because the waiter spit in them     (6tok)
+~~~~~~~~~~~ Example 2 017770~s10e09_seg02_clip_03 ~~~~~~~~
+ 13 to 29<|START|> why did penny raise her hand when sheldon raised his voice at amy?
+0   )  penny wanted to answer leonard's question.     (8tok)
+1   )  penny just wanted to stretch.     (6tok)
+2   )  penny was going to scratch the top of her head.     (11tok)
+3   )  penny was going to slap leonard.     (7tok)
+4 GT)  penny knew the answer to sheldon's question.     (9tok)
+~~~~~~~~~~~ Example 3 019818~house_s08e15_seg02_clip_05 ~~~~~~~~
+ 34 to 66<|START|> why does adams feel house needs to start treatment after she diagnoses him with liver decline?
+0   )  she wants house out of the picture, in a rehab facility      (13tok)
+1   )  his insurance is expiring soon     (6tok)
+2   )  if it's not treated the damage could be permanent      (11tok)
+3   )  she wants to prove to wilson that she is right      (11tok)
+4 GT)  if it's not treated it could be fatal     (9tok)
+Finished writing 41 questions; max len = 251

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003494~castle_s04e03_seg02_clip_09 ~~~~~~~~
+ 41 to 57<|START|> why did castle say he was judgmental about practically naked women after beckett asked him about it?
+0 GT)  because his daughter was college age.     (7tok)
+1   )  because his daughter was still so young.     (8tok)
+2   )  because his daughter was in her thirties.     (9tok)
+3   )  because he was embarrassed.     (5tok)
+4   )  because he was worried about them getting cold.     (9tok)
+~~~~~~~~~~~ Example 1 004006~house_s07e11_seg02_clip_15 ~~~~~~~~
+ 25 to 74<|START|> why did house say then needed to switch the iv when he was in the bathroom? 
+0   )  the pain killer was killing the patients immune system?     (10tok)
+1   )  the celebrex was killing the patients immune system?     (11tok)
+2   )  the zarelto was killing the patients immune system?     (11tok)
+3   )  the prozac was killing the patients immune system?     (11tok)
+4 GT)  the prednisone was killing the patients immune system?     (11tok)
+~~~~~~~~~~~ Example 2 007334~friends_s01e15_seg02_clip_06 ~~~~~~~~
+ 44 to 55<|START|> why chandler was tired and angry when alking to his friends?
+0 GT)  because chandler was giving many tests.     (7tok)
+1   )  because chandler was driving long hours.     (7tok)
+2   )  because chandler's girlfriend run away.     (7tok)
+3   )  because chandler is sick.     (5tok)
+4   )  because chandler was running in the cold.     (8tok)
+~~~~~~~~~~~ Example 3 010918~house_s03e09_seg02_clip_13 ~~~~~~~~
+ 20 to 49<|START|> why does edie ask if her daughter alice is having a procedure when she comes in the room with foreman and chase?
+0   )  she had been to get coffee and when she came back alice was gone     (14tok)
+1   )  a doctor called her and said alice needed to go for a procedure     (13tok)
+2   )  her ex-husband had called her and told her alice would be gone from her room for awhile     (20tok)
+3 GT)  she just looked in alice's room and she wasn't there     (12tok)
+4   )  she had left alice with her daddy in the playroom but she couldn't find either one of them now     (20tok)
+Finished writing 44 questions; max len = 236

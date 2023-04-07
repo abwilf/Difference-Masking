@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001052~friends_s03e24_seg02_clip_16 ~~~~~~~~
+ 44 to 56<|START|> why monica was surprised when saw pete?
+0 GT)  because pete has a cast on his upper body?     (10tok)
+1   )  because pete gave monica a ring.     (7tok)
+2   )  because pete was kissing another woman.     (7tok)
+3   )  because pete has a broke leg.     (7tok)
+4   )  because pete has dark spots in his face.     (9tok)
+~~~~~~~~~~~ Example 1 005404~met_s04e03_seg02_clip_00 ~~~~~~~~
+ 31 to 68<|START|> why did robin get mad when she was on the air
+0   )  he was replacing her      (5tok)
+1   )  he wrote something sexist     (4tok)
+2   )  he was bing innapropriate      (9tok)
+3   )  he asked her to report hard hitting news     (8tok)
+4 GT)  because he boss wrote a terrible pun     (7tok)
+~~~~~~~~~~~ Example 2 005660~friends_s09e19_seg02_clip_00 ~~~~~~~~
+ 20 to 79<|START|> why does ross get deflated after he talks to monica?
+0 GT)  ross realizes his comparison is not good.     (8tok)
+1   )  ross is hungry.     (4tok)
+2   )  ross wants to go to the museum.     (8tok)
+3   )  ross misses emma.     (4tok)
+4   )  ross wants to kiss rachel.     (6tok)
+~~~~~~~~~~~ Example 3 007452~castle_s07e11_seg02_clip_03 ~~~~~~~~
+ 41 to 58<|START|> why did shana take off from work after sending out acceptance letters to the children's parents?
+0 GT)  to recover from working long hours.     (7tok)
+1   )  to recover from outpatient surgery.     (8tok)
+2   )  to attend a conference.     (5tok)
+3   )  to recover from an illness.     (6tok)
+4   )  to recover from an injury.     (6tok)
+Finished writing 49 questions; max len = 243

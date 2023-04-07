@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002349~house_s05e06_seg02_clip_02 ~~~~~~~~
+ 36 to 63<|START|> why did thirteen try to take out the baseboard after taub was said the guy is flagellant?
+0   )  taub  and thirteen found a red spot     (9tok)
+1   )  thirteen found white mold     (4tok)
+2   )  thirteen found a yellow spot     (5tok)
+3 GT)  thirteen found out there was a black mold behind the baseboard      (12tok)
+4   )  tabub found a crayon mark     (6tok)
+~~~~~~~~~~~ Example 1 004909~s05e14_seg02_clip_14 ~~~~~~~~
+ 29 to 69<|START|> why is leonard in pain after kissing penny
+0   )  because he bumps his head     (5tok)
+1   )  because he bites his tongue     (5tok)
+2 GT)  because he shoot himself in the foot     (7tok)
+3   )  because penny bites his lip     (5tok)
+4   )  because he runs into a wall     (6tok)
+~~~~~~~~~~~ Example 2 010797~friends_s02e12-13_seg02_clip_27 ~~~~~~~~
+ 21 to 79<|START|> why does rachel keep saying he was asking her out over and over when talking with monica? 
+0   )  she was trying to make her feel bad.      (10tok)
+1   )  she was trying to get her to understand.      (10tok)
+2   )  she was trying to make her happy      (8tok)
+3   )  she was trying to find a way to let her down.      (13tok)
+4 GT)  she was trying to get monica to let her go out with jean-claude.      (18tok)
+~~~~~~~~~~~ Example 3 011053~house_s06e13_seg02_clip_03 ~~~~~~~~
+ 30 to 69<|START|> why did cuddy say that eli was the unreasonable one after he accused her of being unreasonable?
+0   )  cuddy thought that eli was unreasonable because he was opposed to vaccinations.     (15tok)
+1   )  cuddy thought that eli was unreasonable because she thought that all insurance brokers are evil.     (18tok)
+2   )  cuddy thought that eli was unreasonable because he refused to negotiate except in person.     (16tok)
+3   )  cuddy thought that eli was unreasonable because he made misogynistic comments about her.     (18tok)
+4 GT)  cuddy thought that eli was unreasonable because he didn't reply to her proposals in a timely manner.     (20tok)
+Finished writing 65 questions; max len = 243

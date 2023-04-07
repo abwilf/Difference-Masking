@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004720~castle_s06e07_seg02_clip_21 ~~~~~~~~
+ 59 to 98<|START|> why is frank taking the blame for the girl's murder when it's john who committed it?
+0   )  john is a war hero     (5tok)
+1   )  frank told him to do it     (6tok)
+2   )  frank would have killed her if john hadn't first     (10tok)
+3 GT)  john doesn't remember killing her     (6tok)
+4   )  frank can get off by pleading insanity      (8tok)
+~~~~~~~~~~~ Example 1 005488~house_s05e05_seg02_clip_17 ~~~~~~~~
+ 6 to 37<|START|> why did thirteen tell spencer the bad news instead of house after receiving spencers test results?
+0 GT)  thirteen believes no one should hear bad news from house     (10tok)
+1   )  thirteen likes spencer     (3tok)
+2   )  thirteen picked the short straw     (5tok)
+3   )  thirteen is related to spencer     (5tok)
+4   )  house told thirteen to do it      (7tok)
+~~~~~~~~~~~ Example 2 006512~friends_s01e14_seg02_clip_08 ~~~~~~~~
+ 39 to 60<|START|> why does monica call rachel into the hallway after finding chandler and janice?
+0   )  monica calls rachel into the hallway to help bring in the newspaper.     (13tok)
+1 GT)  monica calls rachel into the hallway so she can see chandler with janice.     (14tok)
+2   )  monica calls rachel into the hallway because janice wants to speak to her.     (14tok)
+3   )  monica calls rachel into the hallway because joey has come to see her.     (14tok)
+4   )  monica calls rachel into the hallway to confront her about janice.     (12tok)
+~~~~~~~~~~~ Example 3 007536~friends_s03e02_seg02_clip_03 ~~~~~~~~
+ 41 to 58<|START|> why does monica think she should call back when richard leaves her a message?
+0   )  because monica is in the mood to yell at richard     (10tok)
+1   )  because monica is still in love with richard     (8tok)
+2 GT)  because richard and monica agreed not to talk so monica thinks it must be important     (15tok)
+3   )  because monica secretly hates richard     (5tok)
+4   )  because monica wants to end the awkwardness between herself and richard      (13tok)
+Finished writing 61 questions; max len = 245

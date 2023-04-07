@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001153~house_s06e08_seg02_clip_24 ~~~~~~~~
+ 44 to 56<|START|> why is it, according to taub's words, that he snapped a photo of house before leaving house standing in the hall?
+0   )  taub said with house's unusual good looks, he'd be a shoe-in for a medical man calendar.     (23tok)
+1   )  taub stated that house needed a profile picture for a dating service he was looking into.     (18tok)
+2   )  taub suggested he'd enter the photo in a photo contest for the hospital fundraiser event.     (18tok)
+3 GT)  taub had insinuated that he'll start trying to sell t-shirts and mugs, and see how it goes.     (25tok)
+4   )  taub stated that he has friend he'd like to set house up with, and wants to show her the photo.     (24tok)
+~~~~~~~~~~~ Example 1 001665~house_s07e11_seg02_clip_22 ~~~~~~~~
+ 47 to 51<|START|> why did kaufman find cuddy's action worse than house's when he was condemning her?
+0   )  cuddy did not feel any remorse for her actions.     (11tok)
+1   )  cuddy was more responsible than house.     (8tok)
+2   )  cuddy's actions caused more problems than house's action.     (12tok)
+3 GT)  cuddy was the dean of medicine.     (8tok)
+4   )  cuddy action's injured a patient.     (8tok)
+~~~~~~~~~~~ Example 2 004481~house_s07e02_seg02_clip_12 ~~~~~~~~
+ 14 to 28<|START|> why is house having trouble focusing when foreman calls him
+0   )  he is on vacation     (4tok)
+1   )  he is eating dinner     (4tok)
+2   )  he is listening to music     (5tok)
+3   )  he is watching television     (4tok)
+4 GT)  he and cuddy are making love     (7tok)
+~~~~~~~~~~~ Example 3 008833~met_s02e04_seg02_clip_08 ~~~~~~~~
+ 9 to 89<|START|> why is everyone at the party giving marshall legal advice after he talks about his break up?
+0   )  everyone at the party just wants to have fun.      (11tok)
+1   )  everyone at the party has studied law in their childhood.      (12tok)
+2   )  everyone at the party wants him to go away.      (11tok)
+3   )  everyone at the party is drunk.      (8tok)
+4 GT)  everyone at the party is mostly legal students.      (10tok)
+Finished writing 43 questions; max len = 237

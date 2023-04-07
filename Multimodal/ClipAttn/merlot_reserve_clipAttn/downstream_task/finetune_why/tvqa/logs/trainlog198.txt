@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001734~castle_s07e02_seg02_clip_07 ~~~~~~~~
+ 10 to 32<|START|> why is beckett comfortable with castle before he rings up his cell phone?
+0   )  beckett is pregnant with castles child.     (9tok)
+1 GT)  the two are having an affair     (6tok)
+2   )  castle is waiting for alexis to answer the cell phone.     (11tok)
+3   )  the lovestory he is writing has am quarter million contract on it.     (14tok)
+4   )  the football game is on.     (6tok)
+~~~~~~~~~~~ Example 1 003270~grey_s01e09_seg02_clip_06 ~~~~~~~~
+ 11 to 60<|START|> why is devo upset when talking to her mom?
+0 GT)  they're putting a pig valve into her chest.     (10tok)
+1   )  she's dying.     (4tok)
+2   )  her mom is very sick.     (6tok)
+3   )  her parents are being rude.     (6tok)
+4   )  she doesn't like the hospital she's at.     (10tok)
+~~~~~~~~~~~ Example 2 004294~grey_s03e01_seg02_clip_10 ~~~~~~~~
+ 41 to 58<|START|> why is izzie upset when she is talking to cristina?
+0   )  because denny's body is still there.     (8tok)
+1 GT)  because denny's body is gone.     (7tok)
+2   )  because denny's body is not waking up.     (9tok)
+3   )  because denny's body is turning grey.     (8tok)
+4   )  because denny's body is deteriorating.     (8tok)
+~~~~~~~~~~~ Example 3 006342~friends_s10e01_seg02_clip_14 ~~~~~~~~
+ 13 to 86<|START|> why is ross excited after talking with joey
+0 GT)  ross felt he did something wrong initially, but discovered everything was alright after talking with joey     (17tok)
+1   )  he is excited to be on a plane     (8tok)
+2   )  ross is excited to sit next to joey     (8tok)
+3   )  joey is finally over rachel     (5tok)
+4   )  chandler and monica are married     (5tok)
+Finished writing 56 questions; max len = 220

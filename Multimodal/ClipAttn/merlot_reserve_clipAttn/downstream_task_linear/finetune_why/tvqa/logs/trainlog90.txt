@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000858~s05e09_seg02_clip_02 ~~~~~~~~
+ -4 to 104<|START|> why did sheldon think the bird did not fly away when he showed it a picture of the cat?
+0   )  because the cat was smiling.      (7tok)
+1   )  because the bird wasn't able to see the picture.     (11tok)
+2 GT)  because he forgot to draw the whiskers on the cat.     (11tok)
+3   )  because the cat was to far away.     (8tok)
+4   )  because the cat was blind.     (6tok)
+~~~~~~~~~~~ Example 1 001114~castle_s08e15_seg02_clip_09 ~~~~~~~~
+ 41 to 58<|START|> why did stenson say he couldn't say who the cop was before esposito and ryan went to leave the room?
+0   )  because the cop had threatened to kill him.     (9tok)
+1 GT)  because they had never met.     (6tok)
+2   )  because the cop had threatened to kill his family.     (10tok)
+3   )  because the cop was blackmailing him.     (8tok)
+4   )  because the cop always wore a disguise.     (8tok)
+~~~~~~~~~~~ Example 2 003162~house_s04e04_seg02_clip_19 ~~~~~~~~
+ 47 to 80<|START|> why is jeffrey questioning the other doctor when they are doing surgery? 
+0   )  jeffrey thinks the surgery isn't needed     (7tok)
+1   )  jeffrey thinks the other doctor is doing something wrong     (9tok)
+2 GT)  jeffrey is asking the other doctor for advice     (8tok)
+3   )  jeffrey wants a recipe from the other doctor     (8tok)
+4   )  jeffrey doesn't know how to do the surgery     (9tok)
+~~~~~~~~~~~ Example 3 006746~s03e10_seg02_clip_15 ~~~~~~~~
+ 43 to 84<|START|> why is bernadette's reason when she stops by leonard's office?
+0   )  she knew howard was there     (5tok)
+1 GT)  she wants to see his experiment     (6tok)
+2   )  she and leonard are friends      (6tok)
+3   )  she got lost      (4tok)
+4   )  she was looking for howard      (6tok)
+Finished writing 53 questions; max len = 240

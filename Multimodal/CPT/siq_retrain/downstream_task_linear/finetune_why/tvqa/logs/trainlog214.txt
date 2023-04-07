@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005334~friends_s04e23-24_seg02_clip_30 ~~~~~~~~
+ 31 to 98<|START|> why is chandler upset when he is giving his speech?
+0   )  nobody told chandler he was going to have to give a speech and he wasn't prepared     (17tok)
+1   )  chandler couldn't find his notes     (6tok)
+2   )  chandler was in the middle of a feud with ross and didn't like having to say nice things about him     (21tok)
+3   )  chandler wanted to marry emily himself     (6tok)
+4 GT)  nobody thought chandler's joke was funny     (7tok)
+~~~~~~~~~~~ Example 1 008150~friends_s10e01_seg02_clip_19 ~~~~~~~~
+ 5 to 37<|START|> why did chandler say he didn't like monica's braids before she said everyone else does? 
+0   )  they are too long.     (5tok)
+1 GT)  he can see her scalp.     (6tok)
+2   )  i don't like shells.     (6tok)
+3   )  you look like a fool.     (6tok)
+4   )  they make too much noise.     (6tok)
+~~~~~~~~~~~ Example 2 009174~s04e07_seg02_clip_13 ~~~~~~~~
+ 24 to 45<|START|> why does sheldon say he's at the bar when penny asks?
+0   )  leonard kicked him out      (5tok)
+1   )  he wants to try his first taste of alcohol     (9tok)
+2 GT)  he wants to pour out his troubles to her     (9tok)
+3   )  he wants to work at the cheesecake factory     (8tok)
+4   )  he's in love with penny     (6tok)
+~~~~~~~~~~~ Example 3 013526~friends_s08e12_seg02_clip_20 ~~~~~~~~
+ 6 to 36<|START|> why did rachel say "thank god you're home" to joey after he walked through the door
+0 GT)  she was watching the movie cujo by herself and was scared     (12tok)
+1   )  she was happy to see him because she missed him so much     (12tok)
+2   )  she said thank god you're home because she thought somebody was trying to break in     (16tok)
+3   )  she said thank god you're home because she ordered food and didn't have money on her, so joey had to pay     (24tok)
+4   )  she said thank god you're home because joey is a noted christian and she was honoring his religion     (19tok)
+Finished writing 41 questions; max len = 241

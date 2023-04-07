@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 009820~house_s02e20_seg02_clip_00 ~~~~~~~~
+ 5 to 93<|START|> why did cameron roll her eyes after house spoke?
+0   )  she was expressing her feelings to her coworkers.      (11tok)
+1   )  she didn't like his tone.      (8tok)
+2   )  she was showing her contempt for him.      (9tok)
+3   )  she wanted him to stop talking.      (8tok)
+4 GT)  she was irritated that her statement may have been wrong.      (12tok)
+~~~~~~~~~~~ Example 1 010332~met_s03e13_seg02_clip_04 ~~~~~~~~
+ 32 to 67<|START|> why is abby upset when ted's at stella's office?
+0   )  stella fired her.     (4tok)
+1   )  she's jealous that ted likes stella.     (8tok)
+2   )  ted yelled at her.     (5tok)
+3   )  her office plant just died.     (6tok)
+4 GT)  someone is yelling at her on the phone.     (9tok)
+~~~~~~~~~~~ Example 2 017244~house_s04e01_seg02_clip_01 ~~~~~~~~
+ 47 to 51<|START|> why did cuddy feel house would not solve the case when house was working alone?
+0 GT)  cuddy felt house needed a team.     (8tok)
+1   )  cuddy felt house worked too slow.     (8tok)
+2   )  cuddy felt house would get distracted.     (8tok)
+3   )  cuddy felt house would not be motivated enough to complete the case.     (14tok)
+4   )  cuddy felt house would give up.     (8tok)
+~~~~~~~~~~~ Example 3 018268~castle_s08e20_seg02_clip_19 ~~~~~~~~
+ 57 to 72<|START|> why does castle think it was his fault a drug lord got caught when he is talking to beckett? 
+0   )  castle thinks it's his fault because he followed them.     (11tok)
+1   )  castle thinks it's his fault because he called 911.     (11tok)
+2 GT)  castle thinks it's his fault because he tripped the drug lord.     (13tok)
+3   )  castle thinks it's his fault because he was talking to loud.     (13tok)
+4   )  castle thinks it's his fault because the dea followed him.     (12tok)
+Finished writing 45 questions; max len = 291

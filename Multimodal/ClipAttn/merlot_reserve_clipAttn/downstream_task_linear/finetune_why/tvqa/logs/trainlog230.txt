@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003558~friends_s05e21_seg02_clip_16 ~~~~~~~~
+ 72 to 84<|START|> why does monica think there's a cat in her bol when she gets home?
+0   )  the cat lost all of it's hair.      (10tok)
+1   )  monica is blind.      (5tok)
+2   )  monica thinks she is funny.      (7tok)
+3 GT)  the cat was hairless.      (7tok)
+4   )  the cat likes bowls.      (6tok)
+~~~~~~~~~~~ Example 1 006118~friends_s10e09_seg02_clip_20 ~~~~~~~~
+ 40 to 59<|START|> why did chandler tell erika he and monica lied after they both left the room?
+0   )  they didn't want joey finding out they had stood hi =i;     (14tok)
+1   )  they were smoking marijuana and didn't want her to know.x,     (14tok)
+2 GT)  they didn't know when they'd have another chance at a baby.     (14tok)
+3   )  they had gone to the art gallery and didn't want her to feel left out.     (17tok)
+4   )  they lied to protect her fro the painful truth about their last surrogate.     (15tok)
+~~~~~~~~~~~ Example 2 008934~castle_s06e20_seg02_clip_12 ~~~~~~~~
+ 44 to 56<|START|> why does harold have everything to gain after coming coming clean?
+0   )  they already figured he's singing like a parrot     (9tok)
+1   )  they already figured he's singing like a duck     (9tok)
+2 GT)  they already figured he's singing like a canary     (9tok)
+3   )  he'll get immunity     (4tok)
+4   )  he'll be processed into witness protection     (7tok)
+~~~~~~~~~~~ Example 3 009958~castle_s06e11_seg02_clip_22 ~~~~~~~~
+ 39 to 61<|START|> why are ryan and esposito starting to get sleepy when in the burning building?
+0   )  it is past their bedtime.     (6tok)
+1   )  it is midnight.     (4tok)
+2 GT)  the carbon monoxide is building up.     (7tok)
+3   )  they just ran a marathon.     (6tok)
+4   )  ryan sang a lullaby.     (6tok)
+Finished writing 46 questions; max len = 256

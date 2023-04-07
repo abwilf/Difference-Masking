@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.11.0-1028-gcp-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-11-28T21:46:48.924678",
+    "startedAt": "2022-11-28T21:46:48.680553",
+    "docker": null,
+    "cpu_count": 96,
+    "cuda": null,
+    "args": [
+        "../../pretrain/configs/base.yaml",
+        "gs://merlotreserve/ckpts/base_resadapt",
+        "-scan_minibatch",
+        "--output_ext",
+        "--alpha=0.7",
+        "--joint_proj=no_proj",
+        "--lr=5e-06",
+        "--mask_where=face",
+        "--ne=10",
+        "--output_grid_h=12",
+        "--output_grid_w=24",
+        "--percent_data=1"
+    ],
+    "state": "running",
+    "program": "/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py",
+    "codePath": "tvqa_finetune.py",
+    "host": "t1v-n-8f00361f-w-0",
+    "username": "sakter",
+    "executable": "/home/sakter/anaconda3/envs/mreserve/bin/python"
+}

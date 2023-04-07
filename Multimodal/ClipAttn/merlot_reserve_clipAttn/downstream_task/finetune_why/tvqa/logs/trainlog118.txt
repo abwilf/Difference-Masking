@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 008822~s06e20_seg02_clip_07 ~~~~~~~~
+ -27 to 126<|START|> why dr. cooper is surprised when sheldon gave her a gift.
+0   )  because the book has silly illustratios.     (9tok)
+1   )  because the book is for children.     (7tok)
+2   )  because is a horror book.     (6tok)
+3   )  because the book is broken.     (6tok)
+4 GT)  because the book title is "roots".     (8tok)
+~~~~~~~~~~~ Example 1 011638~house_s07e06_seg02_clip_26 ~~~~~~~~
+ 22 to 77<|START|> why is cuddy confused by the nurse's question when she asks for the senator's record?
+0   )  house gave her the records     (5tok)
+1   )  the senator's records are on the desk     (8tok)
+2   )  cuddy doesn't know who that is     (8tok)
+3 GT)  house was treating the campaign manager, not the senator.     (11tok)
+4   )  she was not confused     (4tok)
+~~~~~~~~~~~ Example 2 012406~s07e23_seg02_clip_00 ~~~~~~~~
+ 21 to 49<|START|> why does amy suggest they do something for mrs. wolowitz when she is seated on the couch eating?
+0   )  amy suggests they do something for mrs. wolowitz because mrs. wolowitz is depressed over howard's marriage.     (24tok)
+1 GT)  amy suggests they do something for mrs. wolowitz because mrs. wolowitz is laid up from an injury.     (24tok)
+2   )  amy suggests they do something for mrs. wolowitz because mrs. wolowitz is celebrating a birthday.     (22tok)
+3   )  amy suggests they do something for mrs. wolowitz because mrs. wolowitz is always cooking for them.     (23tok)
+4   )  amy suggests they do something for mrs. wolowitz because mrs. wolowitz is nervous about a surgery.     (23tok)
+~~~~~~~~~~~ Example 3 015734~castle_s08e09_seg02_clip_22 ~~~~~~~~
+ 36 to 64<|START|> why did o'grady say he took $50,000 for evidence from robyn's case when an anonymous woman made a deal with him?
+0   )  he knew robyn was guilty anyway.     (8tok)
+1   )  his wife was sick and he was getting ready to lose his insurance.     (14tok)
+2 GT)  he was broke and headed for retirement.     (8tok)
+3   )  he was going to be fired from the department anyway.     (11tok)
+4   )  he was being threatened about his gambling debt.     (9tok)
+Finished writing 28 questions; max len = 228

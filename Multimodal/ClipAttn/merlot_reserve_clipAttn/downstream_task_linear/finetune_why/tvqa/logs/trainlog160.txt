@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000416~friends_s04e07_seg02_clip_00 ~~~~~~~~
+ 44 to 55<|START|> why chandler is upset with joey after knowing that he will date two women
+0   )  because chandler loves katty.     (6tok)
+1 GT)  because chandler is worry for katty.     (8tok)
+2   )  because chandler wants to marry katty.     (8tok)
+3   )  because chandler wants a woman.     (6tok)
+4   )  because chandler wants to be in the place of joey.     (11tok)
+~~~~~~~~~~~ Example 1 004256~s05e20_seg02_clip_06 ~~~~~~~~
+ 21 to 49<|START|> why did sheldon seem offended after acton figure spock said he and sheldon were alike?
+0 GT)  action figure spock told sheldon they were the same because they were both half human.     (17tok)
+1   )  action figure spock told sheldon he has pointed ears like his.     (13tok)
+2   )  action figure spock told sheldon he was like him because they are both made of plastic.     (18tok)
+3   )  action figure spock told sheldon they were the same because they both play with action figures.     (18tok)
+4   )  action figure spock told sheldon they were alike because they can both time travel.     (16tok)
+~~~~~~~~~~~ Example 2 008608~friends_s03e02_seg02_clip_15 ~~~~~~~~
+ 42 to 57<|START|> why does ross apologize after rachel say she didn't want to go to the museum benefit?
+0 GT)  because ross yelled at rachel.     (6tok)
+1   )  because ross really didn't want rachel to go.     (10tok)
+2   )  because ross was late to pick up rachel.     (9tok)
+3   )  because ross asked joey to go instead.     (8tok)
+4   )  because ross had to to make rachel happy.     (9tok)
+~~~~~~~~~~~ Example 3 010656~friends_s09e23-24_seg02_clip_10 ~~~~~~~~
+ 10 to 89<|START|> why doesn't phoebe think it matters that she loves mike when monica tells her david is about to propose?
+0   )  mike already left her at the alter twice.     (9tok)
+1   )  mike lives in minsk     (5tok)
+2   )  mike is already married     (4tok)
+3   )  mike is a gay ice dancer     (6tok)
+4 GT)  mike doesn't want to marry her.     (8tok)
+Finished writing 45 questions; max len = 261

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002980~friends_s03e16_seg02_clip_04 ~~~~~~~~
+ 33 to 65<|START|> why does monica say the women in the wax commercial don't feel pain when sitting on the edge of the bed with phoebe?
+0   )  because the women practice with the wax all the time     (10tok)
+1   )  because the women aren't actually using the wax     (9tok)
+2   )  because the women are very good actresses     (7tok)
+3 GT)  because the women are so dumb they have dead nerves     (10tok)
+4   )  because the women get in trouble if they pretend to be in pain     (13tok)
+~~~~~~~~~~~ Example 1 003236~house_s08e22_seg02_clip_00 ~~~~~~~~
+ 7 to 92<|START|> why did kutner tell house to get up when he told him to head for the exit signs
+0   )  kutner told house to get up because the floors was dirty     (12tok)
+1   )  kutner told house to get up because dinner was ready     (11tok)
+2   )  house did not talk to kutner     (7tok)
+3 GT)  kutner told house to get up because there was a dead man on the floor     (16tok)
+4   )  kutner told house to get up so he would not get in any trouble     (15tok)
+~~~~~~~~~~~ Example 2 013732~house_s03e15_seg02_clip_23 ~~~~~~~~
+ 18 to 24<|START|> why did foreman want to talk to house when he was knocking on house's door?
+0   )  foreman had to tell house he was dying.     (9tok)
+1   )  foreman had to tell house he was getting married.     (10tok)
+2 GT)  foreman had to tell house something important.     (8tok)
+3   )  foreman wanted to tell house he had cancer.     (9tok)
+4   )  foreman wanted to tell house he was fired.     (9tok)
+~~~~~~~~~~~ Example 3 016292~friends_s03e25_seg02_clip_20 ~~~~~~~~
+ 14 to 56<|START|> why did bonnie tell ross to not take too long before leaving the guys?
+0   )  bonnie and ross had plans to see a show that night.     (12tok)
+1   )  bonnie was hungry and wanted to grab dinner afterwards.     (10tok)
+2   )  ross was bonnie's designated driver.     (7tok)
+3 GT)  bonnie was hinting that she wanted ross to join her in her room afterwards.     (16tok)
+4   )  bonnie and ross were going downtown together afterwards.     (9tok)
+Finished writing 52 questions; max len = 251

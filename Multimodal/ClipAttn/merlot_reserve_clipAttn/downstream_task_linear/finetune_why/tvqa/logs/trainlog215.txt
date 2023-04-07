@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001495~house_s07e20_seg02_clip_00 ~~~~~~~~
+ 37 to 63<|START|> why does taub refer to the refrigerator mechanic as a "lucky" after reading the file?
+0   )  the refrigerator mechanic has a good job.     (8tok)
+1 GT)  the refrigerator mechanic won 42 million dollars in the lottery.     (11tok)
+2   )  the refrigerator mechanic has a loving family.     (8tok)
+3   )  the refrigerator mechanic recently retired.     (6tok)
+4   )  the refrigerator mechanic will not need to stay at the hospital long.     (13tok)
+~~~~~~~~~~~ Example 1 003799~friends_s05e17_seg02_clip_19 ~~~~~~~~
+ 19 to 81<|START|> why does chandler say he's more excited for where his and monica's relationship is now after monica complains about the two of them not being all over each other in their relationship?
+0   )  chandler says he's never been in love with anyone before.     (12tok)
+1   )  chandler says they have more money now.     (8tok)
+2   )  chandler says he doesn't like exciting relationships.     (9tok)
+3 GT)  chandler says he's never been in a relationship this long before.     (13tok)
+4   )  chandler says nothing.     (4tok)
+~~~~~~~~~~~ Example 2 007383~house_s05e21_seg02_clip_15 ~~~~~~~~
+ 7 to 34<|START|> why does cameron say she doesn't want her boyfriend to propose when she's talking to house?
+0   )  cameron says she doesn't want her boyfriend to propose because he's cheating on her.     (17tok)
+1   )  cameron says she doesn't want her boyfriend to propose just because he thinks he should.     (17tok)
+2   )  cameron says she doesn't want her boyfriend to propose because she doesn't like him.     (17tok)
+3 GT)  cameron says she doesn't want her boyfriend to propose just because he's scared.     (16tok)
+4   )  cameron says she doesn't want her boyfriend to propose because she's in love with house.     (18tok)
+~~~~~~~~~~~ Example 3 012759~met_s03e15_seg01_clip_02 ~~~~~~~~
+ 39 to 89<|START|> why was marshall scared when when he hears arthur is looking for him?
+0 GT)  marshall was afraid of being yelled at for not finishing the ninja report.     (14tok)
+1   )  marshall wanted to talk to ferguson before arthur.     (9tok)
+2   )  marshall didn't want ferguson to find out he didn't finish his work.     (15tok)
+3   )  marshall didn't want arthur to see his messy office.     (11tok)
+4   )  marshall had previously insulted arthur.      (7tok)
+Finished writing 51 questions; max len = 242

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000865~friends_s06e04_seg02_clip_00 ~~~~~~~~
+ 35 to 64<|START|> why did phoebe say she wasnt sure if she believed her reading after she told her friends that the psychic correctly guessed she would have triplets?
+0   )  monica said the psychic was a liar.     (8tok)
+1   )  the psychic said she lied     (5tok)
+2 GT)  the psychic said one of the triplets would be black.     (11tok)
+3   )  the psychic was caught by police for fraud     (8tok)
+4   )  the psychic was wrong about phoebe having triplets.      (10tok)
+~~~~~~~~~~~ Example 1 002145~s06e24_seg02_clip_00 ~~~~~~~~
+ 39 to 61<|START|> why is lucy surprised after seeing venus?
+0 GT)  raj's friend was actually up there.     (8tok)
+1   )  she's amazed how clear the telescope is.     (9tok)
+2   )  she can see someone up there.     (7tok)
+3   )  it looks magical.     (4tok)
+4   )  raj said he's visited venus before.     (8tok)
+~~~~~~~~~~~ Example 2 005729~s01e02_seg02_clip_01 ~~~~~~~~
+ 29 to 70<|START|> why did leonard let go of the box when he and sheldon had pushed it partially up the stairs?
+0   )  leonard let go of the box because he stated it could not be turned to go around the corners of the stairwell.     (24tok)
+1   )  leonard let go of the box because he was startled when penny walked down the stairwell.     (18tok)
+2   )  leonard let go of the box because he felt a splinter in his hand.     (15tok)
+3 GT)  leonard let go of the box because sheldon asked him what his formula was to get around the corner, so he walked up to the corner landing.     (29tok)
+4   )  leonard's hands slipped from the box.     (8tok)
+~~~~~~~~~~~ Example 3 007009~castle_s04e21_seg02_clip_15 ~~~~~~~~
+ 41 to 58<|START|> why did alexis feel betrayed by stanford before she receives a letter of acceptance?
+0 GT)  because stanford rejected her for early admission.     (8tok)
+1   )  because stanford denied to look at her application.     (9tok)
+2   )  because stanford couldn't find her application for early admission.     (11tok)
+3   )  because stanford didn't offer early admission.     (8tok)
+4   )  because stanford lost her early admission application.     (8tok)
+Finished writing 48 questions; max len = 240

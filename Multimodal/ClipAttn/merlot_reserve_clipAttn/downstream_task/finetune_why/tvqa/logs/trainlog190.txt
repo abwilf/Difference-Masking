@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000702~grey_s03e08_seg02_clip_16 ~~~~~~~~
+ 10 to 31<|START|> why george was uncomfortable when talking to izzie and meredith?
+0   )  because meredith is farting.     (5tok)
+1   )  because izzie and meredith want kiss george.     (9tok)
+2   )  because izzie is in love of george.     (9tok)
+3 GT)  because izzie and meredith were talking about woman stuff.     (11tok)
+4   )  because meredith is burping.     (6tok)
+~~~~~~~~~~~ Example 1 001214~house_s06e20_seg02_clip_00 ~~~~~~~~
+ 28 to 71<|START|> why did wilson buy a two bedroom condo before nolan and house were having this conversation?
+0   )  he liked to party.     (5tok)
+1 GT)  so house could move in.     (6tok)
+2   )  he had a lot of money.     (7tok)
+3   )  he like have two of everything.     (7tok)
+4   )  he was a jerk.     (5tok)
+~~~~~~~~~~~ Example 2 003774~friends_s05e11_seg02_clip_17 ~~~~~~~~
+ 10 to 32<|START|> why is joey excited when he is sitting in talking to phoebe
+0 GT)  joey is excited because she is letting him use her guitar     (11tok)
+1   )  joey is excited because she is going to name her baby after him     (13tok)
+2   )  joey is excited because he wants her to star in his play     (12tok)
+3   )  joey is excited because he needs her to be in a commercial with him     (14tok)
+4   )  joey is excited because she always understands him     (8tok)
+~~~~~~~~~~~ Example 3 004798~house_s05e16_seg02_clip_17 ~~~~~~~~
+ 45 to 54<|START|> why did house quit his job when he was in the bathroom with cuddy?
+0   )  house found a new job.     (6tok)
+1   )  house did not like his work schedule.     (8tok)
+2 GT)  house chose a lack of pain over his job.     (10tok)
+3   )  house wanted to start his own business.     (8tok)
+4   )  house did not like his coworkers.     (8tok)
+Finished writing 57 questions; max len = 235

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000280~house_s03e04_seg02_clip_26 ~~~~~~~~
+ 34 to 65<|START|> why does the autistic boy's father tell him that was good after he has the interaction with house?
+0   )  he is telling him good because he picked up after himself.     (12tok)
+1   )  he is telling good because he thanked house and gave him a hug.     (14tok)
+2 GT)  it is not usual for people with autism to make eye contact to try to connect with people.     (19tok)
+3   )  he is telling him good because he loves him and he's glad he ate.     (16tok)
+4   )  he is telling him good because he made friends with another child.,     (13tok)
+~~~~~~~~~~~ Example 1 008728~s04e15_seg02_clip_03 ~~~~~~~~
+ 40 to 59<|START|> why did sheldon want to minimize amy's screen after she said he would be dependent on the human race?
+0   )  because sheldon had work to do.     (7tok)
+1   )  because amy said he was stupid.     (7tok)
+2   )  because sheldon needed to answer the phone.     (8tok)
+3 GT)  because amy said sheldon would be dependent on the human race.     (12tok)
+4   )  because amy was going to get married.     (8tok)
+~~~~~~~~~~~ Example 2 012568~s05e24_seg02_clip_06 ~~~~~~~~
+ 62 to 93<|START|> why does bernadette say she doesn't want to go to vegas to get married when she is sitting at the bar
+0   )  bernadette doesn't want to go to vegas because she is scared of elvis     (16tok)
+1 GT)  bernadette doesn't want to go to vegas because she thinks its tacky     (15tok)
+2   )  bernadette doesn't want to go to vegas because she wants a church wedding     (16tok)
+3   )  bernadette doesn't want to go to vegas because she can't wear white     (16tok)
+4   )  bernadette doesn't want to go to vegas because she doesn't believe in gambling     (17tok)
+~~~~~~~~~~~ Example 3 013080~friends_s06e08_seg02_clip_15 ~~~~~~~~
+ 4 to 67<|START|> why does phoebe suggest rachel sleep with kenny after rachel says she would not sleep with ralph loren?
+0   )  it would bolster rachel's reputation     (6tok)
+1   )  it would help her get a job      (8tok)
+2   )  it would be a great way to get invited to parties     (11tok)
+3 GT)  it would do rachel good     (5tok)
+4   )  phoebe never says why rachel should sleep with kenny     (9tok)
+Finished writing 50 questions; max len = 221

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005720~castle_s06e22_seg02_clip_17 ~~~~~~~~
+ 67 to 88<|START|> why doesn't bracken want to shoot beckett when she asks him to kill her?
+0 GT)  bracken has people for that     (6tok)
+1   )  bracken doesn't know how to use a gun     (10tok)
+2   )  bracken is a coward     (5tok)
+3   )  bracken doesn't own a gun     (7tok)
+4   )  beckett doesn't ask him too     (8tok)
+~~~~~~~~~~~ Example 1 007768~castle_s04e23_seg02_clip_14 ~~~~~~~~
+ 45 to 53<|START|> why was beckett encourages when she said the clue was a needle in a haystack?
+0   )  because she has a hunch it will pay off.     (10tok)
+1   )  because it's the only clue they have.     (9tok)
+2   )  because it's better than nothing.     (7tok)
+3   )  because it's what she needs to push further.     (10tok)
+4 GT)  because at least it was a haystack.     (10tok)
+~~~~~~~~~~~ Example 2 014680~friends_s09e23-24_seg02_clip_10 ~~~~~~~~
+ 8 to 92<|START|> why does monica say that chandler gave david bad advice when she is talking to phoebe?
+0   )  chandler suggested that they have a guys night, but phoebe is planning to propose.     (16tok)
+1   )  chandler suggested that they go to the beach, but it is raining.     (14tok)
+2   )  chandler suggested that he cook phoebe steak, but she is a vegetarian     (13tok)
+3   )  chandler suggested that he get them tickets to a show, but phoebe already has plans     (16tok)
+4 GT)  chandler suggested that david propose, but phoebe is in love with someone else     (14tok)
+~~~~~~~~~~~ Example 3 016728~friends_s09e14_seg02_clip_08 ~~~~~~~~
+ 13 to 58<|START|> why doesn't chandler want to do something with monica after monica tells chandler to give it a minute?
+0   )  chandler thinks monica is too old.     (7tok)
+1   )  chandler is feeling sick.     (5tok)
+2   )  chandler is feeling old.     (5tok)
+3 GT)  emma is in the room.     (6tok)
+4   )  chandler doesn't have a minute.     (7tok)
+Finished writing 45 questions; max len = 247

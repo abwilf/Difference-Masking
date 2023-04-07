@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002074~friends_s04e21_seg02_clip_09 ~~~~~~~~
+ 34 to 65<|START|> why did joey say not to worry after chandler said he did not get a invitation?
+0   )  they sold out of tuna     (5tok)
+1 GT)  he could bring him as his guest     (7tok)
+2   )  there was no room on the plane     (7tok)
+3   )  they forgot his name     (4tok)
+4   )  the wife was afraid to have him come     (8tok)
+~~~~~~~~~~~ Example 1 003354~friends_s06e13_seg02_clip_08 ~~~~~~~~
+ 46 to 82<|START|> why did chandler tell monica it would be impossible to go to bed with her after she asked him?
+0 GT)  because monica's nose is all drippy.     (9tok)
+1   )  because monica has a terrible cough.     (7tok)
+2   )  because monica's nose is stuffy.     (7tok)
+3   )  because monica's head is hurting.     (7tok)
+4   )  because monica has a fever.     (6tok)
+~~~~~~~~~~~ Example 2 006170~friends_s09e13_seg02_clip_04 ~~~~~~~~
+ 60 to 95<|START|> why did joey say he freaked out when the woman pulled the stray eyebrow hair?
+0   )  it hurt     (2tok)
+1 GT)  it was a bit of shock     (6tok)
+2   )  he's never had it done before     (7tok)
+3   )  he was scared     (3tok)
+4   )  so he wouldn't cry     (5tok)
+~~~~~~~~~~~ Example 3 007194~friends_s02e24_seg02_clip_18 ~~~~~~~~
+ 15 to 27<|START|> why richard said to do all again when talking to monica?
+0   )  because richard want to have a girl.     (8tok)
+1   )  because richard like to work with kids.     (8tok)
+2   )  because richard needs to have more babies.     (8tok)
+3 GT)  because richard doesn't want lose monica.     (8tok)
+4   )  because richard like more kids.     (6tok)
+Finished writing 54 questions; max len = 237

@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 137377~s04e12_seg01_clip_02 ~~~~~~~~
+ 72 to 85<|START|> why do the guys look disgusted after raj takes a picture?
+0 GT)  the guys look disgusted because his camera phone made a farting noise.      (14tok)
+1   )  the guys look disgusted because they are jealous of raj about everything.      (14tok)
+2   )  the guys look disgusted because they want that sound on their phones.      (14tok)
+3   )  the guys look disgusted because they want to be just like raj.      (14tok)
+4   )  the guys look disgusted because the food is making them sick.      (13tok)
+~~~~~~~~~~~ Example 1 137389~grey_s03e06_seg02_clip_04 ~~~~~~~~
+ 0 to 101<|START|> why was noelle transferred from mercy west after reaching 32 weeks in her pregnancy?
+0 GT)  noelle needs a specialist due to having two uteruses.      (13tok)
+1   )  noelle needs a specialist because her vital signs are poor.      (13tok)
+2   )  noelle needs a specialist because she is in labor with twins.      (14tok)
+3   )  noelle needs a specialist to induce labor.      (10tok)
+4   )  noelle needs a specialist to perform a cesarean section.      (14tok)
+~~~~~~~~~~~ Example 2 137442~house_s06e04_seg02_clip_08 ~~~~~~~~
+ 24 to 74<|START|> why doesn't thirteen want to be on the team after she tells house about her canceled reservation?
+0 GT)  thirteen is tired of working in house's group.     (10tok)
+1   )  thirteen doesn't want to work with foreman.     (9tok)
+2   )  thirteen found a better-paying job in another wing of the hospital.     (15tok)
+3   )  thirteen does not like spending so much time in the hospital.     (12tok)
+4   )  thirteen does not get along with taub.     (9tok)
+~~~~~~~~~~~ Example 3 137456~castle_s04e09_seg02_clip_20 ~~~~~~~~
+ 39 to 60<|START|> why didn't lee's sister want lee to live with her when he visited?
+0 GT)  she didn't want him around the kids     (8tok)
+1   )  she didn't want him around their parents     (8tok)
+2   )  she didn't recognize him     (5tok)
+3   )  she didn't have enough space to put him up     (10tok)
+4   )  she didn't believe it was for the right reasons     (10tok)
+Have written 100 / 953
+Finished writing 101 questions; max len = 263

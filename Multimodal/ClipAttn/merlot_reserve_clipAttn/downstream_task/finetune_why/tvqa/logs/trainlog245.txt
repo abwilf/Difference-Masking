@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002805~house_s02e16_seg02_clip_21 ~~~~~~~~
+ 26 to 74<|START|> why were cuddy and wilson arguing after cuddy told house to leave the room?
+0   )  because wilson thought house should remove the tick.     (9tok)
+1 GT)  because wilson said she needed inamrinone lactate and cuddy said it would kill her.     (20tok)
+2   )  because cuddy wanted the cardiac team in there and wilson didn't.     (14tok)
+3   )  because wilson thought she needed a transfusion and cuddy didn't.     (15tok)
+4   )  because cuddy said she was going to pronounce her as deceased and wilson wanted to continue chest compressions.     (21tok)
+~~~~~~~~~~~ Example 1 007669~s07e19_seg02_clip_09 ~~~~~~~~
+ 35 to 63<|START|> why are penny and leonard meeting with wil wheaton in the coffee shop after penny has a difficult time getting her career off the ground?
+0 GT)  to pick his brain and receive help.     (8tok)
+1   )  to ask for a donation.     (6tok)
+2   )  to have breakfast.     (4tok)
+3   )  to discuss relationship problems.     (5tok)
+4   )  to borrow money and receive advice.     (7tok)
+~~~~~~~~~~~ Example 2 012789~friends_s04e21_seg02_clip_14 ~~~~~~~~
+ 37 to 61<|START|> why does ross lean closer to rachel after she says he is worth it?
+0 GT)  ross leans closer to kiss rachel.     (7tok)
+1   )  ross leans closer to give rachel a juice.     (9tok)
+2   )  ross leans closer to tickle rachel.     (7tok)
+3   )  ross leans closer to reach his phone.     (8tok)
+4   )  ross leans closer to kick joey.     (7tok)
+~~~~~~~~~~~ Example 3 013301~castle_s02e15_seg02_clip_22 ~~~~~~~~
+ 38 to 61<|START|> why was lara's mother put in prison after vega defected from cuba?
+0   )  lara's mother made disrepectful comments about the government and was put in prison.     (18tok)
+1   )  lara's mother stole from a local merchant and was jailed.     (13tok)
+2   )  lara's mother killed vega and was put in prison.     (11tok)
+3 GT)  the cuban authorities found out that vega defected and punished her mother for it.     (16tok)
+4   )  lara's mother got in a fight and was put in jail.     (13tok)
+Finished writing 53 questions; max len = 231

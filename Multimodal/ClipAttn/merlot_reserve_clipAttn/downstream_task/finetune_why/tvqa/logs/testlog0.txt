@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 137381~s08e14_seg02_clip_09 ~~~~~~~~
+ -19 to 119<|START|> why there is cat in the computer after sheldon says, oh really?
+0 GT)  because sheldon  sent the picture to amy.     (9tok)
+1   )  because sheldon likes cats.     (5tok)
+2   )  because sheldon want a cat.     (6tok)
+3   )  because sheldon wants to destroy somebody.     (7tok)
+4   )  because sheldon likes cats.     (5tok)
+~~~~~~~~~~~ Example 1 137459~friends_s06e06_seg02_clip_09 ~~~~~~~~
+ 39 to 89<|START|> why was joey upset when chandler entered the room?
+0 GT)  joey lost his foosball table and $500.     (11tok)
+1   )  joey broke up with his girlfriend.     (7tok)
+2   )  joey was fired from his job.     (7tok)
+3   )  joey has to go to the hospital.     (8tok)
+4   )  joey failed his acting class.     (6tok)
+~~~~~~~~~~~ Example 2 137646~friends_s10e10_seg02_clip_06 ~~~~~~~~
+ -13 to 113<|START|> why does chandler tell the group that they are looking at houses after phoebe asks why they have a realtor? 
+0 GT)  he and monica are divorcing and he has to find a new place to live.      (18tok)
+1   )  he and monica hate the rest of the group and want to get away from them.      (18tok)
+2   )  he tells them that they have to move because the law is after them.      (16tok)
+3   )  he tells them that he is moving because he got a new job.      (15tok)
+4   )  he and monica want a house where their kids can ride their bikes.      (15tok)
+~~~~~~~~~~~ Example 3 137733~s06e09_seg02_clip_14 ~~~~~~~~
+ 37 to 62<|START|> why is amy happy when bernadette, howard, herself, and sheldon are together at dinner
+0 GT)  amy feels alone, with how much she works, and is happy she finally gets time with friends.      (21tok)
+1   )  because amy hasn't been out to dinner in a long time.      (14tok)
+2   )  amy feels as if it brought her and bernadette closer.      (14tok)
+3   )  because amy ordered her favortie meal off the menu.      (13tok)
+4   )  amy is getting style tips from bernadette.      (11tok)
+Finished writing 96 questions; max len = 231

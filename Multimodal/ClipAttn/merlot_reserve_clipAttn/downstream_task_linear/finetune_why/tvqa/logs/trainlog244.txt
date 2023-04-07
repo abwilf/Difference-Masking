@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004084~s07e08_seg01_clip_01 ~~~~~~~~
+ -44 to 143<|START|> why does leonard ask stephen to remain calm when they are talking?
+0 GT)  he haven't returned a dvd that stephen rented out for years.     (13tok)
+1   )  he crashed his car when they went out for a drive     (11tok)
+2   )  he broke a big promise that he gave to stephen     (10tok)
+3   )  he broke his laptop when he needed it the most.     (11tok)
+4   )  he spent all of stephen's money when he wasnt around.     (13tok)
+~~~~~~~~~~~ Example 1 004596~castle_s06e17_seg02_clip_15 ~~~~~~~~
+ 5 to 94<|START|> why does harden ask beckett to take him back inside after she claims to have shot evan potter?
+0 GT)  he wants to see it for himself     (7tok)
+1   )  he think it is a police set up      (9tok)
+2   )  he wanted to rob potter's house before the cops arrived      (12tok)
+3   )  he needed to destroy the blackmail potter had on him     (10tok)
+4   )  he was going to leave beckett at the scene alone      (13tok)
+~~~~~~~~~~~ Example 2 005108~castle_s08e05_seg02_clip_06 ~~~~~~~~
+ 26 to 72<|START|> why wasn't the painting's auction on the internet when it was sold according to hayley?
+0   )  it was sold on the black market     (7tok)
+1 GT)  it has a complicated history     (5tok)
+2   )  it was only for rich folk     (6tok)
+3   )  the seller doesn't want publicity     (6tok)
+4   )  the painting wasn't worth much     (6tok)
+~~~~~~~~~~~ Example 3 010228~friends_s01e02_seg02_clip_20 ~~~~~~~~
+ 23 to 77<|START|> why does ross come back after saying he can't be involved with the family?
+0   )  susan promises to be on her best behavior     (8tok)
+1   )  carol calls him back.     (5tok)
+2 GT)  he hears the baby's heartbeat     (6tok)
+3   )  he can't let susan win.     (7tok)
+4   )  he wants to help carol     (5tok)
+Finished writing 41 questions; max len = 259

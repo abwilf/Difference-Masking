@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001275~s10e09_seg02_clip_00 ~~~~~~~~
+ 41 to 58<|START|> why didn't sheldon steal the bike after he noticed it in the hallway?
+0   )  sheldon thinks he is too tall to ride that particular bike.     (12tok)
+1   )  sheldon doesn't know how to break a bike lock.     (11tok)
+2 GT)  sheldon doesn't know how to ride a bike.     (10tok)
+3   )  sheldon doesn't know whose bike it is.     (9tok)
+4   )  sheldon is afraid of the person who lives in that apartment.     (12tok)
+~~~~~~~~~~~ Example 1 002299~met_s02e17_seg02_clip_00 ~~~~~~~~
+ 18 to 81<|START|> why does marshall hang on to his fiero after joining the corporate world?
+0   )  it is the first car he owned.     (8tok)
+1   )  it is cheap on gas.     (6tok)
+2   )  it is all he can afford.     (7tok)
+3 GT)  it reminds him of who he is     (7tok)
+4   )  it is his favorite color.     (6tok)
+~~~~~~~~~~~ Example 2 004091~friends_s03e20_seg01_clip_01 ~~~~~~~~
+ 43 to 55<|START|> why is joey upset before monica offer phoebe an chance to play with her dollhouse?
+0   )  because of the games going on next door appear to have more guest.     (14tok)
+1   )  because phoebe thought they was musing about an doghouse.     (13tok)
+2   )  because the there is an hole in the roof.     (10tok)
+3 GT)  because phoebe cross prefers talking about having just an wheel barrel compared to an doll house.     (17tok)
+4   )  because the way the food taste.     (7tok)
+~~~~~~~~~~~ Example 3 009723~s09e22_seg02_clip_14 ~~~~~~~~
+ 41 to 58<|START|> why did sheldon's offer to bernadette end after her third trimester? 
+0   )  sheldon felt pregnancy was too grown-up a thing to be around.      (15tok)
+1 GT)  sheldon was worried bernadette might give birth on the couch.      (14tok)
+2   )  bernadette might get mean in her last months of pregnancy.      (14tok)
+3   )  sheldon didn't like women when they gained weight.      (11tok)
+4   )  sheldon was jealous of bernadette's ability to have a child.      (15tok)
+Finished writing 36 questions; max len = 251

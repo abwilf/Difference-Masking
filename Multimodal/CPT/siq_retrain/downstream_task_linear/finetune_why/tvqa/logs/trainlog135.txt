@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003207~met_s03e07_seg02_clip_12 ~~~~~~~~
+ 8 to 62<|START|> why was ted, robin, and barney worried when they thought marshall and lily were going to break up?
+0   )  marshall and lily owed them money and they thought they wouldn't get it.     (15tok)
+1 GT)  they thought marshall and lily wouldn't hang out with them anymore     (12tok)
+2   )  marshall would have a nervous breakdown     (6tok)
+3   )  lily would take marshall for everything he had     (8tok)
+4   )  someone they didn't like would start dating marshall     (9tok)
+~~~~~~~~~~~ Example 1 004743~friends_s03e05_seg02_clip_01 ~~~~~~~~
+ 35 to 63<|START|> why does joey mention annie esposito after chandler talks about his list?
+0   )  because joey sees her at the coffee shop     (8tok)
+1   )  because joey wants to change the subject     (7tok)
+2   )  because joey is sad and wants to reminisce.      (11tok)
+3 GT)  because joey thinks annie would have never dumped him if he had a list like that     (16tok)
+4   )  because joey has nothing better to say     (7tok)
+~~~~~~~~~~~ Example 2 004999~met_s03e02_seg02_clip_11 ~~~~~~~~
+ 38 to 62<|START|> why did marshall want to talk to lily after their fight?
+0 GT)  because marshall was surprised that lily hadn't apologized yet.     (11tok)
+1   )  because marshall wanted to apologize to lily.     (8tok)
+2   )  because marshall wanted to explain why he fought with lily.     (11tok)
+3   )  because marshall was interested in hearing lily's side of th efight.     (14tok)
+4   )  because marshall hoped to talk about ted and barney.     (10tok)
+~~~~~~~~~~~ Example 3 008839~s09e20_seg02_clip_01 ~~~~~~~~
+ 31 to 69<|START|> why was raj being nice to amy when he did the errands with her?
+0   )  amy was sick.     (4tok)
+1   )  amy was heartbroken.     (4tok)
+2   )  amy was tired.     (4tok)
+3 GT)  amy was pregnant.     (4tok)
+4   )  amy asked raj to help howard.     (7tok)
+Finished writing 51 questions; max len = 240

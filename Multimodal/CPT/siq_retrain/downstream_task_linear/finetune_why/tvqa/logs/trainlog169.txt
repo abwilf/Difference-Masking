@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000169~friends_s03e09_seg02_clip_11 ~~~~~~~~
+ 55 to 72<|START|> why does joey tell monica it's hard to focus before playing the game?
+0   )  joey tells monica it's hard to focus because chandler is his best friend.     (15tok)
+1 GT)  joey tells monica it's hard to focus because ross' team's huddle is close to the dutch girl.     (21tok)
+2   )  joey tells monica it's hard to focus because the dutch girl keeps winking at him.     (18tok)
+3   )  joey tells monica it's hard to focus because rachel has him distracted.     (14tok)
+4   )  joey tells monica it's hard to focus because phoebe's shirt is too tight.     (16tok)
+~~~~~~~~~~~ Example 1 002985~s05e09_seg02_clip_00 ~~~~~~~~
+ -16 to 116<|START|> why did sheldon get made at leonard when he answered his questions?
+0   )  because leonard sounded like a morning dove.     (8tok)
+1   )  because leonard laughed at him for being afraid of the bird.     (12tok)
+2   )  because leonard said sheldon couldn't go to the movie with him.     (13tok)
+3 GT)  because leonard sounded like a sea gull not a hawk.     (11tok)
+4   )  because he was wearing his new jacket.     (8tok)
+~~~~~~~~~~~ Example 2 007849~friends_s07e03_seg01_clip_00 ~~~~~~~~
+ 35 to 65<|START|> why did chandler have to point to his glasses after coming in?
+0   )  because nobody noticed he was sad     (6tok)
+1   )  because nobody knew he was not wearing contacts.     (9tok)
+2   )  because nobody noticed he broke his nose.     (8tok)
+3   )  because nobody noticed he had a black eye.     (9tok)
+4 GT)  because nobody notices he had glasses on.     (8tok)
+~~~~~~~~~~~ Example 3 009641~house_s08e08_seg02_clip_21 ~~~~~~~~
+ 47 to 52<|START|> why was house so sure he would not be hurt after he told wilson to pull the trigger of a gun?
+0 GT)  the gun had blanks.     (5tok)
+1   )  wilson could not aim well.     (6tok)
+2   )  house was sure he could dodge the bullets.     (9tok)
+3   )  house did not put bullets in the gun.     (9tok)
+4   )  house was sure wilson would not fire the gun.     (10tok)
+Finished writing 34 questions; max len = 231

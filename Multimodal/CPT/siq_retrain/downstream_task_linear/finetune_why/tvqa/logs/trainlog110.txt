@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004462~castle_s03e05_seg02_clip_00 ~~~~~~~~
+ 40 to 58<|START|> why does alexis have a song when talking about her boyfriend with her dad?
+0   )  she just likes it      (5tok)
+1   )  they danced to it      (5tok)
+2   )  it played at the mall where they meet     (8tok)
+3 GT)  it played when they first kissed      (7tok)
+4   )  it was her favorite song      (6tok)
+~~~~~~~~~~~ Example 1 005230~house_s05e23_seg02_clip_07 ~~~~~~~~
+ 32 to 68<|START|> why does house keep checking with wilson when he is with foreman?
+0 GT)  amber is living in his head     (6tok)
+1   )  he's looking for guidance     (5tok)
+2   )  he is afraid to act without him     (7tok)
+3   )  he isn't checking with wilson     (6tok)
+4   )  foreman is imagining things     (4tok)
+~~~~~~~~~~~ Example 2 005486~castle_s04e09_seg02_clip_21 ~~~~~~~~
+ 18 to 53<|START|> why did castle say, "not victim. victims" to beckett when she walked over to him?
+0   )  because he said, "oh my god."     (9tok)
+1   )  because she thought he found a clue.     (8tok)
+2 GT)  because beckett asked him about what he had found..     (12tok)
+3   )  because he was holding a paper doll chain.     (9tok)
+4   )  because the paper doll chain looked like a victim.     (10tok)
+~~~~~~~~~~~ Example 3 012398~friends_s02e12-13_seg02_clip_27 ~~~~~~~~
+ 19 to 80<|START|> why does monica tell rachel she can go out with jean-claude after rachel and him talk? 
+0 GT)  because she sees that her friend wants to go out with him.      (14tok)
+1   )  because she was trying to hook them up.      (10tok)
+2   )  she wants rachel happy.      (6tok)
+3   )  she is getting back at rachel.      (8tok)
+4   )  she doesn't want to date him.      (9tok)
+Finished writing 40 questions; max len = 234

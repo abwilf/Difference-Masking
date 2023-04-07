@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001504~friends_s02e14_seg02_clip_12 ~~~~~~~~
+ 7 to 93<|START|> why does monica want to ask her parents to lend her money when they are in the living room?
+0   )  she needs start up money for a catering business.      (11tok)
+1   )  she wants to buy a car     (6tok)
+2 GT)  she lost her job     (4tok)
+3   )  monica is behind on her rent.     (7tok)
+4   )  monica wants to open a restaurant.     (7tok)
+~~~~~~~~~~~ Example 1 003296~castle_s03e22_seg02_clip_01 ~~~~~~~~
+ 47 to 53<|START|> why did castle think the shooter took the time to empty the ammo before he dumped the gun?
+0   )  because the shooter only had a small amount of bullets.     (11tok)
+1   )  because the shooter was thrifty and didn't want to waste the bullets.     (15tok)
+2 GT)  because the shooter was worried the police would find fingerprints on the bullets.     (14tok)
+3   )  because the shooter didn't want the police to have his bullets.     (13tok)
+4   )  because he had another gun he could put them in.     (11tok)
+~~~~~~~~~~~ Example 2 005088~castle_s05e22_seg02_clip_05 ~~~~~~~~
+ 39 to 60<|START|> why does beckett plead after castle refuses mahoney's advice to leave the room?
+0   )  beckett wants to win a bet with esposito.     (13tok)
+1   )  beckett wants castle to go bring back food.     (11tok)
+2   )  beckett is angry castle kissed lanie.     (10tok)
+3   )  beckett wants castle to find tyson.     (9tok)
+4 GT)  beckett wants castle to be safe in spite of being in danger.     (15tok)
+~~~~~~~~~~~ Example 3 009952~friends_s10e14_seg02_clip_04 ~~~~~~~~
+ 13 to 30<|START|> why did rachel say she was singing when she was playing with her earring? 
+0   )  the get a job.     (5tok)
+1   )  to tune her voice.     (5tok)
+2   )  to put her baby to sleep.     (7tok)
+3   )  to lighten the mood.     (5tok)
+4 GT)  for no reason.     (4tok)
+Finished writing 52 questions; max len = 268

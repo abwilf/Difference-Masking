@@ -1,0 +1,133 @@
+wandb_version: 1
+
+_ckpt:
+  desc: null
+  value: gs://merlotreserve/ckpts/base_resadapt
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.3
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    start_time: 1669843377.293873
+    t:
+      1:
+      - 2
+      - 3
+      - 12
+      - 45
+      - 55
+      2:
+      - 2
+      - 3
+      - 12
+      - 45
+      - 55
+      3:
+      - 13
+      - 15
+      - 16
+      - 23
+      - 37
+      4: 3.8.13
+      5: 0.13.3
+      8:
+      - 5
+alpha:
+  desc: null
+  value: 0.8
+data:
+  desc: null
+  value:
+    alpha: 0.8
+    fft_hop_length: 588
+    fft_window_size: 1536
+    lang_seq_len: 256
+    mask_rate: 0.25
+    mask_where: body
+    num_answers: 5
+    num_audio2text_seqs: 1
+    num_audio_subsegments: 3
+    num_mels: 64
+    num_segment_groups: 2
+    num_segments: 7
+    num_text2audio_seqs: 1
+    num_text_seqs: 1
+    num_text_seqs_in_record: 1
+    num_text_spans_to_include: 48
+    num_train_files: 32
+    random_scale_max: 1.1
+    random_scale_min: 1.0
+    sample_rate: 22050
+    seed: 123456
+    seq_len: 640
+    spec_size: 188
+    text_span_budget: 38
+    train_fns: /data/siq-less-files/train{:03d}of064.tfrecord
+    use_audio_token_prob: 0.5
+device:
+  desc: null
+  value:
+    batch_size: 8
+    commit_every_nsteps: 50
+    iterations_per_loop: 1096
+    n_fns_per_cycle: 64
+    num_parallel_reads: 128
+    num_tpu_cores: 512
+    output_dir: /home/sakter/results/retrain_siq/out/base.yaml/tvqa_body_0.5_12_24_0.8_no_proj
+    prefetch_size: 0
+    shuffle_buffer_size: 4096
+    use_tpu: true
+    wandb_project: merlotreserve
+joint_proj:
+  desc: null
+  value: no_proj
+lr:
+  desc: null
+  value: 5.0e-06
+mask_where:
+  desc: null
+  value: body
+model:
+  desc: null
+  value:
+    audio_num_layers: 12
+    audio_patch_size: 2
+    audio_seq_length: 60
+    audio_token_length: 6
+    hidden_size: 768
+    joint_num_layers: 12
+    output_grid:
+    - 12
+    - 24
+    span_num_layers: 4
+    text_span_length: 15
+    use_bfloat16: true
+    vit_num_layers: 12
+    vit_patch_size: 16
+    vit_pooling_ratio: 2
+ne:
+  desc: null
+  value: 10
+optimizer:
+  desc: null
+  value:
+    beta_2: 0.98
+    do_bias_correction: true
+    eps: 1.0e-06
+    learning_rate: 5.0e-06
+    num_train_steps: 10960
+    num_warmup_steps: 548
+    use_bfloat16_adam: true
+    weight_decay_rate: 0.1
+output_grid_h:
+  desc: null
+  value: 12
+output_grid_w:
+  desc: null
+  value: 24
+percent_data:
+  desc: null
+  value: 0.5

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001634~s01e05_seg01_clip_03 ~~~~~~~~
+ 22 to 49<|START|> why was leonard annoyed when sheldon answered penny?
+0   )  because leonard wanted to tell penny himself.     (8tok)
+1   )  because leonard doesn't like sheldon.     (7tok)
+2 GT)  because sheldon exposed leonard's embarrassing failure with leslie.     (10tok)
+3   )  because leonard didn't like sheldon's voice.     (9tok)
+4   )  because it would have been better for raj to answer.     (11tok)
+~~~~~~~~~~~ Example 1 007778~s01e15_seg02_clip_15 ~~~~~~~~
+ 11 to 30<|START|> why is penny frustrated when she answers the door?
+0   )  penny is jealous and wants howard to herself.      (10tok)
+1 GT)  she knows howard wants to ask missy out.      (10tok)
+2   )  penny wants missy all to herself.      (8tok)
+3   )  penny is jealous because she likes howard.      (9tok)
+4   )  penny is jealous because she likes missy.      (9tok)
+~~~~~~~~~~~ Example 2 013410~s03e18_seg02_clip_02 ~~~~~~~~
+ 6 to 36<|START|> why does howard say that sheldon is backing out of the award after penny asks?
+0   )  leonard can't make it to the award ceremony     (9tok)
+1   )  sheldon thinks the award is meaningless      (7tok)
+2 GT)  sheldon has stage fright     (4tok)
+3   )  sheldon thinks someone else deserved the award     (7tok)
+4   )  sheldon can't make it to the awards ceremony     (9tok)
+~~~~~~~~~~~ Example 3 016226~house_s05e21_seg02_clip_07 ~~~~~~~~
+ 35 to 65<|START|> why did it take franni so long to get to the hospital after finding out her husband was admitted?
+0 GT)  franni needed a babysitter     (5tok)
+1   )  franni needed money     (4tok)
+2   )  franni needed a car     (5tok)
+3   )  franni needed to ask for days off work     (9tok)
+4   )  franni was out of town     (6tok)
+Finished writing 51 questions; max len = 271

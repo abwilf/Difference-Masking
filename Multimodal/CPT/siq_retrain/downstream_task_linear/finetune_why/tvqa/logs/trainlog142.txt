@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001422~house_s08e08_seg02_clip_17 ~~~~~~~~
+ 9 to 33<|START|> why does park suspect the young male patient receiving steroids doesn't have gad before adams suggests the treatment for gad came too late?
+0   )  because the patient's skin color has become jaundiced which suggest liver difficulties.     (17tok)
+1   )  because the patient's neurological symptoms have faded away while his digestive tract has become ulcerous.     (20tok)
+2   )  because the patient's heart rate and blood pressure trends are not indicative of gad.     (16tok)
+3 GT)  because the patient's fever has increased dramatically implying the steroids are worsening an underlying infection.     (18tok)
+4   )  because the patient's lungs have filled with fluid, which suggests either pneumonia or a rare influenza.     (20tok)
+~~~~~~~~~~~ Example 1 001678~s08e19_seg02_clip_01 ~~~~~~~~
+ 47 to 80<|START|> why are bernadette and the others in the garage after we see leonard and sheldon in the car?
+0   )  they looking for some gardening equipment.     (7tok)
+1   )  they're doing some spring cleaning.     (7tok)
+2   )  they're trying to find raj's dog.     (9tok)
+3   )  they're laying traps for mice.     (7tok)
+4 GT)  they're preparing for a garage sale.     (8tok)
+~~~~~~~~~~~ Example 2 004750~castle_s02e23_seg02_clip_18 ~~~~~~~~
+ -14 to 115<|START|> why is castle so upset whent the tape shows the blonde woman returning at 10:47?
+0   )  castle lost a bet with kate     (6tok)
+1   )  it proves that she is the killer     (7tok)
+2   )  it proves that she isn't the victim.     (9tok)
+3   )  she swore to castle that she was out until at least 11:00     (14tok)
+4 GT)  it proves she isn't the killer.     (8tok)
+~~~~~~~~~~~ Example 3 008078~friends_s09e09_seg02_clip_18 ~~~~~~~~
+ 44 to 55<|START|> why does chandler get upset when he is at monica's?
+0   )  because stuart left the suitcase out.     (7tok)
+1 GT)  because monica left the suitcase out.     (7tok)
+2   )  because joey left the suitcase out.     (7tok)
+3   )  because lucas left the suitcase out.     (7tok)
+4   )  because ross left the suitcase out.     (7tok)
+Finished writing 58 questions; max len = 254

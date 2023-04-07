@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002707~grey_s02e11_seg02_clip_07 ~~~~~~~~
+ -33 to 134<|START|> why is dorie looking so sad when meredith comes to talk to her?
+0   )  meredith is reminding dorie of a painful experience.     (10tok)
+1   )  dorie is clinically depressed.     (7tok)
+2   )  dorie has a heart condition.     (7tok)
+3 GT)  dorie feels responsible for the physical condition her babies are in.     (13tok)
+4   )  dorie's babies were stillborn.     (8tok)
+~~~~~~~~~~~ Example 1 003475~grey_s03e02_seg02_clip_19 ~~~~~~~~
+ 24 to 45<|START|> why did ben come over to addison table when she was in the bar?
+0   )  to clean off the table      (6tok)
+1   )  to bring her another drink      (6tok)
+2   )  to bring her the tab     (5tok)
+3 GT)  to tell addison her cab was there.     (8tok)
+4   )  to talk to bailey      (5tok)
+~~~~~~~~~~~ Example 2 005523~house_s02e01_seg02_clip_08 ~~~~~~~~
+ 41 to 58<|START|> why does clarence ask foreman if he has gang ink when foreman is drawing blood from him?
+0   )  because they were in a gang together     (7tok)
+1 GT)  because he saw a tattoo on his wrist     (8tok)
+2   )  because he wants foreman to join his gang     (8tok)
+3   )  because he saw foreman holding a gun     (7tok)
+4   )  because foreman told him he was in a gang     (9tok)
+~~~~~~~~~~~ Example 3 007827~castle_s06e21_seg02_clip_19 ~~~~~~~~
+ 14 to 29<|START|> why did lanie say she wasn't going to pick between esposito and ryan when they are in the exam room?
+0   )  lanie wants them to decide     (6tok)
+1   )  lanie doesn't like them     (6tok)
+2   )  lanie is too busy     (5tok)
+3   )  lanie can't decide     (5tok)
+4 GT)  lanie isn't the groom     (6tok)
+Finished writing 48 questions; max len = 242

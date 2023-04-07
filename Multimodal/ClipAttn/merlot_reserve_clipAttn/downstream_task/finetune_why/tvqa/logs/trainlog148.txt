@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 012180~castle_s01e06_seg02_clip_05 ~~~~~~~~
+ 31 to 69<|START|> why did jill and darcy become best friends after they joined the firm?
+0   )  they had a lot in common     (6tok)
+1   )  they didn't have any free time out of work to meet other people     (14tok)
+2 GT)  neither of them knew anyone in the city     (8tok)
+3   )  they had the same sense of humor     (7tok)
+4   )  they kept finding themselves on the same projects      (9tok)
+~~~~~~~~~~~ Example 1 012948~castle_s04e04_seg02_clip_21 ~~~~~~~~
+ 35 to 64<|START|> why is ben so sad when he is discussing a murder with ryan?
+0 GT)  because the person murdered was ben's girlfriend and he feels guilty.     (13tok)
+1   )  because ben is sad thinking that he will not get his college degree.      (15tok)
+2   )  because ben's mother died yesterday and he cannot be upbeat.     (12tok)
+3   )  because ben is really upset because he wrecked his new car.     (12tok)
+4   )  because ben had just moved to the u.s. from china and he cannot understand ryan's quesitons.      (24tok)
+~~~~~~~~~~~ Example 2 014996~house_s08e06_seg02_clip_01 ~~~~~~~~
+ 14 to 86<|START|> why does ben's mom think that he is so stressed after taub says he needs to reduce stress?
+0   )  keeps trying to impress girls     (5tok)
+1   )  he has been playing football     (5tok)
+2 GT)  recently started preforming     (5tok)
+3   )  trying to become famous     (4tok)
+4   )  wants to be a dare devil kid     (7tok)
+~~~~~~~~~~~ Example 3 021652~castle_s01e06_seg02_clip_03 ~~~~~~~~
+ 44 to 56<|START|> why did beckett appear to be grossed out after finding out the ingredient in her soup?
+0   )  the ingredient was chicken blood.     (6tok)
+1   )  the ingredient was frog's eyes.     (7tok)
+2   )  the ingredient was mold.     (5tok)
+3 GT)  the ingredient was a cow's foot.     (8tok)
+4   )  the ingredient was raw eggs.     (6tok)
+Finished writing 44 questions; max len = 252

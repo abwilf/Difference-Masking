@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002762~s02e07_seg02_clip_05 ~~~~~~~~
+ 7 to 35<|START|> why was howard leaning over the table before ordering food?
+0   )  because howard was ready to eat.     (7tok)
+1 GT)  because howard was showing a map to his friends.     (10tok)
+2   )  because howard was showing the others a poster.     (9tok)
+3   )  because howard was talking about neil armstrong.     (8tok)
+4   )  because howard was uncomfortable.     (5tok)
+~~~~~~~~~~~ Example 1 003274~friends_s04e14_seg02_clip_07 ~~~~~~~~
+ 44 to 55<|START|> why did rachel clock someone when she was trying to get into the club?
+0   )  they tried to hit on joshua.      (8tok)
+1 GT)  they tried to steal her umbrella.      (8tok)
+2   )  they tried to steal her parking spot.      (9tok)
+3   )  they tried to steal her wallet.      (8tok)
+4   )  they tried to steal her purse.      (8tok)
+~~~~~~~~~~~ Example 2 004810~house_s01e19_seg02_clip_18 ~~~~~~~~
+ 54 to 74<|START|> why does foreman which to so a differential based on symptoms that might happen when discussing the medical symptoms with chase?
+0 GT)  they don't know what could be causing it     (9tok)
+1   )  it follows the scientific method     (5tok)
+2   )  it has a strong statistical probability of working     (8tok)
+3   )  it is house's preferred method     (6tok)
+4   )  it is hospital policy     (4tok)
+~~~~~~~~~~~ Example 3 007114~house_s07e06_seg02_clip_04 ~~~~~~~~
+ 3 to 39<|START|> why does foreman speak louder to taub after house just gave him instructions?
+0   )  his ears are covered     (4tok)
+1   )  he can not hear right     (5tok)
+2 GT)  he is still standing there     (5tok)
+3   )  house whispered it all     (5tok)
+4   )  there was a motor running     (5tok)
+Finished writing 58 questions; max len = 253

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000400~s06e11_seg02_clip_06 ~~~~~~~~
+ 37 to 61<|START|> why does leonard admit he likes to shop online after stuart challenges him?
+0   )  he gets free shipping.     (5tok)
+1   )  the prices are better.     (5tok)
+2 GT)  he can shop from the toilet.     (7tok)
+3   )  the site gives him rewards.     (6tok)
+4   )  the site has a better selection.     (7tok)
+~~~~~~~~~~~ Example 1 005520~friends_s07e06_seg02_clip_16 ~~~~~~~~
+ 5 to 93<|START|> why is monica worried chandler will break up with her when she asks about his previous girlfriend, julie?
+0 GT)  monica is worried she will gain weight and chandler will dump her like he did with julie     (17tok)
+1   )  monica thinks chandler still has feelings for julie     (8tok)
+2   )  monica feels inferior to julie     (5tok)
+3   )  julie told monica that chandler always broke up with girlfriends after three months     (13tok)
+4   )  monica is worried chandler will get bored with her     (9tok)
+~~~~~~~~~~~ Example 2 009360~met_s06e24_seg02_clip_01 ~~~~~~~~
+ 43 to 55<|START|> why did lilly get sick after she ate soup?
+0   )  lilly caught a cold from her students.     (8tok)
+1 GT)  lilly got food poisoning.     (5tok)
+2   )  lilly wasn't sick.     (5tok)
+3   )  lilly got sick from marshall germs.     (7tok)
+4   )  lilly ate too much.     (5tok)
+~~~~~~~~~~~ Example 3 010640~friends_s01e16-17_seg01_clip_00 ~~~~~~~~
+ 64 to 93<|START|> why did phoebe say she was working at the restaurant when chandler asked?
+0   )  because she gets free food.     (6tok)
+1   )  because the money was good.     (6tok)
+2   )  because the food was good.     (6tok)
+3 GT)  because it was close to her home.     (8tok)
+4   )  because she needed money.      (6tok)
+Finished writing 46 questions; max len = 257

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000979~friends_s08e02_seg02_clip_01 ~~~~~~~~
+ 24 to 47<|START|> why did monica tell phoebe she needed to open a present when she was talking to phoebe about opening the presents?
+0   )  she was the bride so they were really her presents.     (11tok)
+1   )  she wanted to make sure chandler would like the presents.     (11tok)
+2 GT)  they were calling out to her.     (7tok)
+3   )  she thought there was a present that she didn't want chandler to see.     (15tok)
+4   )  chandler doesn't like presents.     (6tok)
+~~~~~~~~~~~ Example 1 001491~castle_s05e15_seg02_clip_13 ~~~~~~~~
+ 40 to 60<|START|> why is martha worried when castle relays news of a van?
+0   )  martha screamed at alexis the last time they talked.     (10tok)
+1   )  martha has a hangover.     (5tok)
+2 GT)  martha is terrified for alexis.     (6tok)
+3   )  martha hung up the phone on beckett.     (10tok)
+4   )  castle is crying hysterically.     (6tok)
+~~~~~~~~~~~ Example 2 004563~met_s02e14_seg02_clip_08 ~~~~~~~~
+ -1 to 100<|START|> why the child ask $10 to marshall after talking about the super bowl?
+0   )  because the child is poor.     (6tok)
+1 GT)  because the child is blackmailing marshall.     (8tok)
+2   )  because the child need money.     (6tok)
+3   )  because the child  is a beggar.     (9tok)
+4   )  because the child is his relative.     (7tok)
+~~~~~~~~~~~ Example 3 006099~castle_s08e18_seg02_clip_03 ~~~~~~~~
+ -30 to 129<|START|> why did bryce walk away before she made the phone call?
+0   )  she doesn't want the others to know her credit card details     (12tok)
+1   )  she is talking to her lover     (6tok)
+2   )  she is talking to her parents     (6tok)
+3 GT)  she is on an undercover mission     (6tok)
+4   )  she is about to get angry at someone     (8tok)
+Finished writing 62 questions; max len = 245

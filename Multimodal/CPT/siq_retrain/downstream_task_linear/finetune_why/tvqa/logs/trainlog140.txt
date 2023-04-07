@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001676~s02e19_seg02_clip_00 ~~~~~~~~
+ -32 to 133<|START|> why raj turns his head when listen howard shouting? 
+0   )  because raj is taking a glass.     (7tok)
+1   )  because raj is leaving.     (5tok)
+2 GT)  because he fells bad for howard.     (8tok)
+3   )  because raj is taking to leonard.     (7tok)
+4   )  because raj is coughing.     (5tok)
+~~~~~~~~~~~ Example 1 003212~friends_s09e06_seg02_clip_27 ~~~~~~~~
+ 8 to 35<|START|> why does rachel think ross should be the one to fire sandy when she and ross are talking in the other room?
+0   )  rachel fired the last person and it is ross' turn     (11tok)
+1   )  ross is the boss     (4tok)
+2   )  ross picked the short straw     (5tok)
+3 GT)  ross is the one that wants to fire sandy     (9tok)
+4   )  rachel is worried sandy will talk her out of it     (10tok)
+~~~~~~~~~~~ Example 2 004236~met_s06e12_seg02_clip_16 ~~~~~~~~
+ -20 to 120<|START|> why was punchy hysterical when he called ted?
+0   )  punchy's mother was in the hospital.     (8tok)
+1   )  punchy's car had just been broken into.     (9tok)
+2   )  punchy did not know what to get his girlfriend for christmas.     (12tok)
+3   )  punchy did not want robin to take the job at worldwide news.     (13tok)
+4 GT)  punchy was terrified of getting married.     (7tok)
+~~~~~~~~~~~ Example 3 005004~house_s08e06_seg02_clip_03 ~~~~~~~~
+ 26 to 72<|START|> why can house not go to the sports game after finding out wilson got tickets to go?
+0   )  his girlfriend said no     (4tok)
+1   )  he has to work tonight     (5tok)
+2   )  he paid for it on tv     (6tok)
+3   )  he is hosting a party      (6tok)
+4 GT)  he is on house arrest      (6tok)
+Finished writing 51 questions; max len = 239

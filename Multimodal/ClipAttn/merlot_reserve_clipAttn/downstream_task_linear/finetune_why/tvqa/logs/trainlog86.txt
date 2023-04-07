@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002646~met_s03e09_seg02_clip_15 ~~~~~~~~
+ 35 to 65<|START|> why does barney laugh when he says marshall isn't eating?
+0 GT)  barney makes a joke about slapping marshall.      (9tok)
+1   )  barney thinks marshall is fat.      (7tok)
+2   )  barney notices food on marshall's face.      (9tok)
+3   )  barney laughs at marshall's joke.      (8tok)
+4   )  barney thinks the food tastes bad.      (8tok)
+~~~~~~~~~~~ Example 1 003158~friends_s09e09_seg02_clip_17 ~~~~~~~~
+ 30 to 70<|START|> why does joey smell men's cologne when he is talking to monica
+0   )  because he is smelling his deodorant      (7tok)
+1   )  because she loves the smell of it     (7tok)
+2   )  because she had a man there earlier     (7tok)
+3   )  because she sprayed chandler's around the house     (8tok)
+4 GT)  because he rubbed a magazine on himself     (7tok)
+~~~~~~~~~~~ Example 2 005462~friends_s04e22_seg02_clip_11 ~~~~~~~~
+ 0 to 99<|START|> why is ross so serious about the ring after joey mentions it?
+0   )  because ross loves all rings     (5tok)
+1 GT)  because it has been in ross's family for generations     (10tok)
+2   )  because rachel gave the ring to ross     (7tok)
+3   )  because ross wants to give the ring to phoebe     (9tok)
+4   )  because ross knows he can get money for it     (9tok)
+~~~~~~~~~~~ Example 3 006998~friends_s09e06_seg02_clip_26 ~~~~~~~~
+ -6 to 107<|START|> why was rachel upset with ross when he left the room?
+0 GT)  rachel thought ross was rude     (5tok)
+1   )  ross walked out before rachel could finish what she was saying     (11tok)
+2   )  ross said some nasty things to rachel before leaving     (9tok)
+3   )  ross left to see another woman     (6tok)
+4   )  ross took rachel's car keys with him     (8tok)
+Finished writing 58 questions; max len = 231

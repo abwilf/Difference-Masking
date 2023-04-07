@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002010~friends_s02e18_seg02_clip_08 ~~~~~~~~
+ 23 to 76<|START|> why did rachel say she was glad she wasn't monica when she was sitting on the bed?
+0 GT)  richard wanted to know how many people monica had slept with.     (12tok)
+1   )  richard wanted a ballpark from monica.     (7tok)
+2   )  richard wanted monica to tell him her lucky number.     (10tok)
+3   )  richard wanted monica to take him to a ballpark.     (10tok)
+4   )  richard wanted monica to guess his lucky number.     (9tok)
+~~~~~~~~~~~ Example 1 009178~friends_s03e19_seg02_clip_04 ~~~~~~~~
+ 26 to 74<|START|> why is joey upset when he's talking to chandler about work?
+0   )  joey is upset because everyone at work ignores him.     (11tok)
+1   )  joey is upset because everyone at work keeps leaving him out.     (12tok)
+2   )  joey is upset because everyone at work doesn't like him.     (12tok)
+3 GT)  joey is upset because everyone at work keeps making fun of him.     (13tok)
+4   )  joey is upset because everyone at work doesn't know who he is.     (14tok)
+~~~~~~~~~~~ Example 2 010714~castle_s03e02_seg02_clip_03 ~~~~~~~~
+ 29 to 69<|START|> why did marina and paula say they saw vivien when being questioned about the case by beckett and castle?
+0   )  vivien owned a store they shopped at      (10tok)
+1   )  vivien was a good friend     (6tok)
+2   )  vivien was a family member      (7tok)
+3   )  vivien was a business partner     (6tok)
+4 GT)  closure after death     (3tok)
+~~~~~~~~~~~ Example 3 013274~castle_s07e08_seg02_clip_23 ~~~~~~~~
+ 44 to 55<|START|> why did jared call reeves after he talked to white knight?
+0   )  jared call reeves to tell him what he did yesterday.     (11tok)
+1   )  jared call reeves to tell him he was getting married.     (11tok)
+2   )  jared call reeves to tell him about his baby.     (10tok)
+3 GT)  jared call reeves to tell him about a meeting in a park.     (13tok)
+4   )  jared call reeves to tell him about his day.     (10tok)
+Finished writing 38 questions; max len = 232

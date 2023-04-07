@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004291~friends_s07e01_seg02_clip_09 ~~~~~~~~
+ 36 to 62<|START|> why was monica surprised after she opened the door?
+0   )  she saw rachel and joey kissing.     (7tok)
+1   )  she saw rachel and chandler kissing.     (7tok)
+2 GT)  she saw rachel and ross kissing.     (7tok)
+3   )  she saw ross and phoebe kissing?     (7tok)
+4   )  she saw joey and phoebe kissing     (6tok)
+~~~~~~~~~~~ Example 1 004803~castle_s04e17_seg02_clip_07 ~~~~~~~~
+ 44 to 55<|START|> why do ryan and esposito show noah a picture of a woman when he is being questioned?
+0   )  to see if he will lie to them.      (10tok)
+1   )  to see if he recognizes the killer.      (9tok)
+2   )  to see if he recognizes the undercover police officer.      (11tok)
+3 GT)  to see if he recognizes the other victim.      (10tok)
+4   )  to see if he knows ryan's girlfriend.      (10tok)
+~~~~~~~~~~~ Example 2 006851~friends_s02e12-13_seg02_clip_18 ~~~~~~~~
+ 29 to 70<|START|> why was phoebe upset when she sat with rob? 
+0   )  rob had made a drunken pass at her.      (10tok)
+1 GT)  rob informed her she was being fired from the library.      (12tok)
+2   )  rob had given her bad news about her family.      (11tok)
+3   )  monica was ill, according to rob.      (9tok)
+4   )  phoebe was banned from the laundromat, according to rob.      (14tok)
+~~~~~~~~~~~ Example 3 009667~friends_s10e09_seg02_clip_08 ~~~~~~~~
+ 10 to 89<|START|> why is ross so frustrated that phoebe and rachel aren't taking him seriously after they have him try on the "boys will be boys" jacket?
+0   )  ross is about to move to london and needs new clothes.      (13tok)
+1   )  ross doesn't really like phoebe.     (7tok)
+2   )  ross wants to impress phoebe.     (6tok)
+3   )  ross thinks rachel is in love with him and he doesn't like her that way.      (18tok)
+4 GT)  he wants to impress his date with some new clothes and pheobe and rachel are not taking it seriously.      (23tok)
+Finished writing 39 questions; max len = 281

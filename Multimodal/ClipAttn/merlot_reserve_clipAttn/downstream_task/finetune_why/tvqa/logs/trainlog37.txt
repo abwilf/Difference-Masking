@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000549~friends_s07e16_seg02_clip_02 ~~~~~~~~
+ 10 to 32<|START|> why does rachel tell ben he's lucky to not have brothers or sisters when the two are sitting on the couch?
+0   )  because ben is antisocial     (6tok)
+1   )  because ben has his parents to himself     (7tok)
+2   )  because ben gets to boss his parents around     (8tok)
+3   )  because ben gets all the attention     (6tok)
+4 GT)  because ben doesn't have to share     (7tok)
+~~~~~~~~~~~ Example 1 001061~met_s02e08_seg01_clip_00 ~~~~~~~~
+ 33 to 66<|START|> why  does marshall feel awkward after lily praises him for his pancakes?
+0   )  marshall lost his job.     (5tok)
+1   )  marshall's pants fell down.     (6tok)
+2 GT)  lily talked about marrying him even though they've been broken up.     (13tok)
+3   )  marshall has a new girlfriend.     (6tok)
+4   )  marshall married someone else.     (5tok)
+~~~~~~~~~~~ Example 2 003109~house_s03e11_seg02_clip_16 ~~~~~~~~
+ 52 to 76<|START|> why does house think tritter is hounding him for after he reveals he has no intention of speaking to the da?
+0 GT)  because he didn't kiss tritter's ass     (9tok)
+1   )  because tritter hates the handicap     (6tok)
+2   )  because tritter has a grudge against him     (8tok)
+3   )  because tritter is a dirty cop     (7tok)
+4   )  because tritter has a cognitive disorder     (7tok)
+~~~~~~~~~~~ Example 3 003365~friends_s01e07_seg02_clip_22 ~~~~~~~~
+ 23 to 76<|START|> why did chandler press his face against the glass door after it swung shut? 
+0   )  jill had stolen chandler's wallet.      (8tok)
+1 GT)  jill had walked away and chandler was clearly attracted to her.      (13tok)
+2   )  chandler lived in the building and was locked out.      (11tok)
+3   )  jill had called chandler a bad name before she left and chandler was angry.      (16tok)
+4   )  chandler really had to use the men's room.      (11tok)
+Finished writing 57 questions; max len = 238

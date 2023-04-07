@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000072~castle_s01e02_seg02_clip_16 ~~~~~~~~
+ 30 to 69<|START|> why does castle go to the hotel's elevator after discovering the time difference on the tape?
+0   )  to have a meeting     (4tok)
+1   )  to see what color it is     (6tok)
+2   )  to see how nice the hotel is     (7tok)
+3   )  to talk to the girl     (5tok)
+4 GT)  to time the elevator himself     (5tok)
+~~~~~~~~~~~ Example 1 000840~grey_s02e08_seg02_clip_15 ~~~~~~~~
+ 39 to 89<|START|> why is george so upset when stu dies?
+0   )  stu was like a father to him.     (8tok)
+1   )  that was his best friend.     (6tok)
+2 GT)  stu already survived a near death experience.     (8tok)
+3   )  he promised stu he'd make it.     (8tok)
+4   )  stu went to highschool with him.     (8tok)
+~~~~~~~~~~~ Example 2 003144~friends_s05e10_seg02_clip_06 ~~~~~~~~
+ 41 to 59<|START|> why did joey want chandler to move the bowl when chandler was playing the game?
+0   )  he didn't ask him to move it     (8tok)
+1   )  it was in his way      (6tok)
+2   )  he wanted to use it     (5tok)
+3   )  he thought it was too small     (6tok)
+4 GT)  he thought it was too easy to make the shot     (10tok)
+~~~~~~~~~~~ Example 3 007496~friends_s04e06_seg02_clip_09 ~~~~~~~~
+ 42 to 58<|START|> why is phoebe upset when monica comes into the kitchen?
+0   )  phoebe is upset because the guests didn't like her food.     (12tok)
+1   )  phoebe is upset because monica won't pay her.     (10tok)
+2 GT)  phoebe is upset because she and monica have yet to be paid.     (13tok)
+3   )  phoebe is upset because the guests left without paying her.     (11tok)
+4   )  phoebe is upset because no one touched her food.     (10tok)
+Finished writing 44 questions; max len = 228

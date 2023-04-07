@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003403~friends_s09e17_seg02_clip_16 ~~~~~~~~
+ 11 to 31<|START|> why is monica sitting in between phoebe and mike when they are hanging out?
+0 GT)  she doing as phoebe asked and keeping them apart.      (11tok)
+1   )  she is jealous.      (5tok)
+2   )  she likes mike.      (5tok)
+3   )  she likes phoebe.      (5tok)
+4   )  she wants them to stay apart so she wins the bet.      (13tok)
+~~~~~~~~~~~ Example 1 003659~friends_s03e21_seg02_clip_08 ~~~~~~~~
+ 42 to 56<|START|> why does joey says he needs to relax when he is arguing with chandler?
+0   )  because his girlfriend is too demanding.     (7tok)
+1   )  because he is so stress.     (6tok)
+2   )  because he stays up all night learning his lines.     (10tok)
+3   )  because he is sick.     (5tok)
+4 GT)  because was working all day.     (6tok)
+~~~~~~~~~~~ Example 2 005451~castle_s04e11_seg02_clip_25 ~~~~~~~~
+ -19 to 119<|START|> why does castle look discouraged after he hands beckett a photo?
+0   )  because the photo is of castle himself and now he has to explain his whereabouts.      (17tok)
+1   )  because the photo was blacked out and did not capture the killer castle is discouraged.      (17tok)
+2 GT)  because the photo is from a security camera and it captured amy kemp a c.o.o. of a major company and they have to arrest her for murder.      (34tok)
+3   )  because the photo was indecent and they cannot use it for evidence.     (15tok)
+4   )  because the photo chopped off the head of the person they were after for a murder.      (18tok)
+~~~~~~~~~~~ Example 3 010827~grey_s02e05_seg02_clip_16 ~~~~~~~~
+ 24 to 74<|START|> why does anna have to have the pca pump shut off before she undergoes a healing ritual?
+0   )  anna says they have to find her soul and they can't find her soul unless she is in pain.     (21tok)
+1 GT)  anna says they have to find her soul and they can't find her soul if she is medicated.     (21tok)
+2   )  medications of any kind cause the healing ritual not to work.     (12tok)
+3   )  anna doesn't believe in modern medicine.     (8tok)
+4   )  anna's father insisted that it be turned off before the ritual can begin.     (15tok)
+Finished writing 47 questions; max len = 264

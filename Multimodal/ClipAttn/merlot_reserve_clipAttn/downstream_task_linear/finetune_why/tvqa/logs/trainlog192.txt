@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000704~met_s03e20_seg02_clip_05 ~~~~~~~~
+ 45 to 55<|START|> why was marshall willing to beg for his job back when he was at a school with lily?
+0   )  marshall had little dignity.     (5tok)
+1   )  marshall needed the money to pay for rent.     (9tok)
+2   )  marshall loved his former job and really wanted it back.     (11tok)
+3 GT)  marshall did not have many options because the job market was really bad.     (14tok)
+4   )  marshall wanted to get back to a reasonable work schedule.     (11tok)
+~~~~~~~~~~~ Example 1 001216~house_s03e20_seg02_clip_13 ~~~~~~~~
+ 38 to 60<|START|> why did lupe start screaming after foreman checked her heart with the stethoscope?
+0   )  lupe was having chest pains     (6tok)
+1 GT)  the bp cuff was hurting lupe     (7tok)
+2   )  lupe wanted to scare foreman     (6tok)
+3   )  lupe couldn't breath     (5tok)
+4   )  lupe wanted to scare cameron     (6tok)
+~~~~~~~~~~~ Example 2 001472~friends_s10e08_seg02_clip_00 ~~~~~~~~
+ 35 to 64<|START|> why does monica not make chocolate pies when phoebe asks her?
+0   )  monica doesn't make pies because she doesn't know how to     (12tok)
+1 GT)  monica doesn't make pies ever since she entered a pie eating contest      (14tok)
+2   )  monica does make pies      (5tok)
+3   )  monica doesn't have time to make the pies     (9tok)
+4   )  monica likes to eat the pies from the bakery     (9tok)
+~~~~~~~~~~~ Example 3 004288~met_s02e08_seg02_clip_09 ~~~~~~~~
+ 5 to 37<|START|> why didn't woman 2 wave the waiting period when lily and marshall needed her to?
+0   )  the person who could wave it was not working that day.     (12tok)
+1   )  she didn't like marshall.     (6tok)
+2   )  no one was able to wave it.     (8tok)
+3 GT)  only a judge could wave it.     (7tok)
+4   )  they had to pay a very large fee to waive it.     (13tok)
+Finished writing 42 questions; max len = 209

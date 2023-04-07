@@ -1,0 +1,18 @@
+wandb_version: 1
+
+alpha:
+  value: 0.7
+joint_proj:
+  value: no_proj
+lr:
+  value: 5.0e-06
+mask_where:
+  value: face
+ne:
+  value: 10
+output_grid_h:
+  value: 12
+output_grid_w:
+  value: 24
+percent_data:
+  value: 0.3

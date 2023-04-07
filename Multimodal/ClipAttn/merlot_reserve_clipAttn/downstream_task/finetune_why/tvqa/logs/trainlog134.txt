@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000134~s06e11_seg02_clip_08 ~~~~~~~~
+ 33 to 67<|START|> why does bernadette look happy after see raj at the bar?
+0   )  she was thinking of howard.     (6tok)
+1   )  she is drunk.     (4tok)
+2   )  she just told a joke.     (6tok)
+3 GT)  she thinks he is doing well with the lady at the bar.     (13tok)
+4   )  penny just told her a funny story.     (8tok)
+~~~~~~~~~~~ Example 1 000902~friends_s05e03_seg02_clip_04 ~~~~~~~~
+ 48 to 79<|START|> why does phoebe ask ross what he is doing after ross tries to explain that technically the doctor is not impersonating fonzie?
+0   )  phoebe is going through mood swings.     (7tok)
+1   )  phoebe hates ross.     (4tok)
+2 GT)  phoebe wonders why ross is defending the doctor and just wants him to get her another doctor.     (18tok)
+3   )  phoebe thinks that he is impersonating fonzie.     (11tok)
+4   )  phoebe just felt like interrupting ross.     (7tok)
+~~~~~~~~~~~ Example 2 002182~castle_s07e19_seg02_clip_00 ~~~~~~~~
+ 33 to 65<|START|> why do beckett and castle stop talking after castle elans forwards towards her?
+0   )  castle spills coffee on himself.     (6tok)
+1   )  beckett says she has to get to work.     (11tok)
+2   )  they're too busy kissing.     (6tok)
+3 GT)  they're interrupted by beckett getting a phone call.     (12tok)
+4   )  they accidentally knock over a houseplant.     (8tok)
+~~~~~~~~~~~ Example 3 002694~s07e04_seg02_clip_05 ~~~~~~~~
+ 40 to 86<|START|> why does stuart think that he sounds cocky after raj takes a photo of him?
+0   )  stuart thinks the photo turned out really well and was bragging about it.     (14tok)
+1 GT)  stuart wants to describe himself as unobjectionable, but he thinks this might sound cocky.     (20tok)
+2   )  stuart was telling raj about his comic book collection, but was afraid that it sounded like he was bragging.     (21tok)
+3   )  stuart told raj that he always takes good photos, but was afraid that sounded cocky.     (17tok)
+4   )  raj told stuart that he sounded cocky and stuart believed him.     (12tok)
+Finished writing 51 questions; max len = 252

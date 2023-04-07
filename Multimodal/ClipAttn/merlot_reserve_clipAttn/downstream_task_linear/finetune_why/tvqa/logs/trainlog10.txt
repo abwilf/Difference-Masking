@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001034~castle_s05e21_seg02_clip_04 ~~~~~~~~
+ 21 to 49<|START|> why is beckett perplexed after castle recounts the contents of the quail and squab that was served?
+0   )  beckett is hungry.     (6tok)
+1 GT)  beckett is puzzled because felder had squab does not come with mushrooms and quail did.     (21tok)
+2   )  beckett thought castle was going to ask her on a date.     (14tok)
+3   )  beckett wanted to go home.     (8tok)
+4   )  beckett thought the case was solved.     (9tok)
+~~~~~~~~~~~ Example 1 002570~friends_s05e17_seg02_clip_03 ~~~~~~~~
+ 34 to 65<|START|> why did monica get defensive when speaking to phoebe? 
+0   )  phoebe accused monica of stealing from her work.      (10tok)
+1   )  phoebe had insulted monica's sense of style.      (10tok)
+2 GT)  phoebe had doubted the state of monica and chandler's relationship.      (13tok)
+3   )  phoebe implied monica was gaining weight.      (8tok)
+4   )  phoebe said people found her prettier than monica.      (10tok)
+~~~~~~~~~~~ Example 2 004106~house_s05e04_seg02_clip_07 ~~~~~~~~
+ 36 to 63<|START|> why did kutner respond thats why they prefer inside when nicole asked if it was a problem?
+0   )  she was about to seize out     (6tok)
+1 GT)  she was bleeding     (3tok)
+2   )  she was excessively coughing      (5tok)
+3   )  she was about to pass out     (6tok)
+4   )  she was swelling up      (5tok)
+~~~~~~~~~~~ Example 3 004362~house_s04e01_seg02_clip_07 ~~~~~~~~
+ 40 to 59<|START|> why did wilson say he was flattered after house asked him where'd he hide it?
+0   )  house found wilson to be the coolest guy ever     (9tok)
+1   )  house found him to be a good friend     (8tok)
+2   )  house found wilson to be quite handsom     (8tok)
+3 GT)  house considered him bold and brilliant     (6tok)
+4   )  house found wilson to be a better doctor then he     (10tok)
+Finished writing 49 questions; max len = 247

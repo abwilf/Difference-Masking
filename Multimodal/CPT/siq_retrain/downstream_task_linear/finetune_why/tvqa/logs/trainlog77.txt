@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000589~house_s02e16_seg02_clip_12 ~~~~~~~~
+ 16 to 25<|START|> why did melinda not try to get outside when she had an opportunity to?
+0   )  melinda could not move her legs.     (7tok)
+1 GT)  melinda was too scared.     (5tok)
+2   )  melinda was knock out before she reached the door.     (10tok)
+3   )  melinda was nervous.     (4tok)
+4   )  melinda could not reach the open door in time.     (10tok)
+~~~~~~~~~~~ Example 1 001357~house_s08e01_seg02_clip_07 ~~~~~~~~
+ 33 to 65<|START|> why did nick say nicole was living with her mom when house was examining him
+0 GT)  nick said nicole was living with her mom because she loss her job     (13tok)
+1   )  nick said nicole was living with her mom because she needs to help her mom     (15tok)
+2   )  nick said nicole was living with her mom because she needed to take care of the house     (17tok)
+3   )  nick said nicole was living with her mom because they have a great relationship     (14tok)
+4   )  nick said nicole was living with her mom because she is pregnant and needed some help     (16tok)
+~~~~~~~~~~~ Example 2 002125~house_s01e17_seg02_clip_15 ~~~~~~~~
+ 31 to 67<|START|> why does house offer the man a free scan before being handed notes for a speech?
+0   )  to ensure he does not have a virus     (8tok)
+1   )  he does not look very good right now     (8tok)
+2   )  his posture is very bad     (5tok)
+3 GT)  he needs to have many a year     (7tok)
+4   )  as a precaution as a doctor     (6tok)
+~~~~~~~~~~~ Example 3 005965~met_s02e03_seg02_clip_08 ~~~~~~~~
+ 24 to 76<|START|> why does barney tell ted he has to return to the bar after he's previously gone home?
+0   )  barney returns to the bar to retrieve ted's phone.     (11tok)
+1   )  barney returns to the bar to retrieve his wallet.     (10tok)
+2 GT)  barney returns to the bar to retrieve his phone.     (10tok)
+3   )  barney returns to the bar to have another drink with ted's dad.     (14tok)
+4   )  barney returns to the bar to thank ted's dad for being his wingman.     (16tok)
+Finished writing 52 questions; max len = 234

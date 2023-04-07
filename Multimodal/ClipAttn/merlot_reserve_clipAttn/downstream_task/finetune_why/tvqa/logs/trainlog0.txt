@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001024~house_s04e14_seg02_clip_16 ~~~~~~~~
+ 43 to 56<|START|> why was house angry at his foreman after he walked out the door with him?
+0   )  foreman did not get along with other workers     (8tok)
+1   )  because his foreman did not pay him back     (8tok)
+2   )  foreman was constantly being late     (5tok)
+3 GT)  house wanted his foreman to nuke the patient's thyroid     (10tok)
+4   )  house was disappointed in the foreman's attitude     (8tok)
+~~~~~~~~~~~ Example 1 005888~friends_s01e12_seg02_clip_15 ~~~~~~~~
+ 12 to 59<|START|> why did the girl in brown cut off phoebe when she was talking
+0   )  she was eating      (4tok)
+1   )  she was not happy     (4tok)
+2 GT)  she was annoyed     (3tok)
+3   )  she was on the phone     (5tok)
+4   )  she had something to do     (5tok)
+~~~~~~~~~~~ Example 2 007424~house_s02e15_seg02_clip_16 ~~~~~~~~
+ 40 to 59<|START|> why are the other dr's in the room not wanting to try dr. house's suggestions of interferon after they have talking about the case?
+0   )  the dr's don't have a release from signed by the wife.     (14tok)
+1 GT)  interferon is not an approved treatment     (8tok)
+2   )  the drug company has not given them sponsorship.     (9tok)
+3   )  too many people like interferon     (7tok)
+4   )  interferon smells bad     (5tok)
+~~~~~~~~~~~ Example 3 008960~house_s08e22_seg02_clip_04 ~~~~~~~~
+ 31 to 69<|START|> why does amber ask about a medical case after house asks if humidity is bothering her?
+0   )  amber wants to help the patient get better.     (9tok)
+1   )  amber wants to give house another opinion on the case.     (11tok)
+2   )  amber wants to show that house's diagnosis was the correct one.     (13tok)
+3 GT)  amber wants to show that house is obsessing over that case.     (13tok)
+4   )  amber wants to fill in the missing holes in the patient's medical records.     (15tok)
+Finished writing 39 questions; max len = 231

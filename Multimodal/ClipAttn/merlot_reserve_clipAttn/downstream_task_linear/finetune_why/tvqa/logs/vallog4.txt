@@ -1,0 +1,31 @@
+~~~~~~~~~~~ Example 0 122043~house_s07e19_seg02_clip_21 ~~~~~~~~
+ 26 to 73<|START|> why is wilson and masters interrupted before talking to a guard?
+0   )  the guard shot his animal     (5tok)
+1   )  his animal attacked him     (4tok)
+2 GT)  a big dog took his animal     (6tok)
+3   )  a patient tripped the animal     (5tok)
+4   )  the guard was scared     (4tok)
+~~~~~~~~~~~ Example 1 122059~friends_s02e04_seg02_clip_14 ~~~~~~~~
+ -30 to 131<|START|> why does chandler want to leave after hanging out with the group.
+0   )  chandler wants to leave because he has to make a phone call.     (13tok)
+1   )  chandler wants to leave because he has a date.     (10tok)
+2   )  chandler wants to leave because they are all mad at him.     (12tok)
+3   )  chandler wants to leave because he is hungry.     (9tok)
+4 GT)  chandler wants to leave because he is tired (wiped).     (12tok)
+~~~~~~~~~~~ Example 2 122107~house_s01e12_seg02_clip_07 ~~~~~~~~
+ 42 to 56<|START|> why does house consider cameron's guess for steroids as ironic after chase identified the kidney?
+0 GT)  although the patient tested negative for steroids, possible past usage within the last five years can cause the current kidney damage.     (23tok)
+1   )  cameron first spotted the shrunken testicles as a sign for a lack of testosterone in the beginning, but everyone thought it was addison's disease.     (28tok)
+2   )  the patient is an athlete. steroids for athletes is a common stereotype as expected.      (17tok)
+3   )  the irony is that cameron was on the right trail all along.     (13tok)
+4   )  her guess is ironic because she is usually always right.     (11tok)
+~~~~~~~~~~~ Example 3 122155~house_s05e06_seg02_clip_22 ~~~~~~~~
+ 32 to 68<|START|> why is mr. harmon smiling when he wakes up from surgery? 
+0   )  he is highly medicated      (6tok)
+1 GT)  thirteen is in his face     (5tok)
+2   )  his daughter is alive      (5tok)
+3   )  cameron is kissing him     (4tok)
+4   )  he beat house's bet      (6tok)
+Have written 100 / 1907
+Have written 200 / 1907
+Finished writing 210 questions; max len = 240

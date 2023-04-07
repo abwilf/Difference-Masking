@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004721~met_s02e03_seg02_clip_02 ~~~~~~~~
+ 10 to 60<|START|> why was barney upset before he walked out of the apartment?
+0   )  marshall called him a chicken.     (6tok)
+1   )  barney didn't know where ted was.     (8tok)
+2 GT)  marshall insulted barney's legs.     (6tok)
+3   )  marshall told barney he needed to leave.     (8tok)
+4   )  marshall said barney wasn't attractive.     (7tok)
+~~~~~~~~~~~ Example 1 012145~friends_s02e19_seg02_clip_09 ~~~~~~~~
+ 11 to 59<|START|> why did eddie leave the room after talking to chandler?
+0 GT)  eddie was going to put the tomato in the display.     (11tok)
+1   )  eddie left to go to the coffeehouse.     (9tok)
+2   )  eddie left to go to the doctor.     (8tok)
+3   )  eddie left the room because chandler made him angry.     (10tok)
+4   )  eddie left the room because he made chandler cry.     (10tok)
+~~~~~~~~~~~ Example 2 013937~s06e02_seg01_clip_00 ~~~~~~~~
+ 34 to 64<|START|> why did amy say she was going to register at the ucla cadaver lab if she ever got married after her, penny and bernadette were opening bernadette's wedding gifts
+0   )  amy said it was because she always wanted a whale carcass      (12tok)
+1   )  amy said it was because of her love of science     (10tok)
+2   )  amy said it was because she always wanted a brain in a vat     (13tok)
+3 GT)  amy said it was because she always wanted a human skeleton      (12tok)
+4   )  amy said it was because she didn't want to have traditional wedding gifts.      (16tok)
+~~~~~~~~~~~ Example 3 018801~castle_s06e12_seg02_clip_23 ~~~~~~~~
+ 68 to 89<|START|> why does castle stop dismissing the man with the beard after he sits down and starts bothering him?
+0   )  the man with the beard says he is from the fbi.     (12tok)
+1   )  the man with the beard says he is a fan of castle and wants his autograph.     (17tok)
+2   )  the man with the beard gives castle some money and tries to bribe him.     (15tok)
+3 GT)  the man with the beard draws a gun and threatens to kill him.      (15tok)
+4   )  the man with the beard tells castle he is sitting in his spot and needs to move.     (18tok)
+Finished writing 47 questions; max len = 259

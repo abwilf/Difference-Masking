@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003556~met_s03e03_seg02_clip_03 ~~~~~~~~
+ 72 to 85<|START|> why does ted have a shot at the belt when he is with the women?
+0   )  because he is in a relationship.      (8tok)
+1   )  because he is a great friend.      (8tok)
+2   )  because he is a bad friend.      (8tok)
+3 GT)  because of the "tricycle".      (10tok)
+4   )  because he is not in a relationship.      (9tok)
+~~~~~~~~~~~ Example 1 007140~grey_s03e09_seg02_clip_06 ~~~~~~~~
+ 5 to 36<|START|> why was izzie confused after george got paged?
+0   )  izzie didn't understand why he was leaving.     (10tok)
+1 GT)  izzie knew george wasn't working that day.     (10tok)
+2   )  izzie didn't want to be left with the old couple.     (13tok)
+3   )  izzie was possessive of george.     (8tok)
+4   )  izzie didn't want george to leave her sight.     (11tok)
+~~~~~~~~~~~ Example 2 012004~house_s06e03_seg02_clip_21 ~~~~~~~~
+ 66 to 89<|START|> why did house put the man's hand in the box after he was struggling in his chair?
+0 GT)  to show him mirror magic,     (6tok)
+1   )  to torture him.     (4tok)
+2   )  to make him feel pain.     (6tok)
+3   )  to show him that he was being serious.     (9tok)
+4   )  to cut his other hand off.     (7tok)
+~~~~~~~~~~~ Example 3 013540~house_s07e17_seg02_clip_01 ~~~~~~~~
+ 34 to 66<|START|> why did masters say that danny didn't have to check out of the hospital after danny asked if he had to check out?
+0   )  because danny was still malnourished     (8tok)
+1   )  because danny wasn't completely clean of drugs     (8tok)
+2   )  because danny's blood pressure had not stabilized     (8tok)
+3   )  because they suspected danny had cancer     (6tok)
+4 GT)  because they hadn't figured out why danny's sense of smell was off     (14tok)
+Finished writing 56 questions; max len = 243

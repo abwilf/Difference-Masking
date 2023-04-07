@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 137436~s05e19_seg02_clip_08 ~~~~~~~~
+ 20 to 80<|START|> why was amy upset with sheldon after she came to see penny?
+0 GT)  amy said sheldon called her a bad name.     (9tok)
+1   )  amy found out that sheldon cheated.      (8tok)
+2   )  amy was upset because sheldon didnt come with her  to meet her family.      (16tok)
+3   )  amy said sheldon is ignoring her.      (8tok)
+4   )  amy thinks sheldon doesnt like her anymore.      (9tok)
+~~~~~~~~~~~ Example 1 137465~friends_s03e25_seg02_clip_02 ~~~~~~~~
+ 39 to 61<|START|> why are phoebe,monica,rachel,joey,ross and chandler shocked when they walk into the house? 
+0 GT)  there is no furniture.      (6tok)
+1   )  the house is filled with birds.     (7tok)
+2   )  the house is filled with water.     (7tok)
+3   )  the floor is sand.     (5tok)
+4   )  it has no bedrooms.      (6tok)
+~~~~~~~~~~~ Example 2 137483~house_s04e11_seg02_clip_05 ~~~~~~~~
+ 41 to 58<|START|> why did house tell cate to stab herself in the chest after seeing her have trouble breathing?
+0 GT)  cates right lung collapsed     (5tok)
+1   )  cates left lung collapsed     (5tok)
+2   )  to test a theory     (4tok)
+3   )  to allow liquid out     (4tok)
+4   )  to give cate a boost     (5tok)
+~~~~~~~~~~~ Example 3 137686~s06e14_seg02_clip_17 ~~~~~~~~
+ -6 to 106<|START|> why said sheldon when kriple was talking?
+0 GT)  i want to eat.     (5tok)
+1   )  let's party.     (4tok)
+2   )  back to work.     (4tok)
+3   )  ia ma sleepy.     (4tok)
+4   )  i am good.     (4tok)
+Finished writing 94 questions; max len = 259

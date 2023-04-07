@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000123~met_s02e01_seg02_clip_00 ~~~~~~~~
+ 40 to 59<|START|> why did marshall say he didn't want to eat when he was sitting on the couch?
+0   )  he had already eaten breakfast.     (6tok)
+1 GT)  he said it was just going to leave him.     (10tok)
+2   )  he was feeling sick.     (5tok)
+3   )  he was going to lunch with lilly.     (8tok)
+4   )  he had a bowl of cereal on the table.     (10tok)
+~~~~~~~~~~~ Example 1 002939~friends_s08e19_seg02_clip_07 ~~~~~~~~
+ 27 to 73<|START|> why does chandler say joey doesn't look good after he walks into the apartment?
+0 GT)  because joey has a whole pile of old food he has just eaten.     (14tok)
+1   )  becasue joey got a terrible new haricut.     (11tok)
+2   )  because joey looks very sad.      (7tok)
+3   )  because joey is in his pajamas in the middle of the day.     (13tok)
+4   )  because joey is in a rage.     (7tok)
+~~~~~~~~~~~ Example 2 008571~house_s02e18_seg02_clip_17 ~~~~~~~~
+ 30 to 96<|START|> why was wilson worried about cameron writing an article after foreman?
+0   )  wilson wants to be the only writer     (7tok)
+1 GT)  foreman never told cameron     (4tok)
+2   )  house will quit     (3tok)
+3   )  cameron only likes the color blue     (6tok)
+4   )  wilson has a son      (5tok)
+~~~~~~~~~~~ Example 3 010107~friends_s02e02_seg02_clip_02 ~~~~~~~~
+ 1 to 70<|START|> why is joey upset with the man in the cowboy costume when working the department store?
+0   )  joey is upset because the costumed cowboy is getting more customers.     (13tok)
+1   )  joey is upset because the costumed cowboy is taller.     (11tok)
+2 GT)  joey is upset because he feels the costume cowboy is working in his section of the store.     (18tok)
+3   )  joey is upset because the costumed cowboy is better looking.     (12tok)
+4   )  joey is upset because the costumed cowboy was hitting on annabelle.     (13tok)
+Finished writing 46 questions; max len = 250

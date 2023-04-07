@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004221~grey_s01e03_seg02_clip_15 ~~~~~~~~
+ 24 to 74<|START|> why was the wife willing to donate her husbands corneas when she was speaking to cristina ? 
+0   )  they would feed them to the local birds     (8tok)
+1   )  hell naw     (2tok)
+2   )  it would create an extra limb      (7tok)
+3   )  they would use them for halloween      (7tok)
+4 GT)  it would give somebody back their sight     (7tok)
+~~~~~~~~~~~ Example 1 004733~house_s02e03_seg02_clip_21 ~~~~~~~~
+ 30 to 68<|START|> why does cuddy believe that the patient doesn't have endocarditis when talking to house?
+0   )  she doesn't think it could ever be possible.     (10tok)
+1 GT)  they already tested for it and it was negative.     (10tok)
+2   )  she thinks it's highly unlikely.     (7tok)
+3   )  she doesn't want to believe it.     (8tok)
+4   )  she thinks its a scam.     (6tok)
+~~~~~~~~~~~ Example 2 005501~castle_s04e05_seg02_clip_15 ~~~~~~~~
+ 71 to 86<|START|> why did castle stop kissing serena when they are in the hallway?
+0 GT)  because of beckett.     (6tok)
+1   )  because of esposito.     (6tok)
+2   )  because of serena.     (4tok)
+3   )  because of castle.     (4tok)
+4   )  because of room service.     (5tok)
+~~~~~~~~~~~ Example 3 006269~friends_s08e01_seg02_clip_20 ~~~~~~~~
+ 34 to 66<|START|> why is chandler worried when he is dancing with monica.
+0 GT)  chandler has slippery shoes and may slip on the dance floor if he moves his feet.     (17tok)
+1   )  chandler does not like dancing.     (6tok)
+2   )  chandler thinks monica is a much better dancer than he is.     (12tok)
+3   )  chandler does not want to talk to mrs. geller.     (12tok)
+4   )  chandler feels the band is not very good.     (9tok)
+Finished writing 40 questions; max len = 230

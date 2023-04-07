@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 006828~grey_s02e15_seg02_clip_10 ~~~~~~~~
+ 14 to 56<|START|> why is christina concerned after sidney makes a commitment to the surgery?
+0   )  christina is concerned because sydney is not a real surgeon.     (11tok)
+1 GT)  christina is concerned because she doesn't think the surgery is a good idea.     (15tok)
+2   )  christina is concerned because no one has considered what the patient wants.     (13tok)
+3   )  christina is concerned because sydeny has no experience with this type of surgery.     (16tok)
+4   )  christina is concerned because the patient has already had one too many surgeries.      (15tok)
+~~~~~~~~~~~ Example 1 007596~met_s06e04_seg02_clip_03 ~~~~~~~~
+ 23 to 76<|START|> why is ted unhappy with his score when he checks out the website?
+0   )  his students say he is unattractive     (8tok)
+1 GT)  his students say he is boring     (6tok)
+2   )  his students gave him a poor overall score     (8tok)
+3   )  his students say he's a loser     (7tok)
+4   )  he's not on there at all     (7tok)
+~~~~~~~~~~~ Example 2 010156~s07e20_seg01_clip_00 ~~~~~~~~
+ 38 to 60<|START|> why does sheldon tell raj he doesn't care when stirring his food?
+0   )  sheldon isn't pretentious.     (6tok)
+1 GT)  sheldon says he isn't an elitist.     (10tok)
+2   )  sheldon says he doesn't need money.     (8tok)
+3   )  he doesn't think they'll make it.     (9tok)
+4   )  sheldon says he doesn't feel good.     (8tok)
+~~~~~~~~~~~ Example 3 011692~s09e11_seg02_clip_13 ~~~~~~~~
+ 23 to 75<|START|> why did amy sit on the couch to talk with sheldon before they went to dinner?
+0   )  amy wanted to have a heart to heart.     (9tok)
+1 GT)  amy wanted to do present first.     (7tok)
+2   )  amy broke up with sheldon.     (6tok)
+3   )  amy did not like the restaurant they were going to.      (12tok)
+4   )  amy was feeling well.      (6tok)
+Finished writing 45 questions; max len = 269

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005104~met_s06e07_seg02_clip_05 ~~~~~~~~
+ 34 to 66<|START|> why does ted tell his friends he "lost them" after his class? 
+0   )  ted tore down the arcadian     (7tok)
+1   )  a student told other students ted was actually a demolition crewmen     (12tok)
+2 GT)  ted had a troublesome student during his lecture     (8tok)
+3   )  ted doesn't know anything about green revival architecture     (9tok)
+4   )  ted kissed a female student during class     (7tok)
+~~~~~~~~~~~ Example 1 005616~friends_s09e21_seg01_clip_00 ~~~~~~~~
+ 35 to 64<|START|> why did rachel say she cared about joey kissing charlie after she implied she did not want them to kiss?
+0   )  rachel wanted to know if charlie and joey were dating.     (11tok)
+1   )  rachel wanted to kiss joey.     (6tok)
+2   )  rachel did not like charlie kissing her friends.     (9tok)
+3 GT)  rachel wanted ross to hook up with a lot of woman.     (12tok)
+4   )  rachel was jealous of charlie.     (6tok)
+~~~~~~~~~~~ Example 2 007664~friends_s09e08_seg02_clip_05 ~~~~~~~~
+ 6 to 92<|START|> why are rachel and ross debating when talking about amy?
+0   )  amy is missing     (3tok)
+1   )  amy stole something from rachel     (5tok)
+2   )  rachel lied to amy     (4tok)
+3   )  monica told her she couldn't come     (7tok)
+4 GT)  amy is hard to take     (5tok)
+~~~~~~~~~~~ Example 3 007920~s04e20_seg02_clip_07 ~~~~~~~~
+ 32 to 68<|START|> why is howard sad after raj ask him whats up
+0   )  he says he is feeling sick     (6tok)
+1   )  he says he is tired of his mom yelling at him     (11tok)
+2   )  he says he is solving an equation     (7tok)
+3   )  he says he wants to go on a vacation     (9tok)
+4 GT)  he says its a bernadette thing     (8tok)
+Finished writing 41 questions; max len = 249

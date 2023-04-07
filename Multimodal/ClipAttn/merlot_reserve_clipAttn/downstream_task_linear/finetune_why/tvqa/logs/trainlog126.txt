@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001662~friends_s09e15_seg02_clip_06 ~~~~~~~~
+ 1 to 13<|START|> why did ross tell phoebe to stay calm when they were out on the street together?
+0   )  someone grabbed phoebe's purse     (5tok)
+1 GT)  ross and phoebe were being mugged      (8tok)
+2   )  phoebe lost a contact lens     (5tok)
+3   )  phoebe found a $100 bill     (6tok)
+4   )  a car splashed phoebe with mud     (6tok)
+~~~~~~~~~~~ Example 1 006782~grey_s02e22_seg02_clip_24 ~~~~~~~~
+ 37 to 63<|START|> why did izzie tell denny to smell the sweater after she gave it to him?
+0 GT)  she wore it and it smells like her.     (9tok)
+1   )  she sprayed her perfume on it.     (7tok)
+2   )  she wore it and wanted to know if she smelled bad.     (12tok)
+3   )  she didn't ask him to smell it, she asked him to try it on.     (17tok)
+4   )  it was from his house and she thought it would remind him of home.     (15tok)
+~~~~~~~~~~~ Example 2 007806~house_s04e02_seg02_clip_24 ~~~~~~~~
+ 68 to 87<|START|> why does house want to speak to 26 after the other residents leave? 
+0   )  tell her she is sick      (6tok)
+1   )  tell her good job     (4tok)
+2 GT)  tell her other people took chances      (7tok)
+3   )  ask her to take him home      (7tok)
+4   )  forgive her for her mistake      (6tok)
+~~~~~~~~~~~ Example 3 008574~met_s06e23_seg02_clip_00 ~~~~~~~~
+ 20 to 23<|START|> why marshal was laughing when he was getting back to his seat?
+0   )  because he was about to win the case     (8tok)
+1   )  because ted was in trouble     (5tok)
+2 GT)  because he cracked some jokes which he had prepared to say     (11tok)
+3   )  because there was a stand up comedian showing after him     (10tok)
+4   )  because ted was making an old lady impression     (8tok)
+Finished writing 50 questions; max len = 257

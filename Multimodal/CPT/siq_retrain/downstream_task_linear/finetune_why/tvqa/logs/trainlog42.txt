@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000042~s04e22_seg02_clip_05 ~~~~~~~~
+ 48 to 79<|START|> why did howard refuse to help leonard after priya got upset?
+0   )  he was afraid of priya.     (7tok)
+1   )  he didn't want to get in the middle of it all.     (13tok)
+2   )  he wanted to finish his meal in peace.      (10tok)
+3 GT)  because he found the whole situation hilarious.     (8tok)
+4   )  he had to leave immediately.     (6tok)
+~~~~~~~~~~~ Example 1 004906~friends_s07e22_seg02_clip_08 ~~~~~~~~
+ 28 to 42<|START|> why is ross upset when he talks to rachel?
+0   )  ross has to go to the bathroom.     (8tok)
+1   )  ross wants to kiss rachel.     (6tok)
+2   )  ross wants to hug rachel.     (6tok)
+3 GT)  ross feels rachel is speeding in the car.     (9tok)
+4   )  ross saw rachel kiss tag.     (6tok)
+~~~~~~~~~~~ Example 2 005674~friends_s07e12_seg02_clip_05 ~~~~~~~~
+ 13 to 28<|START|> why did monica say chandler was reading her boring book when she was walking to the kitchen? 
+0 GT)  to put him to sleep.     (6tok)
+1   )  to join book club.     (5tok)
+2   )  to talk to his boss about it.     (8tok)
+3   )  to talk to her about it.     (7tok)
+4   )  he wanted to read it before he watched the movie.     (11tok)
+~~~~~~~~~~~ Example 3 006186~friends_s07e12_seg02_clip_05 ~~~~~~~~
+ 23 to 77<|START|> why was monica surprised after chandler asked about the second sister? 
+0   )  she hated that the second sister.     (7tok)
+1   )  she didn't know how she dies.     (8tok)
+2 GT)  she hadn't read that part yet.     (8tok)
+3   )  she didn't know there was a second sister.     (10tok)
+4   )  she didn't know he had read the book.     (10tok)
+Finished writing 53 questions; max len = 253

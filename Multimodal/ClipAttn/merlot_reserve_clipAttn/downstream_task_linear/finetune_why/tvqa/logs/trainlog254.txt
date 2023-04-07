@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002302~s09e15_seg02_clip_01 ~~~~~~~~
+ 9 to 91<|START|> why is sheldon nervous when setting up for his internet show?
+0   )  sheldon is nervous because his mother will be on the show with him.     (14tok)
+1   )  sheldon is nervous because it is the first time amy will be on the show with him.     (18tok)
+2 GT)  sheldon is nervous because he hopes people will tune in for his show even though it is valentines day.     (21tok)
+3   )  sheldon is nervous because it's the first time he's performed his show for viewers.     (17tok)
+4   )  sheldon is nervous because he's worried he will faint on camera again.     (14tok)
+~~~~~~~~~~~ Example 1 002814~friends_s08e22_seg02_clip_15 ~~~~~~~~
+ 36 to 62<|START|> why was it rachel said she wanted to have sex with ross when he was doing this action?
+0   )  he had his hand on her shoulder     (7tok)
+1   )  he rubbed his ear     (4tok)
+2 GT)  he was touching his eye     (5tok)
+3   )  he had his hand in her hair     (7tok)
+4   )  he was using the tv remote     (6tok)
+~~~~~~~~~~~ Example 2 007166~friends_s04e17_seg02_clip_13 ~~~~~~~~
+ 45 to 83<|START|> why does chandler ask ross what he means after he tells them about his situation with emily?
+0   )  he wants to be mean to ross.     (8tok)
+1 GT)  he knows that ross doesn't really mean what he said to her.     (14tok)
+2   )  he doesn't like emily.     (6tok)
+3   )  he is genuinely confused.     (5tok)
+4   )  he wants to be with emily instead.     (8tok)
+~~~~~~~~~~~ Example 3 007422~castle_s02e21_seg02_clip_22 ~~~~~~~~
+ 28 to 71<|START|> why does ryan apologize to tom after tom talks about basketball?
+0   )  ryan forgot to watch tom's basketball game     (8tok)
+1   )  ryan was trying to make tom feel better about his team losing     (12tok)
+2   )  ryan accidentally bumped into tom     (5tok)
+3 GT)  ryan suspected tom was a criminal they were looking for     (10tok)
+4   )  ryan said he didn't care for basketball     (8tok)
+Finished writing 41 questions; max len = 299

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 011635~met_s06e15_seg02_clip_05 ~~~~~~~~
+ 65 to 91<|START|> why does marshall have to pick up the call when he's on the phone with robin?
+0   )  marshall's mom is calling him     (6tok)
+1   )  marshall's girlfriend is on the phone     (7tok)
+2   )  marshall's best friend is on the phone     (8tok)
+3 GT)  marshall thinks it would be rude     (6tok)
+4   )  marshall's doctor is calling him to give him news about his health.     (14tok)
+~~~~~~~~~~~ Example 1 014451~house_s01e09_seg02_clip_15 ~~~~~~~~
+ 59 to 70<|START|> why was john at the session the other night before being admitted to the hospital?
+0   )  it was a test to see if he could still run     (11tok)
+1   )  it was a test to see if he could still sing     (11tok)
+2   )  it was a test to see if he could still dance     (11tok)
+3 GT)  it was a test to see if he could still play     (11tok)
+4   )  it was a test to see if he could still swim     (11tok)
+~~~~~~~~~~~ Example 2 016499~friends_s02e01_seg02_clip_06 ~~~~~~~~
+ 68 to 88<|START|> why does monica suggest pheobe does her hairt when phoebe asked what monica was thinking?
+0   )  becuase she couldn't afford a haircut      (10tok)
+1 GT)  because she did such a great job with the guys' hair     (12tok)
+2   )  she had a date and her stylist cancelled     (8tok)
+3   )  she wanted to let phoebe practice     (6tok)
+4   )  she wanted to donate her hair     (6tok)
+~~~~~~~~~~~ Example 3 017267~friends_s04e09_seg02_clip_09 ~~~~~~~~
+ 37 to 63<|START|> why was rachael so upset before she let's joaana finish speaking?
+0   )  sophie was late for day job?     (7tok)
+1   )  sophie was standing in front of an office chair.     (10tok)
+2   )  sophie was going to the denist.     (8tok)
+3   )  sophie was getting an headache.     (6tok)
+4 GT)  rachael was mislead into believing in giving up her job.     (14tok)
+Finished writing 46 questions; max len = 260

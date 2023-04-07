@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000633~friends_s03e23_seg02_clip_06 ~~~~~~~~
+ 46 to 53<|START|> why doesn't monica want ross, chandler, joey, rachel, or phoebe to touch anything when they are at a guys house?
+0   )  an alarm will go off     (5tok)
+1   )  there are scanners everywhere     (5tok)
+2   )  there are cameras everywhere     (4tok)
+3 GT)  ross, chandler, joey, rachel or phoebe aren't supposed to be there     (15tok)
+4   )  the security team will come up     (6tok)
+~~~~~~~~~~~ Example 1 004473~castle_s07e19_seg02_clip_09 ~~~~~~~~
+ 6 to 64<|START|> why does elise say her ex called her when she discusses what happened at her firm with beckett?
+0   )  elise says her ex said he loved her agin.     (11tok)
+1   )  elise says her ex said he had a new girlfriend.     (11tok)
+2 GT)  elise says her ex said he was in trouble.     (10tok)
+3   )  elise says her ex said he killed someone.     (9tok)
+4   )  elise says her ex said he wanted to leave the state.     (12tok)
+~~~~~~~~~~~ Example 2 006521~s08e22_seg02_clip_07 ~~~~~~~~
+ 46 to 53<|START|> why does raj need to get his money back for the item so badly when he is with leonard and howard?
+0 GT)  his father cut him off of money.      (9tok)
+1   )  his father gave him a fortune.      (8tok)
+2   )  he is trying to teach the guys how to handle money.      (13tok)
+3   )  his mother cut him off.      (7tok)
+4   )  his sister cut him off.      (7tok)
+~~~~~~~~~~~ Example 3 008057~castle_s05e03_seg02_clip_17 ~~~~~~~~
+ 13 to 29<|START|> why is everyone disappointed after beckett opens the safe?
+0   )  it only has books in it.      (8tok)
+1   )  it only has money in it that thy can't keep.      (13tok)
+2   )  it has jewels they can't keep.      (9tok)
+3   )  it only has paperwork in it.      (8tok)
+4 GT)  it's empty.      (5tok)
+Finished writing 47 questions; max len = 243

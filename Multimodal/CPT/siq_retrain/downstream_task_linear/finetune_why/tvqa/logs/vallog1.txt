@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 122160~friends_s06e15-16_seg02_clip_22 ~~~~~~~~
+ 28 to 43<|START|> why is phoebe in the hospital when she is talking to ross, chandler, and monica?
+0   )  her father is ill     (4tok)
+1   )  she is getting a check up     (6tok)
+2 GT)  she had a heart attack     (5tok)
+3   )  her mother is ill     (4tok)
+4   )  she is volunteering.      (5tok)
+~~~~~~~~~~~ Example 1 122416~castle_s05e16_seg02_clip_21 ~~~~~~~~
+ 0 to 100<|START|> why does hunt say that he was never around after castle asks him why he never let them know that he was out there?
+0   )  that he had no way to get communications to them where he was stationed.      (16tok)
+1   )  that he never really wanted to have anything to do with them until now.      (16tok)
+2 GT)  that his job means that he can't have any communications or relationships to anyone.      (17tok)
+3   )  he had tried to get in touch with them but castle's mother had told him to stay away.      (21tok)
+4   )  he traveled too much to worry about a woman he barely knew and a kid that he had never met.      (22tok)
+~~~~~~~~~~~ Example 2 122512~castle_s07e23_seg02_clip_02 ~~~~~~~~
+ 38 to 61<|START|> why is castle upset after mr. walters confirms the mask looked porcelain?
+0   )  castle is upset because mr. walters ruined beckett's surprise gift.     (15tok)
+1 GT)  castle is upset because mr. walters verified something scary from castle's past.     (15tok)
+2   )  castle is upset because mr. walters described martha's fiance.     (12tok)
+3   )  castle is upset because of a headache.     (8tok)
+4   )  castle is upset esposito stepped on castle's foot.     (12tok)
+~~~~~~~~~~~ Example 3 122616~house_s05e04_seg02_clip_24 ~~~~~~~~
+ 37 to 62<|START|> why did bob not want kutner to tell his daughter what her biological parents did when she awoke after surger?
+0   )  the patient is suicidal      (5tok)
+1 GT)  the patient is fragile     (4tok)
+2   )  the patient would want revenge     (5tok)
+3   )  the patient wouldn't care     (5tok)
+4   )  the patient is already irate      (7tok)
+Have written 100 / 1907
+Finished writing 177 questions; max len = 265

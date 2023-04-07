@@ -1,0 +1,705 @@
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../mreserve/checkpoint.py:27: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return jax.tree_map(_do_cast, tree)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../pretrain/optimization.py:79: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  running_m = jax.tree_map(_init, params)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../pretrain/optimization.py:80: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  running_v = jax.tree_map(_init, params)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:126: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return jax.tree_map(lambda x: (x.ndim > 1) and (x.size > 4096), p)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:27: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return DecayedWeightsDeltaState(orig_params=jax.tree_map(lambda x: x.astype(jnp.bfloat16), params))
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/flax/jax_utils.py:77: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return jax.tree_map(lambda x: _replicate(x, devices), tree)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/_src/lib/xla_bridge.py:528: UserWarning: jax.host_count has been renamed to jax.process_count. This alias will eventually be removed; please update your code.
+  warnings.warn(
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/_src/lib/xla_bridge.py:515: UserWarning: jax.host_id has been renamed to jax.process_index. This alias will eventually be removed; please update your code.
+  warnings.warn(
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:149: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  state = state.replace(opt_state=jax.tree_map(_shard_opt, state.opt_state))
+Now on epoch 0
+Resetting iterator, epoch=0, batch of fns=0:13 /13
+Constructing TFRecord Input FN over ['/data/siq-less-files/train002of064.tfrecord', '/data/siq-less-files/train003of064.tfrecord', '/data/siq-less-files/train012of064.tfrecord', '/data/siq-less-files/train008of064.tfrecord', '/data/siq-less-files/train000of064.tfrecord', '/data/siq-less-files/train009of064.tfrecord', '/data/siq-less-files/train005of064.tfrecord', '/data/siq-less-files/train006of064.tfrecord', '/data/siq-less-files/train011of064.tfrecord', '/data/siq-less-files/train004of064.tfrecord', '/data/siq-less-files/train010of064.tfrecord', '/data/siq-less-files/train007of064.tfrecord', '/data/siq-less-files/train001of064.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../pretrain/dataloader.py:1044: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  item = jax.tree_map(lambda x: x._numpy(), item)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:222: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  init=jax.tree_map(lambda x: jnp.zeros_like(x, dtype=jnp.bfloat16), params),
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/flax/core/scope.py:612: FutureWarning: jax.tree_leaves is deprecated, and will be removed in a future release. Use jax.tree_util.tree_leaves instead.
+  abs_value_flat = jax.tree_leaves(abs_value)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/flax/core/scope.py:613: FutureWarning: jax.tree_leaves is deprecated, and will be removed in a future release. Use jax.tree_util.tree_leaves instead.
+  value_flat = jax.tree_leaves(value)
+Using dtype <class 'jax.numpy.bfloat16'>
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+Not including audio input
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+adding in audio input!
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+audio2vision x->y dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+audio2vision y->x dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+text2vision x->y dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+text2vision y->x dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:218: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  grads = jax.tree_multimap(lambda a, b: a + b, old_grads, grads)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/_src/tree_util.py:205: FutureWarning: jax.tree_util.tree_multimap() is deprecated. Please use jax.tree_util.tree_map() instead as a drop-in replacement.
+  warnings.warn('jax.tree_util.tree_multimap() is deprecated. Please use jax.tree_util.tree_map() '
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:224: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  loss_info = jax.tree_map(lambda x: x.mean(), loss_info)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:228: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  grads = jax.tree_map(lambda x: jnp.nan_to_num(x, copy=False), grads)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:240: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  updates = jax.tree_map(_idx_grad, grads)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../pretrain/optimization.py:97: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  next_m = jax.tree_multimap(_momentum_update, updates, state.mu)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../pretrain/optimization.py:98: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  next_m_enc = jax.tree_map(lambda x: x.astype(jnp.bfloat16), next_m)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../pretrain/optimization.py:100: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  next_v = jax.tree_multimap(_secondorder_update, updates, state.nu)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../pretrain/optimization.py:101: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  next_v_enc = jax.tree_map(_unsigned_bfloat16_encode, next_v)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../pretrain/optimization.py:27: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return jax.tree_map(lambda t: t / bias_correction.astype(t.dtype), moment)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../pretrain/optimization.py:109: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  updates = jax.tree_multimap(
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:30: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  updates = jax.tree_multimap(lambda g, orig_param: g - weight_decay * orig_param.astype(g.dtype),
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/optimization.py:256: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  updates = jax.tree_multimap(_fix_grad, updates, state.params)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/optax/_src/transform.py:570: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  updates = jax.tree_multimap(
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/optax/_src/transform.py:606: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  updates = jax.tree_map(
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/optax/_src/transform.py:328: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  updates = jax.tree_map(lambda g: step_size * g, updates)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/optax/_src/update.py:42: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  return jax.tree_multimap(
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/interpreters/mlir.py:583: UserWarning: Some donated buffers were not usable: ShapedArray(bfloat16[1,7,3,60,65]), ShapedArray(int32[1,1,256,2]), ShapedArray(bfloat16[1,7,288,768]), ShapedArray(bfloat16[1,7,288,768]), ShapedArray(bfloat16[1,7,288,768]), ShapedArray(int32[1]), ShapedArray(bfloat16[1]), ShapedArray(int32[1,504]), ShapedArray(int32[1]), ShapedArray(int32[1,1,256,2]), ShapedArray(int32[1,1,760,2]), ShapedArray(int32[1,1,760,2]).
+See an explanation at https://jax.readthedocs.io/en/latest/faq.html#buffer-donation.
+  warnings.warn(f"Some donated buffers were not usable: {', '.join(unused_donations)}.\n{msg}")
+Using dtype <class 'jax.numpy.bfloat16'>
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py:529: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  train_metrics.append(jax.tree_map(lambda x: x[0], loss_info))
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py:530: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  jax.tree_map(lambda x: x.copy_to_host_async(), train_metrics[-1])
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+Not including audio input
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+adding in audio input!
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+audio2vision x->y dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+audio2vision y->x dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+text2vision x->y dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+text2vision y->x dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+Completed 100 batches in 467.200sec, avg 0.214 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.086sec, avg 3.692 it/sec
+Completed 100 batches in 27.072sec, avg 3.694 it/sec
+Saving @iter 444.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../finetune/common_dataloader.py:465: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  item = jax.tree_map(lambda x: x._numpy(), item)
+Using dtype <class 'jax.numpy.bfloat16'>
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+Not including audio input
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+adding in audio input!
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+audio2vision x->y dot product sim:  shaped [(4032, 768)] -> [(32256, 768)]
+audio2vision y->x dot product sim:  shaped [(4032, 768)] -> [(32256, 768)]
+text2vision x->y dot product sim:  shaped [(4032, 768)] -> [(32256, 768)]
+text2vision y->x dot product sim:  shaped [(4032, 768)] -> [(32256, 768)]
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py:505: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  megabatch = jax.tree_multimap(lambda *xs: jnp.concatenate(xs, 1), *outs)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/interpreters/mlir.py:583: UserWarning: Some donated buffers were not usable: ShapedArray(bfloat16[4032,768]), ShapedArray(bfloat16[4032,768]), ShapedArray(bfloat16[4032,768]), ShapedArray(bfloat16[4032,768]).
+See an explanation at https://jax.readthedocs.io/en/latest/faq.html#buffer-donation.
+  warnings.warn(f"Some donated buffers were not usable: {', '.join(unused_donations)}.\n{msg}")
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py:507: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  loss_info = jax.tree_map(lambda x: float(x.mean()), loss_info)
+Padding final batch by 3
+Saving checkpoint at save 445, path /home/sakter/results/retrain_siq/out/base.yaml/tvqa_body_0.2_12_24_0.8_no_proj
+Not including the optimizer state
+/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/../../mreserve/checkpoint.py:93: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  params = jax.device_get(jax.tree_map(lambda x: x[0], state.params))
+Now on epoch 1
+Resetting iterator, epoch=1, batch of fns=0:13 /13
+Constructing TFRecord Input FN over ['/data/siq-less-files/train008of064.tfrecord', '/data/siq-less-files/train001of064.tfrecord', '/data/siq-less-files/train009of064.tfrecord', '/data/siq-less-files/train010of064.tfrecord', '/data/siq-less-files/train007of064.tfrecord', '/data/siq-less-files/train012of064.tfrecord', '/data/siq-less-files/train006of064.tfrecord', '/data/siq-less-files/train003of064.tfrecord', '/data/siq-less-files/train004of064.tfrecord', '/data/siq-less-files/train011of064.tfrecord', '/data/siq-less-files/train002of064.tfrecord', '/data/siq-less-files/train005of064.tfrecord', '/data/siq-less-files/train000of064.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Completed 100 batches in 165.832sec, avg 0.603 it/sec
+Completed 100 batches in 25.030sec, avg 3.995 it/sec
+Completed 100 batches in 26.506sec, avg 3.773 it/sec
+Completed 100 batches in 27.076sec, avg 3.693 it/sec
+Saving @iter 889.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+Padding final batch by 3
+Saving checkpoint at save 890, path /home/sakter/results/retrain_siq/out/base.yaml/tvqa_body_0.2_12_24_0.8_no_proj
+Not including the optimizer state
+Now on epoch 2
+Resetting iterator, epoch=2, batch of fns=0:13 /13
+Constructing TFRecord Input FN over ['/data/siq-less-files/train005of064.tfrecord', '/data/siq-less-files/train010of064.tfrecord', '/data/siq-less-files/train006of064.tfrecord', '/data/siq-less-files/train004of064.tfrecord', '/data/siq-less-files/train011of064.tfrecord', '/data/siq-less-files/train012of064.tfrecord', '/data/siq-less-files/train007of064.tfrecord', '/data/siq-less-files/train009of064.tfrecord', '/data/siq-less-files/train008of064.tfrecord', '/data/siq-less-files/train000of064.tfrecord', '/data/siq-less-files/train003of064.tfrecord', '/data/siq-less-files/train002of064.tfrecord', '/data/siq-less-files/train001of064.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Completed 100 batches in 72.315sec, avg 1.383 it/sec
+Completed 100 batches in 20.175sec, avg 4.957 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.085sec, avg 3.692 it/sec
+Completed 100 batches in 27.070sec, avg 3.694 it/sec
+Saving @iter 1334.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+Padding final batch by 3
+Saving checkpoint at save 1335, path /home/sakter/results/retrain_siq/out/base.yaml/tvqa_body_0.2_12_24_0.8_no_proj
+Not including the optimizer state
+Now on epoch 3
+Resetting iterator, epoch=3, batch of fns=0:13 /13
+Constructing TFRecord Input FN over ['/data/siq-less-files/train003of064.tfrecord', '/data/siq-less-files/train007of064.tfrecord', '/data/siq-less-files/train012of064.tfrecord', '/data/siq-less-files/train011of064.tfrecord', '/data/siq-less-files/train002of064.tfrecord', '/data/siq-less-files/train010of064.tfrecord', '/data/siq-less-files/train001of064.tfrecord', '/data/siq-less-files/train006of064.tfrecord', '/data/siq-less-files/train009of064.tfrecord', '/data/siq-less-files/train004of064.tfrecord', '/data/siq-less-files/train005of064.tfrecord', '/data/siq-less-files/train008of064.tfrecord', '/data/siq-less-files/train000of064.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Completed 100 batches in 65.429sec, avg 1.528 it/sec
+Completed 100 batches in 26.916sec, avg 3.715 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Saving @iter 1779.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+Padding final batch by 3
+Now on epoch 4
+Resetting iterator, epoch=4, batch of fns=0:13 /13
+Constructing TFRecord Input FN over ['/data/siq-less-files/train005of064.tfrecord', '/data/siq-less-files/train011of064.tfrecord', '/data/siq-less-files/train000of064.tfrecord', '/data/siq-less-files/train009of064.tfrecord', '/data/siq-less-files/train010of064.tfrecord', '/data/siq-less-files/train004of064.tfrecord', '/data/siq-less-files/train007of064.tfrecord', '/data/siq-less-files/train001of064.tfrecord', '/data/siq-less-files/train012of064.tfrecord', '/data/siq-less-files/train008of064.tfrecord', '/data/siq-less-files/train006of064.tfrecord', '/data/siq-less-files/train002of064.tfrecord', '/data/siq-less-files/train003of064.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Completed 100 batches in 67.091sec, avg 1.491 it/sec
+Completed 100 batches in 22.156sec, avg 4.513 it/sec
+Completed 100 batches in 27.075sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Saving @iter 2224.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+Padding final batch by 3
+Now on epoch 5
+Resetting iterator, epoch=5, batch of fns=0:13 /13
+Constructing TFRecord Input FN over ['/data/siq-less-files/train000of064.tfrecord', '/data/siq-less-files/train004of064.tfrecord', '/data/siq-less-files/train010of064.tfrecord', '/data/siq-less-files/train011of064.tfrecord', '/data/siq-less-files/train009of064.tfrecord', '/data/siq-less-files/train002of064.tfrecord', '/data/siq-less-files/train001of064.tfrecord', '/data/siq-less-files/train006of064.tfrecord', '/data/siq-less-files/train003of064.tfrecord', '/data/siq-less-files/train005of064.tfrecord', '/data/siq-less-files/train012of064.tfrecord', '/data/siq-less-files/train007of064.tfrecord', '/data/siq-less-files/train008of064.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Completed 100 batches in 61.322sec, avg 1.631 it/sec
+Completed 100 batches in 27.085sec, avg 3.692 it/sec
+Completed 100 batches in 27.074sec, avg 3.694 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Saving @iter 2669.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+Padding final batch by 3
+Now on epoch 6
+Resetting iterator, epoch=6, batch of fns=0:13 /13
+Constructing TFRecord Input FN over ['/data/siq-less-files/train011of064.tfrecord', '/data/siq-less-files/train006of064.tfrecord', '/data/siq-less-files/train007of064.tfrecord', '/data/siq-less-files/train003of064.tfrecord', '/data/siq-less-files/train008of064.tfrecord', '/data/siq-less-files/train000of064.tfrecord', '/data/siq-less-files/train005of064.tfrecord', '/data/siq-less-files/train012of064.tfrecord', '/data/siq-less-files/train001of064.tfrecord', '/data/siq-less-files/train002of064.tfrecord', '/data/siq-less-files/train010of064.tfrecord', '/data/siq-less-files/train004of064.tfrecord', '/data/siq-less-files/train009of064.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Completed 100 batches in 64.096sec, avg 1.560 it/sec
+Completed 100 batches in 24.000sec, avg 4.167 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Saving @iter 3114.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+Padding final batch by 3
+Now on epoch 7
+Resetting iterator, epoch=7, batch of fns=0:13 /13
+Constructing TFRecord Input FN over ['/data/siq-less-files/train004of064.tfrecord', '/data/siq-less-files/train002of064.tfrecord', '/data/siq-less-files/train005of064.tfrecord', '/data/siq-less-files/train010of064.tfrecord', '/data/siq-less-files/train003of064.tfrecord', '/data/siq-less-files/train009of064.tfrecord', '/data/siq-less-files/train006of064.tfrecord', '/data/siq-less-files/train001of064.tfrecord', '/data/siq-less-files/train007of064.tfrecord', '/data/siq-less-files/train008of064.tfrecord', '/data/siq-less-files/train000of064.tfrecord', '/data/siq-less-files/train012of064.tfrecord', '/data/siq-less-files/train011of064.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Completed 100 batches in 61.184sec, avg 1.634 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.076sec, avg 3.693 it/sec
+Saving @iter 3559.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+Padding final batch by 3
+Met early stopping criteria, breaking...

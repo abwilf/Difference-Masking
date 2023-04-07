@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001697~s06e02_seg02_clip_09 ~~~~~~~~
+ 50 to 78<|START|> why does sheldon walk into penny's room when she is asleep?
+0 GT)  sheldon walks into penny's room because sheldon wants to talk to penny.     (14tok)
+1   )  sheldon walks into penny's room because sheldon wants to dance with penny.     (14tok)
+2   )  sheldon walks into penny's room because sheldon wants to listen to penny.     (14tok)
+3   )  sheldon walks into penny's room because sheldon wants to look at penny.     (14tok)
+4   )  sheldon walks into penny's room because sheldon wants to yell at penny.     (14tok)
+~~~~~~~~~~~ Example 1 001953~friends_s02e23_seg02_clip_06 ~~~~~~~~
+ 2 to 40<|START|> why is chandler confused when joey mentions his kids?
+0   )  chandler is confused because he doesn't remember the names of joey's kids.     (15tok)
+1   )  chandler is confused because joey only has one daughter.     (10tok)
+2 GT)  chandler is confused because joey doesn't have any kids.     (11tok)
+3   )  chandler is confused because he doesn't know who joey is in that moment.     (15tok)
+4   )  chandler is confused because he thought joey said he'd given his kids up for adoption.     (17tok)
+~~~~~~~~~~~ Example 2 006561~s09e14_seg02_clip_09 ~~~~~~~~
+ 38 to 61<|START|> why is amy upset when sheldon's grandmother is in town?
+0   )  amy is upset because sheldon's grandmother wants to buy her a ring.     (14tok)
+1   )  amy is upset because sheldon's grandmother wants her to marry sheldon.     (13tok)
+2   )  amy is upset because sheldon's grandmother wants to go to the zoo.     (14tok)
+3   )  amy is upset because sheldon's grandmother wants to take her to dinner.     (14tok)
+4 GT)  amy is upset because sheldon's grandmother doesn't want her to marry sheldon.     (15tok)
+~~~~~~~~~~~ Example 3 007073~friends_s07e23-24_seg02_clip_40 ~~~~~~~~
+ 24 to 46<|START|> why did monica stare angrily at chandler before joey started the wedding ceremony?
+0   )  chandler's suit was the wrong color.     (8tok)
+1   )  chandler's fly was down.     (6tok)
+2 GT)  chandler had taken off before the wedding.     (8tok)
+3   )  chandler forgot the wedding rings.     (6tok)
+4   )  chandlerwas late for the wedding     (6tok)
+Finished writing 49 questions; max len = 272

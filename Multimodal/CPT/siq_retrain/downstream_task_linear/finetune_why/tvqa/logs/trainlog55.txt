@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002103~s02e20_seg02_clip_11 ~~~~~~~~
+ 43 to 57<|START|> why did howard say no to leonard after he pointed out two women?
+0   )  because they were too tall.     (6tok)
+1   )  because they had boyfriends.     (5tok)
+2 GT)  because they were eating peanuts.     (6tok)
+3   )  because they were co-workers.     (7tok)
+4   )  because they were drunk.     (5tok)
+~~~~~~~~~~~ Example 1 003639~grey_s02e02_seg02_clip_10 ~~~~~~~~
+ 5 to 94<|START|> why does meredith turn her back on addison and walk away when they were talking?
+0   )  because addison called meredith a name.      (8tok)
+1   )  because meredith had to go to the bathroom.      (10tok)
+2   )  because addison told meredith to leave.      (8tok)
+3   )  because meredith was called on the loudspeaker.      (13tok)
+4 GT)  because meredith didn't want to have a personal conversation with addison and was mad.      (17tok)
+~~~~~~~~~~~ Example 2 004407~castle_s03e03_seg02_clip_12 ~~~~~~~~
+ 3 to 67<|START|> why does castle ask beckett about her wild-child phase when he gets to work?
+0 GT)  he's worried about his daughter     (6tok)
+1   )  he want to get to know beckett better     (10tok)
+2   )  he wants to get crazy with beckett     (9tok)
+3   )  he wants to know if she's still in it     (10tok)
+4   )  he's worried about his son     (6tok)
+~~~~~~~~~~~ Example 3 011831~house_s05e12_seg02_clip_17 ~~~~~~~~
+ 31 to 39<|START|> why did house tell zach to remember the feeling when he grabbed his arm?
+0 GT)  because zach told house he was hurting him.     (9tok)
+1   )  because house wanted zach to understand what was going on.     (11tok)
+2   )  because house wanted to teach zach a lesson.     (9tok)
+3   )  because house was being his regular, uncaring self.     (11tok)
+4   )  because house wanted to scare the daylights out of zach.     (12tok)
+Finished writing 54 questions; max len = 258

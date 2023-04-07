@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004635~met_s03e20_seg02_clip_06 ~~~~~~~~
+ 5 to 94<|START|> why is marshall scratching his head so much when he is talking to his boss?
+0 GT)  he got lice from the kids' hats     (8tok)
+1   )  it's a nervous tick     (5tok)
+2   )  he has a dry scalp     (5tok)
+3   )  he's trying to make his boss uncomfortable     (8tok)
+4   )  he's trying to distract his boss      (8tok)
+~~~~~~~~~~~ Example 1 010779~castle_s07e15_seg02_clip_13 ~~~~~~~~
+ -23 to 123<|START|> why does castle go to gates for help after castle's wife is taken?
+0   )  castle goes to gates for help because gates is psychic.     (11tok)
+1   )  castle goes to gates for help because gates is easy to talk to.     (14tok)
+2   )  castle goes to gates for help because gates is a licensed therapist.     (13tok)
+3 GT)  castle goes to gates for help because gates knew the person who kidnapped castle's wife.     (17tok)
+4   )  castle goes to gates for help because gates knows exactly where castle's wife is.     (16tok)
+~~~~~~~~~~~ Example 2 012571~met_s03e09_seg02_clip_00 ~~~~~~~~
+ 12 to 87<|START|> why did lily object when robin invited bob to thanksgiving?
+0   )  because lily broke up with bob.     (7tok)
+1 GT)  because lily wanted the thanksgiving party to be just the five of them (lily, marshall, barney, robin, ted).     (25tok)
+2   )  because lily thought bob had a reputation as being a bad party guest.     (14tok)
+3   )  because inviting bob would have required a bigger venue.     (10tok)
+4   )  because bob had kids and lily didn't want to have kids around at thanksgiving.     (16tok)
+~~~~~~~~~~~ Example 3 013851~castle_s06e03_seg02_clip_08 ~~~~~~~~
+ 31 to 67<|START|> why did epsosito say that perlmutter was answering to the feds when he was leaving the elevator? 
+0   )  because perlmutter told them he was talking to the feds     (13tok)
+1   )  because castle watched the feds get off the elevator.     (10tok)
+2   )  because essosito was embarrassed by the feds.     (10tok)
+3   )  because the feds were harassing everyone in the office.     (10tok)
+4 GT)  because perlmutter said he wasn't authorized to tell them any more information.      (18tok)
+Finished writing 57 questions; max len = 276

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001554~friends_s05e09_seg02_clip_09 ~~~~~~~~
+ 12 to 86<|START|> why did ross begin to get visibitly upset when listening to dr leedbetter?
+0   )  because he and rachel are on a break     (8tok)
+1 GT)  because dr leedbetter admitted to taking his sandwich      (12tok)
+2   )  because his dog died     (4tok)
+3   )  because he misses his daughter     (5tok)
+4   )  because he got fired     (4tok)
+~~~~~~~~~~~ Example 1 002066~house_s07e18_seg02_clip_06 ~~~~~~~~
+ 14 to 29<|START|> why did many of the "weak" lose faith after 75' according to the woman?
+0   )  a scandal; involving church leaders     (6tok)
+1   )  there was too much political opposition      (7tok)
+2 GT)  christ didn't return then     (5tok)
+3   )  persecution from non believers      (5tok)
+4   )  an offshoot became more popular      (7tok)
+~~~~~~~~~~~ Example 2 003090~met_s05e05_seg02_clip_10 ~~~~~~~~
+ 42 to 56<|START|> why does robin need to get back to new york when barney finds her?
+0   )  she needs to take the cooking test.     (8tok)
+1   )  she needs to take the coloring test.     (8tok)
+2 GT)  she needs to take the citizenship test.     (8tok)
+3   )  she needs to take the math test.     (8tok)
+4   )  she needs to take the writing test.     (8tok)
+~~~~~~~~~~~ Example 3 004882~s01e03_seg01_clip_01 ~~~~~~~~
+ 59 to 97<|START|> why does howard suddenly become excited when playing the game?
+0   )  because howard defeated a major boss within the game.     (10tok)
+1   )  because howard has finally won the game.     (8tok)
+2 GT)  because howard has just obtained the sword of azeroth from ebay.      (15tok)
+3   )  because howard was able to level up his character within the game.     (13tok)
+4   )  because howard achieved a power boost within the game.     (10tok)
+Finished writing 52 questions; max len = 260

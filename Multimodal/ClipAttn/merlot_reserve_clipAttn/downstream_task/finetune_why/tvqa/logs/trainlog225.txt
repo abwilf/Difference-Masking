@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005857~friends_s09e19_seg02_clip_20 ~~~~~~~~
+ 36 to 64<|START|> why did joey find it hard to act like he is in love with someone before he does the scene?
+0   )  he is not a good actor.     (7tok)
+1 GT)  he had only been in love once before.     (9tok)
+2   )  he didn't like his co-star.     (9tok)
+3   )  he no longer do romantic scenes     (6tok)
+4   )  he prefers action scenes     (4tok)
+~~~~~~~~~~~ Example 1 006113~s06e04_seg02_clip_04 ~~~~~~~~
+ 21 to 78<|START|> why does sheldon get so frustrated after his third  drawing on the board?
+0 GT)  leonard still can't guess what he is drawing     (9tok)
+1   )  his marker breaks     (3tok)
+2   )  penny teases him     (4tok)
+3   )  he knocks over the wipe board     (6tok)
+4   )  leonard gives up      (4tok)
+~~~~~~~~~~~ Example 2 007393~s06e01_seg02_clip_11 ~~~~~~~~
+ 37 to 63<|START|> why did leonard want raj to leave when he was at his apartment
+0   )  so he could be by himself     (6tok)
+1   )  so he and penny could have sex     (7tok)
+2 GT)  so he and penny could talk     (6tok)
+3   )  so he could profess his love to penny     (8tok)
+4   )  so he could work on a project      (8tok)
+~~~~~~~~~~~ Example 3 012001~s01e07_seg02_clip_11 ~~~~~~~~
+ 39 to 60<|START|> why does sheldon reject the solution when raj says they can divinde the dumpling?
+0   )  sheldon hates the taste of dumplings.     (7tok)
+1   )  sheldon is just trying to be difficult.     (8tok)
+2   )  sheldon doesn't want another dumpling.     (7tok)
+3 GT)  sheldon prefers dumplings whole.     (5tok)
+4   )  sheldon doesn't like raj.     (6tok)
+Finished writing 46 questions; max len = 238

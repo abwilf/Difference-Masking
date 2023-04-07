@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003623~castle_s02e12_seg02_clip_02 ~~~~~~~~
+ 20 to 80<|START|> why does it appear castle is not at the hotel investigating sophie's murder when he is shown to be elsewhere sitting down?
+0 GT)  castle appears to be held captive     (6tok)
+1   )  castle was watching a baseball game     (6tok)
+2   )  castle was crying about his own wedding     (7tok)
+3   )  castle was thinking back fondly about his own wedding     (10tok)
+4   )  castle did not receive the message about the murder     (9tok)
+~~~~~~~~~~~ Example 1 006695~s01e12_seg02_clip_12 ~~~~~~~~
+ 7 to 64<|START|> why is leonard disgusted with howard when they are standing around talking
+0   )  he is talking about changing the periodic table     (8tok)
+1 GT)  he talks about getting a 15 year old girl drunk     (10tok)
+2   )  he is talking about dating lesley     (7tok)
+3   )  he is saying that physics isn't real     (8tok)
+4   )  he is saying the food is nasty     (7tok)
+~~~~~~~~~~~ Example 2 007975~castle_s07e08_seg02_clip_25 ~~~~~~~~
+ 43 to 55<|START|> why was marisa hiding she had a son before telling the truth?
+0   )  she wanted to surprise hiim     (6tok)
+1   )  she lost parental custody     (4tok)
+2   )  he son doesn't like strangers     (6tok)
+3   )  she's a very private person     (6tok)
+4 GT)  she didn't want to cause worry     (7tok)
+~~~~~~~~~~~ Example 3 009767~house_s08e06_seg02_clip_12 ~~~~~~~~
+ 37 to 62<|START|> why does chase theorize he and the other doctors are successful when talking to adams about his past?
+0   )  chase says they are successful because they went to the best schools and had the healthiest upbringings.     (21tok)
+1   )  chase says they are successful because they work harder than any of the other doctors in the hospital.     (19tok)
+2 GT)  chase says they are successful because they needed to fill the hole in their lives left by dysfunction.     (19tok)
+3   )  chase says they are successful because they came from families who drove them to be the best at everything.     (20tok)
+4   )  chase says they are successful because they grew up feeling like they could accomplish anything, so they did.     (20tok)
+Finished writing 49 questions; max len = 240

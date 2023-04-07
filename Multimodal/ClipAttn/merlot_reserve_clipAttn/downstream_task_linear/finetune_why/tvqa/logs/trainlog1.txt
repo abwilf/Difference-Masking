@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 011265~s04e17_seg02_clip_11 ~~~~~~~~
+ -33 to 134<|START|> why did sheldon look upset when everyone left?
+0   )  sheldon looked upset because he didn't want to go with them.     (13tok)
+1   )  sheldon looked upset because he didn't like to talk to them.     (13tok)
+2   )  sheldon looked upset because he wasn't sure what they were doing.     (13tok)
+3 GT)  sheldon looked upset because he wanted to play games and they didn't.     (14tok)
+4   )  sheldon looked upset because he was trying to have a conversation.     (12tok)
+~~~~~~~~~~~ Example 1 011777~friends_s01e16-17_seg01_clip_00 ~~~~~~~~
+ 29 to 71<|START|> why did chandler smack his menu on the table when he was at the restaurant with joey? 
+0   )  the manager waned them to leave the restaurant.      (11tok)
+1   )  the waitress bought them cold food.     (7tok)
+2 GT)  the waitress was taking too long to take their order.      (12tok)
+3   )  the waitress over charged them.      (7tok)
+4   )  the food was nasty.      (6tok)
+~~~~~~~~~~~ Example 2 015361~grey_s01e08_seg02_clip_11 ~~~~~~~~
+ 69 to 86<|START|> why is izzie concerned when christina does the procedure?
+0   )  there is air in the tube     (6tok)
+1   )  mr. franklin has a fever     (6tok)
+2   )  mr. franklin falls unconscious     (5tok)
+3 GT)  there is blood in the tube     (6tok)
+4   )  she used the wrong needle     (5tok)
+~~~~~~~~~~~ Example 3 020225~castle_s07e15_seg02_clip_07 ~~~~~~~~
+ 39 to 61<|START|> why doesn't detective ryan book the other subject when he is booking castle? 
+0   )  he has left before they can      (7tok)
+1   )  he is to important      (5tok)
+2   )  his lawyer dad has come for him      (8tok)
+3   )  he has diplomatic immunity     (4tok)
+4 GT)  they have nothing to hold him on     (7tok)
+Finished writing 44 questions; max len = 235

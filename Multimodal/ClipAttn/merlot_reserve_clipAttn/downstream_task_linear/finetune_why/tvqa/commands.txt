@@ -1,0 +1,1 @@
+wandb sweep -p merlotreserve-tvqa-finetune finetune_run_sweep.yml

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000572~friends_s04e14_seg02_clip_09 ~~~~~~~~
+ 69 to 86<|START|> why does chandler say the girls don't want to be guys after phoebe suggests it?
+0   )  they would miss painting their nails     (6tok)
+1   )  they'd be gross     (4tok)
+2   )  they would drown in despair     (5tok)
+3 GT)  they'd be hairy and wouldn't live as long     (10tok)
+4   )  they would miss out on the fun of childbirth      (11tok)
+~~~~~~~~~~~ Example 1 001852~castle_s01e10_seg02_clip_00 ~~~~~~~~
+ 45 to 54<|START|> why does rick confront dr. murray when the case is a simple stabbing?
+0   )  dr. murray needed extra work.     (7tok)
+1   )  dr. murray was a friend of the deceased.     (10tok)
+2   )  dr. murray was the best forensic psychic around.     (10tok)
+3 GT)  dr. murray may find a detail that was missed in the case.     (14tok)
+4   )  dr. murray originally worked on the case.       (10tok)
+~~~~~~~~~~~ Example 2 003388~s04e17_seg02_clip_07 ~~~~~~~~
+ 11 to 31<|START|> why does barry give the look after sheldon introduces himself?
+0   )  because barry is proud of sheldon's accomplishments.     (9tok)
+1 GT)  because barry is flustered by sheldon's narcissism.      (12tok)
+2   )  because barry is surprised sheldon is boasting about himself.     (11tok)
+3   )  because barry is happy that sheldon is sharing about how intelligent he is.     (14tok)
+4   )  because barry thinks sheldon will win the raffle since he is so smart.     (14tok)
+~~~~~~~~~~~ Example 3 004668~friends_s06e03_seg02_clip_04 ~~~~~~~~
+ 38 to 61<|START|> why is rachel worried about apartments when she goes in the restaurant to see phoebe?
+0   )  because rachel wants to live directly in times square     (9tok)
+1   )  because rachel doesn't know how to tell phoebe she doesn't want to room together     (16tok)
+2   )  because rachel wants an apartment with three bathrooms     (8tok)
+3 GT)  because rachel thinks every apartment comes with a crazy roommate     (10tok)
+4   )  because rachel wants to find an attractive guy to live with     (11tok)
+Finished writing 44 questions; max len = 281

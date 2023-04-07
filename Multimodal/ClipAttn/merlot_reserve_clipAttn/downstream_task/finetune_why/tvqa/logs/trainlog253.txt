@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002557~castle_s01e07_seg02_clip_18 ~~~~~~~~
+ 8 to 92<|START|> why did laurie leave when beckett was getting dressed?
+0   )  beckett asked laurie to bring her some wine     (10tok)
+1   )  beckett and laurie were fighting     (7tok)
+2   )  beckett felt uncomfortable having someone in the room while she was half naked     (15tok)
+3 GT)  beckett asked laurie to take care of the person ringing the doorbell     (14tok)
+4   )  laurie kept getting in beckett's way     (9tok)
+~~~~~~~~~~~ Example 1 002813~house_s04e06_seg02_clip_02 ~~~~~~~~
+ 0 to 100<|START|> why does foreman say he is going do an mri after he says he is sure the patient has heatstroke?
+0 GT)  he wants to verify to make sure because it's an educated guess.     (14tok)
+1   )  he wants to prove another doctor wrong.     (8tok)
+2   )  the patient demands he do another test because he is wrong.     (12tok)
+3   )  the doctor questions his diagnosis and tells him to verify.     (11tok)
+4   )  cuddy questions his diagnosis and tell him to verify.     (11tok)
+~~~~~~~~~~~ Example 2 004605~castle_s02e17_seg02_clip_04 ~~~~~~~~
+ 69 to 87<|START|> why were the detectives taking pictures of the carousel after finding the victim?
+0   )  because the carousel was broken.     (6tok)
+1   )  because they didn't have anything else to do.     (10tok)
+2 GT)  because someone was killed on the carousel.     (8tok)
+3   )  because they were looking for a body.     (8tok)
+4   )  because the wanted tacos.     (5tok)
+~~~~~~~~~~~ Example 3 005629~met_s02e22_seg02_clip_00 ~~~~~~~~
+ 0 to 100<|START|> why did marshall feel so frustrated when they were at the wedding?
+0   )  marshall wanted to go to the honeymoon.     (8tok)
+1 GT)  marshall had not eaten.     (5tok)
+2   )  marshall had lost his job.     (6tok)
+3   )  marshall was tired from the stress.      (8tok)
+4   )  marshall wanted to go home.     (6tok)
+Finished writing 55 questions; max len = 262

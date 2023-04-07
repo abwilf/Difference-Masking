@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000705~met_s02e09_seg02_clip_04 ~~~~~~~~
+ 1 to 13<|START|> why does ted thank barney when they are talking at the table?
+0 GT)  because barney agrees with ted that robin is not married.      (12tok)
+1   )  because barney acknowledges ted's efforts on his job.      (12tok)
+2   )  because barney, tells ted that ted is his best friend.     (12tok)
+3   )  because barney tells ted that he wants them to be roommates.     (12tok)
+4   )  because ted likes that barney has good manners and said excuse me after he belched.      (18tok)
+~~~~~~~~~~~ Example 1 001985~house_s02e16_seg02_clip_22 ~~~~~~~~
+ 29 to 69<|START|> why is the girl patient on the bed having trouble breathing when foreman gives her another shot of atropine in her iv?
+0   )  she has swallowed a bug and it is causing her to not be able to breathe properly so foreman gives her shot before they do a tracheotomy.     (31tok)
+1   )  she is choking on a cough drop and her airway is blocked which is keeping her from breathing properly.     (21tok)
+2   )  she was cut in the throat and she is having trouble breathing because of it. they give her the shot for the pain.     (25tok)
+3   )  she is not breathing properly because her heart is giving out and foreman gives a shot to help her die quicker.     (22tok)
+4 GT)  she is having trouble breathing because she is going into anaphylaxis and she is allergic to something she was exposed too.     (26tok)
+~~~~~~~~~~~ Example 2 002497~house_s05e22_seg02_clip_19 ~~~~~~~~
+ 14 to 84<|START|> why could cameron not go with chase when the officers took him away?
+0   )  they was not married     (4tok)
+1   )  no room in car     (4tok)
+2 GT)  illegals only     (3tok)
+3   )  he did not want her to come     (7tok)
+4   )  criminals only     (2tok)
+~~~~~~~~~~~ Example 3 004033~s10e12_seg02_clip_17 ~~~~~~~~
+ 14 to 85<|START|> why is bernadette ready to cry after howard speaks to her
+0   )  she wants to get a divorce     (6tok)
+1   )  she is angry with howard     (5tok)
+2   )  she doesn't want the baby     (6tok)
+3 GT)  she is very happy     (4tok)
+4   )  she is very nervous     (4tok)
+Finished writing 41 questions; max len = 221

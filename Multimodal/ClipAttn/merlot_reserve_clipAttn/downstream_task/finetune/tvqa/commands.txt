@@ -1,0 +1,2 @@
+wandb sweep -p merlotreserve-tvqa-finetune finetune_run_sweep.yml
+wandb sweep -p merlotreserve-retrain retrain_run_sweep.yml

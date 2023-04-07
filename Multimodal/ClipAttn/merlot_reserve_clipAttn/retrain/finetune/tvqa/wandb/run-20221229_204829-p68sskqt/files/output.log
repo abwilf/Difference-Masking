@@ -1,0 +1,1047 @@
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../mreserve/checkpoint.py:27: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return jax.tree_map(_do_cast, tree)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../pretrain/optimization.py:79: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  running_m = jax.tree_map(_init, params)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../pretrain/optimization.py:80: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  running_v = jax.tree_map(_init, params)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:126: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return jax.tree_map(lambda x: (x.ndim > 1) and (x.size > 4096), p)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:27: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return DecayedWeightsDeltaState(orig_params=jax.tree_map(lambda x: x.astype(jnp.bfloat16), params))
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/flax/jax_utils.py:77: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return jax.tree_map(lambda x: _replicate(x, devices), tree)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/_src/lib/xla_bridge.py:528: UserWarning: jax.host_count has been renamed to jax.process_count. This alias will eventually be removed; please update your code.
+  warnings.warn(
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/_src/lib/xla_bridge.py:515: UserWarning: jax.host_id has been renamed to jax.process_index. This alias will eventually be removed; please update your code.
+  warnings.warn(
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:149: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  state = state.replace(opt_state=jax.tree_map(_shard_opt, state.opt_state))
+Now on epoch 0
+Resetting iterator, epoch=0, batch of fns=0:256 /256
+Constructing TFRecord Input FN over ['/data/sakter/preprocessed_clip/out/train217of256.tfrecord', '/data/sakter/preprocessed_clip/out/train092of256.tfrecord', '/data/sakter/preprocessed_clip/out/train220of256.tfrecord', '/data/sakter/preprocessed_clip/out/train053of256.tfrecord', '/data/sakter/preprocessed_clip/out/train255of256.tfrecord', '/data/sakter/preprocessed_clip/out/train132of256.tfrecord', '/data/sakter/preprocessed_clip/out/train035of256.tfrecord', '/data/sakter/preprocessed_clip/out/train218of256.tfrecord', '/data/sakter/preprocessed_clip/out/train099of256.tfrecord', '/data/sakter/preprocessed_clip/out/train130of256.tfrecord', '/data/sakter/preprocessed_clip/out/train155of256.tfrecord', '/data/sakter/preprocessed_clip/out/train139of256.tfrecord', '/data/sakter/preprocessed_clip/out/train047of256.tfrecord', '/data/sakter/preprocessed_clip/out/train017of256.tfrecord', '/data/sakter/preprocessed_clip/out/train182of256.tfrecord', '/data/sakter/preprocessed_clip/out/train245of256.tfrecord', '/data/sakter/preprocessed_clip/out/train111of256.tfrecord', '/data/sakter/preprocessed_clip/out/train186of256.tfrecord', '/data/sakter/preprocessed_clip/out/train167of256.tfrecord', '/data/sakter/preprocessed_clip/out/train145of256.tfrecord', '/data/sakter/preprocessed_clip/out/train215of256.tfrecord', '/data/sakter/preprocessed_clip/out/train185of256.tfrecord', '/data/sakter/preprocessed_clip/out/train086of256.tfrecord', '/data/sakter/preprocessed_clip/out/train219of256.tfrecord', '/data/sakter/preprocessed_clip/out/train251of256.tfrecord', '/data/sakter/preprocessed_clip/out/train134of256.tfrecord', '/data/sakter/preprocessed_clip/out/train066of256.tfrecord', '/data/sakter/preprocessed_clip/out/train214of256.tfrecord', '/data/sakter/preprocessed_clip/out/train090of256.tfrecord', '/data/sakter/preprocessed_clip/out/train144of256.tfrecord', '/data/sakter/preprocessed_clip/out/train069of256.tfrecord', '/data/sakter/preprocessed_clip/out/train015of256.tfrecord', '/data/sakter/preprocessed_clip/out/train163of256.tfrecord', '/data/sakter/preprocessed_clip/out/train044of256.tfrecord', '/data/sakter/preprocessed_clip/out/train010of256.tfrecord', '/data/sakter/preprocessed_clip/out/train037of256.tfrecord', '/data/sakter/preprocessed_clip/out/train034of256.tfrecord', '/data/sakter/preprocessed_clip/out/train151of256.tfrecord', '/data/sakter/preprocessed_clip/out/train039of256.tfrecord', '/data/sakter/preprocessed_clip/out/train062of256.tfrecord', '/data/sakter/preprocessed_clip/out/train075of256.tfrecord', '/data/sakter/preprocessed_clip/out/train013of256.tfrecord', '/data/sakter/preprocessed_clip/out/train209of256.tfrecord', '/data/sakter/preprocessed_clip/out/train204of256.tfrecord', '/data/sakter/preprocessed_clip/out/train080of256.tfrecord', '/data/sakter/preprocessed_clip/out/train095of256.tfrecord', '/data/sakter/preprocessed_clip/out/train149of256.tfrecord', '/data/sakter/preprocessed_clip/out/train042of256.tfrecord', '/data/sakter/preprocessed_clip/out/train058of256.tfrecord', '/data/sakter/preprocessed_clip/out/train081of256.tfrecord', '/data/sakter/preprocessed_clip/out/train190of256.tfrecord', '/data/sakter/preprocessed_clip/out/train154of256.tfrecord', '/data/sakter/preprocessed_clip/out/train160of256.tfrecord', '/data/sakter/preprocessed_clip/out/train242of256.tfrecord', '/data/sakter/preprocessed_clip/out/train120of256.tfrecord', '/data/sakter/preprocessed_clip/out/train143of256.tfrecord', '/data/sakter/preprocessed_clip/out/train129of256.tfrecord', '/data/sakter/preprocessed_clip/out/train073of256.tfrecord', '/data/sakter/preprocessed_clip/out/train135of256.tfrecord', '/data/sakter/preprocessed_clip/out/train148of256.tfrecord', '/data/sakter/preprocessed_clip/out/train121of256.tfrecord', '/data/sakter/preprocessed_clip/out/train083of256.tfrecord', '/data/sakter/preprocessed_clip/out/train064of256.tfrecord', '/data/sakter/preprocessed_clip/out/train205of256.tfrecord', '/data/sakter/preprocessed_clip/out/train156of256.tfrecord', '/data/sakter/preprocessed_clip/out/train103of256.tfrecord', '/data/sakter/preprocessed_clip/out/train248of256.tfrecord', '/data/sakter/preprocessed_clip/out/train026of256.tfrecord', '/data/sakter/preprocessed_clip/out/train029of256.tfrecord', '/data/sakter/preprocessed_clip/out/train208of256.tfrecord', '/data/sakter/preprocessed_clip/out/train162of256.tfrecord', '/data/sakter/preprocessed_clip/out/train050of256.tfrecord', '/data/sakter/preprocessed_clip/out/train249of256.tfrecord', '/data/sakter/preprocessed_clip/out/train070of256.tfrecord', '/data/sakter/preprocessed_clip/out/train067of256.tfrecord', '/data/sakter/preprocessed_clip/out/train084of256.tfrecord', '/data/sakter/preprocessed_clip/out/train198of256.tfrecord', '/data/sakter/preprocessed_clip/out/train234of256.tfrecord', '/data/sakter/preprocessed_clip/out/train150of256.tfrecord', '/data/sakter/preprocessed_clip/out/train192of256.tfrecord', '/data/sakter/preprocessed_clip/out/train043of256.tfrecord', '/data/sakter/preprocessed_clip/out/train048of256.tfrecord', '/data/sakter/preprocessed_clip/out/train137of256.tfrecord', '/data/sakter/preprocessed_clip/out/train172of256.tfrecord', '/data/sakter/preprocessed_clip/out/train224of256.tfrecord', '/data/sakter/preprocessed_clip/out/train254of256.tfrecord', '/data/sakter/preprocessed_clip/out/train113of256.tfrecord', '/data/sakter/preprocessed_clip/out/train004of256.tfrecord', '/data/sakter/preprocessed_clip/out/train221of256.tfrecord', '/data/sakter/preprocessed_clip/out/train011of256.tfrecord', '/data/sakter/preprocessed_clip/out/train200of256.tfrecord', '/data/sakter/preprocessed_clip/out/train212of256.tfrecord', '/data/sakter/preprocessed_clip/out/train019of256.tfrecord', '/data/sakter/preprocessed_clip/out/train233of256.tfrecord', '/data/sakter/preprocessed_clip/out/train030of256.tfrecord', '/data/sakter/preprocessed_clip/out/train085of256.tfrecord', '/data/sakter/preprocessed_clip/out/train023of256.tfrecord', '/data/sakter/preprocessed_clip/out/train059of256.tfrecord', '/data/sakter/preprocessed_clip/out/train158of256.tfrecord', '/data/sakter/preprocessed_clip/out/train165of256.tfrecord', '/data/sakter/preprocessed_clip/out/train024of256.tfrecord', '/data/sakter/preprocessed_clip/out/train078of256.tfrecord', '/data/sakter/preprocessed_clip/out/train203of256.tfrecord', '/data/sakter/preprocessed_clip/out/train097of256.tfrecord', '/data/sakter/preprocessed_clip/out/train114of256.tfrecord', '/data/sakter/preprocessed_clip/out/train055of256.tfrecord', '/data/sakter/preprocessed_clip/out/train207of256.tfrecord', '/data/sakter/preprocessed_clip/out/train141of256.tfrecord', '/data/sakter/preprocessed_clip/out/train140of256.tfrecord', '/data/sakter/preprocessed_clip/out/train098of256.tfrecord', '/data/sakter/preprocessed_clip/out/train164of256.tfrecord', '/data/sakter/preprocessed_clip/out/train072of256.tfrecord', '/data/sakter/preprocessed_clip/out/train179of256.tfrecord', '/data/sakter/preprocessed_clip/out/train091of256.tfrecord', '/data/sakter/preprocessed_clip/out/train088of256.tfrecord', '/data/sakter/preprocessed_clip/out/train228of256.tfrecord', '/data/sakter/preprocessed_clip/out/train226of256.tfrecord', '/data/sakter/preprocessed_clip/out/train252of256.tfrecord', '/data/sakter/preprocessed_clip/out/train056of256.tfrecord', '/data/sakter/preprocessed_clip/out/train152of256.tfrecord', '/data/sakter/preprocessed_clip/out/train077of256.tfrecord', '/data/sakter/preprocessed_clip/out/train188of256.tfrecord', '/data/sakter/preprocessed_clip/out/train168of256.tfrecord', '/data/sakter/preprocessed_clip/out/train052of256.tfrecord', '/data/sakter/preprocessed_clip/out/train123of256.tfrecord', '/data/sakter/preprocessed_clip/out/train027of256.tfrecord', '/data/sakter/preprocessed_clip/out/train197of256.tfrecord', '/data/sakter/preprocessed_clip/out/train094of256.tfrecord', '/data/sakter/preprocessed_clip/out/train189of256.tfrecord', '/data/sakter/preprocessed_clip/out/train232of256.tfrecord', '/data/sakter/preprocessed_clip/out/train131of256.tfrecord', '/data/sakter/preprocessed_clip/out/train031of256.tfrecord', '/data/sakter/preprocessed_clip/out/train169of256.tfrecord', '/data/sakter/preprocessed_clip/out/train174of256.tfrecord', '/data/sakter/preprocessed_clip/out/train041of256.tfrecord', '/data/sakter/preprocessed_clip/out/train177of256.tfrecord', '/data/sakter/preprocessed_clip/out/train213of256.tfrecord', '/data/sakter/preprocessed_clip/out/train005of256.tfrecord', '/data/sakter/preprocessed_clip/out/train002of256.tfrecord', '/data/sakter/preprocessed_clip/out/train107of256.tfrecord', '/data/sakter/preprocessed_clip/out/train071of256.tfrecord', '/data/sakter/preprocessed_clip/out/train049of256.tfrecord', '/data/sakter/preprocessed_clip/out/train089of256.tfrecord', '/data/sakter/preprocessed_clip/out/train128of256.tfrecord', '/data/sakter/preprocessed_clip/out/train014of256.tfrecord', '/data/sakter/preprocessed_clip/out/train028of256.tfrecord', '/data/sakter/preprocessed_clip/out/train118of256.tfrecord', '/data/sakter/preprocessed_clip/out/train022of256.tfrecord', '/data/sakter/preprocessed_clip/out/train038of256.tfrecord', '/data/sakter/preprocessed_clip/out/train110of256.tfrecord', '/data/sakter/preprocessed_clip/out/train216of256.tfrecord', '/data/sakter/preprocessed_clip/out/train054of256.tfrecord', '/data/sakter/preprocessed_clip/out/train199of256.tfrecord', '/data/sakter/preprocessed_clip/out/train087of256.tfrecord', '/data/sakter/preprocessed_clip/out/train102of256.tfrecord', '/data/sakter/preprocessed_clip/out/train045of256.tfrecord', '/data/sakter/preprocessed_clip/out/train206of256.tfrecord', '/data/sakter/preprocessed_clip/out/train180of256.tfrecord', '/data/sakter/preprocessed_clip/out/train106of256.tfrecord', '/data/sakter/preprocessed_clip/out/train046of256.tfrecord', '/data/sakter/preprocessed_clip/out/train093of256.tfrecord', '/data/sakter/preprocessed_clip/out/train194of256.tfrecord', '/data/sakter/preprocessed_clip/out/train222of256.tfrecord', '/data/sakter/preprocessed_clip/out/train157of256.tfrecord', '/data/sakter/preprocessed_clip/out/train115of256.tfrecord', '/data/sakter/preprocessed_clip/out/train241of256.tfrecord', '/data/sakter/preprocessed_clip/out/train082of256.tfrecord', '/data/sakter/preprocessed_clip/out/train171of256.tfrecord', '/data/sakter/preprocessed_clip/out/train181of256.tfrecord', '/data/sakter/preprocessed_clip/out/train243of256.tfrecord', '/data/sakter/preprocessed_clip/out/train196of256.tfrecord', '/data/sakter/preprocessed_clip/out/train000of256.tfrecord', '/data/sakter/preprocessed_clip/out/train253of256.tfrecord', '/data/sakter/preprocessed_clip/out/train063of256.tfrecord', '/data/sakter/preprocessed_clip/out/train244of256.tfrecord', '/data/sakter/preprocessed_clip/out/train051of256.tfrecord', '/data/sakter/preprocessed_clip/out/train007of256.tfrecord', '/data/sakter/preprocessed_clip/out/train127of256.tfrecord', '/data/sakter/preprocessed_clip/out/train235of256.tfrecord', '/data/sakter/preprocessed_clip/out/train076of256.tfrecord', '/data/sakter/preprocessed_clip/out/train096of256.tfrecord', '/data/sakter/preprocessed_clip/out/train124of256.tfrecord', '/data/sakter/preprocessed_clip/out/train125of256.tfrecord', '/data/sakter/preprocessed_clip/out/train187of256.tfrecord', '/data/sakter/preprocessed_clip/out/train237of256.tfrecord', '/data/sakter/preprocessed_clip/out/train001of256.tfrecord', '/data/sakter/preprocessed_clip/out/train136of256.tfrecord', '/data/sakter/preprocessed_clip/out/train250of256.tfrecord', '/data/sakter/preprocessed_clip/out/train057of256.tfrecord', '/data/sakter/preprocessed_clip/out/train195of256.tfrecord', '/data/sakter/preprocessed_clip/out/train020of256.tfrecord', '/data/sakter/preprocessed_clip/out/train147of256.tfrecord', '/data/sakter/preprocessed_clip/out/train161of256.tfrecord', '/data/sakter/preprocessed_clip/out/train210of256.tfrecord', '/data/sakter/preprocessed_clip/out/train246of256.tfrecord', '/data/sakter/preprocessed_clip/out/train202of256.tfrecord', '/data/sakter/preprocessed_clip/out/train101of256.tfrecord', '/data/sakter/preprocessed_clip/out/train238of256.tfrecord', '/data/sakter/preprocessed_clip/out/train175of256.tfrecord', '/data/sakter/preprocessed_clip/out/train008of256.tfrecord', '/data/sakter/preprocessed_clip/out/train009of256.tfrecord', '/data/sakter/preprocessed_clip/out/train105of256.tfrecord', '/data/sakter/preprocessed_clip/out/train079of256.tfrecord', '/data/sakter/preprocessed_clip/out/train211of256.tfrecord', '/data/sakter/preprocessed_clip/out/train178of256.tfrecord', '/data/sakter/preprocessed_clip/out/train183of256.tfrecord', '/data/sakter/preprocessed_clip/out/train230of256.tfrecord', '/data/sakter/preprocessed_clip/out/train104of256.tfrecord', '/data/sakter/preprocessed_clip/out/train184of256.tfrecord', '/data/sakter/preprocessed_clip/out/train033of256.tfrecord', '/data/sakter/preprocessed_clip/out/train231of256.tfrecord', '/data/sakter/preprocessed_clip/out/train193of256.tfrecord', '/data/sakter/preprocessed_clip/out/train142of256.tfrecord', '/data/sakter/preprocessed_clip/out/train021of256.tfrecord', '/data/sakter/preprocessed_clip/out/train247of256.tfrecord', '/data/sakter/preprocessed_clip/out/train117of256.tfrecord', '/data/sakter/preprocessed_clip/out/train229of256.tfrecord', '/data/sakter/preprocessed_clip/out/train068of256.tfrecord', '/data/sakter/preprocessed_clip/out/train166of256.tfrecord', '/data/sakter/preprocessed_clip/out/train227of256.tfrecord', '/data/sakter/preprocessed_clip/out/train170of256.tfrecord', '/data/sakter/preprocessed_clip/out/train040of256.tfrecord', '/data/sakter/preprocessed_clip/out/train016of256.tfrecord', '/data/sakter/preprocessed_clip/out/train074of256.tfrecord', '/data/sakter/preprocessed_clip/out/train201of256.tfrecord', '/data/sakter/preprocessed_clip/out/train126of256.tfrecord', '/data/sakter/preprocessed_clip/out/train119of256.tfrecord', '/data/sakter/preprocessed_clip/out/train225of256.tfrecord', '/data/sakter/preprocessed_clip/out/train236of256.tfrecord', '/data/sakter/preprocessed_clip/out/train173of256.tfrecord', '/data/sakter/preprocessed_clip/out/train240of256.tfrecord', '/data/sakter/preprocessed_clip/out/train109of256.tfrecord', '/data/sakter/preprocessed_clip/out/train012of256.tfrecord', '/data/sakter/preprocessed_clip/out/train108of256.tfrecord', '/data/sakter/preprocessed_clip/out/train003of256.tfrecord', '/data/sakter/preprocessed_clip/out/train116of256.tfrecord', '/data/sakter/preprocessed_clip/out/train061of256.tfrecord', '/data/sakter/preprocessed_clip/out/train006of256.tfrecord', '/data/sakter/preprocessed_clip/out/train036of256.tfrecord', '/data/sakter/preprocessed_clip/out/train138of256.tfrecord', '/data/sakter/preprocessed_clip/out/train122of256.tfrecord', '/data/sakter/preprocessed_clip/out/train239of256.tfrecord', '/data/sakter/preprocessed_clip/out/train191of256.tfrecord', '/data/sakter/preprocessed_clip/out/train223of256.tfrecord', '/data/sakter/preprocessed_clip/out/train025of256.tfrecord', '/data/sakter/preprocessed_clip/out/train146of256.tfrecord', '/data/sakter/preprocessed_clip/out/train065of256.tfrecord', '/data/sakter/preprocessed_clip/out/train153of256.tfrecord', '/data/sakter/preprocessed_clip/out/train176of256.tfrecord', '/data/sakter/preprocessed_clip/out/train018of256.tfrecord', '/data/sakter/preprocessed_clip/out/train100of256.tfrecord', '/data/sakter/preprocessed_clip/out/train133of256.tfrecord', '/data/sakter/preprocessed_clip/out/train159of256.tfrecord', '/data/sakter/preprocessed_clip/out/train112of256.tfrecord', '/data/sakter/preprocessed_clip/out/train032of256.tfrecord', '/data/sakter/preprocessed_clip/out/train060of256.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../pretrain/dataloader.py:1044: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  item = jax.tree_map(lambda x: x._numpy(), item)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:222: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  init=jax.tree_map(lambda x: jnp.zeros_like(x, dtype=jnp.bfloat16), params),
+Using dtype <class 'jax.numpy.bfloat16'>
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/flax/core/scope.py:612: FutureWarning: jax.tree_leaves is deprecated, and will be removed in a future release. Use jax.tree_util.tree_leaves instead.
+  abs_value_flat = jax.tree_leaves(abs_value)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/flax/core/scope.py:613: FutureWarning: jax.tree_leaves is deprecated, and will be removed in a future release. Use jax.tree_util.tree_leaves instead.
+  value_flat = jax.tree_leaves(value)
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+Not including audio input
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+adding in audio input!
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+audio2vision x->y dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+audio2vision y->x dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+text2vision x->y dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+text2vision y->x dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:218: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  grads = jax.tree_multimap(lambda a, b: a + b, old_grads, grads)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/_src/tree_util.py:205: FutureWarning: jax.tree_util.tree_multimap() is deprecated. Please use jax.tree_util.tree_map() instead as a drop-in replacement.
+  warnings.warn('jax.tree_util.tree_multimap() is deprecated. Please use jax.tree_util.tree_map() '
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:224: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  loss_info = jax.tree_map(lambda x: x.mean(), loss_info)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:228: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  grads = jax.tree_map(lambda x: jnp.nan_to_num(x, copy=False), grads)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:240: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  updates = jax.tree_map(_idx_grad, grads)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../pretrain/optimization.py:97: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  next_m = jax.tree_multimap(_momentum_update, updates, state.mu)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../pretrain/optimization.py:98: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  next_m_enc = jax.tree_map(lambda x: x.astype(jnp.bfloat16), next_m)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../pretrain/optimization.py:100: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  next_v = jax.tree_multimap(_secondorder_update, updates, state.nu)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../pretrain/optimization.py:101: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  next_v_enc = jax.tree_map(_unsigned_bfloat16_encode, next_v)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../pretrain/optimization.py:27: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  return jax.tree_map(lambda t: t / bias_correction.astype(t.dtype), moment)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../pretrain/optimization.py:109: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  updates = jax.tree_multimap(
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:30: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  updates = jax.tree_multimap(lambda g, orig_param: g - weight_decay * orig_param.astype(g.dtype),
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/optimization.py:256: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  updates = jax.tree_multimap(_fix_grad, updates, state.params)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/optax/_src/transform.py:570: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  updates = jax.tree_multimap(
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/optax/_src/transform.py:606: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  updates = jax.tree_map(
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/optax/_src/transform.py:328: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  updates = jax.tree_map(lambda g: step_size * g, updates)
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/optax/_src/update.py:42: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  return jax.tree_multimap(
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/interpreters/mlir.py:583: UserWarning: Some donated buffers were not usable: ShapedArray(bfloat16[1,7,3,60,65]), ShapedArray(int32[1,1,256,2]), ShapedArray(bfloat16[1,7,288,768]), ShapedArray(int32[1]), ShapedArray(bfloat16[1]), ShapedArray(bfloat16[1,7,288,768]), ShapedArray(int32[1,504]), ShapedArray(int32[1]), ShapedArray(int32[1,1,256,2]), ShapedArray(int32[1,1,760,2]), ShapedArray(int32[1,1,760,2]).
+See an explanation at https://jax.readthedocs.io/en/latest/faq.html#buffer-donation.
+  warnings.warn(f"Some donated buffers were not usable: {', '.join(unused_donations)}.\n{msg}")
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/tvqa_finetune.py:526: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  train_metrics.append(jax.tree_map(lambda x: x[0], loss_info))
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/tvqa_finetune.py:527: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  jax.tree_map(lambda x: x.copy_to_host_async(), train_metrics[-1])
+Using dtype <class 'jax.numpy.bfloat16'>
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+Not including audio input
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+adding in audio input!
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=1/1)>
+attention_layer: ~doing attnmask~
+audio2vision x->y dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+audio2vision y->x dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+text2vision x->y dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+text2vision y->x dot product sim:  shaped [(504, 768)] -> [(4032, 768)]
+Completed 100 batches in 453.247sec, avg 0.221 it/sec
+Completed 100 batches in 27.076sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.084sec, avg 3.692 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.084sec, avg 3.692 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.085sec, avg 3.692 it/sec
+Completed 100 batches in 27.076sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.084sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.084sec, avg 3.692 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.086sec, avg 3.692 it/sec
+Completed 100 batches in 27.073sec, avg 3.694 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.076sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.102sec, avg 3.690 it/sec
+Completed 100 batches in 27.055sec, avg 3.696 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.111sec, avg 3.689 it/sec
+Completed 100 batches in 27.046sec, avg 3.697 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Now on epoch 1
+Resetting iterator, epoch=1, batch of fns=0:256 /256
+Constructing TFRecord Input FN over ['/data/sakter/preprocessed_clip/out/train231of256.tfrecord', '/data/sakter/preprocessed_clip/out/train071of256.tfrecord', '/data/sakter/preprocessed_clip/out/train195of256.tfrecord', '/data/sakter/preprocessed_clip/out/train082of256.tfrecord', '/data/sakter/preprocessed_clip/out/train060of256.tfrecord', '/data/sakter/preprocessed_clip/out/train224of256.tfrecord', '/data/sakter/preprocessed_clip/out/train137of256.tfrecord', '/data/sakter/preprocessed_clip/out/train031of256.tfrecord', '/data/sakter/preprocessed_clip/out/train035of256.tfrecord', '/data/sakter/preprocessed_clip/out/train168of256.tfrecord', '/data/sakter/preprocessed_clip/out/train173of256.tfrecord', '/data/sakter/preprocessed_clip/out/train104of256.tfrecord', '/data/sakter/preprocessed_clip/out/train159of256.tfrecord', '/data/sakter/preprocessed_clip/out/train094of256.tfrecord', '/data/sakter/preprocessed_clip/out/train142of256.tfrecord', '/data/sakter/preprocessed_clip/out/train147of256.tfrecord', '/data/sakter/preprocessed_clip/out/train117of256.tfrecord', '/data/sakter/preprocessed_clip/out/train062of256.tfrecord', '/data/sakter/preprocessed_clip/out/train219of256.tfrecord', '/data/sakter/preprocessed_clip/out/train114of256.tfrecord', '/data/sakter/preprocessed_clip/out/train158of256.tfrecord', '/data/sakter/preprocessed_clip/out/train214of256.tfrecord', '/data/sakter/preprocessed_clip/out/train064of256.tfrecord', '/data/sakter/preprocessed_clip/out/train143of256.tfrecord', '/data/sakter/preprocessed_clip/out/train044of256.tfrecord', '/data/sakter/preprocessed_clip/out/train014of256.tfrecord', '/data/sakter/preprocessed_clip/out/train034of256.tfrecord', '/data/sakter/preprocessed_clip/out/train059of256.tfrecord', '/data/sakter/preprocessed_clip/out/train006of256.tfrecord', '/data/sakter/preprocessed_clip/out/train255of256.tfrecord', '/data/sakter/preprocessed_clip/out/train230of256.tfrecord', '/data/sakter/preprocessed_clip/out/train015of256.tfrecord', '/data/sakter/preprocessed_clip/out/train170of256.tfrecord', '/data/sakter/preprocessed_clip/out/train036of256.tfrecord', '/data/sakter/preprocessed_clip/out/train154of256.tfrecord', '/data/sakter/preprocessed_clip/out/train246of256.tfrecord', '/data/sakter/preprocessed_clip/out/train119of256.tfrecord', '/data/sakter/preprocessed_clip/out/train197of256.tfrecord', '/data/sakter/preprocessed_clip/out/train251of256.tfrecord', '/data/sakter/preprocessed_clip/out/train103of256.tfrecord', '/data/sakter/preprocessed_clip/out/train105of256.tfrecord', '/data/sakter/preprocessed_clip/out/train175of256.tfrecord', '/data/sakter/preprocessed_clip/out/train053of256.tfrecord', '/data/sakter/preprocessed_clip/out/train196of256.tfrecord', '/data/sakter/preprocessed_clip/out/train029of256.tfrecord', '/data/sakter/preprocessed_clip/out/train080of256.tfrecord', '/data/sakter/preprocessed_clip/out/train074of256.tfrecord', '/data/sakter/preprocessed_clip/out/train152of256.tfrecord', '/data/sakter/preprocessed_clip/out/train174of256.tfrecord', '/data/sakter/preprocessed_clip/out/train243of256.tfrecord', '/data/sakter/preprocessed_clip/out/train139of256.tfrecord', '/data/sakter/preprocessed_clip/out/train148of256.tfrecord', '/data/sakter/preprocessed_clip/out/train186of256.tfrecord', '/data/sakter/preprocessed_clip/out/train233of256.tfrecord', '/data/sakter/preprocessed_clip/out/train083of256.tfrecord', '/data/sakter/preprocessed_clip/out/train020of256.tfrecord', '/data/sakter/preprocessed_clip/out/train223of256.tfrecord', '/data/sakter/preprocessed_clip/out/train017of256.tfrecord', '/data/sakter/preprocessed_clip/out/train213of256.tfrecord', '/data/sakter/preprocessed_clip/out/train183of256.tfrecord', '/data/sakter/preprocessed_clip/out/train206of256.tfrecord', '/data/sakter/preprocessed_clip/out/train090of256.tfrecord', '/data/sakter/preprocessed_clip/out/train134of256.tfrecord', '/data/sakter/preprocessed_clip/out/train019of256.tfrecord', '/data/sakter/preprocessed_clip/out/train049of256.tfrecord', '/data/sakter/preprocessed_clip/out/train239of256.tfrecord', '/data/sakter/preprocessed_clip/out/train217of256.tfrecord', '/data/sakter/preprocessed_clip/out/train245of256.tfrecord', '/data/sakter/preprocessed_clip/out/train205of256.tfrecord', '/data/sakter/preprocessed_clip/out/train106of256.tfrecord', '/data/sakter/preprocessed_clip/out/train222of256.tfrecord', '/data/sakter/preprocessed_clip/out/train212of256.tfrecord', '/data/sakter/preprocessed_clip/out/train228of256.tfrecord', '/data/sakter/preprocessed_clip/out/train181of256.tfrecord', '/data/sakter/preprocessed_clip/out/train038of256.tfrecord', '/data/sakter/preprocessed_clip/out/train112of256.tfrecord', '/data/sakter/preprocessed_clip/out/train000of256.tfrecord', '/data/sakter/preprocessed_clip/out/train004of256.tfrecord', '/data/sakter/preprocessed_clip/out/train066of256.tfrecord', '/data/sakter/preprocessed_clip/out/train132of256.tfrecord', '/data/sakter/preprocessed_clip/out/train189of256.tfrecord', '/data/sakter/preprocessed_clip/out/train164of256.tfrecord', '/data/sakter/preprocessed_clip/out/train001of256.tfrecord', '/data/sakter/preprocessed_clip/out/train215of256.tfrecord', '/data/sakter/preprocessed_clip/out/train050of256.tfrecord', '/data/sakter/preprocessed_clip/out/train253of256.tfrecord', '/data/sakter/preprocessed_clip/out/train141of256.tfrecord', '/data/sakter/preprocessed_clip/out/train218of256.tfrecord', '/data/sakter/preprocessed_clip/out/train232of256.tfrecord', '/data/sakter/preprocessed_clip/out/train209of256.tfrecord', '/data/sakter/preprocessed_clip/out/train095of256.tfrecord', '/data/sakter/preprocessed_clip/out/train160of256.tfrecord', '/data/sakter/preprocessed_clip/out/train101of256.tfrecord', '/data/sakter/preprocessed_clip/out/train207of256.tfrecord', '/data/sakter/preprocessed_clip/out/train045of256.tfrecord', '/data/sakter/preprocessed_clip/out/train235of256.tfrecord', '/data/sakter/preprocessed_clip/out/train009of256.tfrecord', '/data/sakter/preprocessed_clip/out/train200of256.tfrecord', '/data/sakter/preprocessed_clip/out/train012of256.tfrecord', '/data/sakter/preprocessed_clip/out/train081of256.tfrecord', '/data/sakter/preprocessed_clip/out/train022of256.tfrecord', '/data/sakter/preprocessed_clip/out/train227of256.tfrecord', '/data/sakter/preprocessed_clip/out/train194of256.tfrecord', '/data/sakter/preprocessed_clip/out/train063of256.tfrecord', '/data/sakter/preprocessed_clip/out/train084of256.tfrecord', '/data/sakter/preprocessed_clip/out/train051of256.tfrecord', '/data/sakter/preprocessed_clip/out/train208of256.tfrecord', '/data/sakter/preprocessed_clip/out/train046of256.tfrecord', '/data/sakter/preprocessed_clip/out/train042of256.tfrecord', '/data/sakter/preprocessed_clip/out/train238of256.tfrecord', '/data/sakter/preprocessed_clip/out/train201of256.tfrecord', '/data/sakter/preprocessed_clip/out/train092of256.tfrecord', '/data/sakter/preprocessed_clip/out/train016of256.tfrecord', '/data/sakter/preprocessed_clip/out/train244of256.tfrecord', '/data/sakter/preprocessed_clip/out/train157of256.tfrecord', '/data/sakter/preprocessed_clip/out/train127of256.tfrecord', '/data/sakter/preprocessed_clip/out/train093of256.tfrecord', '/data/sakter/preprocessed_clip/out/train018of256.tfrecord', '/data/sakter/preprocessed_clip/out/train192of256.tfrecord', '/data/sakter/preprocessed_clip/out/train204of256.tfrecord', '/data/sakter/preprocessed_clip/out/train237of256.tfrecord', '/data/sakter/preprocessed_clip/out/train067of256.tfrecord', '/data/sakter/preprocessed_clip/out/train107of256.tfrecord', '/data/sakter/preprocessed_clip/out/train221of256.tfrecord', '/data/sakter/preprocessed_clip/out/train234of256.tfrecord', '/data/sakter/preprocessed_clip/out/train187of256.tfrecord', '/data/sakter/preprocessed_clip/out/train146of256.tfrecord', '/data/sakter/preprocessed_clip/out/train150of256.tfrecord', '/data/sakter/preprocessed_clip/out/train078of256.tfrecord', '/data/sakter/preprocessed_clip/out/train099of256.tfrecord', '/data/sakter/preprocessed_clip/out/train079of256.tfrecord', '/data/sakter/preprocessed_clip/out/train210of256.tfrecord', '/data/sakter/preprocessed_clip/out/train124of256.tfrecord', '/data/sakter/preprocessed_clip/out/train133of256.tfrecord', '/data/sakter/preprocessed_clip/out/train250of256.tfrecord', '/data/sakter/preprocessed_clip/out/train024of256.tfrecord', '/data/sakter/preprocessed_clip/out/train176of256.tfrecord', '/data/sakter/preprocessed_clip/out/train155of256.tfrecord', '/data/sakter/preprocessed_clip/out/train108of256.tfrecord', '/data/sakter/preprocessed_clip/out/train130of256.tfrecord', '/data/sakter/preprocessed_clip/out/train048of256.tfrecord', '/data/sakter/preprocessed_clip/out/train185of256.tfrecord', '/data/sakter/preprocessed_clip/out/train097of256.tfrecord', '/data/sakter/preprocessed_clip/out/train052of256.tfrecord', '/data/sakter/preprocessed_clip/out/train240of256.tfrecord', '/data/sakter/preprocessed_clip/out/train226of256.tfrecord', '/data/sakter/preprocessed_clip/out/train086of256.tfrecord', '/data/sakter/preprocessed_clip/out/train198of256.tfrecord', '/data/sakter/preprocessed_clip/out/train131of256.tfrecord', '/data/sakter/preprocessed_clip/out/train242of256.tfrecord', '/data/sakter/preprocessed_clip/out/train058of256.tfrecord', '/data/sakter/preprocessed_clip/out/train179of256.tfrecord', '/data/sakter/preprocessed_clip/out/train054of256.tfrecord', '/data/sakter/preprocessed_clip/out/train225of256.tfrecord', '/data/sakter/preprocessed_clip/out/train002of256.tfrecord', '/data/sakter/preprocessed_clip/out/train068of256.tfrecord', '/data/sakter/preprocessed_clip/out/train145of256.tfrecord', '/data/sakter/preprocessed_clip/out/train043of256.tfrecord', '/data/sakter/preprocessed_clip/out/train028of256.tfrecord', '/data/sakter/preprocessed_clip/out/train007of256.tfrecord', '/data/sakter/preprocessed_clip/out/train116of256.tfrecord', '/data/sakter/preprocessed_clip/out/train010of256.tfrecord', '/data/sakter/preprocessed_clip/out/train027of256.tfrecord', '/data/sakter/preprocessed_clip/out/train056of256.tfrecord', '/data/sakter/preprocessed_clip/out/train199of256.tfrecord', '/data/sakter/preprocessed_clip/out/train178of256.tfrecord', '/data/sakter/preprocessed_clip/out/train252of256.tfrecord', '/data/sakter/preprocessed_clip/out/train100of256.tfrecord', '/data/sakter/preprocessed_clip/out/train165of256.tfrecord', '/data/sakter/preprocessed_clip/out/train125of256.tfrecord', '/data/sakter/preprocessed_clip/out/train128of256.tfrecord', '/data/sakter/preprocessed_clip/out/train193of256.tfrecord', '/data/sakter/preprocessed_clip/out/train144of256.tfrecord', '/data/sakter/preprocessed_clip/out/train030of256.tfrecord', '/data/sakter/preprocessed_clip/out/train096of256.tfrecord', '/data/sakter/preprocessed_clip/out/train184of256.tfrecord', '/data/sakter/preprocessed_clip/out/train021of256.tfrecord', '/data/sakter/preprocessed_clip/out/train088of256.tfrecord', '/data/sakter/preprocessed_clip/out/train202of256.tfrecord', '/data/sakter/preprocessed_clip/out/train161of256.tfrecord', '/data/sakter/preprocessed_clip/out/train057of256.tfrecord', '/data/sakter/preprocessed_clip/out/train163of256.tfrecord', '/data/sakter/preprocessed_clip/out/train135of256.tfrecord', '/data/sakter/preprocessed_clip/out/train077of256.tfrecord', '/data/sakter/preprocessed_clip/out/train126of256.tfrecord', '/data/sakter/preprocessed_clip/out/train085of256.tfrecord', '/data/sakter/preprocessed_clip/out/train166of256.tfrecord', '/data/sakter/preprocessed_clip/out/train091of256.tfrecord', '/data/sakter/preprocessed_clip/out/train089of256.tfrecord', '/data/sakter/preprocessed_clip/out/train172of256.tfrecord', '/data/sakter/preprocessed_clip/out/train047of256.tfrecord', '/data/sakter/preprocessed_clip/out/train149of256.tfrecord', '/data/sakter/preprocessed_clip/out/train136of256.tfrecord', '/data/sakter/preprocessed_clip/out/train220of256.tfrecord', '/data/sakter/preprocessed_clip/out/train111of256.tfrecord', '/data/sakter/preprocessed_clip/out/train033of256.tfrecord', '/data/sakter/preprocessed_clip/out/train087of256.tfrecord', '/data/sakter/preprocessed_clip/out/train191of256.tfrecord', '/data/sakter/preprocessed_clip/out/train005of256.tfrecord', '/data/sakter/preprocessed_clip/out/train169of256.tfrecord', '/data/sakter/preprocessed_clip/out/train151of256.tfrecord', '/data/sakter/preprocessed_clip/out/train182of256.tfrecord', '/data/sakter/preprocessed_clip/out/train229of256.tfrecord', '/data/sakter/preprocessed_clip/out/train040of256.tfrecord', '/data/sakter/preprocessed_clip/out/train138of256.tfrecord', '/data/sakter/preprocessed_clip/out/train115of256.tfrecord', '/data/sakter/preprocessed_clip/out/train121of256.tfrecord', '/data/sakter/preprocessed_clip/out/train072of256.tfrecord', '/data/sakter/preprocessed_clip/out/train153of256.tfrecord', '/data/sakter/preprocessed_clip/out/train025of256.tfrecord', '/data/sakter/preprocessed_clip/out/train118of256.tfrecord', '/data/sakter/preprocessed_clip/out/train113of256.tfrecord', '/data/sakter/preprocessed_clip/out/train039of256.tfrecord', '/data/sakter/preprocessed_clip/out/train102of256.tfrecord', '/data/sakter/preprocessed_clip/out/train180of256.tfrecord', '/data/sakter/preprocessed_clip/out/train203of256.tfrecord', '/data/sakter/preprocessed_clip/out/train037of256.tfrecord', '/data/sakter/preprocessed_clip/out/train023of256.tfrecord', '/data/sakter/preprocessed_clip/out/train156of256.tfrecord', '/data/sakter/preprocessed_clip/out/train076of256.tfrecord', '/data/sakter/preprocessed_clip/out/train162of256.tfrecord', '/data/sakter/preprocessed_clip/out/train167of256.tfrecord', '/data/sakter/preprocessed_clip/out/train122of256.tfrecord', '/data/sakter/preprocessed_clip/out/train061of256.tfrecord', '/data/sakter/preprocessed_clip/out/train110of256.tfrecord', '/data/sakter/preprocessed_clip/out/train041of256.tfrecord', '/data/sakter/preprocessed_clip/out/train236of256.tfrecord', '/data/sakter/preprocessed_clip/out/train249of256.tfrecord', '/data/sakter/preprocessed_clip/out/train032of256.tfrecord', '/data/sakter/preprocessed_clip/out/train069of256.tfrecord', '/data/sakter/preprocessed_clip/out/train129of256.tfrecord', '/data/sakter/preprocessed_clip/out/train188of256.tfrecord', '/data/sakter/preprocessed_clip/out/train248of256.tfrecord', '/data/sakter/preprocessed_clip/out/train003of256.tfrecord', '/data/sakter/preprocessed_clip/out/train216of256.tfrecord', '/data/sakter/preprocessed_clip/out/train254of256.tfrecord', '/data/sakter/preprocessed_clip/out/train171of256.tfrecord', '/data/sakter/preprocessed_clip/out/train008of256.tfrecord', '/data/sakter/preprocessed_clip/out/train177of256.tfrecord', '/data/sakter/preprocessed_clip/out/train055of256.tfrecord', '/data/sakter/preprocessed_clip/out/train247of256.tfrecord', '/data/sakter/preprocessed_clip/out/train070of256.tfrecord', '/data/sakter/preprocessed_clip/out/train026of256.tfrecord', '/data/sakter/preprocessed_clip/out/train065of256.tfrecord', '/data/sakter/preprocessed_clip/out/train011of256.tfrecord', '/data/sakter/preprocessed_clip/out/train075of256.tfrecord', '/data/sakter/preprocessed_clip/out/train140of256.tfrecord', '/data/sakter/preprocessed_clip/out/train211of256.tfrecord', '/data/sakter/preprocessed_clip/out/train123of256.tfrecord', '/data/sakter/preprocessed_clip/out/train098of256.tfrecord', '/data/sakter/preprocessed_clip/out/train109of256.tfrecord', '/data/sakter/preprocessed_clip/out/train190of256.tfrecord', '/data/sakter/preprocessed_clip/out/train013of256.tfrecord', '/data/sakter/preprocessed_clip/out/train073of256.tfrecord', '/data/sakter/preprocessed_clip/out/train241of256.tfrecord', '/data/sakter/preprocessed_clip/out/train120of256.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Saving @iter 15263.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../finetune/common_dataloader.py:467: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  item = jax.tree_map(lambda x: x._numpy(), item)
+Using dtype <class 'jax.numpy.bfloat16'>
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((7, 289, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 289, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,289,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+Not including audio input
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((21, 31, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 31, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,31,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~NOT doing attnmask~
+Constructing token embs in `prepare_multimodal_inputs`
+adding in audio input!
+Vision input 6x12: 504. num_pool_segments: 7
+Layer 00
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 01
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 02
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 03
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 04
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 05
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 06
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 07
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 08
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 09
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 10
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+Layer 11
+Transformer layer my dtype=<class 'jax.numpy.bfloat16'>; x=((2, 760, 768), dtype(bfloat16)); sinusoids=(dtype(bfloat16), (2, 2, 760, 32))
+attention_layer: doing rotary: Traced<ShapedArray(bfloat16[2,2,760,32])>with<DynamicJaxprTrace(level=0/1)>
+attention_layer: ~doing attnmask~
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/tvqa_finetune.py:502: FutureWarning: jax.tree_multimap is deprecated, and will be removed in a future release. Use jax.tree_util.tree_multimap instead.
+  megabatch = jax.tree_multimap(lambda *xs: jnp.concatenate(xs, 1), *outs)
+audio2vision x->y dot product sim:  shaped [(4032, 768)] -> [(32256, 768)]
+audio2vision y->x dot product sim:  shaped [(4032, 768)] -> [(32256, 768)]
+text2vision x->y dot product sim:  shaped [(4032, 768)] -> [(32256, 768)]
+text2vision y->x dot product sim:  shaped [(4032, 768)] -> [(32256, 768)]
+/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/jax/interpreters/mlir.py:583: UserWarning: Some donated buffers were not usable: ShapedArray(bfloat16[4032,768]), ShapedArray(bfloat16[4032,768]), ShapedArray(bfloat16[4032,768]), ShapedArray(bfloat16[4032,768]).
+See an explanation at https://jax.readthedocs.io/en/latest/faq.html#buffer-donation.
+  warnings.warn(f"Some donated buffers were not usable: {', '.join(unused_donations)}.\n{msg}")
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/tvqa_finetune.py:504: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  loss_info = jax.tree_map(lambda x: float(x.mean()), loss_info)
+/home/sakter/merlot_reserve_clipAttn/retrain/finetune/tvqa/../../mreserve/checkpoint.py:93: FutureWarning: jax.tree_map is deprecated, and will be removed in a future release. Use jax.tree_util.tree_map instead.
+  params = jax.device_get(jax.tree_map(lambda x: x[0], state.params))
+Padding final batch by 3
+Saving checkpoint at save 15264, path /home/sakter/results/retrain/out_clip/base.yaml/tvqa_clipAttn_1.0_12_24_0.6_no_proj_run_1
+Not including the optimizer state
+Completed 100 batches in 313.815sec, avg 0.319 it/sec
+Completed 100 batches in 25.902sec, avg 3.861 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.087sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.380sec, avg 3.652 it/sec
+Completed 100 batches in 26.777sec, avg 3.735 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.086sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.084sec, avg 3.692 it/sec
+Completed 100 batches in 27.076sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.084sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.076sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.087sec, avg 3.692 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.408sec, avg 3.649 it/sec
+Completed 100 batches in 26.750sec, avg 3.738 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Now on epoch 2
+Resetting iterator, epoch=2, batch of fns=0:256 /256
+Constructing TFRecord Input FN over ['/data/sakter/preprocessed_clip/out/train043of256.tfrecord', '/data/sakter/preprocessed_clip/out/train194of256.tfrecord', '/data/sakter/preprocessed_clip/out/train170of256.tfrecord', '/data/sakter/preprocessed_clip/out/train063of256.tfrecord', '/data/sakter/preprocessed_clip/out/train125of256.tfrecord', '/data/sakter/preprocessed_clip/out/train150of256.tfrecord', '/data/sakter/preprocessed_clip/out/train112of256.tfrecord', '/data/sakter/preprocessed_clip/out/train088of256.tfrecord', '/data/sakter/preprocessed_clip/out/train122of256.tfrecord', '/data/sakter/preprocessed_clip/out/train173of256.tfrecord', '/data/sakter/preprocessed_clip/out/train091of256.tfrecord', '/data/sakter/preprocessed_clip/out/train126of256.tfrecord', '/data/sakter/preprocessed_clip/out/train094of256.tfrecord', '/data/sakter/preprocessed_clip/out/train017of256.tfrecord', '/data/sakter/preprocessed_clip/out/train167of256.tfrecord', '/data/sakter/preprocessed_clip/out/train073of256.tfrecord', '/data/sakter/preprocessed_clip/out/train142of256.tfrecord', '/data/sakter/preprocessed_clip/out/train096of256.tfrecord', '/data/sakter/preprocessed_clip/out/train230of256.tfrecord', '/data/sakter/preprocessed_clip/out/train215of256.tfrecord', '/data/sakter/preprocessed_clip/out/train172of256.tfrecord', '/data/sakter/preprocessed_clip/out/train141of256.tfrecord', '/data/sakter/preprocessed_clip/out/train037of256.tfrecord', '/data/sakter/preprocessed_clip/out/train107of256.tfrecord', '/data/sakter/preprocessed_clip/out/train106of256.tfrecord', '/data/sakter/preprocessed_clip/out/train045of256.tfrecord', '/data/sakter/preprocessed_clip/out/train095of256.tfrecord', '/data/sakter/preprocessed_clip/out/train121of256.tfrecord', '/data/sakter/preprocessed_clip/out/train144of256.tfrecord', '/data/sakter/preprocessed_clip/out/train023of256.tfrecord', '/data/sakter/preprocessed_clip/out/train027of256.tfrecord', '/data/sakter/preprocessed_clip/out/train171of256.tfrecord', '/data/sakter/preprocessed_clip/out/train005of256.tfrecord', '/data/sakter/preprocessed_clip/out/train211of256.tfrecord', '/data/sakter/preprocessed_clip/out/train227of256.tfrecord', '/data/sakter/preprocessed_clip/out/train245of256.tfrecord', '/data/sakter/preprocessed_clip/out/train243of256.tfrecord', '/data/sakter/preprocessed_clip/out/train234of256.tfrecord', '/data/sakter/preprocessed_clip/out/train004of256.tfrecord', '/data/sakter/preprocessed_clip/out/train030of256.tfrecord', '/data/sakter/preprocessed_clip/out/train117of256.tfrecord', '/data/sakter/preprocessed_clip/out/train247of256.tfrecord', '/data/sakter/preprocessed_clip/out/train051of256.tfrecord', '/data/sakter/preprocessed_clip/out/train028of256.tfrecord', '/data/sakter/preprocessed_clip/out/train129of256.tfrecord', '/data/sakter/preprocessed_clip/out/train099of256.tfrecord', '/data/sakter/preprocessed_clip/out/train100of256.tfrecord', '/data/sakter/preprocessed_clip/out/train123of256.tfrecord', '/data/sakter/preprocessed_clip/out/train206of256.tfrecord', '/data/sakter/preprocessed_clip/out/train086of256.tfrecord', '/data/sakter/preprocessed_clip/out/train132of256.tfrecord', '/data/sakter/preprocessed_clip/out/train046of256.tfrecord', '/data/sakter/preprocessed_clip/out/train210of256.tfrecord', '/data/sakter/preprocessed_clip/out/train214of256.tfrecord', '/data/sakter/preprocessed_clip/out/train068of256.tfrecord', '/data/sakter/preprocessed_clip/out/train083of256.tfrecord', '/data/sakter/preprocessed_clip/out/train198of256.tfrecord', '/data/sakter/preprocessed_clip/out/train103of256.tfrecord', '/data/sakter/preprocessed_clip/out/train168of256.tfrecord', '/data/sakter/preprocessed_clip/out/train035of256.tfrecord', '/data/sakter/preprocessed_clip/out/train071of256.tfrecord', '/data/sakter/preprocessed_clip/out/train239of256.tfrecord', '/data/sakter/preprocessed_clip/out/train158of256.tfrecord', '/data/sakter/preprocessed_clip/out/train119of256.tfrecord', '/data/sakter/preprocessed_clip/out/train036of256.tfrecord', '/data/sakter/preprocessed_clip/out/train223of256.tfrecord', '/data/sakter/preprocessed_clip/out/train041of256.tfrecord', '/data/sakter/preprocessed_clip/out/train032of256.tfrecord', '/data/sakter/preprocessed_clip/out/train199of256.tfrecord', '/data/sakter/preprocessed_clip/out/train000of256.tfrecord', '/data/sakter/preprocessed_clip/out/train074of256.tfrecord', '/data/sakter/preprocessed_clip/out/train047of256.tfrecord', '/data/sakter/preprocessed_clip/out/train228of256.tfrecord', '/data/sakter/preprocessed_clip/out/train031of256.tfrecord', '/data/sakter/preprocessed_clip/out/train104of256.tfrecord', '/data/sakter/preprocessed_clip/out/train018of256.tfrecord', '/data/sakter/preprocessed_clip/out/train157of256.tfrecord', '/data/sakter/preprocessed_clip/out/train098of256.tfrecord', '/data/sakter/preprocessed_clip/out/train254of256.tfrecord', '/data/sakter/preprocessed_clip/out/train033of256.tfrecord', '/data/sakter/preprocessed_clip/out/train242of256.tfrecord', '/data/sakter/preprocessed_clip/out/train186of256.tfrecord', '/data/sakter/preprocessed_clip/out/train233of256.tfrecord', '/data/sakter/preprocessed_clip/out/train077of256.tfrecord', '/data/sakter/preprocessed_clip/out/train134of256.tfrecord', '/data/sakter/preprocessed_clip/out/train236of256.tfrecord', '/data/sakter/preprocessed_clip/out/train147of256.tfrecord', '/data/sakter/preprocessed_clip/out/train139of256.tfrecord', '/data/sakter/preprocessed_clip/out/train064of256.tfrecord', '/data/sakter/preprocessed_clip/out/train050of256.tfrecord', '/data/sakter/preprocessed_clip/out/train065of256.tfrecord', '/data/sakter/preprocessed_clip/out/train133of256.tfrecord', '/data/sakter/preprocessed_clip/out/train006of256.tfrecord', '/data/sakter/preprocessed_clip/out/train052of256.tfrecord', '/data/sakter/preprocessed_clip/out/train082of256.tfrecord', '/data/sakter/preprocessed_clip/out/train014of256.tfrecord', '/data/sakter/preprocessed_clip/out/train204of256.tfrecord', '/data/sakter/preprocessed_clip/out/train001of256.tfrecord', '/data/sakter/preprocessed_clip/out/train156of256.tfrecord', '/data/sakter/preprocessed_clip/out/train178of256.tfrecord', '/data/sakter/preprocessed_clip/out/train159of256.tfrecord', '/data/sakter/preprocessed_clip/out/train015of256.tfrecord', '/data/sakter/preprocessed_clip/out/train108of256.tfrecord', '/data/sakter/preprocessed_clip/out/train146of256.tfrecord', '/data/sakter/preprocessed_clip/out/train089of256.tfrecord', '/data/sakter/preprocessed_clip/out/train053of256.tfrecord', '/data/sakter/preprocessed_clip/out/train081of256.tfrecord', '/data/sakter/preprocessed_clip/out/train138of256.tfrecord', '/data/sakter/preprocessed_clip/out/train155of256.tfrecord', '/data/sakter/preprocessed_clip/out/train069of256.tfrecord', '/data/sakter/preprocessed_clip/out/train127of256.tfrecord', '/data/sakter/preprocessed_clip/out/train255of256.tfrecord', '/data/sakter/preprocessed_clip/out/train213of256.tfrecord', '/data/sakter/preprocessed_clip/out/train039of256.tfrecord', '/data/sakter/preprocessed_clip/out/train226of256.tfrecord', '/data/sakter/preprocessed_clip/out/train097of256.tfrecord', '/data/sakter/preprocessed_clip/out/train182of256.tfrecord', '/data/sakter/preprocessed_clip/out/train164of256.tfrecord', '/data/sakter/preprocessed_clip/out/train249of256.tfrecord', '/data/sakter/preprocessed_clip/out/train130of256.tfrecord', '/data/sakter/preprocessed_clip/out/train076of256.tfrecord', '/data/sakter/preprocessed_clip/out/train012of256.tfrecord', '/data/sakter/preprocessed_clip/out/train079of256.tfrecord', '/data/sakter/preprocessed_clip/out/train143of256.tfrecord', '/data/sakter/preprocessed_clip/out/train085of256.tfrecord', '/data/sakter/preprocessed_clip/out/train217of256.tfrecord', '/data/sakter/preprocessed_clip/out/train135of256.tfrecord', '/data/sakter/preprocessed_clip/out/train049of256.tfrecord', '/data/sakter/preprocessed_clip/out/train054of256.tfrecord', '/data/sakter/preprocessed_clip/out/train066of256.tfrecord', '/data/sakter/preprocessed_clip/out/train169of256.tfrecord', '/data/sakter/preprocessed_clip/out/train253of256.tfrecord', '/data/sakter/preprocessed_clip/out/train222of256.tfrecord', '/data/sakter/preprocessed_clip/out/train136of256.tfrecord', '/data/sakter/preprocessed_clip/out/train237of256.tfrecord', '/data/sakter/preprocessed_clip/out/train044of256.tfrecord', '/data/sakter/preprocessed_clip/out/train101of256.tfrecord', '/data/sakter/preprocessed_clip/out/train152of256.tfrecord', '/data/sakter/preprocessed_clip/out/train090of256.tfrecord', '/data/sakter/preprocessed_clip/out/train026of256.tfrecord', '/data/sakter/preprocessed_clip/out/train003of256.tfrecord', '/data/sakter/preprocessed_clip/out/train022of256.tfrecord', '/data/sakter/preprocessed_clip/out/train177of256.tfrecord', '/data/sakter/preprocessed_clip/out/train109of256.tfrecord', '/data/sakter/preprocessed_clip/out/train185of256.tfrecord', '/data/sakter/preprocessed_clip/out/train161of256.tfrecord', '/data/sakter/preprocessed_clip/out/train179of256.tfrecord', '/data/sakter/preprocessed_clip/out/train175of256.tfrecord', '/data/sakter/preprocessed_clip/out/train188of256.tfrecord', '/data/sakter/preprocessed_clip/out/train061of256.tfrecord', '/data/sakter/preprocessed_clip/out/train224of256.tfrecord', '/data/sakter/preprocessed_clip/out/train084of256.tfrecord', '/data/sakter/preprocessed_clip/out/train183of256.tfrecord', '/data/sakter/preprocessed_clip/out/train070of256.tfrecord', '/data/sakter/preprocessed_clip/out/train131of256.tfrecord', '/data/sakter/preprocessed_clip/out/train034of256.tfrecord', '/data/sakter/preprocessed_clip/out/train060of256.tfrecord', '/data/sakter/preprocessed_clip/out/train038of256.tfrecord', '/data/sakter/preprocessed_clip/out/train013of256.tfrecord', '/data/sakter/preprocessed_clip/out/train056of256.tfrecord', '/data/sakter/preprocessed_clip/out/train092of256.tfrecord', '/data/sakter/preprocessed_clip/out/train251of256.tfrecord', '/data/sakter/preprocessed_clip/out/train010of256.tfrecord', '/data/sakter/preprocessed_clip/out/train124of256.tfrecord', '/data/sakter/preprocessed_clip/out/train148of256.tfrecord', '/data/sakter/preprocessed_clip/out/train246of256.tfrecord', '/data/sakter/preprocessed_clip/out/train042of256.tfrecord', '/data/sakter/preprocessed_clip/out/train244of256.tfrecord', '/data/sakter/preprocessed_clip/out/train163of256.tfrecord', '/data/sakter/preprocessed_clip/out/train231of256.tfrecord', '/data/sakter/preprocessed_clip/out/train176of256.tfrecord', '/data/sakter/preprocessed_clip/out/train151of256.tfrecord', '/data/sakter/preprocessed_clip/out/train087of256.tfrecord', '/data/sakter/preprocessed_clip/out/train207of256.tfrecord', '/data/sakter/preprocessed_clip/out/train240of256.tfrecord', '/data/sakter/preprocessed_clip/out/train059of256.tfrecord', '/data/sakter/preprocessed_clip/out/train029of256.tfrecord', '/data/sakter/preprocessed_clip/out/train002of256.tfrecord', '/data/sakter/preprocessed_clip/out/train114of256.tfrecord', '/data/sakter/preprocessed_clip/out/train195of256.tfrecord', '/data/sakter/preprocessed_clip/out/train209of256.tfrecord', '/data/sakter/preprocessed_clip/out/train181of256.tfrecord', '/data/sakter/preprocessed_clip/out/train078of256.tfrecord', '/data/sakter/preprocessed_clip/out/train229of256.tfrecord', '/data/sakter/preprocessed_clip/out/train225of256.tfrecord', '/data/sakter/preprocessed_clip/out/train192of256.tfrecord', '/data/sakter/preprocessed_clip/out/train105of256.tfrecord', '/data/sakter/preprocessed_clip/out/train140of256.tfrecord', '/data/sakter/preprocessed_clip/out/train116of256.tfrecord', '/data/sakter/preprocessed_clip/out/train113of256.tfrecord', '/data/sakter/preprocessed_clip/out/train166of256.tfrecord', '/data/sakter/preprocessed_clip/out/train238of256.tfrecord', '/data/sakter/preprocessed_clip/out/train072of256.tfrecord', '/data/sakter/preprocessed_clip/out/train190of256.tfrecord', '/data/sakter/preprocessed_clip/out/train189of256.tfrecord', '/data/sakter/preprocessed_clip/out/train250of256.tfrecord', '/data/sakter/preprocessed_clip/out/train048of256.tfrecord', '/data/sakter/preprocessed_clip/out/train191of256.tfrecord', '/data/sakter/preprocessed_clip/out/train075of256.tfrecord', '/data/sakter/preprocessed_clip/out/train057of256.tfrecord', '/data/sakter/preprocessed_clip/out/train197of256.tfrecord', '/data/sakter/preprocessed_clip/out/train241of256.tfrecord', '/data/sakter/preprocessed_clip/out/train180of256.tfrecord', '/data/sakter/preprocessed_clip/out/train202of256.tfrecord', '/data/sakter/preprocessed_clip/out/train248of256.tfrecord', '/data/sakter/preprocessed_clip/out/train162of256.tfrecord', '/data/sakter/preprocessed_clip/out/train220of256.tfrecord', '/data/sakter/preprocessed_clip/out/train205of256.tfrecord', '/data/sakter/preprocessed_clip/out/train120of256.tfrecord', '/data/sakter/preprocessed_clip/out/train208of256.tfrecord', '/data/sakter/preprocessed_clip/out/train187of256.tfrecord', '/data/sakter/preprocessed_clip/out/train145of256.tfrecord', '/data/sakter/preprocessed_clip/out/train111of256.tfrecord', '/data/sakter/preprocessed_clip/out/train115of256.tfrecord', '/data/sakter/preprocessed_clip/out/train019of256.tfrecord', '/data/sakter/preprocessed_clip/out/train102of256.tfrecord', '/data/sakter/preprocessed_clip/out/train058of256.tfrecord', '/data/sakter/preprocessed_clip/out/train174of256.tfrecord', '/data/sakter/preprocessed_clip/out/train153of256.tfrecord', '/data/sakter/preprocessed_clip/out/train216of256.tfrecord', '/data/sakter/preprocessed_clip/out/train219of256.tfrecord', '/data/sakter/preprocessed_clip/out/train200of256.tfrecord', '/data/sakter/preprocessed_clip/out/train055of256.tfrecord', '/data/sakter/preprocessed_clip/out/train009of256.tfrecord', '/data/sakter/preprocessed_clip/out/train221of256.tfrecord', '/data/sakter/preprocessed_clip/out/train008of256.tfrecord', '/data/sakter/preprocessed_clip/out/train212of256.tfrecord', '/data/sakter/preprocessed_clip/out/train232of256.tfrecord', '/data/sakter/preprocessed_clip/out/train118of256.tfrecord', '/data/sakter/preprocessed_clip/out/train016of256.tfrecord', '/data/sakter/preprocessed_clip/out/train137of256.tfrecord', '/data/sakter/preprocessed_clip/out/train024of256.tfrecord', '/data/sakter/preprocessed_clip/out/train040of256.tfrecord', '/data/sakter/preprocessed_clip/out/train252of256.tfrecord', '/data/sakter/preprocessed_clip/out/train218of256.tfrecord', '/data/sakter/preprocessed_clip/out/train193of256.tfrecord', '/data/sakter/preprocessed_clip/out/train110of256.tfrecord', '/data/sakter/preprocessed_clip/out/train196of256.tfrecord', '/data/sakter/preprocessed_clip/out/train025of256.tfrecord', '/data/sakter/preprocessed_clip/out/train007of256.tfrecord', '/data/sakter/preprocessed_clip/out/train149of256.tfrecord', '/data/sakter/preprocessed_clip/out/train011of256.tfrecord', '/data/sakter/preprocessed_clip/out/train184of256.tfrecord', '/data/sakter/preprocessed_clip/out/train067of256.tfrecord', '/data/sakter/preprocessed_clip/out/train165of256.tfrecord', '/data/sakter/preprocessed_clip/out/train203of256.tfrecord', '/data/sakter/preprocessed_clip/out/train235of256.tfrecord', '/data/sakter/preprocessed_clip/out/train093of256.tfrecord', '/data/sakter/preprocessed_clip/out/train201of256.tfrecord', '/data/sakter/preprocessed_clip/out/train080of256.tfrecord', '/data/sakter/preprocessed_clip/out/train154of256.tfrecord', '/data/sakter/preprocessed_clip/out/train020of256.tfrecord', '/data/sakter/preprocessed_clip/out/train160of256.tfrecord', '/data/sakter/preprocessed_clip/out/train128of256.tfrecord', '/data/sakter/preprocessed_clip/out/train021of256.tfrecord', '/data/sakter/preprocessed_clip/out/train062of256.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Saving @iter 30527.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+Padding final batch by 3
+Completed 100 batches in 215.238sec, avg 0.465 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.211sec, avg 3.675 it/sec
+Completed 100 batches in 26.947sec, avg 3.711 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.084sec, avg 3.692 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.409sec, avg 3.648 it/sec
+Completed 100 batches in 26.756sec, avg 3.738 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.104sec, avg 3.689 it/sec
+Completed 100 batches in 27.059sec, avg 3.696 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.077sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.108sec, avg 3.689 it/sec
+Completed 100 batches in 27.055sec, avg 3.696 it/sec
+Completed 100 batches in 27.075sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.084sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.642sec, avg 3.618 it/sec
+Completed 100 batches in 26.518sec, avg 3.771 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.085sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.082sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.083sec, avg 3.692 it/sec
+Completed 100 batches in 27.076sec, avg 3.693 it/sec
+Completed 100 batches in 27.086sec, avg 3.692 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.081sec, avg 3.693 it/sec
+Completed 100 batches in 27.079sec, avg 3.693 it/sec
+Completed 100 batches in 27.078sec, avg 3.693 it/sec
+Completed 100 batches in 27.080sec, avg 3.693 it/sec
+Now on epoch 3
+Resetting iterator, epoch=3, batch of fns=0:256 /256
+Constructing TFRecord Input FN over ['/data/sakter/preprocessed_clip/out/train105of256.tfrecord', '/data/sakter/preprocessed_clip/out/train229of256.tfrecord', '/data/sakter/preprocessed_clip/out/train187of256.tfrecord', '/data/sakter/preprocessed_clip/out/train064of256.tfrecord', '/data/sakter/preprocessed_clip/out/train023of256.tfrecord', '/data/sakter/preprocessed_clip/out/train051of256.tfrecord', '/data/sakter/preprocessed_clip/out/train183of256.tfrecord', '/data/sakter/preprocessed_clip/out/train016of256.tfrecord', '/data/sakter/preprocessed_clip/out/train195of256.tfrecord', '/data/sakter/preprocessed_clip/out/train186of256.tfrecord', '/data/sakter/preprocessed_clip/out/train039of256.tfrecord', '/data/sakter/preprocessed_clip/out/train071of256.tfrecord', '/data/sakter/preprocessed_clip/out/train132of256.tfrecord', '/data/sakter/preprocessed_clip/out/train015of256.tfrecord', '/data/sakter/preprocessed_clip/out/train250of256.tfrecord', '/data/sakter/preprocessed_clip/out/train110of256.tfrecord', '/data/sakter/preprocessed_clip/out/train040of256.tfrecord', '/data/sakter/preprocessed_clip/out/train011of256.tfrecord', '/data/sakter/preprocessed_clip/out/train107of256.tfrecord', '/data/sakter/preprocessed_clip/out/train162of256.tfrecord', '/data/sakter/preprocessed_clip/out/train215of256.tfrecord', '/data/sakter/preprocessed_clip/out/train061of256.tfrecord', '/data/sakter/preprocessed_clip/out/train199of256.tfrecord', '/data/sakter/preprocessed_clip/out/train045of256.tfrecord', '/data/sakter/preprocessed_clip/out/train042of256.tfrecord', '/data/sakter/preprocessed_clip/out/train082of256.tfrecord', '/data/sakter/preprocessed_clip/out/train253of256.tfrecord', '/data/sakter/preprocessed_clip/out/train137of256.tfrecord', '/data/sakter/preprocessed_clip/out/train214of256.tfrecord', '/data/sakter/preprocessed_clip/out/train143of256.tfrecord', '/data/sakter/preprocessed_clip/out/train113of256.tfrecord', '/data/sakter/preprocessed_clip/out/train170of256.tfrecord', '/data/sakter/preprocessed_clip/out/train148of256.tfrecord', '/data/sakter/preprocessed_clip/out/train084of256.tfrecord', '/data/sakter/preprocessed_clip/out/train036of256.tfrecord', '/data/sakter/preprocessed_clip/out/train198of256.tfrecord', '/data/sakter/preprocessed_clip/out/train108of256.tfrecord', '/data/sakter/preprocessed_clip/out/train078of256.tfrecord', '/data/sakter/preprocessed_clip/out/train122of256.tfrecord', '/data/sakter/preprocessed_clip/out/train180of256.tfrecord', '/data/sakter/preprocessed_clip/out/train112of256.tfrecord', '/data/sakter/preprocessed_clip/out/train184of256.tfrecord', '/data/sakter/preprocessed_clip/out/train231of256.tfrecord', '/data/sakter/preprocessed_clip/out/train041of256.tfrecord', '/data/sakter/preprocessed_clip/out/train114of256.tfrecord', '/data/sakter/preprocessed_clip/out/train106of256.tfrecord', '/data/sakter/preprocessed_clip/out/train089of256.tfrecord', '/data/sakter/preprocessed_clip/out/train101of256.tfrecord', '/data/sakter/preprocessed_clip/out/train120of256.tfrecord', '/data/sakter/preprocessed_clip/out/train202of256.tfrecord', '/data/sakter/preprocessed_clip/out/train001of256.tfrecord', '/data/sakter/preprocessed_clip/out/train035of256.tfrecord', '/data/sakter/preprocessed_clip/out/train019of256.tfrecord', '/data/sakter/preprocessed_clip/out/train164of256.tfrecord', '/data/sakter/preprocessed_clip/out/train134of256.tfrecord', '/data/sakter/preprocessed_clip/out/train104of256.tfrecord', '/data/sakter/preprocessed_clip/out/train017of256.tfrecord', '/data/sakter/preprocessed_clip/out/train028of256.tfrecord', '/data/sakter/preprocessed_clip/out/train142of256.tfrecord', '/data/sakter/preprocessed_clip/out/train217of256.tfrecord', '/data/sakter/preprocessed_clip/out/train244of256.tfrecord', '/data/sakter/preprocessed_clip/out/train203of256.tfrecord', '/data/sakter/preprocessed_clip/out/train245of256.tfrecord', '/data/sakter/preprocessed_clip/out/train135of256.tfrecord', '/data/sakter/preprocessed_clip/out/train058of256.tfrecord', '/data/sakter/preprocessed_clip/out/train192of256.tfrecord', '/data/sakter/preprocessed_clip/out/train125of256.tfrecord', '/data/sakter/preprocessed_clip/out/train190of256.tfrecord', '/data/sakter/preprocessed_clip/out/train171of256.tfrecord', '/data/sakter/preprocessed_clip/out/train004of256.tfrecord', '/data/sakter/preprocessed_clip/out/train141of256.tfrecord', '/data/sakter/preprocessed_clip/out/train237of256.tfrecord', '/data/sakter/preprocessed_clip/out/train230of256.tfrecord', '/data/sakter/preprocessed_clip/out/train136of256.tfrecord', '/data/sakter/preprocessed_clip/out/train225of256.tfrecord', '/data/sakter/preprocessed_clip/out/train116of256.tfrecord', '/data/sakter/preprocessed_clip/out/train066of256.tfrecord', '/data/sakter/preprocessed_clip/out/train218of256.tfrecord', '/data/sakter/preprocessed_clip/out/train204of256.tfrecord', '/data/sakter/preprocessed_clip/out/train050of256.tfrecord', '/data/sakter/preprocessed_clip/out/train174of256.tfrecord', '/data/sakter/preprocessed_clip/out/train088of256.tfrecord', '/data/sakter/preprocessed_clip/out/train131of256.tfrecord', '/data/sakter/preprocessed_clip/out/train080of256.tfrecord', '/data/sakter/preprocessed_clip/out/train139of256.tfrecord', '/data/sakter/preprocessed_clip/out/train095of256.tfrecord', '/data/sakter/preprocessed_clip/out/train070of256.tfrecord', '/data/sakter/preprocessed_clip/out/train005of256.tfrecord', '/data/sakter/preprocessed_clip/out/train010of256.tfrecord', '/data/sakter/preprocessed_clip/out/train020of256.tfrecord', '/data/sakter/preprocessed_clip/out/train130of256.tfrecord', '/data/sakter/preprocessed_clip/out/train021of256.tfrecord', '/data/sakter/preprocessed_clip/out/train146of256.tfrecord', '/data/sakter/preprocessed_clip/out/train154of256.tfrecord', '/data/sakter/preprocessed_clip/out/train201of256.tfrecord', '/data/sakter/preprocessed_clip/out/train049of256.tfrecord', '/data/sakter/preprocessed_clip/out/train158of256.tfrecord', '/data/sakter/preprocessed_clip/out/train208of256.tfrecord', '/data/sakter/preprocessed_clip/out/train087of256.tfrecord', '/data/sakter/preprocessed_clip/out/train150of256.tfrecord', '/data/sakter/preprocessed_clip/out/train178of256.tfrecord', '/data/sakter/preprocessed_clip/out/train044of256.tfrecord', '/data/sakter/preprocessed_clip/out/train249of256.tfrecord', '/data/sakter/preprocessed_clip/out/train182of256.tfrecord', '/data/sakter/preprocessed_clip/out/train102of256.tfrecord', '/data/sakter/preprocessed_clip/out/train030of256.tfrecord', '/data/sakter/preprocessed_clip/out/train185of256.tfrecord', '/data/sakter/preprocessed_clip/out/train091of256.tfrecord', '/data/sakter/preprocessed_clip/out/train133of256.tfrecord', '/data/sakter/preprocessed_clip/out/train018of256.tfrecord', '/data/sakter/preprocessed_clip/out/train157of256.tfrecord', '/data/sakter/preprocessed_clip/out/train046of256.tfrecord', '/data/sakter/preprocessed_clip/out/train123of256.tfrecord', '/data/sakter/preprocessed_clip/out/train054of256.tfrecord', '/data/sakter/preprocessed_clip/out/train007of256.tfrecord', '/data/sakter/preprocessed_clip/out/train059of256.tfrecord', '/data/sakter/preprocessed_clip/out/train060of256.tfrecord', '/data/sakter/preprocessed_clip/out/train207of256.tfrecord', '/data/sakter/preprocessed_clip/out/train065of256.tfrecord', '/data/sakter/preprocessed_clip/out/train118of256.tfrecord', '/data/sakter/preprocessed_clip/out/train052of256.tfrecord', '/data/sakter/preprocessed_clip/out/train103of256.tfrecord', '/data/sakter/preprocessed_clip/out/train205of256.tfrecord', '/data/sakter/preprocessed_clip/out/train094of256.tfrecord', '/data/sakter/preprocessed_clip/out/train057of256.tfrecord', '/data/sakter/preprocessed_clip/out/train173of256.tfrecord', '/data/sakter/preprocessed_clip/out/train181of256.tfrecord', '/data/sakter/preprocessed_clip/out/train247of256.tfrecord', '/data/sakter/preprocessed_clip/out/train224of256.tfrecord', '/data/sakter/preprocessed_clip/out/train024of256.tfrecord', '/data/sakter/preprocessed_clip/out/train138of256.tfrecord', '/data/sakter/preprocessed_clip/out/train227of256.tfrecord', '/data/sakter/preprocessed_clip/out/train115of256.tfrecord', '/data/sakter/preprocessed_clip/out/train069of256.tfrecord', '/data/sakter/preprocessed_clip/out/train193of256.tfrecord', '/data/sakter/preprocessed_clip/out/train077of256.tfrecord', '/data/sakter/preprocessed_clip/out/train032of256.tfrecord', '/data/sakter/preprocessed_clip/out/train189of256.tfrecord', '/data/sakter/preprocessed_clip/out/train013of256.tfrecord', '/data/sakter/preprocessed_clip/out/train176of256.tfrecord', '/data/sakter/preprocessed_clip/out/train099of256.tfrecord', '/data/sakter/preprocessed_clip/out/train100of256.tfrecord', '/data/sakter/preprocessed_clip/out/train242of256.tfrecord', '/data/sakter/preprocessed_clip/out/train056of256.tfrecord', '/data/sakter/preprocessed_clip/out/train222of256.tfrecord', '/data/sakter/preprocessed_clip/out/train098of256.tfrecord', '/data/sakter/preprocessed_clip/out/train243of256.tfrecord', '/data/sakter/preprocessed_clip/out/train055of256.tfrecord', '/data/sakter/preprocessed_clip/out/train124of256.tfrecord', '/data/sakter/preprocessed_clip/out/train025of256.tfrecord', '/data/sakter/preprocessed_clip/out/train166of256.tfrecord', '/data/sakter/preprocessed_clip/out/train212of256.tfrecord', '/data/sakter/preprocessed_clip/out/train031of256.tfrecord', '/data/sakter/preprocessed_clip/out/train003of256.tfrecord', '/data/sakter/preprocessed_clip/out/train209of256.tfrecord', '/data/sakter/preprocessed_clip/out/train235of256.tfrecord', '/data/sakter/preprocessed_clip/out/train211of256.tfrecord', '/data/sakter/preprocessed_clip/out/train246of256.tfrecord', '/data/sakter/preprocessed_clip/out/train034of256.tfrecord', '/data/sakter/preprocessed_clip/out/train072of256.tfrecord', '/data/sakter/preprocessed_clip/out/train140of256.tfrecord', '/data/sakter/preprocessed_clip/out/train153of256.tfrecord', '/data/sakter/preprocessed_clip/out/train161of256.tfrecord', '/data/sakter/preprocessed_clip/out/train121of256.tfrecord', '/data/sakter/preprocessed_clip/out/train239of256.tfrecord', '/data/sakter/preprocessed_clip/out/train073of256.tfrecord', '/data/sakter/preprocessed_clip/out/train236of256.tfrecord', '/data/sakter/preprocessed_clip/out/train168of256.tfrecord', '/data/sakter/preprocessed_clip/out/train221of256.tfrecord', '/data/sakter/preprocessed_clip/out/train083of256.tfrecord', '/data/sakter/preprocessed_clip/out/train220of256.tfrecord', '/data/sakter/preprocessed_clip/out/train090of256.tfrecord', '/data/sakter/preprocessed_clip/out/train037of256.tfrecord', '/data/sakter/preprocessed_clip/out/train067of256.tfrecord', '/data/sakter/preprocessed_clip/out/train038of256.tfrecord', '/data/sakter/preprocessed_clip/out/train226of256.tfrecord', '/data/sakter/preprocessed_clip/out/train169of256.tfrecord', '/data/sakter/preprocessed_clip/out/train172of256.tfrecord', '/data/sakter/preprocessed_clip/out/train232of256.tfrecord', '/data/sakter/preprocessed_clip/out/train093of256.tfrecord', '/data/sakter/preprocessed_clip/out/train009of256.tfrecord', '/data/sakter/preprocessed_clip/out/train194of256.tfrecord', '/data/sakter/preprocessed_clip/out/train234of256.tfrecord', '/data/sakter/preprocessed_clip/out/train213of256.tfrecord', '/data/sakter/preprocessed_clip/out/train254of256.tfrecord', '/data/sakter/preprocessed_clip/out/train177of256.tfrecord', '/data/sakter/preprocessed_clip/out/train200of256.tfrecord', '/data/sakter/preprocessed_clip/out/train179of256.tfrecord', '/data/sakter/preprocessed_clip/out/train252of256.tfrecord', '/data/sakter/preprocessed_clip/out/train002of256.tfrecord', '/data/sakter/preprocessed_clip/out/train128of256.tfrecord', '/data/sakter/preprocessed_clip/out/train191of256.tfrecord', '/data/sakter/preprocessed_clip/out/train022of256.tfrecord', '/data/sakter/preprocessed_clip/out/train033of256.tfrecord', '/data/sakter/preprocessed_clip/out/train043of256.tfrecord', '/data/sakter/preprocessed_clip/out/train223of256.tfrecord', '/data/sakter/preprocessed_clip/out/train159of256.tfrecord', '/data/sakter/preprocessed_clip/out/train074of256.tfrecord', '/data/sakter/preprocessed_clip/out/train048of256.tfrecord', '/data/sakter/preprocessed_clip/out/train151of256.tfrecord', '/data/sakter/preprocessed_clip/out/train053of256.tfrecord', '/data/sakter/preprocessed_clip/out/train175of256.tfrecord', '/data/sakter/preprocessed_clip/out/train228of256.tfrecord', '/data/sakter/preprocessed_clip/out/train063of256.tfrecord', '/data/sakter/preprocessed_clip/out/train126of256.tfrecord', '/data/sakter/preprocessed_clip/out/train026of256.tfrecord', '/data/sakter/preprocessed_clip/out/train144of256.tfrecord', '/data/sakter/preprocessed_clip/out/train149of256.tfrecord', '/data/sakter/preprocessed_clip/out/train155of256.tfrecord', '/data/sakter/preprocessed_clip/out/train145of256.tfrecord', '/data/sakter/preprocessed_clip/out/train216of256.tfrecord', '/data/sakter/preprocessed_clip/out/train006of256.tfrecord', '/data/sakter/preprocessed_clip/out/train233of256.tfrecord', '/data/sakter/preprocessed_clip/out/train068of256.tfrecord', '/data/sakter/preprocessed_clip/out/train196of256.tfrecord', '/data/sakter/preprocessed_clip/out/train081of256.tfrecord', '/data/sakter/preprocessed_clip/out/train197of256.tfrecord', '/data/sakter/preprocessed_clip/out/train062of256.tfrecord', '/data/sakter/preprocessed_clip/out/train027of256.tfrecord', '/data/sakter/preprocessed_clip/out/train047of256.tfrecord', '/data/sakter/preprocessed_clip/out/train092of256.tfrecord', '/data/sakter/preprocessed_clip/out/train008of256.tfrecord', '/data/sakter/preprocessed_clip/out/train096of256.tfrecord', '/data/sakter/preprocessed_clip/out/train248of256.tfrecord', '/data/sakter/preprocessed_clip/out/train076of256.tfrecord', '/data/sakter/preprocessed_clip/out/train156of256.tfrecord', '/data/sakter/preprocessed_clip/out/train147of256.tfrecord', '/data/sakter/preprocessed_clip/out/train127of256.tfrecord', '/data/sakter/preprocessed_clip/out/train188of256.tfrecord', '/data/sakter/preprocessed_clip/out/train075of256.tfrecord', '/data/sakter/preprocessed_clip/out/train160of256.tfrecord', '/data/sakter/preprocessed_clip/out/train000of256.tfrecord', '/data/sakter/preprocessed_clip/out/train163of256.tfrecord', '/data/sakter/preprocessed_clip/out/train165of256.tfrecord', '/data/sakter/preprocessed_clip/out/train029of256.tfrecord', '/data/sakter/preprocessed_clip/out/train012of256.tfrecord', '/data/sakter/preprocessed_clip/out/train111of256.tfrecord', '/data/sakter/preprocessed_clip/out/train167of256.tfrecord', '/data/sakter/preprocessed_clip/out/train240of256.tfrecord', '/data/sakter/preprocessed_clip/out/train152of256.tfrecord', '/data/sakter/preprocessed_clip/out/train255of256.tfrecord', '/data/sakter/preprocessed_clip/out/train129of256.tfrecord', '/data/sakter/preprocessed_clip/out/train086of256.tfrecord', '/data/sakter/preprocessed_clip/out/train085of256.tfrecord', '/data/sakter/preprocessed_clip/out/train117of256.tfrecord', '/data/sakter/preprocessed_clip/out/train097of256.tfrecord', '/data/sakter/preprocessed_clip/out/train210of256.tfrecord', '/data/sakter/preprocessed_clip/out/train206of256.tfrecord', '/data/sakter/preprocessed_clip/out/train238of256.tfrecord', '/data/sakter/preprocessed_clip/out/train219of256.tfrecord', '/data/sakter/preprocessed_clip/out/train079of256.tfrecord', '/data/sakter/preprocessed_clip/out/train241of256.tfrecord', '/data/sakter/preprocessed_clip/out/train119of256.tfrecord', '/data/sakter/preprocessed_clip/out/train014of256.tfrecord', '/data/sakter/preprocessed_clip/out/train251of256.tfrecord', '/data/sakter/preprocessed_clip/out/train109of256.tfrecord']
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random resize method:
+AREA,BICUBIC,BILINEAR,GAUSSIAN,LANCZOS3,LANCZOS5,MITCHELLCUBIC,NEAREST_NEIGHBOR
+Random adjustment of audio clips
+Completed 100 batches in 28.581sec, avg 3.499 it/sec
+Saving @iter 45791.
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+you passed in random but doing bilinear resize instead (possibly because eager is on)
+Padding final batch by 3
+Saving checkpoint at save 45792, path /home/sakter/results/retrain/out_clip/base.yaml/tvqa_clipAttn_1.0_12_24_0.6_no_proj_run_1
+Not including the optimizer state
+Completed 100 batches in 223.329sec, avg 0.448 it/sec

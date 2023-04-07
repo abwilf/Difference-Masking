@@ -1,0 +1,11 @@
+name: aang
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - pytorch-transformers==1.2.0
+    - transformers==4.20.1
+    - allennlp==2.10.0
+prefix: /work/sakter/anaconda3/envs/aang

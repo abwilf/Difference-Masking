@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 011661~s09e10_seg02_clip_01 ~~~~~~~~
+ -2 to 102<|START|> why does amy seem nervous when she calls dave?
+0 GT)  because amy was going to ask dave out on a date.     (12tok)
+1   )  because amy was scared of dave.     (7tok)
+2   )  because amy hates dave.     (5tok)
+3   )  because amy was worried about something at work.     (9tok)
+4   )  because amy was concerned about her mother's health.     (10tok)
+~~~~~~~~~~~ Example 1 012173~house_s05e10_seg02_clip_20 ~~~~~~~~
+ 34 to 37<|START|> why did emmy want to go to the cafeteria when taub was pushing her wheelchair?
+0   )  emmy wanted a cheeseburger.     (5tok)
+1   )  emmy wanted to eat lunch with her friends.     (9tok)
+2   )  emmy wanted ti see what was on the menu.     (10tok)
+3 GT)  emmy wanted some chocolate cake.     (6tok)
+4   )  emmy wanted some ice cream.     (6tok)
+~~~~~~~~~~~ Example 2 012429~friends_s03e20_seg02_clip_08 ~~~~~~~~
+ 43 to 57<|START|> why does kate say she likes the director after joey asks her what she sees in him?
+0   )  she says he is a great kisser.     (9tok)
+1   )  she says he is good in bed.     (8tok)
+2   )  she says he is funny.     (6tok)
+3 GT)  she says he happens to be brillant.     (9tok)
+4   )  she says he is handsome.     (6tok)
+~~~~~~~~~~~ Example 3 020877~s10e02_seg02_clip_06 ~~~~~~~~
+ 52 to 75<|START|> why did leonard say sheldon couldn't talk after sheldon asked him?
+0   )  because sheldon has a toothache.     (7tok)
+1   )  because sheldon is rude.     (5tok)
+2 GT)  because it enrages people.     (7tok)
+3   )  because sheldon has a sore throat.     (7tok)
+4   )  because sheldon has laryngitis.     (8tok)
+Finished writing 51 questions; max len = 231

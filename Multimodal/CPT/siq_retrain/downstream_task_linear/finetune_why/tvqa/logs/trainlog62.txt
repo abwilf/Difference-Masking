@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000574~s05e17_seg02_clip_16 ~~~~~~~~
+ 41 to 59<|START|> why does howard think that sheldon is a weird person when they are in sheldon's office?
+0   )  howard thinks that sheldon is weird because he doesn't like dog chimes.     (15tok)
+1   )  howard thinks that sheldon is weird because he doesn't like cat chimes.     (15tok)
+2 GT)  howard thinks that sheldon is weird because he doesn't like wind chimes.     (15tok)
+3   )  howard thinks that sheldon is weird because he doesn't like mouse chimes.     (15tok)
+4   )  howard thinks that sheldon is weird because he doesn't like storm chimes.     (15tok)
+~~~~~~~~~~~ Example 1 001598~friends_s10e10_seg02_clip_09 ~~~~~~~~
+ 45 to 54<|START|> why does ross turn away from the poker table when rachel calls him out?
+0   )  ross forgot his glasses in the bathroom     (7tok)
+1   )  ross has to fart     (4tok)
+2 GT)  ross's fly is undone     (5tok)
+3   )  ross forgot his drink in the bathroom     (7tok)
+4   )  ross doesn't want to play anymore      (8tok)
+~~~~~~~~~~~ Example 2 001854~house_s05e01_seg02_clip_14 ~~~~~~~~
+ -6 to 105<|START|> why did lou shiver when she was talking to thirteen?
+0   )  she was falling asleep     (4tok)
+1   )  she had muscle tremors     (5tok)
+2 GT)  she had a fever     (4tok)
+3   )  she had a nerve problem     (5tok)
+4   )  she had taken drugs     (4tok)
+~~~~~~~~~~~ Example 3 002622~castle_s06e14_seg02_clip_22 ~~~~~~~~
+ 24 to 74<|START|> why did emma confront yumi after the fab five meeting?
+0   )  she was going team up with him     (7tok)
+1   )  she needed money     (3tok)
+2   )  she was leaving him     (4tok)
+3 GT)  he stole her designs     (4tok)
+4   )  she wanted his advice.      (6tok)
+Finished writing 49 questions; max len = 251

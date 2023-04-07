@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001006~friends_s09e03_seg02_clip_14 ~~~~~~~~
+ 22 to 78<|START|> why did monica say that the restaurant job is important after she let go of chandler's hand?
+0   )  it pays so much     (4tok)
+1 GT)  it's a once in a life opportunity     (8tok)
+2   )  she can stay in new york     (6tok)
+3   )  she can see her friends     (5tok)
+4   )  she doesn't want to move     (6tok)
+~~~~~~~~~~~ Example 1 005102~s06e15_seg02_clip_11 ~~~~~~~~
+ 70 to 86<|START|> why does penny suggest sheldon gets drano when they are talking?
+0 GT)  she suggests this because she has seen amy's legs.      (12tok)
+1   )  she suggests this because she is not a nice person.      (12tok)
+2   )  she suggests this because amy shaves all the time.      (12tok)
+3   )  she suggests this because amy clogs up her drain all the time.      (15tok)
+4   )  she suggests this because penny has that problem with her shower.      (13tok)
+~~~~~~~~~~~ Example 2 005358~friends_s02e03_seg02_clip_20 ~~~~~~~~
+ 13 to 85<|START|> why did chandler take a second to leave after ross?
+0 GT)  he knew he would miss the apartment     (7tok)
+1   )  he had forgotten his food     (5tok)
+2   )  he had lost his wallet     (5tok)
+3   )  chandler spoke until he could leave at peace     (8tok)
+4   )  chandler needed a break from the animals     (7tok)
+~~~~~~~~~~~ Example 3 005870~s08e15_seg02_clip_05 ~~~~~~~~
+ 12 to 58<|START|> why wouldn't sheldon let go of his imaginary pen after penny told him to open his hand and let it go?
+0 GT)  sheldon just got his imaginary pen.     (7tok)
+1   )  sheldon liked how the imaginary pen felt.     (8tok)
+2   )  sheldon wanted to show his imaginary pen to leonard.     (10tok)
+3   )  sheldon wanted to write a letter with his imaginary pen.     (11tok)
+4   )  sheldon wanted to write a love note to penny with his imaginary pen.     (14tok)
+Finished writing 45 questions; max len = 257

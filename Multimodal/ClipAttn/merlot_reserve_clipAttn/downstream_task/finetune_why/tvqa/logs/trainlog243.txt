@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000499~friends_s02e18_seg02_clip_13 ~~~~~~~~
+ 26 to 74<|START|> why did richard and ross sound awkward when speaking to each other?
+0   )  they were both hungry for the last slice of pizza     (10tok)
+1   )  they did not know who was going to go first     (10tok)
+2 GT)  neither of them was wearing any pants     (7tok)
+3   )  they were unsure who the other person was     (8tok)
+4   )  they did not want to talk to each other     (9tok)
+~~~~~~~~~~~ Example 1 001523~s07e13_seg02_clip_06 ~~~~~~~~
+ 9 to 90<|START|> why does leonard decide to call penny when he is with howard and amy?
+0   )  to tell her that he loves her     (7tok)
+1   )  to ask her if she wants to meet up     (9tok)
+2   )  to ask what she would like to eat tonight     (9tok)
+3 GT)  to check on her job status     (6tok)
+4   )  to tell her that he needs her help     (8tok)
+~~~~~~~~~~~ Example 2 010995~s08e06_seg02_clip_17 ~~~~~~~~
+ -111 to 211<|START|> why was raj yelling at sheldon when he entered sheldon's apartment?
+0   )  because sheldon and raj are fighting over a girl.     (10tok)
+1   )  because sheldon stole raj's money.      (8tok)
+2   )  because sheldon called raj's mother ugly.      (9tok)
+3   )  because sheldon was with raj's girlfriend.     (8tok)
+4 GT)  because sheldon left raj to fend off a family of rats.     (12tok)
+~~~~~~~~~~~ Example 3 011251~castle_s04e09_seg02_clip_15 ~~~~~~~~
+ 2 to 68<|START|> why is esposito holding a sniper rifle when he is telling beckett she is not fine?
+0   )  to show beckett that the rifle is hers now.     (12tok)
+1   )  to show beckett the gun can have magical powers.     (12tok)
+2   )  to show beckett that the gun is very strong.     (12tok)
+3   )  to show beckett that it is okay to be afraid of weapons.     (15tok)
+4 GT)  to show beckett she should not be afraid of the gun.     (14tok)
+Finished writing 49 questions; max len = 252

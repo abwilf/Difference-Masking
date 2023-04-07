@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002423~house_s01e15_seg02_clip_02 ~~~~~~~~
+ 19 to 80<|START|> why did bill tell house there there will be no malpractice suit after if he messes up?
+0   )  bill threatened to burn down the hospital      (8tok)
+1   )  bill threatened to kill house instead     (6tok)
+2 GT)  bill threatened to take away the things house loves instead     (10tok)
+3   )  bill doesn't like lawyers     (5tok)
+4   )  bill is mafia and doesn;t trust judges.     (10tok)
+~~~~~~~~~~~ Example 1 005751~house_s08e05_seg02_clip_22 ~~~~~~~~
+ 42 to 56<|START|> why did bob say he took chases shoes when chase told him they were missing?
+0   )  his dad needed some shoes.     (6tok)
+1   )  he needed some shoes.     (5tok)
+2 GT)  he needed the cash.     (5tok)
+3   )  he really liked them.     (5tok)
+4   )  he thought they were his.     (6tok)
+~~~~~~~~~~~ Example 2 011127~grey_s03e10_seg02_clip_03 ~~~~~~~~
+ 35 to 64<|START|> why does addison warn meredith after borrowing her from bailey?
+0 GT)  her sister has been admitted to the hospital      (9tok)
+1   )  her mother is in the hospital     (6tok)
+2   )  her father is in the hospital     (6tok)
+3   )  derek is looking for her      (6tok)
+4   )  webber wants to see her      (7tok)
+~~~~~~~~~~~ Example 3 011639~s09e20_seg02_clip_11 ~~~~~~~~
+ -5 to 104<|START|> why does penny get mad before leaving the room?
+0   )  she finds out that leonard makes fun of her and her small salary.     (14tok)
+1   )  she discovers that leonard makes more money than her, and keeps a secret bank account because he thinks she is bad with money.      (26tok)
+2   )  she finds discovers that leonard cheated on her, when they first started dating.     (15tok)
+3   )  she finds out that leonard has been stealing money from her.     (12tok)
+4 GT)  she discovers that, even though she makes more money than leonard, he still keeps a secret bank account because he thinks she is bad with money.      (30tok)
+Finished writing 54 questions; max len = 245

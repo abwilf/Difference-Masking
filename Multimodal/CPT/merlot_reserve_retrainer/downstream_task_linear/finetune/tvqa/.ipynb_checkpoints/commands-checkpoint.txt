@@ -1,0 +1,3 @@
+wandb sweep -p merlotreserve-tvqa-finetune finetune_run_sweep.yml
+
+python3 tvqa_finetune.py ../../pretrain/configs/base.yaml --lr=5e-6 --ne=3 -scan_minibatch --output_grid_h=12 --output_grid_w=24 --percent_data=0.1 --alpha=0.4 --mask_where body --joint_proj no_proj --extn _temp_test --no_wandb

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003121~castle_s06e02_seg02_clip_25 ~~~~~~~~
+ 28 to 71<|START|> why did martha laugh after pi spoke? 
+0   )  castle said he was feeling better.     (7tok)
+1 GT)  she was happy castle was ok.     (7tok)
+2   )  she got a phone call from her guy.     (9tok)
+3   )  castle was about te be discharged from the hospital.     (10tok)
+4   )  castle had his appetite back.     (6tok)
+~~~~~~~~~~~ Example 1 004401~castle_s02e01_seg02_clip_01 ~~~~~~~~
+ 46 to 53<|START|> why do becketts coworkers leave the room after castle comes in the room?
+0   )  because they had a emergency.     (6tok)
+1   )  so beckett and castle can eat dinner.     (10tok)
+2   )  because they are getting dressed.     (6tok)
+3   )  because they are washing the floor.     (7tok)
+4 GT)  so beckett and castle can talk private.     (10tok)
+~~~~~~~~~~~ Example 2 004913~friends_s01e05_seg02_clip_14 ~~~~~~~~
+ 16 to 83<|START|> why is chandler nervous before talking to janice?
+0   )  because he is going to propose to her     (8tok)
+1 GT)  because he is going to break up with her     (9tok)
+2   )  because he is going to tell her he cheated on her     (11tok)
+3   )  because he is just nervous around girls     (7tok)
+4   )  because he is going to tell her that he is gay     (11tok)
+~~~~~~~~~~~ Example 3 005425~s10e13_seg02_clip_10 ~~~~~~~~
+ 69 to 88<|START|> why did leonard show up at the spa after driving there
+0   )  because he wanted a mud bath     (6tok)
+1 GT)  because he wanted to apologize to penny     (7tok)
+2   )  because he need a good massage     (6tok)
+3   )  because he stole a robe and wanted to return it     (10tok)
+4   )  because he need a facial     (5tok)
+Finished writing 55 questions; max len = 260

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000833~grey_s03e17_seg02_clip_06 ~~~~~~~~
+ 16 to 54<|START|> why was derek so sad when talking to addison
+0   )  he was depress      (4tok)
+1 GT)  he thought she had died     (5tok)
+2   )  he wanted to go pee     (5tok)
+3   )  he was hungry     (3tok)
+4   )  he was sleepy     (3tok)
+~~~~~~~~~~~ Example 1 002113~castle_s02e14_seg02_clip_11 ~~~~~~~~
+ 12 to 87<|START|> why was castle surprised after beckett asked about the restaurant drago?
+0   )  he didn't think drago was a safe place     (10tok)
+1   )  he din't know what drago was     (8tok)
+2   )  he didn't think there was a drago in their town     (12tok)
+3 GT)  he didn't think it was her type of place     (10tok)
+4   )  he thought drago had closed down     (7tok)
+~~~~~~~~~~~ Example 2 002369~grey_s02e03_seg02_clip_14 ~~~~~~~~
+ 51 to 76<|START|> why bailey did not let meredith enter in the operating room when she was putting a mask?
+0   )  because meredith's friend is out of danger.     (9tok)
+1   )  because meredith's friend is recovering.     (7tok)
+2 GT)  because meredith's friend is naked and exposed.     (9tok)
+3   )  because meredith's friend is good.     (7tok)
+4   )  because meredith's friend is talking with burke.     (9tok)
+~~~~~~~~~~~ Example 3 006721~s04e20_seg02_clip_09 ~~~~~~~~
+ 41 to 59<|START|> why does amy think it's not much of contest after saying smoking monkeys look cooler?
+0   )  because the other monkeys were smokers too     (7tok)
+1   )  because the other monkeys were kicked out     (7tok)
+2   )  because the other monkeys passed out     (6tok)
+3   )  because the other monkeys are dead     (6tok)
+4 GT)  because the other monkeys just sit around and masturbate     (10tok)
+Finished writing 50 questions; max len = 232

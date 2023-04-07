@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002245~s09e17_seg02_clip_11 ~~~~~~~~
+ 57 to 70<|START|> why was leslie surprised when leonard said he got married?
+0   )  leslie thought leonard wanted to marry her.     (8tok)
+1   )  leslie thought leonard did not like girls.     (8tok)
+2 GT)  leslie thought leonard would live with sheldon forever.     (9tok)
+3   )  leslie thought leonard did not want to get married.     (10tok)
+4   )  leslie thought leonard was going to wait longer to get married.     (12tok)
+~~~~~~~~~~~ Example 1 002757~s07e16_seg02_clip_12 ~~~~~~~~
+ 1 to 13<|START|> why does penny nod her head at amy when they are together?
+0 GT)  because she agrees that amy got cocky     (7tok)
+1   )  because amy is teaching important information     (6tok)
+2   )  because amy is rapping     (4tok)
+3   )  because amy is successful     (4tok)
+4   )  because amy learned something new     (5tok)
+~~~~~~~~~~~ Example 2 006085~friends_s10e06_seg02_clip_02 ~~~~~~~~
+ 35 to 63<|START|> why couldn't phoebe go to the movies when monica asked? 
+0   )  she was moving to a new apartment.     (8tok)
+1 GT)  she had to clearing out stuff so mike could move in.     (12tok)
+2   )  she was moving her stuff to mikes.     (9tok)
+3   )  she was throwing a party.     (6tok)
+4   )  she had to work.     (5tok)
+~~~~~~~~~~~ Example 3 007877~friends_s04e22_seg02_clip_19 ~~~~~~~~
+ 26 to 44<|START|> why was ross disgusted when he was looking at chandler?
+0   )  he smelled the rock.     (5tok)
+1 GT)  he smelled the ring.     (5tok)
+2   )  he smelled the keys.     (5tok)
+3   )  he smelled the bracelet.     (5tok)
+4   )  he smelled the bill.     (5tok)
+Finished writing 39 questions; max len = 259

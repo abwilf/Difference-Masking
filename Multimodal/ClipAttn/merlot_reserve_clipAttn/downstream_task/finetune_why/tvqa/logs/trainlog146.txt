@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001938~castle_s04e02_seg02_clip_11 ~~~~~~~~
+ 42 to 57<|START|> why does esposito know the suspect's identity when he calls beckett?
+0   )  the suspect paid for the weapon with a credit card and had to show his driver's license     (18tok)
+1   )  the suspect just turned himself in     (6tok)
+2   )  the suspect's wife just called the police station     (9tok)
+3 GT)  the suspect paid for the weapon with a check     (9tok)
+4   )  the suspect himself just called the station and gave his name and details of what he did     (17tok)
+~~~~~~~~~~~ Example 1 002194~s05e10_seg02_clip_13 ~~~~~~~~
+ 39 to 60<|START|> why is stuart upset at the movies when he is with amy?
+0   )  stuart is upset because his food did not go well.     (11tok)
+1 GT)  stuart is upset because his date did not go well.     (11tok)
+2   )  stuart is upset because his test did not go well.     (11tok)
+3   )  stuart is upset because his notes did not go well.     (11tok)
+4   )  stuart is upset because his parents did not go well.     (11tok)
+~~~~~~~~~~~ Example 2 006546~house_s05e12_seg02_clip_22 ~~~~~~~~
+ 38 to 62<|START|> why did house pay a bribe to fernando when it came to repairing houses shower?
+0   )  to add a new feature     (5tok)
+1   )  to get it done faster     (5tok)
+2   )  to get it done right     (5tok)
+3 GT)  to lie on the claim     (5tok)
+4   )  house didn't pay fernando     (5tok)
+~~~~~~~~~~~ Example 3 009106~grey_s03e03_seg02_clip_16 ~~~~~~~~
+ 43 to 56<|START|> why george invited izzie to sit down when he saw her standing?
+0   )  because izzie was taking pictures.     (7tok)
+1   )  because izzie was having fun.     (7tok)
+2   )  because izzie was looking for meredith.     (8tok)
+3 GT)  because izzie was standing a while.     (8tok)
+4   )  because izzie looking the nature.     (7tok)
+Finished writing 56 questions; max len = 238

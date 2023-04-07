@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001971~house_s04e15_seg02_clip_06 ~~~~~~~~
+ 34 to 66<|START|> why is the bus driver upset after house talks to cuddy?
+0   )  he can't remember anything before the crash.     (9tok)
+1   )  he found out his wife died in the bus accident.     (11tok)
+2   )  he's having pains in his side.     (8tok)
+3 GT)  he's suddenly unable to get out of the wheelchair.     (11tok)
+4   )  he's having vivid hallucinations.     (7tok)
+~~~~~~~~~~~ Example 1 003251~grey_s03e22_seg02_clip_16 ~~~~~~~~
+ 36 to 64<|START|> why is george uncomfortable when he is around izzie?
+0   )  because he doesn't understand izzie.     (8tok)
+1   )  because george really loves izzie.     (7tok)
+2   )  because george is afraid of izzie.     (8tok)
+3   )  because izzie wants george to go on a double date.     (12tok)
+4 GT)  because george says he is not a cheater, an unfaithful guy and he doesn't know if it will happen again with izzie.     (29tok)
+~~~~~~~~~~~ Example 2 003763~met_s06e06_seg02_clip_08 ~~~~~~~~
+ 26 to 73<|START|> why does robin punch ted in the throat after work?
+0 GT)  he dated becky.     (4tok)
+1   )  he stole her money.     (5tok)
+2   )  he ditched her for a date.     (8tok)
+3   )  he took her apartment key.     (6tok)
+4   )  he gave her robe to becky.     (7tok)
+~~~~~~~~~~~ Example 3 004019~house_s01e06_seg02_clip_09 ~~~~~~~~
+ 4 to 67<|START|> why doesn't house believe ampicillin is responsible after cameron suggests it might be responsible for her bleeding?
+0 GT)  the patient's son said that the patient refused to take the ampicillin.     (17tok)
+1   )  the patient said she didn't take the ampicillin.     (13tok)
+2   )  the patient was never prescribed penicillin, not ampicillin.     (16tok)
+3   )  house believes ampicillin would not cause bleeding.     (11tok)
+4   )  house believes cameron is correct.     (6tok)
+Finished writing 53 questions; max len = 244

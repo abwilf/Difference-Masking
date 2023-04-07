@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005551~s07e13_seg02_clip_01 ~~~~~~~~
+ -19 to 119<|START|> why did bernadette go to stuart after her mistake?
+0   )  because she wanted to make sure it looked like stuart did it.      (14tok)
+1 GT)  because she accidently destroyed one of howard's comic books.     (12tok)
+2   )  because she wanted to know his insight.     (8tok)
+3   )  because she needed his advice.     (6tok)
+4   )  because she knew he would hold her.     (8tok)
+~~~~~~~~~~~ Example 1 008879~castle_s01e01_seg02_clip_11 ~~~~~~~~
+ 46 to 53<|START|> why does castle mention that the dress was blue in his book when he is at the crime scene?
+0   )  because he likes dresses.     (5tok)
+1   )  because he wants to talk about his book.     (9tok)
+2   )  because the murder victim happens to be wearing a dress     (10tok)
+3 GT)  the murder is modeled after one in his book.     (10tok)
+4   )  because beckett isn't wearing a dress.     (10tok)
+~~~~~~~~~~~ Example 2 009903~castle_s06e04_seg02_clip_03 ~~~~~~~~
+ 41 to 59<|START|> why did emma not want to answer questions on the phone when the police is present?
+0   )  she respected police to much to lie     (7tok)
+1   )  police make her nervous     (4tok)
+2   )  police knew the answers     (4tok)
+3 GT)  she doesnt trust police     (4tok)
+4   )  she wanted castle in person     (5tok)
+~~~~~~~~~~~ Example 3 012463~friends_s08e06_seg02_clip_13 ~~~~~~~~
+ -13 to 113<|START|> why does ursula tell phoebe that she should quit smoking when ursula's fiance comes out?
+0 GT)  ursula is pretending to be a non-smoker and is lying about it to her fiance.     (20tok)
+1   )  phoebe is a heavy smoker and ursula is concerned.     (10tok)
+2   )  ursula is trying to embarrass phoebe by pointing out her smoking habit.     (13tok)
+3   )  ursula works as an addiction counselor.     (7tok)
+4   )  ursula promised her fiance that she would tell phoebe to stop smoking.     (13tok)
+Finished writing 48 questions; max len = 240

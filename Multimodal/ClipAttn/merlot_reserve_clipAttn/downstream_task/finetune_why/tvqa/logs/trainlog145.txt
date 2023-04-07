@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001169~s03e18_seg02_clip_13 ~~~~~~~~
+ 65 to 91<|START|> why does sheldon thank leonard after leonard is done taking?
+0   )  sheldon tells leonard he should be thrilled to be alive.      (12tok)
+1   )  sheldon tells leonard he should go to bed.      (10tok)
+2 GT)  sheldon thanks leonard because if someone as messed up as leonard can get up in the morning, he can face a simple awards ceremony.      (27tok)
+3   )  sheldon tells leonard he should be happy that he is with penny.      (14tok)
+4   )  sheldon thanks leonard sarcastically.      (8tok)
+~~~~~~~~~~~ Example 1 001681~met_s02e04_seg02_clip_16 ~~~~~~~~
+ -29 to 130<|START|> why did robin go for a walk after talking to lily?
+0   )  robin went for a walk to get exercise.     (9tok)
+1 GT)  robin went for a walk to think about opening herself up to another person.     (15tok)
+2   )  robin walked to the theatre.     (6tok)
+3   )  robin walked to the museum.     (6tok)
+4   )  robin walked to nasa.     (5tok)
+~~~~~~~~~~~ Example 2 003217~met_s02e06_seg02_clip_16 ~~~~~~~~
+ 11 to 61<|START|> why do mr druther and ted look to the front door when they are talking?
+0   )  a beautiful woman arrives     (4tok)
+1   )  a robbery has started taking place     (6tok)
+2   )  ted's wife has shown up     (6tok)
+3   )  an unexpected guest has arrived     (5tok)
+4 GT)  a man calls them and lets the,know the clients have arrived.     (14tok)
+~~~~~~~~~~~ Example 3 003473~friends_s09e12_seg02_clip_15 ~~~~~~~~
+ 21 to 50<|START|> why does joey say he wouldn't have sex on the couch when he talks to ross about actually liking someone and wanting something real?
+0   )  joey says no because he didn't want to get it dirty.     (13tok)
+1   )  joey says no because he'd be embarrassed.     (9tok)
+2   )  joey says no because he doesn't like couches.     (10tok)
+3 GT)  joey says no because the leather sticks to him.     (10tok)
+4   )  joey says no because the couch isn't his.     (10tok)
+Finished writing 71 questions; max len = 255

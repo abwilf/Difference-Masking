@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005300~met_s06e23_seg02_clip_14 ~~~~~~~~
+ 35 to 65<|START|> why did barney say he would end out out of a job before he drank?
+0   )  the building they worked in collapsed.     (7tok)
+1   )  the company was bankrupt.     (5tok)
+2   )  the company was being sued.     (6tok)
+3   )  the company was being sold to an asian company.     (10tok)
+4 GT)  the building would be given landmark status.     (8tok)
+~~~~~~~~~~~ Example 1 006580~house_s08e19_seg02_clip_21 ~~~~~~~~
+ 12 to 87<|START|> why does emily think that her parents will get back together after she dies?
+0 GT)  because her parents would not argue no more over her      (11tok)
+1   )  because they could move to a smaller house, less bills.     (12tok)
+2   )  because her parents could stop coming to the hospital so much     (11tok)
+3   )  because her parents would be able to travel more     (9tok)
+4   )  because her parents told her they would     (7tok)
+~~~~~~~~~~~ Example 2 007348~castle_s08e17_seg02_clip_09 ~~~~~~~~
+ 28 to 72<|START|> why is marion having a conversation with castle when talking about stories?
+0 GT)  trying to sell a book     (5tok)
+1   )  looking for financing      (4tok)
+2   )  doing fundraising for kids     (4tok)
+3   )  wants to borrow some money     (5tok)
+4   )  to help with a kidnapping     (5tok)
+~~~~~~~~~~~ Example 3 007860~grey_s01e02_seg02_clip_10 ~~~~~~~~
+ 26 to 74<|START|> why was george looking solemn when he was standing in the patient's room
+0 GT)  he had to pronounce them dead     (6tok)
+1   )  he had to tell them a bad prognosis      (10tok)
+2   )  he had to tell give them bad news     (8tok)
+3   )  he needed to tell them they need to stay in the hospital     (12tok)
+4   )  he was just in a bad mood     (7tok)
+Finished writing 42 questions; max len = 242

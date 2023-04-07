@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 122126~s05e05_seg02_clip_07 ~~~~~~~~
+ 3 to 40<|START|> why is sheldon upset when using his laptop?
+0   )  he found a computer virus.     (6tok)
+1   )  his computer crashed.     (4tok)
+2 GT)  his floppy failed.     (4tok)
+3   )  amy was annoying him.     (5tok)
+4   )  leonard was annoying him.     (5tok)
+~~~~~~~~~~~ Example 1 122342~castle_s02e13_seg02_clip_24 ~~~~~~~~
+ 12 to 87<|START|> why does beckett feel she let down the investigation after speaking with castle
+0   )  because dick coonan's in the wind and rathborne's is about to walk     (18tok)
+1 GT)  because rathborne's in the wind and dick coonan is about to walk     (17tok)
+2   )  because dick coonan is innocent     (7tok)
+3   )  because rathborne is innocent     (6tok)
+4   )  because castle is upset     (4tok)
+~~~~~~~~~~~ Example 2 122382~castle_s04e04_seg02_clip_25 ~~~~~~~~
+ 47 to 52<|START|> why did lee make suggestions for his prison sentence and parole when negotiating with beckett?
+0 GT)  lee gave beckett tyson's new alias.     (10tok)
+1   )  lee told beckett where to find tyson.     (10tok)
+2   )  lee told beckett where to find tyson's footprints.     (12tok)
+3   )  lee told beckett who killed his brother.     (10tok)
+4   )  lee told beckett where to find some blood samples.     (12tok)
+~~~~~~~~~~~ Example 3 122550~friends_s08e12_seg02_clip_10 ~~~~~~~~
+ 41 to 58<|START|> why was carol upset according to monica after she brought it up to chandler?
+0 GT)  he taught him "pull my finger."     (9tok)
+1   )  he taught him a bad word.     (7tok)
+2   )  he dropped him.     (4tok)
+3   )  carol was mad at monica.     (6tok)
+4   )  chandler wanted him to play sports.     (7tok)
+Have written 100 / 1906
+Finished writing 180 questions; max len = 257

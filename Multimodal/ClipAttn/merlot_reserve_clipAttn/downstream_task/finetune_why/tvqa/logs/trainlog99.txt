@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000099~friends_s09e03_seg02_clip_16 ~~~~~~~~
+ 33 to 66<|START|> why did ross say that he still goes to dr. gettleman before mentioning dr. gettleman makes a big deal when ross comes in?
+0   )  he is very successful     (4tok)
+1   )  he is very famous     (4tok)
+2 GT)  he knows his medical history     (5tok)
+3   )  he is double accredited     (5tok)
+4   )  his entire family has gone to dr. gettleman     (11tok)
+~~~~~~~~~~~ Example 1 000611~s08e21_seg02_clip_02 ~~~~~~~~
+ 19 to 81<|START|> why does sheldon refuse to give penny advice on her audition when they talk?
+0 GT)  he feels that he is too forceful with advice.     (10tok)
+1   )  he thinks she will overlook what he has to say     (10tok)
+2   )  he says penny isnt a good listener     (8tok)
+3   )  he is too lazy to talk about this with penny     (10tok)
+4   )  he wants to be paid for his advice.     (9tok)
+~~~~~~~~~~~ Example 2 008291~friends_s04e16_seg02_clip_16 ~~~~~~~~
+ 21 to 49<|START|> why does joshua ask rachel if she needs help when talking in the bedroom?
+0 GT)  joshua asks rachel if she needs help because she is struggling to remove her bra.     (16tok)
+1   )  joshua asks rachel if she needs help because rachel is slurring her speech.     (15tok)
+2   )  joshua asks rachel if she needs help because is breathing heavily.     (12tok)
+3   )  joshua asks rachel if she needs help because she's having trouble standing.     (14tok)
+4   )  joshua asks rachel if she needs help because she won't look at him.     (15tok)
+~~~~~~~~~~~ Example 3 010339~friends_s01e04_seg02_clip_12 ~~~~~~~~
+ 73 to 85<|START|> why does rachel leave the couch after apologizing to monica?
+0 GT)  the pizza guy arrived.     (5tok)
+1   )  she needed to vomit.     (5tok)
+2   )  chandler was locked out.     (5tok)
+3   )  monica insulted her.     (4tok)
+4   )  phoebe insulted her.     (4tok)
+Finished writing 58 questions; max len = 232

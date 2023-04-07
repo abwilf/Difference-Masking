@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002848~castle_s02e22_seg02_clip_10 ~~~~~~~~
+ 43 to 56<|START|> why did castle think jennifer wong killed the man after showing her the video?
+0   )  jennifer was angry     (3tok)
+1   )  jennifer was in love with him     (6tok)
+2 GT)  cash prize and loss of publicity and fame     (8tok)
+3   )  jennifer was sad     (3tok)
+4   )  jennifer had a bloody knife in her pocket     (8tok)
+~~~~~~~~~~~ Example 1 006688~friends_s04e09_seg02_clip_11 ~~~~~~~~
+ 11 to 30<|START|> why ross is bored when joey asked why he sat all the morning?
+0   )  because ross has a broken leg.     (7tok)
+1   )  because ross is sick.     (5tok)
+2   )  because is the weekend.     (5tok)
+3 GT)  because ross' friend did not come.     (8tok)
+4   )  because ross is tired.     (5tok)
+~~~~~~~~~~~ Example 2 013088~castle_s02e24_seg02_clip_12 ~~~~~~~~
+ 42 to 58<|START|> why does beckett seem concerned about an accomplice mission after liz fenn says it?
+0   )  beckett wasn't sure about the process     (9tok)
+1   )  beckett didn't know they were together     (9tok)
+2 GT)  beckett wasn't aware they had accomplice missions     (11tok)
+3   )  beckett didn't understand the game     (8tok)
+4   )  beckett helps her understand     (6tok)
+~~~~~~~~~~~ Example 3 013856~castle_s03e14_seg02_clip_15 ~~~~~~~~
+ 39 to 61<|START|> why did nicole say is the reason her dad is dead when she was speaking with castle?
+0   )  her mom killed her dad.     (6tok)
+1 GT)  because of her.     (4tok)
+2   )  the police killed her dad.     (6tok)
+3   )  god wanted her dad.     (5tok)
+4   )  nicole never gave a reason.     (6tok)
+Finished writing 56 questions; max len = 213

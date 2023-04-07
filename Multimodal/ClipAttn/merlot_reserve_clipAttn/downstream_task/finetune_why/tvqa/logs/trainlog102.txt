@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001638~house_s05e09_seg02_clip_02 ~~~~~~~~
+ 15 to 85<|START|> why does house tell jason to try and blow out a lighter before telling him what it shows?
+0   )  proves his heart pumps slow     (5tok)
+1 GT)  shows his lungs are bad     (5tok)
+2   )  keeps him distracted from thirteen      (6tok)
+3   )  saves the kid in the room      (7tok)
+4   )  makes him look very weak      (6tok)
+~~~~~~~~~~~ Example 1 005734~friends_s07e09_seg02_clip_12 ~~~~~~~~
+ 39 to 60<|START|> why did ross act shocked when noticing everyone was upset with him for breaking his promise to phoebe?
+0   )  it was just lunch     (4tok)
+1 GT)  it's a legitimate learning technique     (6tok)
+2   )  they were on a break     (5tok)
+3   )  he ran over a cat     (5tok)
+4   )  coffee was not more important     (5tok)
+~~~~~~~~~~~ Example 2 013414~castle_s07e01_seg02_clip_02 ~~~~~~~~
+ 41 to 58<|START|> why is beckett upset when she gets out of the car?
+0   )  beckett is upset because it is raining.     (10tok)
+1   )  beckett is upset because she is late.     (10tok)
+2   )  beckett is upset because there was another murder.     (11tok)
+3   )  beckett is upset because her car is blocked in.     (12tok)
+4 GT)  beckett is upset because castle has been kidnapped.     (11tok)
+~~~~~~~~~~~ Example 3 013926~house_s05e13_seg02_clip_15 ~~~~~~~~
+ 34 to 65<|START|> why is one reason it might be that foreman came to see house after no one gave him the answer he wanted
+0   )  foreman might have come to see house because he needed some sound advice     (13tok)
+1   )  foreman might have come to see house because he needed more hands     (12tok)
+2   )  foreman might have come to see house because 2 heads are better than 1     (14tok)
+3   )  foreman might have come to see house because he needed to vent     (12tok)
+4 GT)  foreman might have come to see house because he respect his opinion     (12tok)
+Finished writing 53 questions; max len = 272

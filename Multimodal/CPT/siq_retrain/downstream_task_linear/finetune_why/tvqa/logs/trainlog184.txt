@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005048~house_s02e10_seg02_clip_15 ~~~~~~~~
+ 28 to 71<|START|> why did house say that the man has not communicated after cameron said he hasn't made any indication of communicating something improtant?
+0   )  he needs to be pressured     (5tok)
+1   )  they are babying him     (5tok)
+2   )  he doesn't really know     (5tok)
+3 GT)  they haven't scared him enough     (6tok)
+4   )  they haven't done all they can do yet     (9tok)
+~~~~~~~~~~~ Example 1 008376~castle_s07e12_seg02_clip_10 ~~~~~~~~
+ 39 to 59<|START|> why didn't ronnie share his information with castle when he shared it with beckett?
+0   )  ronnie didn't like the way castle looked     (8tok)
+1   )  ronnie thought beckett was hot     (7tok)
+2   )  ronnie wanted to impress kate     (5tok)
+3   )  castle wasn't in the room     (6tok)
+4 GT)  castle didn't ask     (4tok)
+~~~~~~~~~~~ Example 2 009912~s05e05_seg01_clip_03 ~~~~~~~~
+ 44 to 56<|START|> why does sheldon say will is a sucker after will pays for his comic?
+0 GT)  because he didn't ask for a discount     (8tok)
+1   )  because the comic is a fake.     (7tok)
+2   )  because the comic isn't actually that valuable.     (9tok)
+3   )  because sheldon has multiple copies of that comic.     (9tok)
+4   )  because the comic isn't even in color.     (9tok)
+~~~~~~~~~~~ Example 3 010424~friends_s03e11_seg02_clip_03 ~~~~~~~~
+ -19 to 118<|START|> why did rachel offer the man her pickle after he talked to her?
+0   )  he was hungry     (3tok)
+1   )  he said she was pretty     (5tok)
+2   )  he asked her on a date     (6tok)
+3   )  he needed salt     (3tok)
+4 GT)  he said he might have a job opportunity for her     (10tok)
+Finished writing 47 questions; max len = 279

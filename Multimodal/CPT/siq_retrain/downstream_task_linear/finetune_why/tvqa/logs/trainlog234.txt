@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 008682~grey_s02e20_seg02_clip_02 ~~~~~~~~
+ 41 to 58<|START|> why was sylvia embarrassed when she turned around for the doctors?
+0   )  sylvia had gum all through her hair.     (8tok)
+1   )  sylvia had a child's ring stuck on her finger.     (11tok)
+2   )  sylvia had a zipper stuck on her skin.     (9tok)
+3   )  sylvia had her hand stuck in a can.     (9tok)
+4 GT)  sylvia had a fork sticking out of her neck.     (10tok)
+~~~~~~~~~~~ Example 1 010730~friends_s05e10_seg02_clip_05 ~~~~~~~~
+ 41 to 58<|START|> why rachel is sad when talk to monica that is wearing a red gown?
+0   )  danny is taking drugs.     (5tok)
+1   )  danny was eating alone.     (5tok)
+2 GT)  rachel saw danny with a girl.     (7tok)
+3   )  danny likes a japanese girl.     (6tok)
+4   )  danny will move.     (4tok)
+~~~~~~~~~~~ Example 2 012266~castle_s02e06_seg02_clip_23 ~~~~~~~~
+ 35 to 64<|START|> why is mrs. freeman anxious about talking to castle and beckett after they walk pass her?
+0   )  because mrs. freeman is ready to go home.     (10tok)
+1 GT)  because mr. and mrs. freeman have been there for a long time.     (15tok)
+2   )  because mr. freeman has been there for a long time.     (12tok)
+3   )  because mrs. freeman is tired of waiting.     (9tok)
+4   )  because mr. freeman is suspected of murdering his son's mother.     (13tok)
+~~~~~~~~~~~ Example 3 012778~castle_s06e11_seg02_clip_11 ~~~~~~~~
+ 29 to 70<|START|> why is beckett alarmed when viewing the footage online of the fire?
+0   )  beckett realizes her vision is blurry.     (9tok)
+1 GT)  beckett realizes the video is staged specifically to catch the fire.     (14tok)
+2   )  beckett forgot to pay her phone bill.     (10tok)
+3   )  beckett sees castle in the video.     (9tok)
+4   )  beckett sees esposito in the video.     (11tok)
+Finished writing 57 questions; max len = 261

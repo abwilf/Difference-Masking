@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 137453~grey_s01e03_seg02_clip_14 ~~~~~~~~
+ 48 to 51<|START|> why couldn't meredith just kick george out when she was speaking with christina ?
+0 GT)  she felt sick     (3tok)
+1   )  she just asked him to move in      (8tok)
+2   )  she didnt have the guts to     (6tok)
+3   )  she loved his company     (4tok)
+4   )  she was his mother     (4tok)
+~~~~~~~~~~~ Example 1 137486~s04e13_seg02_clip_12 ~~~~~~~~
+ 9 to 33<|START|> why did raj say he was crying already after he started watching television?
+0 GT)  because the television announcer said that the notebook was coming on next.     (13tok)
+1   )  because the television announcer said that bridget jones' diary was coming on next.     (15tok)
+2   )  because the television announcer said that forrest gump was coming on next.     (14tok)
+3   )  because the television announcer said that titanic was coming on next.     (12tok)
+4   )  because the television announcer said that the lion king was coming on next.     (14tok)
+~~~~~~~~~~~ Example 2 137825~s04e04_seg02_clip_05 ~~~~~~~~
+ 11 to 87<|START|> why did penny ask for details when howard indicated he and bernadette broke up for an embarrassing reason?
+0 GT)  penny had to show howard tough love because she wanted him to be happy.     (15tok)
+1   )  penny knew she would enjoy any story that involved howard being humiliated for his inappropriate behavior.     (18tok)
+2   )  penny was writing a novel about howard and needed to know every sordid detail.      (18tok)
+3   )  penny had nothing better to do.      (8tok)
+4   )  penny wanted to know more about howard's life.      (11tok)
+~~~~~~~~~~~ Example 3 137981~friends_s06e24-25_seg02_clip_40 ~~~~~~~~
+ 44 to 55<|START|> why is monica so emotional when she is talking to chandler with candles around her?
+0 GT)  because she is going to propose.     (7tok)
+1   )  because she is going to buy a car.     (9tok)
+2   )  because she is going to hold his hand.     (9tok)
+3   )  because she is going to play basketball.     (8tok)
+4   )  because she is going to cook too many cookies.     (10tok)
+Have written 100 / 953
+Finished writing 101 questions; max len = 236

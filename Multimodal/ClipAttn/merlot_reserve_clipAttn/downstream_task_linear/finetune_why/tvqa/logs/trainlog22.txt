@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000534~castle_s04e06_seg02_clip_07 ~~~~~~~~
+ 36 to 64<|START|> why did beckett not go to the mcclaren house after castle decides to go there?
+0   )  because beckett is called to a meeting.     (10tok)
+1   )  because beckett has to finish up paper work.     (11tok)
+2   )  because beckett has to investigate crime scene.     (10tok)
+3 GT)  because beckett has a murder to solve.     (10tok)
+4   )  because beckett has to go out of town.     (11tok)
+~~~~~~~~~~~ Example 1 001046~friends_s02e12-13_seg02_clip_11 ~~~~~~~~
+ 16 to 26<|START|> why people clapped before stand and walk away?
+0 GT)  because phoebe was playing the guitar.     (7tok)
+1   )  because phoebe was jumping     (4tok)
+2   )  because phoebe was doing gym     (5tok)
+3   )  because phoebe was giving a speech     (6tok)
+4   )  because phoebe was performing.     (5tok)
+~~~~~~~~~~~ Example 2 002070~s03e06_seg02_clip_09 ~~~~~~~~
+ 70 to 87<|START|> why did leonard wonder about the hilarity of cylon toast after leonard turned it down?
+0   )  he thought cylon toast was ticklish to the mouth.     (12tok)
+1   )  he thought leonard was being too picky.     (8tok)
+2   )  he thought cylon toast was absolutely hilarious.     (9tok)
+3   )  he thought cylon toast was better than plain toast.     (11tok)
+4 GT)  he thought it was appropriate to share it with others.     (11tok)
+~~~~~~~~~~~ Example 3 003350~s07e16_seg02_clip_10 ~~~~~~~~
+ 34 to 64<|START|> why does bernadette get insulted after raj's response to her question?
+0   )  he laughs at her voice.     (6tok)
+1   )  he says she is a bad scientist.     (8tok)
+2   )  he hates her shoes.     (5tok)
+3   )  he doesn't like her.     (6tok)
+4 GT)  he calls her a buzzkill.     (7tok)
+Finished writing 47 questions; max len = 261

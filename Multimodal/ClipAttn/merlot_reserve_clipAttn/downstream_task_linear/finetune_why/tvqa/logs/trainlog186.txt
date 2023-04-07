@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000442~friends_s03e02_seg02_clip_03 ~~~~~~~~
+ 35 to 65<|START|> why does ross say the message is old when monica debates whether richard's message is old or new?
+0 GT)  because the machine beeped twice     (6tok)
+1   )  because the machine beeped once     (6tok)
+2   )  because the machine has been finicky recently     (7tok)
+3   )  because the machine doesn't have the ability to accept new voicemails     (14tok)
+4   )  because richard sounds younger     (4tok)
+~~~~~~~~~~~ Example 1 001722~s02e20_seg02_clip_11 ~~~~~~~~
+ 67 to 89<|START|> why did leonard say he would take blinky after howard asked him which one he wanted?
+0 GT)  because leonard thought blinky was cute.     (8tok)
+1   )  because leonard didn't like the whiplash collar.     (11tok)
+2   )  because howard preferred the whiplash collar.     (9tok)
+3   )  because leonard liked blinky's hair.     (8tok)
+4   )  because howard didn't like blinky's hair.     (10tok)
+~~~~~~~~~~~ Example 2 009658~met_s02e19_seg02_clip_02 ~~~~~~~~
+ -9 to 109<|START|> why does barney react the way he does when he sees robin's gift to lily?
+0   )  because he wants the gift for himself.      (9tok)
+1   )  because he loves the gift.      (7tok)
+2 GT)  because he thinks the gift is old-fashioned.      (11tok)
+3   )  because he is surprised by the gift.      (9tok)
+4   )  because he thinks the gift is modern.     (8tok)
+~~~~~~~~~~~ Example 3 009914~met_s02e17_seg02_clip_06 ~~~~~~~~
+ -26 to 127<|START|> why ted pock marsall when he was driving?
+0   )  because ted wants to sleep.     (6tok)
+1   )  because ted needs help.     (5tok)
+2   )  because ted wants that barney pass a book.     (9tok)
+3 GT)  because ted wants to weak up marshall.     (8tok)
+4   )  because marsall is snoring.     (6tok)
+Finished writing 38 questions; max len = 224

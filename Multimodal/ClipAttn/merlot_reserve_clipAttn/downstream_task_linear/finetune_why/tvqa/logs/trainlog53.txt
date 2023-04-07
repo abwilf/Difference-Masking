@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001077~friends_s02e17_seg02_clip_06 ~~~~~~~~
+ 40 to 59<|START|> why is chandler upset when talking to joey and rachel?
+0   )  because chandler need to move.     (6tok)
+1   )  because chandler can move with rachel.     (7tok)
+2   )  because chandler wants to move back with her mother.     (10tok)
+3 GT)  because chandler can not accept that his friend has moved.     (11tok)
+4   )  because chandley wants to keep moving     (7tok)
+~~~~~~~~~~~ Example 1 001589~friends_s06e23_seg02_clip_20 ~~~~~~~~
+ 59 to 98<|START|> why is rachel annoyed after entering the apartment?
+0 GT)  the guys are about to cry.     (7tok)
+1   )  it's a mess.     (5tok)
+2   )  they didn't make her dinner.     (7tok)
+3   )  someone broke her car windows.     (6tok)
+4   )  joey broke the tv.     (5tok)
+~~~~~~~~~~~ Example 2 002357~friends_s04e22_seg02_clip_04 ~~~~~~~~
+ 32 to 67<|START|> why does rachel think the baby shower is a bad idea after looking at the baby clothes?
+0   )  because the clothes don't match     (6tok)
+1 GT)  because phoebe won't be keeping the babies     (8tok)
+2   )  because most of the clothes are for a boy     (9tok)
+3   )  because the clothes are dirty     (5tok)
+4   )  because the clothes are the wrong material     (7tok)
+~~~~~~~~~~~ Example 3 004149~castle_s05e10_seg02_clip_23 ~~~~~~~~
+ 16 to 27<|START|> why is it so dark when beckett is talking to a suspect about a case?
+0 GT)  it is dark because they are in a interugation room.     (13tok)
+1   )  it is dark because the power went out.     (9tok)
+2   )  it is dark because castle turned off the lights.     (10tok)
+3   )  it is dark because it is night time.     (9tok)
+4   )  it is dark because the light bulb blew out.     (10tok)
+Finished writing 51 questions; max len = 268

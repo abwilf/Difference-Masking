@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002782~s09e05_seg02_clip_12 ~~~~~~~~
+ 6 to 94<|START|> why did sheldon only bring up women in relationships when he was discussing his potential partners?
+0   )  because sheldon figured that if they weren't in a relationship already, they weren't relationship material.     (19tok)
+1   )  because sheldon wanted to steal someone's girlfriend.     (9tok)
+2 GT)  because sheldon did not know any women outside of his friend group, and all the women in his friend group already have partners.     (25tok)
+3   )  because sheldon only wanted a partner who he knew would be regarded as desirable.     (15tok)
+4   )  because sheldon was purposefully sabotaging himself.     (9tok)
+~~~~~~~~~~~ Example 1 003294~friends_s03e24_seg02_clip_16 ~~~~~~~~
+ 17 to 25<|START|> why rachel stand quickly when sat with phoebe?
+0   )  because phoebe said, the bug is dirty.     (9tok)
+1   )  because phoebe said, the mop is alive.     (9tok)
+2   )  because phoebe said, the mop is cute.     (9tok)
+3   )  because phoebe said, the bug is alive.     (9tok)
+4 GT)  because phoebe said, oh no we kill the mop.     (11tok)
+~~~~~~~~~~~ Example 2 020446~castle_s06e22_seg02_clip_21 ~~~~~~~~
+ 62 to 94<|START|> why does beckett say they have to turn around after she wakes up?
+0   )  she left her purse     (4tok)
+1 GT)  they have to go back. it was montgomery.      (11tok)
+2   )  she remembers seeing the suspect on the road     (8tok)
+3   )  she just has a feeling     (5tok)
+4   )  it's too dangerous for castle to continue      (9tok)
+~~~~~~~~~~~ Example 3 020702~house_s05e05_seg02_clip_17 ~~~~~~~~
+ 40 to 60<|START|> why did thirteen say is spencer going to die from the cysts on her lung after giving her the news of the diagnosis?
+0   )  the cysts can't be removed     (7tok)
+1 GT)  the cysts will continue to come back until the lungs stop working     (13tok)
+2   )  theres no cure     (4tok)
+3   )  the cysts multiply quickly     (5tok)
+4   )  the cysts are poisons to remove     (8tok)
+Finished writing 46 questions; max len = 261

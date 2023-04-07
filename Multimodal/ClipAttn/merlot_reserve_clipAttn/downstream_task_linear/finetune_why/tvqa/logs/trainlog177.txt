@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001457~met_s06e01_seg02_clip_14 ~~~~~~~~
+ 6 to 64<|START|> why does lily appear annoyed after marshall's phone rings?
+0 GT)  because lily doesn't want marshall to answer his phone while they are talking.     (15tok)
+1   )  because lily doesn't want marshall's ex to call.     (11tok)
+2   )  because lily doesn't want marshall to spend all night talking on the phone.     (15tok)
+3   )  because lily doesn't want marshall taking calls after 10pm.     (12tok)
+4   )  because lily doesn't like marshall's ring tone.     (10tok)
+~~~~~~~~~~~ Example 1 004785~s01e02_seg01_clip_03 ~~~~~~~~
+ 8 to 62<|START|> why are sheldon and leonard arguing when in the hallway?
+0   )  because leonard played a prank on sheldon.     (8tok)
+1   )  because sheldon hates superman.     (5tok)
+2   )  because leonard hates comic books.     (6tok)
+3   )  because sheldon had to pay for leonard's meal at the restaurant.     (13tok)
+4 GT)  sheldon and leonard are disputing whether or not superman's flying abilities are attributed to his strength.     (19tok)
+~~~~~~~~~~~ Example 2 012465~s06e21_seg02_clip_13 ~~~~~~~~
+ 41 to 59<|START|> why is leonard so upset when he is talking about the remote sheldon bought?
+0   )  leonard is upset because sheldon said they are out of batteries for the remote.      (16tok)
+1   )  leonard is upset because sheldon said he was going to move out.      (14tok)
+2 GT)  leonard is upset because sheldon bought it even though he knows it's too big for leonard's hand.      (21tok)
+3   )  leonard is upset because sheldon has huge hands.      (10tok)
+4   )  leonard is upset because sheldon is a jerk.      (10tok)
+~~~~~~~~~~~ Example 3 013233~friends_s10e02_seg02_clip_10 ~~~~~~~~
+ 34 to 64<|START|> why does rachel become upset after ross pours his drink
+0   )  he makes a rude comment to her     (7tok)
+1   )  he spills it on her     (5tok)
+2   )  he laughs and spits his drink out     (7tok)
+3   )  he finds a bug in it     (6tok)
+4 GT)  there is none for her     (5tok)
+Finished writing 46 questions; max len = 230

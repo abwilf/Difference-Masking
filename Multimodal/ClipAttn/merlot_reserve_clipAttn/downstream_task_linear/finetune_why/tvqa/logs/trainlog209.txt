@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002001~friends_s03e04_seg02_clip_00 ~~~~~~~~
+ 51 to 77<|START|> why didn't phoebe tell joey about his audition before it was scheduled?
+0   )  phoebe wanted to go instead     (5tok)
+1   )  phoebe didn't want joey to go     (7tok)
+2 GT)  phoebe forgot because she was busy looking for a spot to hide     (12tok)
+3   )  phoebe doesn't like joey     (5tok)
+4   )  phoebe wanted to surprise joey     (5tok)
+~~~~~~~~~~~ Example 1 010961~s04e22_seg01_clip_00 ~~~~~~~~
+ -9 to 108<|START|> why does amy seem happy when she is in the bathroom?
+0   )  amy seems happy because she has people to dance with.     (11tok)
+1 GT)  amy seems happy because she has people to socialize with.     (11tok)
+2   )  amy seems happy because she has people to go to school with.     (13tok)
+3   )  amy seems happy because she has people to eat with.     (11tok)
+4   )  amy seems happy because she has people to shop with.     (11tok)
+~~~~~~~~~~~ Example 2 015825~friends_s08e04_seg02_clip_06 ~~~~~~~~
+ 37 to 62<|START|> why does joey stop before getting to the kitchen?
+0   )  he dropped something.     (4tok)
+1   )  he trips.     (3tok)
+2   )  the phone rings.     (4tok)
+3   )  to tie his shoe.     (5tok)
+4 GT)  ross grabs him.     (4tok)
+~~~~~~~~~~~ Example 3 016593~s09e05_seg02_clip_15 ~~~~~~~~
+ 44 to 55<|START|> why did sheldon think he was good at fencing when he went to do it earlier today?
+0   )  sheldon's granddad was a great fencer, so he though he inherited his skills.     (17tok)
+1   )  sheldon read a book on fencing.     (7tok)
+2   )  sheldon took lesson in fencing earlier that week,     (9tok)
+3 GT)  sheldon thought his background in mathletics helped.     (10tok)
+4   )  a professional fencer gave sheldon pointers.     (8tok)
+Finished writing 46 questions; max len = 233

@@ -1,0 +1,31 @@
+~~~~~~~~~~~ Example 0 122058~house_s01e05_seg02_clip_01 ~~~~~~~~
+ 13 to 86<|START|> why was house upset with the staff when he walked in the room 
+0   )  house thought there was going to be a surprise party for him.     (13tok)
+1   )  house was told that he was being terminated     (8tok)
+2   )  house was told that patients were sueing him     (9tok)
+3   )  foreman did not tell house happy holiday     (7tok)
+4 GT)  house saw candycanes and thought that the interns were mocking him     (14tok)
+~~~~~~~~~~~ Example 1 122066~s08e24_seg02_clip_14 ~~~~~~~~
+ -21 to 121<|START|> why leonard felt embarrassed when talking to penny?
+0 GT)  because leonard kissed a girl.     (6tok)
+1   )  because leonard is not lying.     (6tok)
+2   )  because leonard went to the movie alone.     (8tok)
+3   )  because leonard want to quit penny.     (7tok)
+4   )  because leonard drunk her coffee.     (6tok)
+~~~~~~~~~~~ Example 2 122098~castle_s05e15_seg02_clip_05 ~~~~~~~~
+ 8 to 35<|START|> why does ryan say when reveiwing a photo that it needs to be sent to facial recognition software at the fbi?
+0   )  because ryan thinks the person in the photo is in a cave in africa and the software can detect subtle changes to determine location.     (25tok)
+1   )  because ryan believes the person in the photo to be dead already and he needs to verify it.     (19tok)
+2   )  because ryan thinks the person in the photo looks like his brother but can't be sure.     (18tok)
+3 GT)  because ryan is discussing a suspect with no scars or tattoos and ryan wants to identify the person.      (20tok)
+4   )  because ryan know fbi hates all his many requests for help and ryan takes pleasure in annoying them.      (20tok)
+~~~~~~~~~~~ Example 3 122106~castle_s03e09_seg02_clip_04 ~~~~~~~~
+ 43 to 56<|START|> why do esposito and ryan think that ted murdered marie when they are questioning him?
+0   )  because his dna matches the dna found at a the crime scene.      (14tok)
+1   )  because he has blood on his hands.      (9tok)
+2   )  because there are prints that match his.      (9tok)
+3 GT)  because she was killed not long after he arrived at the center.      (14tok)
+4   )  because he confessed.      (5tok)
+Have written 100 / 1907
+Have written 200 / 1907
+Finished writing 202 questions; max len = 276

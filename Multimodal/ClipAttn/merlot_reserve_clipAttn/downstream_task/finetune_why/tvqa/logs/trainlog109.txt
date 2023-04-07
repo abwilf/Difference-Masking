@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 009837~friends_s01e01_seg02_clip_03 ~~~~~~~~
+ 37 to 62<|START|> why was everyone looking surprised when rachel ran in?
+0   )  because she was naked.     (5tok)
+1   )  because she was screaming.     (5tok)
+2 GT)  because she was wearing a wedding dress.     (8tok)
+3   )  because she was crying very hard.     (7tok)
+4   )  because she was shouting.     (5tok)
+~~~~~~~~~~~ Example 1 011117~friends_s06e23_seg02_clip_08 ~~~~~~~~
+ 14 to 84<|START|> why is rachel upset when she enters the apartment?
+0   )  rachel lost a lot of money     (6tok)
+1   )  rachel lost her job     (4tok)
+2 GT)  rachel wanted her boyfriend to open up.      (9tok)
+3   )  rachel broke up with boyfriend     (5tok)
+4   )  rachel got mugged     (4tok)
+~~~~~~~~~~~ Example 2 011885~grey_s03e20_seg02_clip_13 ~~~~~~~~
+ 34 to 65<|START|> why can't george ask izzie himself what's going on when he walks into the room
+0   )  she refuses to talk to him     (6tok)
+1   )  he's mad at her and doesn't want to talk     (11tok)
+2 GT)  he doesn't know where she is     (7tok)
+3   )  the others told him not to talk to her     (9tok)
+4   )  there's nothing wrong and he doesn't need to talk to her     (13tok)
+~~~~~~~~~~~ Example 3 014957~friends_s08e07_seg02_clip_10 ~~~~~~~~
+ 8 to 33<|START|> why did monica suggest brenda clean the tops of the cabinets before monica put her head between brenda's legs?
+0 GT)  it would work up brenda's appetite for lunch.     (10tok)
+1   )  that's the last thing brenda would need to do and wouldn't have to come back after lunch.     (20tok)
+2   )  brenda would be done cleaning the kitchen.     (8tok)
+3   )  monica wanted to see how well she dusted.     (9tok)
+4   )  brenda said she would clean them before she went to lunch.     (12tok)
+Finished writing 52 questions; max len = 283

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000645~house_s06e13_seg02_clip_01 ~~~~~~~~
+ 2 to 11<|START|> why did regina ask cuddy about finding an assistant when cuddy gave her something?
+0   )  regina wanted to recommend her friend for the postion.     (11tok)
+1   )  regina wanted to help cuddy find an assistant...     (10tok)
+2 GT)  cuddy wanted regina to proofread a paper for her.     (12tok)
+3   )  regina was tired of having to fax cuddy's documents.     (12tok)
+4   )  regina did not like having to print cuddy's documents.     (12tok)
+~~~~~~~~~~~ Example 1 001925~friends_s10e07_seg02_clip_07 ~~~~~~~~
+ 64 to 93<|START|> why did ross say rachel felt pretty silly before he was kicked in the head? 
+0 GT)  she thought emma would be scared of the swing.     (10tok)
+1   )  she thought ross would get kicked.     (7tok)
+2   )  she thought ross couldn't take the day off.     (10tok)
+3   )  she thought emma wouldn't like ice cream.     (9tok)
+4   )  she thought emma wouldn't like hot dogs.     (9tok)
+~~~~~~~~~~~ Example 2 002949~castle_s06e05_seg02_clip_09 ~~~~~~~~
+ 67 to 89<|START|> why did silverman say he was there to see simon doyle when he walked up to talk to beckett as she was talking to castle about doyle?
+0   )  to see what meds he needs to prescribe him.     (11tok)
+1   )  to give them a report on his evaluation.     (9tok)
+2 GT)  for a psych eval.     (6tok)
+3   )  to get him to take him to the mental hospital.     (11tok)
+4   )  to bail him out.     (5tok)
+~~~~~~~~~~~ Example 3 003717~castle_s08e19_seg02_clip_23 ~~~~~~~~
+ 47 to 53<|START|> why did alan not want gwen to shoot mike after gwen said she was going to?
+0   )  alan knew gwen would go to jail.     (8tok)
+1   )  alan did not want gwen to be a murderer.     (10tok)
+2 GT)  the cops were going to arrest mike.     (8tok)
+3   )  alan wanted to be the one to shoot mike.     (10tok)
+4   )  alan was afraid of guns.     (6tok)
+Finished writing 48 questions; max len = 281

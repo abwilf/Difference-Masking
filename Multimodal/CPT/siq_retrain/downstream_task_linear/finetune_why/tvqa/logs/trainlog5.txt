@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002053~friends_s05e07_seg02_clip_12 ~~~~~~~~
+ 66 to 90<|START|> why did joey say after ross said so you think i should go ahead and take this place?
+0 GT)  it's prefect     (3tok)
+1   )  it's too small     (4tok)
+2   )  no come live with us     (5tok)
+3   )  you can afford it     (4tok)
+4   )  no you should move back in with your parents.     (10tok)
+~~~~~~~~~~~ Example 1 004869~friends_s05e09_seg02_clip_08 ~~~~~~~~
+ 37 to 63<|START|> why is ross shocked when donald sits down to talk with him? 
+0   )  donald told him he hated his class.     (8tok)
+1   )  donald told ross he was fired.     (7tok)
+2   )  donald told ross he accidentally scratched his car.      (10tok)
+3 GT)  donald said he'd been getting reports of angry behavior about him.     (13tok)
+4   )  donald told ross to get away from him.      (10tok)
+~~~~~~~~~~~ Example 2 006661~house_s04e13_seg02_clip_04 ~~~~~~~~
+ 38 to 89<|START|> why does wilson refuse to make a ruling when amber and house ask him to?
+0 GT)  because they need to work it out themselves     (8tok)
+1   )  because it's funny watching them fight     (7tok)
+2   )  because he couldn't care less     (6tok)
+3   )  because he doesn't want to hurt their feelings     (9tok)
+4   )  because he's not really sure what the argument is about     (11tok)
+~~~~~~~~~~~ Example 3 010501~s06e22_seg02_clip_10 ~~~~~~~~
+ 50 to 50<|START|> why was sheldon excited when the egg went into the flask
+0   )  he likes flasks     (5tok)
+1   )  he likes eggs     (3tok)
+2 GT)  he knew it was going to.     (7tok)
+3   )  he saw this in a movie     (6tok)
+4   )  he does this as a hobby     (6tok)
+Finished writing 45 questions; max len = 269

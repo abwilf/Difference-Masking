@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002709~house_s06e14_seg02_clip_01 ~~~~~~~~
+ 27 to 43<|START|> why does house say people move to the city when talking to his team of doctors?
+0   )  to get a better job     (5tok)
+1   )  to see something more exciting     (5tok)
+2 GT)  due to lack of privacy     (5tok)
+3   )  to work in a skyscraper     (5tok)
+4   )  to breathe in pollution     (4tok)
+~~~~~~~~~~~ Example 1 003221~s07e03_seg02_clip_02 ~~~~~~~~
+ 35 to 65<|START|> why did sheldon get upset after penny chose him to be on her team?
+0   )  he thought that penny was lying.     (7tok)
+1   )  he did not like her attitude.     (7tok)
+2   )  he didn't agree with leonard about dinner.      (10tok)
+3 GT)  he thinks she is a liability.     (7tok)
+4   )  he wanted to go home.     (6tok)
+~~~~~~~~~~~ Example 2 008597~house_s01e20_seg02_clip_24 ~~~~~~~~
+ 40 to 58<|START|> why must strangulation stop according to house after annette is about to leave?
+0   )  he'll just end up in more pain     (8tok)
+1   )  it's illegal     (3tok)
+2   )  it's immoral     (4tok)
+3 GT)  he'll die     (3tok)
+4   )  he's insurance won't cover it     (7tok)
+~~~~~~~~~~~ Example 3 011157~house_s08e01_seg02_clip_16 ~~~~~~~~
+ 32 to 67<|START|> why were adams and house brainstorming after she gave house the file?
+0   )  they wanted to find a way to get house out of the prison.     (14tok)
+1 GT)  they were trying to find out why the patient got so ill.     (13tok)
+2   )  they wanted to get to know each other's likes and dislikes.     (13tok)
+3   )  they wanted to quarantine the dorm but didn't know how.     (12tok)
+4   )  they wanted to get a dentist on staff at the prison.     (12tok)
+Finished writing 40 questions; max len = 290

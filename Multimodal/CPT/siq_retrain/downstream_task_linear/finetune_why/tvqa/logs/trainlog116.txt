@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000884~friends_s07e04_seg02_clip_08 ~~~~~~~~
+ -17 to 117<|START|> why does rachel hire tag when she is in her office?
+0   )  tag is over qualified for the job     (7tok)
+1 GT)  rachel thinks he is cute     (5tok)
+2   )  tag's father is rachel's boss     (7tok)
+3   )  tag had the most enthusiasm for the position     (8tok)
+4   )  tag was the only one to apply     (7tok)
+~~~~~~~~~~~ Example 1 006004~house_s01e09_seg02_clip_12 ~~~~~~~~
+ 38 to 60<|START|> why does house think he has more time to figure out what is killin john even after hamilton shows up
+0   )  house knows something hamilton doesnt      (6tok)
+1   )  hamilton agrees with house     (4tok)
+2 GT)  court order     (2tok)
+3   )  foreman has the cure     (4tok)
+4   )  house read it in a book      (7tok)
+~~~~~~~~~~~ Example 2 007796~grey_s03e04_seg02_clip_01 ~~~~~~~~
+ 36 to 64<|START|> why does dr. bailey refuse to release mr. sullivan from the hospital when he asks?
+0   )  she wants to keep him in the hospital to bill the insurance for more money     (15tok)
+1   )  she is worried about his broken leg     (7tok)
+2   )  she wants to monitor him because of new medication     (9tok)
+3 GT)  mr sullivan needs to get his oxygen levels up higher than where they currently are     (15tok)
+4   )  mr sullivan insulted dr bailey and she is keeping him in the hospital out of revenge.      (18tok)
+~~~~~~~~~~~ Example 3 009076~house_s02e21_seg02_clip_03 ~~~~~~~~
+ 41 to 58<|START|> why did wilson say it was a nice change when he and house were watching the rat?
+0   )  because he said house usually uses cats for lab testing.     (11tok)
+1   )  because he said house usually uses guinea pigs for experiments.     (11tok)
+2 GT)  because he said house normally uses his patients as lab rats.     (12tok)
+3   )  because he said house usually uses dogs for experiments.     (10tok)
+4   )  because he said house usually uses pigs for lab testing.     (11tok)
+Finished writing 48 questions; max len = 231

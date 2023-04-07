@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001088~grey_s03e05_seg02_clip_27 ~~~~~~~~
+ 31 to 67<|START|> why is meredith surprised when standing next to george?
+0   )  george looks different.     (4tok)
+1   )  he passed gas.     (4tok)
+2   )  he appears to have grown.     (6tok)
+3   )  izzie styled her hair.     (6tok)
+4 GT)  izzie isn't going to deposit the check.     (10tok)
+~~~~~~~~~~~ Example 1 001856~castle_s03e11_seg02_clip_07 ~~~~~~~~
+ 37 to 62<|START|> why did brad's girlfriend get upset and get out of the car before she was killed?
+0   )  because brad was drunk     (4tok)
+1 GT)  brad was  getting upset because the guy was calling again.     (12tok)
+2   )  because brad was high     (4tok)
+3   )  because brad wouldn't talk     (5tok)
+4   )  because brad was hitting her.     (6tok)
+~~~~~~~~~~~ Example 2 007744~castle_s07e14_seg02_clip_25 ~~~~~~~~
+ 42 to 58<|START|> why does castle say you have taken it to the next level after he describes the practices the murderer has used?
+0   )  because he was going to try to kill castle's daughter     (11tok)
+1   )  because he shops at the same store as castle     (9tok)
+2   )  because castle was going to be late for a doctors appointment     (11tok)
+3 GT)  because he realizes he was killing women that look like his wife used to.     (15tok)
+4   )  because he could not find the treasure.     (8tok)
+~~~~~~~~~~~ Example 3 012608~s09e11_seg02_clip_13 ~~~~~~~~
+ 19 to 52<|START|> why did sheldon say him and amy were celebrating when she asked him what they were doing?
+0   )  they were celebrating sheldon's first patent.      (9tok)
+1   )  they were celebrating sheldon's promotion.     (7tok)
+2   )  they were celebrating sheldon and raj finding and asteroid.      (11tok)
+3   )  they were celebrating sheldon's new job.     (8tok)
+4 GT)  they were celebrating amy's birthday.     (7tok)
+Finished writing 48 questions; max len = 238

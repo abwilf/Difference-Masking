@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000485~house_s03e11_seg02_clip_09 ~~~~~~~~
+ 41 to 58<|START|> why did foreman say the patient wouldn't remain stable after cameron said that he was?
+0   )  foreman said it was because his fever was getting worse.     (11tok)
+1   )  foreman said it was because of his x-ray results.     (12tok)
+2   )  foreman said it was because they couldn't control his bp.     (12tok)
+3 GT)  foreman said his blood tests showed elevated troponin and ck-mb levels.     (16tok)
+4   )  foreman said he just had a feeling and his intuition was usually right.     (14tok)
+~~~~~~~~~~~ Example 1 000997~s07e19_seg02_clip_16 ~~~~~~~~
+ 68 to 87<|START|> why did penny get upset after putting on the gorilla gloves?
+0   )  because the gloves were too small.     (7tok)
+1   )  because the glove were itchy.     (6tok)
+2   )  because she really wanted hulk gloves.     (7tok)
+3 GT)  because she was working with someone she knew.     (9tok)
+4   )  because both gloves were for her left hand.     (9tok)
+~~~~~~~~~~~ Example 2 002021~friends_s07e10_seg02_clip_15 ~~~~~~~~
+ 5 to 37<|START|> why did monica ask chandler to keep the santa costume when she was playing with his beard? 
+0   )  she wanted to comb out the beard.     (8tok)
+1   )  she wanted to hand wash it.     (7tok)
+2   )  she wanted to wash in in a machine.     (9tok)
+3 GT)  she found it arousing.     (7tok)
+4   )  she wanted to dry clean it.     (7tok)
+~~~~~~~~~~~ Example 3 002533~house_s05e23_seg02_clip_02 ~~~~~~~~
+ 18 to 81<|START|> why did cameron say she froze it when they were talking about her late husband's sperm? 
+0   )  to preserve his memory.      (6tok)
+1   )  in case her biological clock ran out.       (9tok)
+2   )  in case her new husband had genetic problems.     (9tok)
+3 GT)  in case she didn't find anybody else.     (9tok)
+4   )  because she wanted to continue his legacy.      (9tok)
+Finished writing 50 questions; max len = 262

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002554~house_s05e15_seg02_clip_04 ~~~~~~~~
+ 47 to 53<|START|> why was taub dying to discharge a patient after he heard the guy may be a pedophile?
+0   )  taub thought the patient could not afford his medical bill.     (12tok)
+1   )  taub thought the patient was annoying.     (8tok)
+2   )  taub thought the patient was too demanding.     (9tok)
+3   )  taub thought the patient was being too loud.     (10tok)
+4 GT)  taub thought the patient was not sick.     (9tok)
+~~~~~~~~~~~ Example 1 005626~grey_s03e10_seg02_clip_04 ~~~~~~~~
+ 33 to 65<|START|> why did jake say they opted out of getting a separation procedure before he said peter wasted six months of their lives?
+0   )  because peter chickened out of getting the bladder procedure.     (11tok)
+1 GT)  because peter chickened out of getting the separation procedure.     (11tok)
+2   )  because peter wanted to get the separation procedure.     (9tok)
+3   )  because jake chickened out of getting the separation procedure.     (11tok)
+4   )  because peter never wanted the separation procedure.     (8tok)
+~~~~~~~~~~~ Example 2 008698~castle_s05e24_seg02_clip_19 ~~~~~~~~
+ 38 to 61<|START|> why did beckett reach down when she is talking with esposito and ryan about a case ?
+0   )  beckett reached down to grab her phone.     (10tok)
+1 GT)  beckett reached down to use a computer.     (10tok)
+2   )  beckett reached down to tie her shoe.     (10tok)
+3   )  beckett reached down to pick up a piece of paper.     (13tok)
+4   )  beckett reached down to pull out a chair.     (11tok)
+~~~~~~~~~~~ Example 3 009210~castle_s03e19_seg02_clip_04 ~~~~~~~~
+ 42 to 56<|START|> why tom muller is afraid when talking to the detectives about his day in the court?
+0 GT)  a guy was following him.     (6tok)
+1   )  a cop was threaten him     (5tok)
+2   )  a judge shout him.     (5tok)
+3   )  the defendant was mean with him.     (7tok)
+4   )  an employee put him out.     (6tok)
+Finished writing 48 questions; max len = 257

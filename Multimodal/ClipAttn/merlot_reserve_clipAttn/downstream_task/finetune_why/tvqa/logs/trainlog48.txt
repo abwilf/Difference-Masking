@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005936~castle_s08e20_seg02_clip_04 ~~~~~~~~
+ 35 to 65<|START|> why is beckett upset after she sees the new report?
+0   )  beckett didn't want castle working the case.     (11tok)
+1   )  she didn't want the public to see zane's body.     (12tok)
+2   )  beckett is concerned about a lawsuit from zane's family.     (13tok)
+3   )  beckett is concerned it will compromise the investigation.     (11tok)
+4 GT)  one pp has been pushing her to keep the media under control and now castle is the face of the investigation.     (22tok)
+~~~~~~~~~~~ Example 1 008240~house_s07e19_seg02_clip_17 ~~~~~~~~
+ 17 to 83<|START|> why won't kendall get her arm amputated after masters recommends it
+0   )  she doesn't think life is worth living without an arm     (11tok)
+1   )  she wants to die     (4tok)
+2   )  she thinks it will hurt     (5tok)
+3 GT)  she wants to break the sailing record     (7tok)
+4   )  she is scared     (3tok)
+~~~~~~~~~~~ Example 2 009008~s03e22_seg02_clip_09 ~~~~~~~~
+ 36 to 92<|START|> why did past leonard buy the couch when the neighbors moved out?
+0   )  because past leonard had a shopping addiction.      (9tok)
+1   )  because the neighbors needed money and he felt bad for them.      (13tok)
+2   )  because past sheldon had been complaining that they had no couch.      (13tok)
+3   )  because he thought he could resell the couch for a lot of money.      (16tok)
+4 GT)  because it was convenient and he wanted a place where his friends could sit when he invited them over.     (20tok)
+~~~~~~~~~~~ Example 3 015664~grey_s03e13_seg02_clip_08 ~~~~~~~~
+ 0 to 98<|START|> why did the puritan couple need after arriving at the hospital?
+0   )  to find their son     (4tok)
+1   )  they got lost     (3tok)
+2 GT)  to find their daugther.     (7tok)
+3   )  they were in an accident and the came to see someone who was in the accident.     (17tok)
+4   )  free food     (2tok)
+Finished writing 38 questions; max len = 271

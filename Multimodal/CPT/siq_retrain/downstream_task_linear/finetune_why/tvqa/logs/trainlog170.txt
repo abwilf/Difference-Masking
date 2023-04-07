@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003754~house_s07e17_seg02_clip_03 ~~~~~~~~
+ 4 to 10<|START|> why did house have a towel on his face when he said he herd a strange voice?
+0   )  he was cleaning his face.      (7tok)
+1 GT)  he was getting a massage.     (6tok)
+2   )  the room was dusty.     (5tok)
+3   )  he was trying to sleep.     (6tok)
+4   )  there was an odor in the room.     (8tok)
+~~~~~~~~~~~ Example 1 005802~castle_s01e04_seg02_clip_03 ~~~~~~~~
+ -53 to 152<|START|> why are donny's friends hesitant to talk about him when beckett is asking questions?
+0   )  donny's friends don't know who beckett is     (11tok)
+1 GT)  donny's friends want to protect him and don't want to say he did bad things     (17tok)
+2   )  donny's friends don't want castle to overhear what they have to say     (15tok)
+3   )  donny's friends were told not to speak without a lawyer     (11tok)
+4   )  donny's friends are overcome with grief after his death     (10tok)
+~~~~~~~~~~~ Example 2 011178~s05e10_seg02_clip_13 ~~~~~~~~
+ 6 to 37<|START|> why does sheldon interrupt stuart's date when he is at the theater?
+0   )  sheldon interrupts to ask penny to be his girlfriend.     (11tok)
+1 GT)  sheldon interrupts to ask amy to be his girlfriend.     (11tok)
+2   )  sheldon interrupts to ask priya to be his girlfriend.     (12tok)
+3   )  sheldon interrupts to ask bernadette to be his girlfriend.     (13tok)
+4   )  sheldon interrupts to ask leonard to be his girlfriend.     (11tok)
+~~~~~~~~~~~ Example 3 014762~s09e13_seg02_clip_05 ~~~~~~~~
+ 19 to 50<|START|> why does sheldon feel terrible when he is talking to amy?
+0 GT)  because he was mean to leonard.     (7tok)
+1   )  because he was mean to amy.     (7tok)
+2   )  because he was mean to raj.     (7tok)
+3   )  because he was mean to howard.     (7tok)
+4   )  because he was mean to priya.     (8tok)
+Finished writing 47 questions; max len = 238

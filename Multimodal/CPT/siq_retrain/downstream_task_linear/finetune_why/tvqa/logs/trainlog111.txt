@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000111~house_s07e07_seg02_clip_18 ~~~~~~~~
+ 12 to 59<|START|> why did the blonde visitor tell the the peds patient that she done the wrong thing before telling them the reason?
+0   )  the blonde visitor done it to impress the peds patient     (11tok)
+1   )  the blonde vistor said she done it for kicks     (11tok)
+2   )  the blonde visitor done it to be youtube famous      (10tok)
+3 GT)  the blonde visitor told the peds paient in the bed she done the wrong thing hoping to get the patient to do the right thing     (27tok)
+4   )  the blonde do it because it was the peds patient's dying wish     (14tok)
+~~~~~~~~~~~ Example 1 003951~castle_s04e07_seg02_clip_16 ~~~~~~~~
+ 5 to 94<|START|> why does castle write on a slip of paper when beckett is being searched?
+0   )  to cut the criminals a deal.     (7tok)
+1   )  to help beckett treat an epilepsy patient.     (12tok)
+2   )  to take notes about the hostage situation.     (8tok)
+3   )  to help translate for the armed criminals.     (8tok)
+4 GT)  to communicate to beckett without speaking.     (9tok)
+~~~~~~~~~~~ Example 2 005743~house_s05e24_seg02_clip_08 ~~~~~~~~
+ 26 to 73<|START|> why does house ask cuddy questions he knows the answer to when he meets her in her office?
+0   )  to be certain     (3tok)
+1   )  to make her laugh     (4tok)
+2   )  to get a real answer     (5tok)
+3 GT)  to make her angry     (4tok)
+4   )  wilson told him to     (4tok)
+~~~~~~~~~~~ Example 3 010607~house_s06e02_seg02_clip_25 ~~~~~~~~
+ 7 to 93<|START|> why did foreman fire thirteen when she realized that foreman was firing her?
+0   )  foreman was ordered by cuddy to fire thirteen as a diciplinary measure.     (16tok)
+1   )  foreman felt underminded by thirteen.     (7tok)
+2   )  foreman believed thirteen to be incompetent in the medical field.     (12tok)
+3   )  foreman became jealous of chase's relationship with thirteen.     (10tok)
+4 GT)  foreman's working relationship with thirteen was getting in the way of their romantic relationship.     (16tok)
+Finished writing 46 questions; max len = 240

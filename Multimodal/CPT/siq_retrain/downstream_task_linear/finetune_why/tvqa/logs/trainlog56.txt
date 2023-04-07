@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001336~s03e05_seg02_clip_09 ~~~~~~~~
+ 55 to 72<|START|> why did leonard say it was going to be a long night after listening to bernadette and howard's conversation.
+0   )  leonard thought it was going to be a long night because the car broke down.     (16tok)
+1   )  leonard thought it was going to be a long night because they are stuck in a traffic jam.     (19tok)
+2 GT)  leonard thought it was going to be a long night because bernadette and howard didn't seem to be compatible.     (23tok)
+3   )  leonard thought it was going to be a long night because howard said their reservation was scheduled for midnight.     (20tok)
+4   )  leonard thought it was going to be a long night because penny was ignoring him.     (16tok)
+~~~~~~~~~~~ Example 1 004408~s05e23_seg02_clip_11 ~~~~~~~~
+ 27 to 44<|START|> why is bernadette's dad going to go nuts after bernadette and howard tell him that they are postponing the wedding?
+0   )  her dad will go nuts because the wedding is outside.      (12tok)
+1   )  her dad will go nuts because he doesn't want her to marry howard.      (16tok)
+2   )  her dad will go nuts because she will be wearing a red wedding dress.      (16tok)
+3 GT)  her dad will go nuts because he won't get the deposit back.      (15tok)
+4   )  her dad will go nuts because he wants to make sure it rains on their wedding day.      (19tok)
+~~~~~~~~~~~ Example 2 004920~friends_s05e10_seg02_clip_06 ~~~~~~~~
+ 11 to 32<|START|> why was chandler hurrying out of monica's apartment after they came out of her room?
+0 GT)  because they didn't want anyone to know they were sleeping together     (12tok)
+1   )  because he forgot to lock his car     (7tok)
+2   )  because he needed to open his restaurant     (7tok)
+3   )  because joey was calling him     (5tok)
+4   )  because he was double parked     (5tok)
+~~~~~~~~~~~ Example 3 006456~house_s05e04_seg02_clip_09 ~~~~~~~~
+ 28 to 71<|START|> why did house say he didn't have feelings for his father after wilson started lecturing him on feelings?
+0   )  house said his father took off with his mother's sister.     (12tok)
+1   )  house said his father abused his mother and the children.     (11tok)
+2   )  house said his father was never there for him.     (10tok)
+3   )  house said his father left his mother when he was 2.     (12tok)
+4 GT)  house said he wasn't his biological father.     (9tok)
+Finished writing 60 questions; max len = 279

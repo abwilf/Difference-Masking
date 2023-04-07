@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003544~house_s05e06_seg02_clip_24 ~~~~~~~~
+ 32 to 67<|START|> why did cuddy say becca is feeling the way she is now when talking to to her in her hospital room?
+0   )  becca is fearful     (3tok)
+1   )  becca is a drug addict     (5tok)
+2   )  becca is just emotional     (4tok)
+3 GT)  becca is filled with hormones, fear and emotion     (9tok)
+4   )  becca is crazy     (3tok)
+~~~~~~~~~~~ Example 1 007896~castle_s05e05_seg02_clip_15 ~~~~~~~~
+ 39 to 60<|START|> why wouldn't tyson kill castle when acting out his revenge?
+0   )  he didnt know why     (4tok)
+1   )  he loved castle     (3tok)
+2   )  he wanted to wait     (4tok)
+3   )  he fell asleep     (3tok)
+4 GT)  there was no fun in killing castle     (7tok)
+~~~~~~~~~~~ Example 2 008408~friends_s09e05_seg02_clip_08 ~~~~~~~~
+ 37 to 63<|START|> why does monica want to have sex with chandler before phoebes party?
+0   )  chandler is bored     (3tok)
+1   )  monica is bored     (3tok)
+2   )  monica needs a workout     (4tok)
+3   )  chandler keeps begging     (3tok)
+4 GT)  monica is ovulating     (4tok)
+~~~~~~~~~~~ Example 3 009176~s08e10_seg02_clip_10 ~~~~~~~~
+ 18 to 81<|START|> why does bernadette feel uncomfortable when at the party?
+0 GT)  bernadette feels like everyone hates her.      (10tok)
+1   )  bernadette feels like people are staring at her.     (11tok)
+2   )  bernadette feels like everyone is making fun of her.     (12tok)
+3   )  bernadette feels like everyone wants her dead.     (10tok)
+4   )  bernadette feels like no one is paying her any attention.     (13tok)
+Finished writing 63 questions; max len = 236

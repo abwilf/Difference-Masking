@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 006641~friends_s03e14_seg02_clip_17 ~~~~~~~~
+ 40 to 60<|START|> why does chandler's date want to know how much her leg bothers him after getting up from the table?
+0   )  chandler's date want to know how much her leg bothers him because she doesn't want a pity date.     (21tok)
+1   )  chandler's date want to know how much her leg bothers him because she doesn't want to be treated like a charity case.     (25tok)
+2 GT)  chandler's date want to know how much her leg bothers him because she doesn't want to waste her time.     (22tok)
+3   )  chandler's date want to know how much her leg bothers him because she doesn't want to be taken advantage of.     (23tok)
+4   )  chandler's date want to know how much her leg bothers him because she doesn't want to be labeled a cripple.     (24tok)
+~~~~~~~~~~~ Example 1 007665~house_s02e09_seg02_clip_13 ~~~~~~~~
+ 33 to 67<|START|> why did chase say a patient might take dangerous pills after she mentioned rifampin?
+0   )  because she might be suicidal and want to end her own life.     (13tok)
+1 GT)  because she could be a munchausen's patient that's about to get busted.     (17tok)
+2   )  because she might be a drug addict and think that they would get her high.     (16tok)
+3   )  because she might not realize they were dangerous.     (9tok)
+4   )  because she could be in a lot of pain and want to stop hurting.     (15tok)
+~~~~~~~~~~~ Example 2 009969~castle_s03e11_seg02_clip_12 ~~~~~~~~
+ 12 to 59<|START|> why does beckett stop smiling when the woman says she has a full set of expensive bags?
+0   )  she stopped paying attention     (4tok)
+1   )  she recalls a terrible time in her youth     (8tok)
+2   )  she remembers what her mother said to her before she died     (11tok)
+3 GT)  she realizes she made a social error     (7tok)
+4   )  she's stroking out     (5tok)
+~~~~~~~~~~~ Example 3 013809~met_s02e17_seg02_clip_10 ~~~~~~~~
+ -38 to 138<|START|> why marsall and ted screamed when they inside a car?
+0   )  because marsall and ted saw a ghost.     (9tok)
+1   )  because is halloween.     (4tok)
+2 GT)  because a dog was barking fiercely.     (8tok)
+3   )  becaue marsall and ted suffered an accident.     (11tok)
+4   )  because marsall and ted were afraid of teh storm.     (11tok)
+Finished writing 42 questions; max len = 230

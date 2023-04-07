@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002889~friends_s06e23_seg02_clip_21 ~~~~~~~~
+ 22 to 77<|START|> why are ross and joey upset with chandler after he tells them he is planning on proposing to monica?
+0   )  ross and joey think monica can do much better than chandler.     (12tok)
+1   )  ross and joey do not like monica.     (8tok)
+2   )  joey is in love with monica and ross is supportive of that.     (13tok)
+3   )  chandler told them he doesn't want them at the wedding.     (12tok)
+4 GT)  chandler told phoebe before he told them.     (8tok)
+~~~~~~~~~~~ Example 1 005449~house_s04e12_seg02_clip_19 ~~~~~~~~
+ 45 to 54<|START|> why did roz not want to have surgery now after chase said it was the only chance she had?
+0   )  roz could not afford the surgery.     (8tok)
+1 GT)  roz wanted to have the surgery after sunset.     (10tok)
+2   )  roz did not have health insurance.     (8tok)
+3   )  roz was afraid the surgery would go bad.     (10tok)
+4   )  roz did not trust the doctors.     (8tok)
+~~~~~~~~~~~ Example 2 009545~castle_s02e05_seg02_clip_09 ~~~~~~~~
+ 48 to 51<|START|> why does beckett show the man her badge when she has questions for him?
+0   )  she is showing respect.      (6tok)
+1   )  she is requires by castle.      (7tok)
+2   )  she is showing off.      (6tok)
+3 GT)  she is required by law to do so.      (10tok)
+4   )  she is showing her feelings.      (7tok)
+~~~~~~~~~~~ Example 3 011337~grey_s02e24_seg02_clip_02 ~~~~~~~~
+ 36 to 64<|START|> why melanie thinks she is fine when they took her to the trauma room
+0   )  she stood up and she left     (6tok)
+1 GT)  she said she is fine because the airbag went off     (10tok)
+2   )  she left the hospital      (5tok)
+3   )  she failed on the floor     (5tok)
+4   )  she grabbed one of the nurse     (6tok)
+Finished writing 50 questions; max len = 264

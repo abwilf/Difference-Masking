@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000406~castle_s04e08_seg02_clip_26 ~~~~~~~~
+ 0 to 99<|START|> why was alexis cleaning so quickly before castle came home?
+0   )  because she had traced mud in everywhere.     (8tok)
+1   )  because she had spilled red wine on the rug.     (10tok)
+2   )  because the dog had chewed up the couch.     (9tok)
+3   )  because she had broken a vase.     (7tok)
+4 GT)  because she had a party while castle was not home.     (11tok)
+~~~~~~~~~~~ Example 1 000662~house_s05e20_seg02_clip_14 ~~~~~~~~
+ 42 to 57<|START|> why did wilson tell house he wasn't there for kutner when house asked what what  was missing?
+0   )  because house was so matter-of-fact while he was in kutner's room.     (18tok)
+1   )  because wilson didn't see any compassion in house's eyes.     (12tok)
+2 GT)  because wilson thought house was there for the mystery, the puzzle.     (13tok)
+3   )  because house wouldn't come to grips with kutner's suicide.     (13tok)
+4   )  because house was acting like a detective versus a friend.     (11tok)
+~~~~~~~~~~~ Example 2 000918~s04e13_seg02_clip_14 ~~~~~~~~
+ 33 to 65<|START|> why did the panel of science and society seemed bothered after sheldon's joke? 
+0 GT)  because the panel did not think sheldon's joke was funny.      (13tok)
+1   )  because the panel was upset.      (7tok)
+2   )  because the panel did not understand sheldon's joke.      (11tok)
+3   )  because sheldon's joke was inappropriate.     (7tok)
+4   )  because sheldon's joke made the audience cry.      (10tok)
+~~~~~~~~~~~ Example 3 002966~house_s03e13_seg02_clip_19 ~~~~~~~~
+ 21 to 78<|START|> why isn't anyone willing to help house before foreman acts on house's orders?
+0 GT)  they don't want to get sued     (7tok)
+1   )  they hate house     (3tok)
+2   )  they think house is a wackjob     (8tok)
+3   )  they think the patient is supposed to die     (8tok)
+4   )  they are bad doctors and bad people     (7tok)
+Finished writing 58 questions; max len = 242

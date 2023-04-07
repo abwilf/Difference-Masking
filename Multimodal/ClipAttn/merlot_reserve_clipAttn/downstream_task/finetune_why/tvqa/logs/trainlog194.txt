@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000194~friends_s07e18_seg02_clip_18 ~~~~~~~~
+ 8 to 34<|START|> why is monica bother when she asks chandler what he thinks?
+0   )  she won't meet someone else with similar interest.     (10tok)
+1   )  she won't feel happiness     (5tok)
+2   )  she won't feel a sense of adventure     (8tok)
+3   )  she won't feel exitced     (6tok)
+4 GT)  she won't feel "that rush"     (8tok)
+~~~~~~~~~~~ Example 1 001474~house_s07e20_seg02_clip_26 ~~~~~~~~
+ 11 to 31<|START|> why does thirteen say that this is the real jennifer when she refers to the patient?
+0   )  because of her eyes.     (5tok)
+1   )  because the adn test came positive.     (8tok)
+2 GT)  because she has the birthmark.     (7tok)
+3   )  because she had a gut feeling     (6tok)
+4   )  because of all the evidence house shared with her.      (11tok)
+~~~~~~~~~~~ Example 2 003778~friends_s08e04_seg02_clip_12 ~~~~~~~~
+ -4 to 104<|START|> why does ross want to talk to rachel after he enters the room?
+0 GT)  ross wants to apologize for accidentally videotaping he and rachel having sex     (13tok)
+1   )  ross wants to ask rachel out on a date     (9tok)
+2   )  ross wants to confront rachel for cheating on him     (9tok)
+3   )  ross wants to ask rachel to return a book she borrowed from him     (13tok)
+4   )  ross needs to tell rachel that her mom died     (9tok)
+~~~~~~~~~~~ Example 3 005058~house_s03e16_seg02_clip_03 ~~~~~~~~
+ 40 to 60<|START|> why does cameron think house wants to know irrelevant information about john when talking to him in the hall with chase and foreman?
+0   )  to waste time     (3tok)
+1   )  to dig further about johns history     (6tok)
+2 GT)  to get back at cuddy     (6tok)
+3   )  to prove houses diligence     (4tok)
+4   )  out of curiosity      (4tok)
+Finished writing 48 questions; max len = 236

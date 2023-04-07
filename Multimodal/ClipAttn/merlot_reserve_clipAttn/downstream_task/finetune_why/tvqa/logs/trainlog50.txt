@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000050~castle_s03e07_seg02_clip_14 ~~~~~~~~
+ 32 to 67<|START|> why did martha say was the reason for alexis practicing her lines wearing her costume when speaking to castle?
+0   )  it was mandatory for all members of the cast.     (10tok)
+1   )  not enough clothes for alexis to wear.     (8tok)
+2   )  martha wanted to see her like that for personal reasons.     (11tok)
+3   )  alexis thought it was more comfortable to wear.     (9tok)
+4 GT)  for it to be second nature later.     (8tok)
+~~~~~~~~~~~ Example 1 000818~castle_s07e08_seg02_clip_01 ~~~~~~~~
+ 42 to 56<|START|> why was paul worried when discussing some details with brent?
+0 GT)  he got a call from someone involved in one his cases     (11tok)
+1   )  he got a call from the fbi     (7tok)
+2   )  he got a call from his supervisor firing him     (9tok)
+3   )  he got a call from his wife     (7tok)
+4   )  he got a call from the police     (7tok)
+~~~~~~~~~~~ Example 2 004146~friends_s05e13_seg02_clip_05 ~~~~~~~~
+ 40 to 58<|START|> why does ursula tell phoebe she can't invite her to the concert when talking about her plans?
+0   )  ursula says she cannot invite phoebe because she doesn't have any tickets left.     (15tok)
+1   )  ursula says she cannot invite phoebe because phoebe can be a wet blanket.     (14tok)
+2   )  ursula says she cannot invite phoebe because phoebe is too emotional.     (12tok)
+3   )  ursula says she cannot invite phoebe because she's going with 2 hot guys and doesn't want phoebe to ruin it.     (23tok)
+4 GT)  ursula says she cannot invite phoebe because she only has 2 tickets left.     (14tok)
+~~~~~~~~~~~ Example 3 005426~grey_s02e12_seg02_clip_14 ~~~~~~~~
+ 39 to 61<|START|> why does christina say that the tree had to be removed after mariann asked her what she was doing?
+0   )  christina says she hates christmas trees.      (8tok)
+1 GT)  christina says it was because of ccu regulations.      (11tok)
+2   )  christina said that justin asked her to remove it.      (11tok)
+3   )  christina said that the tree was going to catch the room on fire.      (15tok)
+4   )  christina said that the tree was causing justin to be sick.      (13tok)
+Finished writing 50 questions; max len = 249

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001295~house_s06e06_seg02_clip_19 ~~~~~~~~
+ 41 to 57<|START|> why did foreman say that he had a problem with the patient when foreman called wilson?
+0 GT)  patient's losing blood faster than they can transfuse.     (12tok)
+1   )  the patient went into cardiac arrest.     (7tok)
+2   )  foreman discovered hiv in the patient.     (7tok)
+3   )  the patient died.     (4tok)
+4   )  the patient checked himself out of the hospital.     (9tok)
+~~~~~~~~~~~ Example 1 003343~s09e02_seg02_clip_15 ~~~~~~~~
+ 21 to 78<|START|> why does sheldon get excited when he is talking about amy?
+0   )  sheldon is excited because he wants to get back together with bernadette.     (15tok)
+1   )  sheldon is excited because he wants to get back together with leonard.     (13tok)
+2   )  sheldon is excited because he wants to get back together with priya.     (14tok)
+3   )  sheldon is excited because he wants to get back together with raj.     (13tok)
+4 GT)  sheldon is excited because he wants to get back together with amy.     (13tok)
+~~~~~~~~~~~ Example 2 007695~house_s02e13_seg02_clip_00 ~~~~~~~~
+ 37 to 62<|START|> why does house fall when he gets out of bed?
+0   )  he trips on a rug.     (6tok)
+1   )  he trips on some shoes.     (6tok)
+2   )  he slips on a shirt.     (6tok)
+3 GT)  his leg gives out on him.     (7tok)
+4   )  he is tackled.     (4tok)
+~~~~~~~~~~~ Example 3 013327~friends_s01e16-17_seg02_clip_20 ~~~~~~~~
+ 0 to 99<|START|> why did phoebe go talk to ursula after her conversation with her friends?
+0   )  phoebe wanted ursula to return her wallet.     (8tok)
+1   )  phoebe wanted to give ursula a piece of her mind.     (11tok)
+2 GT)  they had been talking about phoebe's problem, so phoebe decided to solve it by talking to her sister.     (21tok)
+3   )  phoebe's friends hadn't been nice during the conversation, so she wanted to talk to family.     (19tok)
+4   )  phoebe wanted to share good news with ursula.     (9tok)
+Finished writing 46 questions; max len = 242

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000349~friends_s08e14_seg02_clip_17 ~~~~~~~~
+ 38 to 61<|START|> why was monica worried when she ran up to chandler?
+0   )  he broke the door.     (5tok)
+1 GT)  he wasn't supposed to see the closet.     (9tok)
+2   )  her items were missing.     (5tok)
+3   )  she had bad news.     (5tok)
+4   )  chandler hit his hand with a hammer.     (8tok)
+~~~~~~~~~~~ Example 1 001885~grey_s03e05_seg02_clip_21 ~~~~~~~~
+ 60 to 68<|START|> why is the woman blaming on her when talking to bailey?
+0   )  because she said is bad a cause the baby.     (10tok)
+1 GT)  because she said have cancer because her baby.     (9tok)
+2   )  because she can sleep because the baby cry a lot.     (11tok)
+3   )  because the baby is annoying.     (6tok)
+4   )  because the baby cry a lot.     (7tok)
+~~~~~~~~~~~ Example 2 002653~s09e07_seg02_clip_13 ~~~~~~~~
+ 44 to 55<|START|> why was bernadette afraid of upsetting her father when she lied to him?
+0   )  because howard offended bernadette's father.     (9tok)
+1   )  because her father doesn't like howard's job     (9tok)
+2 GT)  because she doesn't want to have children.     (9tok)
+3   )  because bernadette was jealous of howard's relationship with her father.      (15tok)
+4   )  because howard does not like bernadette's father.     (11tok)
+~~~~~~~~~~~ Example 3 005725~grey_s03e02_seg02_clip_10 ~~~~~~~~
+ 2 to 97<|START|> why did bailey get angry when karev pushed marley's dad.
+0   )  bailey wanted to fight with karev.     (8tok)
+1   )  she wanted karev to push him harder.     (9tok)
+2   )  karev pushed the wrong guy.     (7tok)
+3 GT)  doctors should not get physical with anyone at the hospital.     (11tok)
+4   )  doctors should always fight with anyone in the hospital.     (10tok)
+Finished writing 53 questions; max len = 283

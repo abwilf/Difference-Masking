@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000985~met_s02e04_seg02_clip_10 ~~~~~~~~
+ 1 to 99<|START|> why does robin think ted is cheating on her after talking to marshall?
+0   )  because ted is at work     (5tok)
+1   )  because robin said he was     (5tok)
+2 GT)  because robin thinks marshall lied to her     (7tok)
+3   )  because ted did not answer his phone     (7tok)
+4   )  because lily told robin ted was cheating     (7tok)
+~~~~~~~~~~~ Example 1 003033~met_s04e03_seg02_clip_03 ~~~~~~~~
+ 43 to 56<|START|> why did stella not give barney a bump when he put his fist out?
+0   )  because marshall would get upset.     (6tok)
+1   )  because barney smelled bad.     (5tok)
+2 GT)  because ted shook his head no.     (7tok)
+3   )  because she didn't see barney.     (7tok)
+4   )  because she is a germaphobe.     (9tok)
+~~~~~~~~~~~ Example 2 007385~friends_s05e23-24_seg02_clip_16 ~~~~~~~~
+ 12 to 31<|START|> why did monica have a chip when she approached the craps table? 
+0 GT)  monica had found the chip.      (7tok)
+1   )  monica had stolen the chip from an old woman.      (11tok)
+2   )  phoebe had covertly put the chip in monica's purse.      (13tok)
+3   )  monica made a counterfeit chip in her basement.      (11tok)
+4   )  monica traded the chip to joey for a sandwich.      (11tok)
+~~~~~~~~~~~ Example 3 010201~met_s02e05_seg02_clip_18 ~~~~~~~~
+ -16 to 117<|START|> why barney was upset when sleeping with lily?
+0   )  because lily was reading a book.     (7tok)
+1   )  because lily was snoring.     (5tok)
+2 GT)  because barney and lily did not have sex.     (9tok)
+3   )  because lily was working with her laptop.     (8tok)
+4   )  because lily was smoking.     (5tok)
+Finished writing 50 questions; max len = 325

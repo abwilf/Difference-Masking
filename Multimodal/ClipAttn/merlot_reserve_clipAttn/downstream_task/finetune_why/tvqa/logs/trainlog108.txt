@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000364~friends_s04e07_seg02_clip_01 ~~~~~~~~
+ 37 to 62<|START|> why is chandler trying to talk joey into dating when joey thinks he's talking about a girl named elaine?
+0   )  because elaine likes him.     (5tok)
+1 GT)  he thinks joey needs to settle down.     (8tok)
+2   )  he thinks joey is in a funk.     (8tok)
+3   )  he thinks joey doesn't get out enough.     (9tok)
+4   )  he thinks joey's mom would like elaine.     (9tok)
+~~~~~~~~~~~ Example 1 002156~s09e05_seg02_clip_00 ~~~~~~~~
+ 13 to 58<|START|> why is leonard looking at his phone when sheldon is eating?
+0   )  leonard is looking at his phone to see a funny picture of penny.     (14tok)
+1   )  leonard is looking at his phone to see messages on his social media account.     (15tok)
+2   )  leonard is looking at his phone to see a funny picture of sheldon.     (14tok)
+3 GT)  leonard is looking at his phone to see what actives there are at the university.     (17tok)
+4   )  leonard is looking at his phone to see what time it is.     (13tok)
+~~~~~~~~~~~ Example 2 006252~house_s06e12_seg02_clip_11 ~~~~~~~~
+ 31 to 67<|START|> why was jim worried about going back overseas when he was talking to house?
+0   )  he does not like sane.     (6tok)
+1 GT)  he didn't want his kid to grow up without a father.     (13tok)
+2   )  he is afraid of snakes.     (6tok)
+3   )  he disliked turtles.     (5tok)
+4   )  he wanted fresh water.     (5tok)
+~~~~~~~~~~~ Example 3 009068~castle_s02e10_seg02_clip_16 ~~~~~~~~
+ 36 to 63<|START|> why did castle and beckett stop on the stairs after a ms reeds stops them?
+0   )  they stopped so castle can tie his shoe.     (9tok)
+1 GT)  they stopped on the stairs to talk to the ms reeds.     (13tok)
+2   )  they stopped to talk to each other.     (8tok)
+3   )  they stopped because they were tired,     (7tok)
+4   )  they stopped to watch a parade.     (7tok)
+Finished writing 56 questions; max len = 242

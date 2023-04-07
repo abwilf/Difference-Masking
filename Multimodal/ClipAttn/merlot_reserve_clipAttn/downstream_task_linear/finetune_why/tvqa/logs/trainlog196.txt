@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004548~castle_s03e24_seg02_clip_21 ~~~~~~~~
+ 23 to 75<|START|> why are ryan and esposito arguing after leaving the bar?
+0   )  they're having a lover's quarrel     (8tok)
+1   )  ryan is sick of paying for esposito     (9tok)
+2   )  esposito is sick of pay for ryan     (9tok)
+3 GT)  they have conflicting opinions on montgomery's innocence     (8tok)
+4   )  esposito tripped ryan     (5tok)
+~~~~~~~~~~~ Example 1 005060~house_s05e09_seg02_clip_00 ~~~~~~~~
+ 1 to 99<|START|> why did thirteen get houses's attention when jason initially took control of the room?
+0 GT)  she wanted him to be careful     (6tok)
+1   )  she was signalling her plan     (6tok)
+2   )  she was scared     (3tok)
+3   )  she was about to faint     (5tok)
+4   )  she was pleading for help     (5tok)
+~~~~~~~~~~~ Example 2 005828~s10e11_seg02_clip_03 ~~~~~~~~
+ 20 to 80<|START|> why are bernadette and howard headed home from the hospital when they were just there to have the baby?
+0   )  they went to the hospital on time.      (9tok)
+1   )  they went to the hospital too late.      (9tok)
+2 GT)  they went to the hospital too early.      (9tok)
+3   )  they forgot bernadette.      (7tok)
+4   )  they forgot a suitcase.      (6tok)
+~~~~~~~~~~~ Example 3 007620~friends_s08e16_seg02_clip_13 ~~~~~~~~
+ 40 to 88<|START|> why did joey say that he shouldn't after rachel suggested he take off his sweater if he was hot
+0   )  because his t-shirt underneath has yellow marks in the armpits     (12tok)
+1 GT)  because his t-shirt has a picture of calvin doing hobbes     (13tok)
+2   )  because he isn't wearing anything underneath     (7tok)
+3   )  because the t-shirt underneath was a little too snug after they had just eaten dinner     (17tok)
+4   )  because he didn't want to make her hot when she got a look at his muscles underneath     (18tok)
+Finished writing 58 questions; max len = 239

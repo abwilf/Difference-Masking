@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 007122~s02e19_seg02_clip_10 ~~~~~~~~
+ 3 to 40<|START|> why was sheldon being sarcastic when he was talking to penny?
+0   )  he was trying to watch tv.     (7tok)
+1   )  he wasn't invited to the party.     (8tok)
+2   )  he wanted to go out to diner.     (8tok)
+3   )  someone was stumping.     (5tok)
+4 GT)  she came in without knocking.     (6tok)
+~~~~~~~~~~~ Example 1 007890~friends_s05e11_seg02_clip_07 ~~~~~~~~
+ 39 to 61<|START|> why is monica suddenly taking pictures after ross asks about his leather pants?
+0   )  monica says she's taking pictures to blind ben.     (10tok)
+1 GT)  monica says she's taking pictures her new year's resolution to take more pictures of the group when they are together.     (23tok)
+2   )  monica says she's taking pictures to practice for a career in photography.     (14tok)
+3   )  monica says she's taking pictures for her scrap book.     (11tok)
+4   )  monica says she's taking pictures to create more memories.     (11tok)
+~~~~~~~~~~~ Example 2 008402~friends_s10e08_seg02_clip_11 ~~~~~~~~
+ 74 to 83<|START|> why are phoebe, ross, rachel and joey trying to get in to monica and chandlers when they are all standing in the hallway?
+0   )  so they can exchange gifts.     (6tok)
+1   )  so they can get the key to joey's.     (10tok)
+2   )  so they can have drinks.     (6tok)
+3   )  so they can throw them a party.     (8tok)
+4 GT)  so they can have dinner together.     (7tok)
+~~~~~~~~~~~ Example 3 015826~house_s05e16_seg02_clip_15 ~~~~~~~~
+ 36 to 63<|START|> why wont cuddy remove thirteen from jacksons case after melanie requested she be removed?
+0 GT)  thirteen is a valuable part of the diagnostic team     (9tok)
+1   )  the hospital is understaffed     (6tok)
+2   )  house wont allow it     (4tok)
+3   )  joseph doesn't agree with melanie     (6tok)
+4   )  cuddy trusts thirteen     (4tok)
+Finished writing 47 questions; max len = 238

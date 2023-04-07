@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001526~s02e08_seg01_clip_00 ~~~~~~~~
+ 12 to 31<|START|> why is raj unhappy after sheldon mentions the program saturn 3 is on the television?
+0   )  raj prefers to watch star trek.     (7tok)
+1   )  raj prefers to watch football games.     (7tok)
+2   )  raj prefers to watch soap operas.     (8tok)
+3 GT)  raj prefers deep space nine.     (6tok)
+4   )  raj prefers to watch game shows.     (7tok)
+~~~~~~~~~~~ Example 1 002294~met_s06e05_seg02_clip_05 ~~~~~~~~
+ 42 to 58<|START|> why did ted tell the woman in his dream that he can't wait to be old before she said he can wear elastic everything?
+0   )  because he says the old parts are better.     (9tok)
+1   )  because he says young is always better.     (8tok)
+2   )  because he says old is always worst.     (8tok)
+3   )  because he says old is always depressing.     (8tok)
+4 GT)  because he says old is always better.     (8tok)
+~~~~~~~~~~~ Example 2 003574~s02e16_seg02_clip_14 ~~~~~~~~
+ 4 to 67<|START|> why penny is upset after she asked sheldon to sit on the couch?
+0   )  because sheldon don't eat his cereal.     (8tok)
+1   )  because sheldon spilled milk on the couch.     (8tok)
+2   )  because sheldon is sleeping.     (5tok)
+3   )  because sheldon is crying.     (5tok)
+4 GT)  because sheldon said that the couch is not comfortable.      (11tok)
+~~~~~~~~~~~ Example 3 004086~friends_s03e07_seg02_clip_02 ~~~~~~~~
+ 12 to 87<|START|> why is gunther so upset when ross talks to him?
+0   )  gunther knows ross is the one that sneezed on the phone     (14tok)
+1   )  gunther wants rachel to work harder at her waitress job     (11tok)
+2   )  gunther has a crush on monica     (7tok)
+3 GT)  gunther has a crush on rachel     (7tok)
+4   )  gunther thinks ross skipped out on his last bill.     (11tok)
+Finished writing 52 questions; max len = 281

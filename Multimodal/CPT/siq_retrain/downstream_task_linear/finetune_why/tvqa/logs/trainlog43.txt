@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000299~friends_s05e14_seg02_clip_11 ~~~~~~~~
+ 45 to 55<|START|> why does ross say he knows ugly naked guy when he comes up in discussion?
+0   )  because he has a phd     (5tok)
+1   )  because he is also an ugly naked guy     (8tok)
+2   )  because guys aren't that complicated     (6tok)
+3 GT)  they've been watching him for five years     (8tok)
+4   )  because he understands the nature of man     (7tok)
+~~~~~~~~~~~ Example 1 007467~castle_s08e10_seg02_clip_19 ~~~~~~~~
+ 41 to 58<|START|> why did castle assume nina killed sadie after he saw them together?
+0   )  because sadie betrayed nina.     (5tok)
+1   )  because nina was jealous of sadie's pregnancy.      (10tok)
+2 GT)  because nina and sadie were having an affair, so he assumed it was a lover's quarrel.     (20tok)
+3   )  because sadie was having an affair with roger.     (9tok)
+4   )  because nina hated sadie.     (5tok)
+~~~~~~~~~~~ Example 2 011563~friends_s01e24_seg02_clip_23 ~~~~~~~~
+ 90 to 94<|START|> why does rachel seem upset when she sees ross at the airport?
+0   )  because he is with his mother.     (7tok)
+1 GT)  because he is with a girlfriend.     (7tok)
+2   )  because he is with his father.     (7tok)
+3   )  because he is with her ex-boyfriend.     (9tok)
+4   )  because he is with his cousin.     (7tok)
+~~~~~~~~~~~ Example 3 012587~friends_s07e19_seg02_clip_03 ~~~~~~~~
+ 39 to 60<|START|> why does cassie come out of the room when chandler and monica are talking?
+0 GT)  cassie hears voices     (3tok)
+1   )  cassie heard a ghost     (4tok)
+2   )  cassie was scared     (3tok)
+3   )  cassie was wondering if someone broke in     (7tok)
+4   )  cassie wanted a drink     (4tok)
+Finished writing 50 questions; max len = 260

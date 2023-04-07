@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004649~friends_s08e22_seg02_clip_03 ~~~~~~~~
+ 23 to 76<|START|> why does rachel say she might die when she goes into the bathroom?
+0   )  joey was the last one in there, and they all know what that means     (15tok)
+1   )  the baby might kill her     (5tok)
+2   )  she drown in her toilet because chandler left the seat up     (11tok)
+3 GT)  there is a stink of potpourri     (8tok)
+4   )  rachel thinks she's going to die with twenty four hours     (11tok)
+~~~~~~~~~~~ Example 1 007721~castle_s06e16_seg02_clip_21 ~~~~~~~~
+ 26 to 74<|START|> why does castle call himself a genius after him and beckett go to the hotel? 
+0 GT)  he figures out that the witnesses didn't see what was in the fridge.      (16tok)
+1   )  he knows the killer     (4tok)
+2   )  he has found the murder weapon     (6tok)
+3   )  he unlocks the computer      (5tok)
+4   )  he finds the victim.      (6tok)
+~~~~~~~~~~~ Example 2 008489~house_s07e09_seg02_clip_17 ~~~~~~~~
+ -34 to 133<|START|> why did cuddy's mom fall asleep when seated at the table?
+0 GT)  she fell asleep because house drugged her.     (8tok)
+1   )  she fell asleep because house bored her.     (8tok)
+2   )  she fell asleep because her daughter bored her.     (9tok)
+3   )  she fell asleep because the talk bored her.     (9tok)
+4   )  she didn't fall asleep at all.     (8tok)
+~~~~~~~~~~~ Example 3 009001~castle_s07e15_seg02_clip_24 ~~~~~~~~
+ 34 to 65<|START|> why did nieman come over to beckett before she left?
+0   )  nieman wanted to take a picture of beckett     (11tok)
+1 GT)  nieman took up the scalpel to hurt or kill beckett     (14tok)
+2   )  nieman wanted to shoot beckett     (8tok)
+3   )  nieman wanted to poison beckett     (8tok)
+4   )  nieman wanted to strangle beckett     (9tok)
+Finished writing 48 questions; max len = 227

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003150~s05e17_seg02_clip_11 ~~~~~~~~
+ 42 to 86<|START|> why is penny nervous when amy comes back into the room?
+0 GT)  penny is nervous because she has already taken the painting off the wall.     (14tok)
+1   )  penny is nervous because amy wants to kill her.     (10tok)
+2   )  penny is nervous because amy is angry at her.     (10tok)
+3   )  penny is nervous because she has a date.     (9tok)
+4   )  penny is nervous because she has a presentation at work.     (11tok)
+~~~~~~~~~~~ Example 1 008526~s03e22_seg02_clip_11 ~~~~~~~~
+ 54 to 73<|START|> why did sheldon want to change seats with howard when they were on the couch?
+0   )  sheldon was angry.     (4tok)
+1   )  sheldon was tired.     (4tok)
+2   )  sheldon was hot.     (4tok)
+3 GT)  sheldon didn't want to feel the draft     (8tok)
+4   )  sheldon was anxious.     (4tok)
+~~~~~~~~~~~ Example 2 011086~friends_s08e22_seg02_clip_18 ~~~~~~~~
+ 11 to 31<|START|> why is rachel sweating when her and ross are on the couch? 
+0   )  she was dancing     (3tok)
+1 GT)  her water just broke.      (6tok)
+2   )  she was exercising      (4tok)
+3   )  its hot     (2tok)
+4   )  she was cooking.     (4tok)
+~~~~~~~~~~~ Example 3 012110~s10e05_seg02_clip_14 ~~~~~~~~
+ 20 to 51<|START|> why did sheldon say to penny after he told her that he should apologize to her?
+0   )  sheldon told penny that he should have never asked for her advice.     (13tok)
+1   )  sheldon told penny that he should not be so rude to penny.     (13tok)
+2   )  sheldon told penny that he said some terrible things about penny to other people.     (15tok)
+3   )  sheldon told penny that he should have never made her drive him around.     (14tok)
+4 GT)  sheldon told penny that it must have hurt watching sheldon look for other women without considering penny.     (18tok)
+Finished writing 45 questions; max len = 244

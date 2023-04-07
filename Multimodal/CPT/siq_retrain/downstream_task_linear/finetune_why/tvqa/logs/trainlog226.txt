@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004322~met_s02e11_seg02_clip_12 ~~~~~~~~
+ 3 to 40<|START|> why is ted annoyed when talking to robin?
+0   )  someone ran into him while he was walking.     (9tok)
+1   )  she's getting on his nerves.     (7tok)
+2   )  they got into an argument.     (6tok)
+3 GT)  his family is weird about christmas.     (7tok)
+4   )  their call keeps cutting off.     (6tok)
+~~~~~~~~~~~ Example 1 014050~grey_s03e07_seg02_clip_22 ~~~~~~~~
+ -33 to 133<|START|> why is burke telling o'maily about his standards when they are talking?
+0   )  he is mad at christina.     (6tok)
+1 GT)  because burke is feeling pressure from o'maily to live up to his standards.     (17tok)
+2   )  he doesn't know what george wants.     (8tok)
+3   )  he thinks george doesn't try hard enough     (8tok)
+4   )  he feel that his own standards are not good.     (10tok)
+~~~~~~~~~~~ Example 2 015074~friends_s08e02_seg02_clip_06 ~~~~~~~~
+ 42 to 57<|START|> why doesn't chandler know what the flowers look like after receiving marriage advice from ross?
+0   )  monica picked out the food     (5tok)
+1   )  monica picked out the music     (5tok)
+2   )  monica picked out the balloons     (5tok)
+3   )  monica picked out the dress     (5tok)
+4 GT)  monica picked out the flowers     (5tok)
+~~~~~~~~~~~ Example 3 015330~house_s06e06_seg02_clip_10 ~~~~~~~~
+ -9 to 109<|START|> why did people choose to be in professor siegal's calss when they were in med school?
+0   )  he gave good lectures     (4tok)
+1   )  he was a nice person     (5tok)
+2   )  he gave out the exam questions     (6tok)
+3   )  he was good looking     (4tok)
+4 GT)  he was a easier grader     (5tok)
+Finished writing 39 questions; max len = 229

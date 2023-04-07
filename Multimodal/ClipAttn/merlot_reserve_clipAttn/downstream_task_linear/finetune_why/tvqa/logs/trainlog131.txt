@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 008835~house_s06e04_seg02_clip_14 ~~~~~~~~
+ 36 to 63<|START|> why does house say he wants foreman in charge of the team when cuddy asks him about it?
+0   )  it gives house time actually to do more hands-on work with patients     (14tok)
+1   )  house liked power too much     (5tok)
+2   )  foreman is more rational     (4tok)
+3 GT)  foreman likes power     (3tok)
+4   )  foreman is better suited for the job     (7tok)
+~~~~~~~~~~~ Example 1 011139~castle_s01e05_seg02_clip_17 ~~~~~~~~
+ 34 to 64<|START|> why was roger confused when he talked to castle and beckett?
+0   )  castle and beckett woke roger up in the middle of the night to talk to him      (19tok)
+1   )  roger didn't know the case had been assigned to castle and beckett.      (17tok)
+2   )  roger thought castle and beckett were married.     (10tok)
+3   )  roger didn't know there had been a murder     (9tok)
+4 GT)  roger didn't know who was murdered or where.     (10tok)
+~~~~~~~~~~~ Example 2 013955~s09e12_seg02_clip_02 ~~~~~~~~
+ 69 to 87<|START|> why is raj working on the computer when sheldon comes over to his desk?
+0   )  raj is balancing his checkbook using online banking.     (10tok)
+1   )  raj is surfing the web for black friday bargains.     (11tok)
+2 GT)  raj is making sure the telescope's camera is white-field balanced.     (14tok)
+3   )  raj is watching videos on youtube.     (7tok)
+4   )  raj is testing the equipment for flaws.     (8tok)
+~~~~~~~~~~~ Example 3 014723~house_s04e01_seg02_clip_10 ~~~~~~~~
+ 10 to 60<|START|> why does house test a patient after tellimg by mrs. bradberry there is nothing else it could be?
+0   )  run extra testing     (3tok)
+1   )  to test the brain     (4tok)
+2   )  find a good cure     (4tok)
+3   )  locate the tumor     (3tok)
+4 GT)  he does not know     (4tok)
+Finished writing 41 questions; max len = 241

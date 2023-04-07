@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002974~castle_s01e05_seg02_clip_16 ~~~~~~~~
+ 32 to 68<|START|> why is beckett concerned after castle tells her that the murder suspect seems to fit?
+0   )  there's been anther murder that matches the previous one     (11tok)
+1   )  because she framed him     (4tok)
+2   )  her dna evidence doesn't match     (6tok)
+3 GT)  because she doesn't have enough proof     (7tok)
+4   )  she's unable to arrest him because of diplomatic immunity     (10tok)
+~~~~~~~~~~~ Example 1 003486~s04e23_seg02_clip_11 ~~~~~~~~
+ 1 to 98<|START|> why is bernadette upset when she's talking to howard?
+0 GT)  bernadette is upset because howard's mother doesn't want them to get married.     (17tok)
+1   )  bernadette is upset because howard's mother wants them to get married.     (15tok)
+2   )  bernadette is upset because howard's mother wants to live with them.     (15tok)
+3   )  bernadette is upset because howard's mother is too nice to her.     (15tok)
+4   )  bernadette is upset because howard's mother doesn't like her cat.     (15tok)
+~~~~~~~~~~~ Example 2 004254~castle_s01e09_seg02_clip_20 ~~~~~~~~
+ 12 to 29<|START|> why is castle reaching under the mailbox when he is talking with his team?
+0   )  he drop something.     (4tok)
+1 GT)  he is trying to find a phone underneath.      (10tok)
+2   )  he is trying to get in the mailbox.     (9tok)
+3   )  he is putting something under there.     (7tok)
+4   )  he is trying to hide.     (6tok)
+~~~~~~~~~~~ Example 3 006558~friends_s07e13_seg02_clip_08 ~~~~~~~~
+ 37 to 63<|START|> why doesn't earl need toner when phoebe asks if he needs it? 
+0   )  earl gets free toner at work      (7tok)
+1   )  earl doesn't own a printer     (6tok)
+2   )  earl is poor      (4tok)
+3   )  earl already bought some     (4tok)
+4 GT)  earl is going to kill himself     (6tok)
+Finished writing 39 questions; max len = 247

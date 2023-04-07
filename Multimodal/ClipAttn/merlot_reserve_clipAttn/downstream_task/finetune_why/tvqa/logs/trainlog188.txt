@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 007612~s08e18_seg01_clip_00 ~~~~~~~~
+ 19 to 52<|START|> why is sheldon reciting several numbers when he is opening the mailbox?
+0   )  sheldon is telling amy his phone number.     (8tok)
+1   )  sheldon is trying to remember the combination to his mailbox.     (11tok)
+2 GT)  sheldon is telling amy the expanded version of pi.     (10tok)
+3   )  sheldon is proving that he can still remember his childhood address     (11tok)
+4   )  sheldon counts out loud when he is nervous.     (9tok)
+~~~~~~~~~~~ Example 1 009148~s09e08_seg02_clip_06 ~~~~~~~~
+ 2 to 39<|START|> why did dave say he and his wife had split up after amy asked? 
+0   )  dave said he'd never been married.      (9tok)
+1   )  dave's wife was physically and mentally abusive.      (10tok)
+2   )  dave's wife had caught him in bed with her sister.      (13tok)
+3 GT)  dave's wife cheated on him with a french pastry chef.      (13tok)
+4   )  dave wouldn't answer the question and started crying.      (11tok)
+~~~~~~~~~~~ Example 2 013500~friends_s07e15_seg01_clip_02 ~~~~~~~~
+ 67 to 89<|START|> why does joey think ross should understand the plot when ross looks frustrated?
+0   )  because ross is a genius.     (6tok)
+1 GT)  because ross is a scientist.     (6tok)
+2   )  because ross is supposed to be so cultured.     (10tok)
+3   )  because ross is supposed to love the arts.     (9tok)
+4   )  because ross is supposed to be his friend.     (9tok)
+~~~~~~~~~~~ Example 3 016572~s01e09_seg02_clip_06 ~~~~~~~~
+ 43 to 56<|START|> why does sheldon tell penny that he is comfortable with silence when she starts trying to joke with him?
+0 GT)  sheldon does this to save penny from awkwardness.      (11tok)
+1   )  sheldon does this because he wants to talk to penny.      (12tok)
+2   )  sheldon does this because he doesn't like leonard.      (11tok)
+3   )  sheldon does this so penny will feel bad about herself.      (12tok)
+4   )  sheldon does this so penny will feel awkward.      (10tok)
+Finished writing 52 questions; max len = 260

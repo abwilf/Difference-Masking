@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001791~castle_s08e05_seg02_clip_15 ~~~~~~~~
+ 43 to 55<|START|> why did mr. carter yell at haley after beckett told him to get off his phones?
+0   )  because haley was listening in on his conversation.     (9tok)
+1   )  because haley grabbed his shoulder.     (6tok)
+2   )  because haley knocked the phone out of his hand.     (10tok)
+3 GT)  because haley took his second phone out his hand.     (10tok)
+4   )  because haley broke his phone.     (6tok)
+~~~~~~~~~~~ Example 1 003583~friends_s10e15_seg02_clip_15 ~~~~~~~~
+ 29 to 70<|START|> why did chander pause before he said obviously? 
+0   )  he didn't agree that he and janice that she was the best for him.     (16tok)
+1 GT)  he didn't agree that he and janice had heat.     (11tok)
+2   )  he didn't agree that he and janice that he always loved her.     (14tok)
+3   )  he didn't agree that he and janice that she should get the house.     (15tok)
+4   )  he didn't agree that he and janice that her kids were cuter than his.     (16tok)
+~~~~~~~~~~~ Example 2 004351~friends_s05e23-24_seg02_clip_06 ~~~~~~~~
+ 4 to 37<|START|> why does rachel glance around after she takes off her clothes?
+0   )  rachel expected someone to jump at her.     (8tok)
+1   )  rachel feels like ross is watching her.     (8tok)
+2   )  rachel feels cold and is trying to find something warm to wear.     (13tok)
+3   )  rachel is about to take a shower.     (8tok)
+4 GT)  rachel hears her own voice in the room.     (9tok)
+~~~~~~~~~~~ Example 3 006911~friends_s02e10_seg02_clip_09 ~~~~~~~~
+ 5 to 94<|START|> why was monica upset about bob when she was talking to phoebe?
+0   )  phoebe is breaking up with bob.     (7tok)
+1   )  bob is cheating.     (4tok)
+2 GT)  bob is dull.     (4tok)
+3   )  phoebe cheating with bob.     (5tok)
+4   )  phoebe told monica she doesn't like her.     (9tok)
+Finished writing 50 questions; max len = 243

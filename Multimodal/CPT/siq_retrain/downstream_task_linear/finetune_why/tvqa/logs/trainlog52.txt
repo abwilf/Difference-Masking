@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000564~house_s08e13_seg02_clip_00 ~~~~~~~~
+ 42 to 57<|START|> why does house hold out his fists when talking about the patient's philosophy about men?
+0 GT)  house holds out his fists to get fist bumps from taub and chase.     (15tok)
+1   )  house holds out his fists to mimic a thrusting motion.     (12tok)
+2   )  house holds out his fists to be symbolic of sexual penetration.     (12tok)
+3   )  house holds out his fists to mimic the motion of driving a car.     (14tok)
+4   )  house holds out his fists for taub and chase to choose which hand the coin is in.     (19tok)
+~~~~~~~~~~~ Example 1 001076~house_s05e09_seg02_clip_09 ~~~~~~~~
+ 37 to 61<|START|> why did house say jason was going to shoot hostages when correcting bowman?
+0   )  if take to long to meet demands     (7tok)
+1   )  if they keep playing games with him     (7tok)
+2 GT)  if the one person doesnt bring in his meds     (9tok)
+3   )  if they dont turn back on his favorite show     (9tok)
+4   )  if they dont let jason go free      (8tok)
+~~~~~~~~~~~ Example 2 002356~house_s02e18_seg02_clip_09 ~~~~~~~~
+ 38 to 61<|START|> why does house hold his hand up when he is talking with chase and cameron about a patient ?
+0 GT)  house holds his hand up to think.     (8tok)
+1   )  house holds his hand up to hit at a fly.     (11tok)
+2   )  house holds his hand up to catch a ball.     (10tok)
+3   )  house holds his hand up to get a high five.     (11tok)
+4   )  house holds his hand up to wave hello.     (9tok)
+~~~~~~~~~~~ Example 3 002612~house_s05e12_seg02_clip_19 ~~~~~~~~
+ 15 to 85<|START|> why is kutner hoping to knock the opiods out of jeff's system when he injects him with the naloxone?
+0 GT)  kutner is hoping jeff's body will recalibrate in a few hours and he will no longer have any pain,     (24tok)
+1   )  kutner is hoping jeff's body will recalibrate in a few hours and he will have no more drug cravings.     (24tok)
+2   )  kutner is hoping jeff's body will recalibrate in a few hours and he will have no more depression.     (23tok)
+3   )  kutner just wants to detox jeff no matter what and have him clean of all drugs, legal or illicit.     (23tok)
+4   )  kutner is not hoping to knock the opiods out of jeff's system, he wants to maximize their potential.     (24tok)
+Finished writing 47 questions; max len = 240

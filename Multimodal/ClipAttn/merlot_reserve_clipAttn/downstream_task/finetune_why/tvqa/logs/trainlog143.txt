@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004751~s08e15_seg02_clip_08 ~~~~~~~~
+ -29 to 129<|START|> why was howard upset after bernadette made a good point?
+0   )  because he hate her being right     (6tok)
+1 GT)  because he wanted her to support him and not just make good points     (13tok)
+2   )  because he wanted stuart to move out     (7tok)
+3   )  because he wanted his way     (5tok)
+4   )  because his mom is starting to like stuart more     (9tok)
+~~~~~~~~~~~ Example 1 010383~castle_s04e18_seg02_clip_02 ~~~~~~~~
+ 31 to 68<|START|> why did esposito say that ryan was invisible when jeanine ignored ryan?
+0   )  esposito said that ryan's new haircut had made him unappealing to single women.     (20tok)
+1 GT)  esposito said that ryan's wedding ring meant single women wouldn't want to waste time on him.     (21tok)
+2   )  esposito said that women were reacting negatively to the manicure ryan got earlier that day.     (18tok)
+3   )  esposito said that women were reacting negatively to ryan's new interest in video games.     (18tok)
+4   )  esposito said that single women could sense that ryan was bad at sports.     (16tok)
+~~~~~~~~~~~ Example 2 011151~house_s06e12_seg02_clip_20 ~~~~~~~~
+ 30 to 69<|START|> why does the patient think he's better when the doctor goes to talk to him?
+0   )  he can walk.     (4tok)
+1   )  he has stopped caughing.     (7tok)
+2   )  he is able to eat food.     (7tok)
+3 GT)  he has his color back.     (6tok)
+4   )  he does not feel any pain.     (7tok)
+~~~~~~~~~~~ Example 3 012943~castle_s01e04_seg02_clip_05 ~~~~~~~~
+ 17 to 54<|START|> why did ryan express doubt when castle gave his theory on the body's being moved?  
+0 GT)  ryan doubted a drug dealer would be that smart.      (11tok)
+1   )  ryan had a natural distrust of castle.      (10tok)
+2   )  castle had been wrong many times before.      (9tok)
+3   )  ryan himself had committed the crime.      (8tok)
+4   )  ryan wanted to make castle doubt himself.      (9tok)
+Finished writing 51 questions; max len = 251

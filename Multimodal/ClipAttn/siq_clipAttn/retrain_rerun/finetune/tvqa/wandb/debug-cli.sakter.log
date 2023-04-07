@@ -1,0 +1,970 @@
+2022-11-27 01:34:55 INFO Running runs: []
+2022-11-27 01:34:55 INFO Agent received command: run
+2022-11-27 01:34:55 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-11-27 01:34:55 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-11-27 01:35:00 INFO Running runs: ['qpij53ej']
+2022-11-27 01:58:37 INFO Running runs: []
+2022-11-27 01:58:37 INFO Agent received command: run
+2022-11-27 01:58:37 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-11-27 01:58:37 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-11-27 01:58:43 INFO Running runs: ['3coqmv64']
+2022-11-27 03:11:14 INFO Cleaning up finished run: 3coqmv64
+2022-11-27 03:11:19 INFO Agent received command: run
+2022-11-27 03:11:19 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-11-27 03:11:19 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-11-27 03:11:24 INFO Running runs: ['mtpkjzxe']
+2022-11-27 05:05:59 INFO Cleaning up finished run: mtpkjzxe
+2022-11-27 05:05:59 INFO Agent received command: exit
+2022-11-27 05:05:59 INFO Received exit command. Killing runs and quitting.
+2022-11-27 15:36:30 INFO Running runs: []
+2022-11-27 15:36:30 INFO Agent received command: run
+2022-11-27 15:36:30 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-11-27 15:36:30 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-11-27 15:36:36 INFO Running runs: ['l4bvwsai']
+2022-11-27 17:31:38 INFO Cleaning up finished run: l4bvwsai
+2022-11-27 17:31:44 INFO Agent received command: run
+2022-11-27 17:31:44 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-11-27 17:31:44 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-11-27 17:31:49 INFO Running runs: ['9b1tc6jf']
+2022-11-27 19:26:31 INFO Cleaning up finished run: 9b1tc6jf
+2022-11-27 19:26:31 INFO Agent received command: exit
+2022-11-27 19:26:31 INFO Received exit command. Killing runs and quitting.
+2022-11-28 21:46:30 INFO Running runs: []
+2022-11-28 21:46:30 INFO Agent received command: run
+2022-11-28 21:46:30 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-11-28 21:46:30 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-11-28 21:46:35 INFO Running runs: ['z41119ar']
+2022-11-28 23:40:28 INFO Cleaning up finished run: z41119ar
+2022-11-28 23:40:34 INFO Agent received command: run
+2022-11-28 23:40:34 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-11-28 23:40:34 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-11-28 23:40:39 INFO Running runs: ['zjmrmbag']
+2022-11-29 01:35:20 INFO Cleaning up finished run: zjmrmbag
+2022-11-29 01:35:20 INFO Agent received command: run
+2022-11-29 01:35:20 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-11-29 01:35:20 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-11-29 01:35:26 INFO Running runs: ['qsfv4vrh']
+2022-11-29 03:29:55 INFO Cleaning up finished run: qsfv4vrh
+2022-11-29 03:29:55 INFO Agent received command: run
+2022-11-29 03:29:55 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-11-29 03:29:55 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-11-29 03:30:00 INFO Running runs: ['lid1ompp']
+2022-11-29 05:24:49 INFO Cleaning up finished run: lid1ompp
+2022-11-29 05:24:49 INFO Agent received command: exit
+2022-11-29 05:24:49 INFO Received exit command. Killing runs and quitting.
+2022-11-30 03:29:28 INFO Running runs: []
+2022-11-30 03:29:28 INFO Agent received command: run
+2022-11-30 03:29:28 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 03:29:28 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 03:29:33 INFO Running runs: ['espbhhhu']
+2022-11-30 03:56:29 INFO Cleaning up finished run: espbhhhu
+2022-11-30 03:56:35 INFO Agent received command: run
+2022-11-30 03:56:35 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 03:56:35 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 03:56:40 INFO Running runs: ['dbvochxf']
+2022-11-30 04:32:57 INFO Cleaning up finished run: dbvochxf
+2022-11-30 04:32:57 INFO Agent received command: run
+2022-11-30 04:32:57 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 04:32:57 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 04:33:02 INFO Running runs: ['fti4ivbo']
+2022-11-30 05:19:54 INFO Cleaning up finished run: fti4ivbo
+2022-11-30 05:19:54 INFO Agent received command: run
+2022-11-30 05:19:54 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 05:19:54 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 05:19:59 INFO Running runs: ['a9165puu']
+2022-11-30 06:25:31 INFO Cleaning up finished run: a9165puu
+2022-11-30 06:25:31 INFO Agent received command: run
+2022-11-30 06:25:31 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 06:25:31 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 06:25:36 INFO Running runs: ['irri4xt8']
+2022-11-30 06:52:01 INFO Cleaning up finished run: irri4xt8
+2022-11-30 06:52:02 INFO Agent received command: run
+2022-11-30 06:52:02 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 06:52:02 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 06:52:07 INFO Running runs: ['98t4dosx']
+2022-11-30 07:28:33 INFO Cleaning up finished run: 98t4dosx
+2022-11-30 07:28:33 INFO Agent received command: run
+2022-11-30 07:28:33 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 07:28:33 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 07:28:38 INFO Running runs: ['szl819tp']
+2022-11-30 07:45:43 INFO Cleaning up finished run: szl819tp
+2022-11-30 07:45:44 INFO Agent received command: run
+2022-11-30 07:45:44 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 07:45:44 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 07:45:49 INFO Running runs: ['szp724pq']
+2022-11-30 07:46:34 INFO Cleaning up finished run: szp724pq
+2022-11-30 07:46:35 INFO Agent received command: run
+2022-11-30 07:46:35 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 07:46:35 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 07:46:40 INFO Running runs: ['b57nal56']
+2022-11-30 07:46:55 INFO Cleaning up finished run: b57nal56
+2022-11-30 07:46:55 INFO Agent received command: run
+2022-11-30 07:46:55 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 07:46:55 ERROR Exception while processing command: {'run_id': 'tepoubxv', 'program': '/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py', 'type': 'run', 'args': {'alpha': {'value': 0.8}, 'joint_proj': {'value': 'no_proj'}, 'lr': {'value': 5e-06}, 'mask_where': {'value': 'face'}, 'ne': {'value': 10}, 'output_grid_h': {'value': 12}, 'output_grid_w': {'value': 24}, 'percent_data': {'value': 0.2}}, 'runqueue_item_id': 'UnVuUXVldWVJdGVtOjE5OTI1Njg3Nw==', 'logs': [], 'run_storage_id': 'UnVuOnYxOnRlcG91Ynh2Om1lcmxvdHJlc2VydmUtcmV0cmFpbi1zaXE6c25hdA=='}
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/wandb/wandb_agent.py", line 314, in _process_command
+    result = self._command_run(command)
+  File "/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/wandb/wandb_agent.py", line 419, in _command_run
+    wandb_lib.config_util.save_config_file_from_dict(
+  File "/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/wandb/sdk/lib/config_util.py", line 93, in save_config_file_from_dict
+    conf_file.write(data)
+OSError: [Errno 28] No space left on device
+2022-11-30 07:47:00 INFO Running runs: []
+2022-11-30 07:47:00 INFO Agent received command: run
+2022-11-30 07:47:00 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 07:47:00 ERROR Exception while processing command: {'run_id': '6fmtfr50', 'program': '/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py', 'type': 'run', 'args': {'alpha': {'value': 0.8}, 'joint_proj': {'value': 'no_proj'}, 'lr': {'value': 5e-06}, 'mask_where': {'value': 'face'}, 'ne': {'value': 10}, 'output_grid_h': {'value': 12}, 'output_grid_w': {'value': 24}, 'percent_data': {'value': 0.3}}, 'runqueue_item_id': 'UnVuUXVldWVJdGVtOjE5OTI1Njg3OA==', 'logs': [], 'run_storage_id': 'UnVuOnYxOjZmbXRmcjUwOm1lcmxvdHJlc2VydmUtcmV0cmFpbi1zaXE6c25hdA=='}
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/wandb/wandb_agent.py", line 314, in _process_command
+    result = self._command_run(command)
+  File "/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/wandb/wandb_agent.py", line 419, in _command_run
+    wandb_lib.config_util.save_config_file_from_dict(
+  File "/home/sakter/anaconda3/envs/mreserve/lib/python3.8/site-packages/wandb/sdk/lib/config_util.py", line 93, in save_config_file_from_dict
+    conf_fi2022-11-30 14:55:32 INFO Running runs: []
+2022-11-30 14:55:32 INFO Agent received command: run
+2022-11-30 14:55:32 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 14:55:32 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 14:55:37 INFO Running runs: ['7y9ng2a1']
+2022-11-30 14:55:48 INFO Cleaning up finished run: 7y9ng2a1
+2022-11-30 14:55:48 INFO Agent received command: run
+2022-11-30 14:55:48 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 14:55:48 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 14:55:53 INFO Running runs: ['68hbcu27']
+2022-11-30 14:56:04 INFO Cleaning up finished run: 68hbcu27
+2022-11-30 14:56:04 INFO Agent received command: run
+2022-11-30 14:56:04 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 14:56:04 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 14:56:09 INFO Running runs: ['sndl2b97']
+2022-11-30 14:56:25 INFO Cleaning up finished run: sndl2b97
+2022-11-30 14:56:25 INFO Agent received command: run
+2022-11-30 14:56:25 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 14:56:25 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 14:56:30 INFO Running runs: ['vy8i81s9']
+2022-11-30 14:56:46 INFO Cleaning up finished run: vy8i81s9
+2022-11-30 14:56:47 INFO Agent received command: run
+2022-11-30 14:56:47 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 14:56:47 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 14:56:52 INFO Running runs: ['t5k9j37t']
+2022-11-30 14:57:10 INFO Cleaning up finished run: t5k9j37t
+2022-11-30 14:57:10 INFO Agent received command: run
+2022-11-30 14:57:10 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 14:57:10 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 14:57:15 INFO Running runs: ['t2ytxjcd']
+2022-11-30 14:57:38 INFO Cleaning up finished run: t2ytxjcd
+2022-11-30 14:57:38 INFO Agent received command: run
+2022-11-30 14:57:38 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 14:57:38 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 14:57:43 INFO Running runs: ['ony5yv7q']
+2022-11-30 15:44:34 INFO Cleaning up finished run: ony5yv7q
+2022-11-30 15:44:35 INFO Agent received command: run
+2022-11-30 15:44:35 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 15:44:35 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 15:44:40 INFO Running runs: ['xslcnjnv']
+2022-11-30 16:50:05 INFO Cleaning up finished run: xslcnjnv
+2022-11-30 16:50:05 INFO Agent received command: run
+2022-11-30 16:50:05 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 16:50:05 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 16:50:10 INFO Running runs: ['7y9ng2a1']
+2022-11-30 16:50:21 INFO Cleaning up finished run: 7y9ng2a1
+2022-11-30 16:50:21 INFO Agent received command: run
+2022-11-30 16:50:21 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 16:50:21 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 16:50:26 INFO Running runs: ['68hbcu27']
+2022-11-30 16:50:41 INFO Cleaning up finished run: 68hbcu27
+2022-11-30 16:50:42 INFO Agent received command: run
+2022-11-30 16:50:42 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 16:50:42 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 16:50:47 INFO Running runs: ['sndl2b97']
+2022-11-30 16:51:04 INFO Cleaning up finished run: sndl2b97
+2022-11-30 16:51:04 INFO Agent received command: run
+2022-11-30 16:51:04 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 16:51:04 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 16:51:09 INFO Running runs: ['vy8i81s9']
+2022-11-30 16:51:25 INFO Cleaning up finished run: vy8i81s9
+2022-11-30 16:51:25 INFO Agent received command: run
+2022-11-30 16:51:25 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 16:51:25 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 16:51:31 INFO Running runs: ['t5k9j37t']
+2022-11-30 16:51:53 INFO Cleaning up finished run: t5k9j37t
+2022-11-30 16:51:53 INFO Agent received command: run
+2022-11-30 16:51:53 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 16:51:53 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 16:51:59 INFO Running runs: ['t2ytxjcd']
+2022-11-30 16:52:15 INFO Cleaning up finished run: t2ytxjcd
+2022-11-30 16:52:15 INFO Agent received command: run
+2022-11-30 16:52:15 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 16:52:15 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 16:52:21 INFO Running runs: ['nzrpkqh4']
+2022-11-30 17:18:38 INFO Cleaning up finished run: nzrpkqh4
+2022-11-30 17:18:38 INFO Agent received command: run
+2022-11-30 17:18:38 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 17:18:38 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 17:18:43 INFO Running runs: ['u15txpa8']
+2022-11-30 17:49:19 INFO Cleaning up finished run: u15txpa8
+2022-11-30 17:49:20 INFO Agent received command: run
+2022-11-30 17:49:20 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 17:49:20 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 17:49:25 INFO Running runs: ['6ddyissf']
+2022-11-30 18:36:32 INFO Cleaning up finished run: 6ddyissf
+2022-11-30 18:36:32 INFO Agent received command: run
+2022-11-30 18:36:32 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 18:36:32 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 18:36:37 INFO Running runs: ['7y9ng2a1']
+2022-11-30 18:36:47 INFO Cleaning up finished run: 7y9ng2a1
+2022-11-30 18:36:48 INFO Agent received command: run
+2022-11-30 18:36:48 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 18:36:48 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 18:36:53 INFO Running runs: ['68hbcu27']
+2022-11-30 18:37:09 INFO Cleaning up finished run: 68hbcu27
+2022-11-30 18:37:09 INFO Agent received command: run
+2022-11-30 18:37:09 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 18:37:09 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 18:37:14 INFO Running runs: ['sndl2b97']
+2022-11-30 18:37:31 INFO Cleaning up finished run: sndl2b97
+2022-11-30 18:37:31 INFO Agent received command: run
+2022-11-30 18:37:31 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 18:37:31 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 18:37:36 INFO Running runs: ['vy8i81s9']
+2022-11-30 18:37:52 INFO Cleaning up finished run: vy8i81s9
+2022-11-30 18:37:53 INFO Agent received command: run
+2022-11-30 18:37:53 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 18:37:53 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 18:37:58 INFO Running runs: ['t5k9j37t']
+2022-11-30 18:38:27 INFO Cleaning up finished run: t5k9j37t
+2022-11-30 18:38:27 INFO Agent received command: run
+2022-11-30 18:38:27 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 18:38:27 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 18:38:32 INFO Running runs: ['t2ytxjcd']
+2022-11-30 18:38:55 INFO Cleaning up finished run: t2ytxjcd
+2022-11-30 18:38:55 INFO Agent received command: run
+2022-11-30 18:38:55 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 18:38:55 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 18:39:00 INFO Running runs: ['1e90omq3']
+2022-11-30 19:44:23 INFO Cleaning up finished run: 1e90omq3
+2022-11-30 19:44:23 INFO Agent received command: run
+2022-11-30 19:44:23 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 19:44:23 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 19:44:28 INFO Running runs: ['7y9ng2a1']
+2022-11-30 19:44:39 INFO Cleaning up finished run: 7y9ng2a1
+2022-11-30 19:44:39 INFO Agent received command: run
+2022-11-30 19:44:39 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 19:44:39 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 19:44:44 INFO Running runs: ['68hbcu27']
+2022-11-30 19:44:54 INFO Cleaning up finished run: 68hbcu27
+2022-11-30 19:44:54 INFO Agent received command: run
+2022-11-30 19:44:54 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 19:44:54 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 19:44:59 INFO Running runs: ['sndl2b97']
+2022-11-30 19:45:21 INFO Cleaning up finished run: sndl2b97
+2022-11-30 19:45:21 INFO Agent received command: run
+2022-11-30 19:45:21 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 19:45:21 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 19:45:26 INFO Running runs: ['vy8i81s9']
+2022-11-30 19:45:53 INFO Cleaning up finished run: vy8i81s9
+2022-11-30 19:45:53 INFO Agent received command: run
+2022-11-30 19:45:53 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 19:45:53 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 19:45:59 INFO Running runs: ['t5k9j37t']
+2022-11-30 19:46:21 INFO Cleaning up finished run: t5k9j37t
+2022-11-30 19:46:21 INFO Agent received command: run
+2022-11-30 19:46:21 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 19:46:21 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 19:46:26 INFO Running runs: ['t2ytxjcd']
+2022-11-30 19:46:42 INFO Cleaning up finished run: t2ytxjcd
+2022-11-30 19:46:42 INFO Agent received command: run
+2022-11-30 19:46:42 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 19:46:42 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 19:46:48 INFO Running runs: ['q8dd6l5y']
+2022-11-30 20:13:59 INFO Cleaning up finished run: q8dd6l5y
+2022-11-30 20:13:59 INFO Agent received command: run
+2022-11-30 20:13:59 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 20:13:59 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 20:14:04 INFO Running runs: ['fn22tnrl']
+2022-11-30 20:44:42 INFO Cleaning up finished run: fn22tnrl
+2022-11-30 20:44:42 INFO Agent received command: run
+2022-11-30 20:44:42 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 20:44:42 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 20:44:47 INFO Running runs: ['7y9ng2a1']
+2022-11-30 20:45:08 INFO Cleaning up finished run: 7y9ng2a1
+2022-11-30 20:45:08 INFO Agent received command: run
+2022-11-30 20:45:08 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 20:45:08 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 20:45:13 INFO Running runs: ['68hbcu27']
+2022-11-30 20:45:29 INFO Cleaning up finished run: 68hbcu27
+2022-11-30 20:45:29 INFO Agent received command: run
+2022-11-30 20:45:29 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 20:45:29 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 20:45:34 INFO Running runs: ['sndl2b97']
+2022-11-30 20:45:50 INFO Cleaning up finished run: sndl2b97
+2022-11-30 20:45:51 INFO Agent received command: run
+2022-11-30 20:45:51 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 20:45:51 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 20:45:56 INFO Running runs: ['vy8i81s9']
+2022-11-30 20:46:12 INFO Cleaning up finished run: vy8i81s9
+2022-11-30 20:46:12 INFO Agent received command: run
+2022-11-30 20:46:12 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 20:46:12 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 20:46:17 INFO Running runs: ['t5k9j37t']
+2022-11-30 20:46:40 INFO Cleaning up finished run: t5k9j37t
+2022-11-30 20:46:40 INFO Agent received command: run
+2022-11-30 20:46:40 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 20:46:40 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 20:46:46 INFO Running runs: ['t2ytxjcd']
+2022-11-30 20:47:02 INFO Cleaning up finished run: t2ytxjcd
+2022-11-30 20:47:02 INFO Agent received command: run
+2022-11-30 20:47:02 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 20:47:02 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 20:47:07 INFO Running runs: ['ognfm7zl']
+2022-11-30 21:22:38 INFO Cleaning up finished run: ognfm7zl
+2022-11-30 21:22:38 INFO Agent received command: run
+2022-11-30 21:22:38 INFO Agent starting run with config:
+	alpha: 0.8
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 21:22:38 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.8 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 21:22:43 INFO Running runs: ['n65yrsny']
+2022-11-30 22:28:21 INFO Cleaning up finished run: n65yrsny
+2022-11-30 22:28:21 INFO Agent received command: run
+2022-11-30 22:28:21 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 22:28:21 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 22:28:26 INFO Running runs: ['7y9ng2a1']
+2022-11-30 22:28:36 INFO Cleaning up finished run: 7y9ng2a1
+2022-11-30 22:28:36 INFO Agent received command: run
+2022-11-30 22:28:36 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 22:28:36 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 22:28:41 INFO Running runs: ['68hbcu27']
+2022-11-30 22:29:02 INFO Cleaning up finished run: 68hbcu27
+2022-11-30 22:29:02 INFO Agent received command: run
+2022-11-30 22:29:02 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 22:29:02 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 22:29:07 INFO Running runs: ['sndl2b97']
+2022-11-30 22:29:34 INFO Cleaning up finished run: sndl2b97
+2022-11-30 22:29:38 INFO Agent received command: run
+2022-11-30 22:29:38 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 22:29:38 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 22:29:43 INFO Running runs: ['vy8i81s9']
+2022-11-30 22:30:00 INFO Cleaning up finished run: vy8i81s9
+2022-11-30 22:30:00 INFO Agent received command: run
+2022-11-30 22:30:00 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 22:30:00 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 22:30:05 INFO Running runs: ['t5k9j37t']
+2022-11-30 22:30:37 INFO Cleaning up finished run: t5k9j37t
+2022-11-30 22:30:38 INFO Agent received command: run
+2022-11-30 22:30:38 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 22:30:38 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 22:30:43 INFO Running runs: ['t2ytxjcd']
+2022-11-30 22:31:10 INFO Cleaning up finished run: t2ytxjcd
+2022-11-30 22:31:15 INFO Running runs: []
+2022-11-30 23:28:25 INFO Agent received command: run
+2022-11-30 23:28:25 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 23:28:25 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 23:28:30 INFO Running runs: ['7y9ng2a1']
+2022-11-30 23:28:40 INFO Cleaning up finished run: 7y9ng2a1
+2022-11-30 23:28:40 INFO Agent received command: run
+2022-11-30 23:28:40 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.2
+2022-11-30 23:28:40 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.2
+2022-11-30 23:28:45 INFO Running runs: ['68hbcu27']
+2022-11-30 23:28:56 INFO Cleaning up finished run: 68hbcu27
+2022-11-30 23:29:01 INFO Running runs: []
+2022-11-30 23:29:06 INFO Agent received command: run
+2022-11-30 23:29:06 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.3
+2022-11-30 23:29:06 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.3
+2022-11-30 23:29:11 INFO Running runs: ['sndl2b97']
+2022-11-30 23:29:37 INFO Cleaning up finished run: sndl2b97
+2022-11-30 23:29:37 INFO Agent received command: run
+2022-11-30 23:29:37 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: face
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.5
+2022-11-30 23:29:37 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=face --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.5
+2022-11-30 23:29:43 INFO Running runs: ['vy8i81s9']
+2022-11-30 23:30:00 INFO Cleaning up finished run: vy8i81s9
+2022-11-30 23:30:00 INFO Agent received command: run
+2022-11-30 23:30:00 INFO Agent starting run with config:
+	alpha: 0.7
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: body
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 0.1
+2022-11-30 23:30:00 INFO About to run command: /usr/bin/env python /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=0.7 --joint_proj=no_proj --lr=5e-06 --mask_where=body --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=0.1
+2022-11-30 23:30:05 INFO Running runs: ['t5k9j37t']
+2023-01-17 06:37:41 INFO Running runs: []
+2023-01-17 06:37:41 INFO Agent received command: run
+2023-01-17 06:37:41 INFO Agent starting run with config:
+	alpha: 1
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: clipAttn
+	ne: 10
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2023-01-17 06:37:41 INFO About to run command: /usr/bin/env python /home/sakter/siq_clipAttn/retrain_rerun/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml gs://merlotreserve/ckpts/base_resadapt -scan_minibatch --output_ext --alpha=1 --joint_proj=no_proj --lr=5e-06 --mask_where=clipAttn --ne=10 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2023-01-17 06:37:46 INFO Running runs: ['4zo0buyt']
+2023-01-17 08:12:24 INFO Cleaning up finished run: 4zo0buyt
+2023-01-17 08:12:30 INFO Agent received command: exit
+2023-01-17 08:12:30 INFO Received exit command. Killing runs and quitting.

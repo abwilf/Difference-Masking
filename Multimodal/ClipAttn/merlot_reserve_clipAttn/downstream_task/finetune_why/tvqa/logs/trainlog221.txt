@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000733~friends_s07e06_seg02_clip_16 ~~~~~~~~
+ 32 to 94<|START|> why did chandler dump julie when he was fifteen?
+0   )  chandler moved and didn't want a long distance relationship     (10tok)
+1   )  chandler caught julie cheating on him     (6tok)
+2   )  chandler wanted to date someone else     (6tok)
+3   )  chandler wanted to dump julie before julie dumped him     (9tok)
+4 GT)  julie gained a lot of weight     (6tok)
+~~~~~~~~~~~ Example 1 001501~met_s02e13_seg02_clip_01 ~~~~~~~~
+ 29 to 71<|START|> why did ted ask his coworker to unbutton his shirt after he claimed to be sick?
+0   )  to see if was wearing women's undergarments     (10tok)
+1   )  to see if he shaved his chest     (7tok)
+2   )  because he wanted to try it on     (7tok)
+3   )  because he though he was wearing a wire     (8tok)
+4 GT)  to reveal his foo fighter shirt that proved he was not sick but going to a concert     (17tok)
+~~~~~~~~~~~ Example 2 002525~friends_s07e12_seg02_clip_04 ~~~~~~~~
+ 12 to 30<|START|> why does ross look upset after he walks to the edge of the roof?
+0   )  ross drops his favorite cup.     (6tok)
+1   )  ross sees rachel kiss joshua.     (6tok)
+2   )  ross sees rachel with chandler.     (6tok)
+3 GT)  ross looks upset because he thinks they are stuck on the roof.     (13tok)
+4   )  ross sees monica kiss chandler.     (6tok)
+~~~~~~~~~~~ Example 3 004317~friends_s03e15_seg02_clip_03 ~~~~~~~~
+ 25 to 74<|START|> why is rachel going to be at work all night when ross called?
+0   )  because of a jeans disaster     (5tok)
+1   )  because of a t-shirt disaster     (7tok)
+2 GT)  because of an underwear disaster     (5tok)
+3   )  because of a shoe disaster     (5tok)
+4   )  because of a make-up disaster     (7tok)
+Finished writing 50 questions; max len = 256

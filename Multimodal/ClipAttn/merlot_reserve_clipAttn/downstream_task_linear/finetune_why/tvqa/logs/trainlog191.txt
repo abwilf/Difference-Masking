@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001983~friends_s10e01_seg02_clip_19 ~~~~~~~~
+ 36 to 63<|START|> why did monica say she was going to keep her braids before she shook her hair? 
+0   )  it's very easy to maintain.     (7tok)
+1   )  they smell good.     (4tok)
+2   )  it's cool.     (4tok)
+3   )  it's stylish.     (4tok)
+4 GT)  she liked them.     (4tok)
+~~~~~~~~~~~ Example 1 003519~s06e01_seg02_clip_04 ~~~~~~~~
+ 6 to 93<|START|> why the pen is floating after howard talk to bernadette?
+0   )  because howard throw the pen in the air.     (9tok)
+1   )  because the pen has a string.     (7tok)
+2   )  because the pen is magic.     (6tok)
+3   )  because the pen has wings.     (6tok)
+4 GT)  because the pen is in the space.     (8tok)
+~~~~~~~~~~~ Example 2 005055~castle_s02e14_seg02_clip_22 ~~~~~~~~
+ 14 to 57<|START|> why is castle appear worried when ryan and esposito are calling him?
+0   )  the maitlans were missing.     (8tok)
+1 GT)  black-tailed pythons are not indigenous to the area.     (12tok)
+2   )  castle found the third man.     (6tok)
+3   )  things are going to be awkward when meeting with brad.     (11tok)
+4   )  castle thinks black-tailed pythons are poisonous.     (10tok)
+~~~~~~~~~~~ Example 3 005311~house_s01e01_seg02_clip_16 ~~~~~~~~
+ 42 to 56<|START|> why did house ask for change for a dollar when he ordered the vicodin?
+0   )  so house could give the patient a quarter for the pay phone.     (13tok)
+1 GT)  so house could get candy from the candy machine.     (10tok)
+2   )  so house could buy coffee from the vending machine.     (10tok)
+3   )  so house could buy a snack from the vending machine.     (11tok)
+4   )  so house could have change for the bus.     (9tok)
+Finished writing 49 questions; max len = 240

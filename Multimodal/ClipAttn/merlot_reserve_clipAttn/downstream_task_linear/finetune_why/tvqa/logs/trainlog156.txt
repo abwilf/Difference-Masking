@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003228~friends_s06e22_seg02_clip_13 ~~~~~~~~
+ 25 to 74<|START|> why is monica looking for chandler after the museum called?
+0   )  monica has some questions for him about the wedding.     (10tok)
+1   )  monica wants to tell chandler that they can move the wedding up.     (13tok)
+2   )  monica and chandler are meeting to go to the movies.     (11tok)
+3   )  chandler is late for dinner.     (6tok)
+4 GT)  chandler freaked out when he heard the wedding could be moved up.     (13tok)
+~~~~~~~~~~~ Example 1 003484~castle_s08e03_seg02_clip_22 ~~~~~~~~
+ 27 to 43<|START|> why did feller say she wrote peter a message when beckett and ryan were interrogating her?
+0   )  she wanted to reschedule.     (7tok)
+1   )  she was angry because he didn't call.     (9tok)
+2   )  she wanted him to know about the affair.     (9tok)
+3   )  because she was worried about him.     (7tok)
+4 GT)  she was hurt because he stood her up.     (9tok)
+~~~~~~~~~~~ Example 2 003996~castle_s07e13_seg02_clip_26 ~~~~~~~~
+ 29 to 70<|START|> why is esposito handling the paperwork to his colleague after solving the case ? 
+0   )  for losing a bet     (4tok)
+1   )  for eating his lunch     (4tok)
+2   )  for claiming credit     (3tok)
+3   )  he became his supervisor     (4tok)
+4 GT)  for creating a fake dating profile     (6tok)
+~~~~~~~~~~~ Example 3 005276~friends_s10e17-18_seg02_clip_35 ~~~~~~~~
+ 37 to 62<|START|> why was chandler and joey impressed when monica took down the foosball table?
+0 GT)  monica didn't use the tools     (6tok)
+1   )  monica did it in under 5 minutes     (7tok)
+2   )  monica ate it     (3tok)
+3   )  monica did it gracefully     (5tok)
+4   )  monica didn't take it down      (7tok)
+Finished writing 49 questions; max len = 247

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001658~house_s03e03_seg02_clip_10 ~~~~~~~~
+ 50 to 77<|START|> why does house say to not talk to powell after cameron points out it is 4:00?
+0   )  powell is probably sleeping     (4tok)
+1 GT)  there is nothing new to tell powell     (7tok)
+2   )  house wants to verify a few things first     (8tok)
+3   )  house doesn't want to worry powell unnecessarily      (10tok)
+4   )  house wants powell's wife to be there when they talk     (11tok)
+~~~~~~~~~~~ Example 1 002938~friends_s02e20_seg02_clip_18 ~~~~~~~~
+ 38 to 61<|START|> why was rachel so excited when she was holding ben?
+0   )  because ben hugged her for the first time     (8tok)
+1   )  becauseben was so sweet to her     (7tok)
+2   )  because ben kissed her on her cheek     (7tok)
+3 GT)  because ben said his first word     (6tok)
+4   )  ben didn't do anything      (6tok)
+~~~~~~~~~~~ Example 2 005754~house_s01e12_seg02_clip_21 ~~~~~~~~
+ 21 to 77<|START|> why did lola end up crying and hugging house after he said that her husband doesn't want the transplant?
+0   )  house was rude to her.     (6tok)
+1   )  it offended her that he doesn't want the transplant.     (11tok)
+2 GT)  he said that her husband will probably die.     (9tok)
+3   )  she had no where else to go.     (8tok)
+4   )  house wasn't trying his best.     (7tok)
+~~~~~~~~~~~ Example 3 007290~house_s07e21_seg02_clip_08 ~~~~~~~~
+ 15 to 84<|START|> why were chase and the female doctor giving taub dirty looks when they were discussing the patient?
+0   )  because he was dismissing their ideas.     (8tok)
+1   )  because they were tired and wanted to go home.     (10tok)
+2 GT)  because they had done what he asked but they were at a dead end.     (15tok)
+3   )  because he had asked them to work on christmas.     (10tok)
+4   )  because they were wanting to discuss a different case.      (11tok)
+Finished writing 62 questions; max len = 231

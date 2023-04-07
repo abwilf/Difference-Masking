@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000319~friends_s04e21_seg02_clip_15 ~~~~~~~~
+ 44 to 56<|START|> why did gunther apologize to ross after ross found out gunther told rachel about ross and the girl at the copy place?
+0   )  gunther wanted to feel better about himself.     (9tok)
+1   )  gunther felt bad about what he had done.     (10tok)
+2   )  gunther wanted to cheer ross up.     (8tok)
+3   )  gunther did not want to feel guilty.     (9tok)
+4 GT)  gunther did not know he was not supposed to tell rachel.     (13tok)
+~~~~~~~~~~~ Example 1 002367~house_s07e16_seg02_clip_10 ~~~~~~~~
+ 2 to 96<|START|> why is carnell concerned after house shoots the bow the first time?
+0   )  carnell deosn't want house to shoot the door.     (13tok)
+1   )  carnell doesn't want house to shoot him.     (10tok)
+2 GT)  carnell doesn't want house to shoot the hooker,     (11tok)
+3   )  carnell doesn't want house to shoot the apple.     (11tok)
+4   )  house has bad aim.     (5tok)
+~~~~~~~~~~~ Example 2 002623~house_s06e09_seg02_clip_19 ~~~~~~~~
+ 46 to 52<|START|> why did wilson blame himself for a patient's death after he had been out drinking?
+0   )  the patient's family blamed wilson for their death.     (10tok)
+1   )  wilson gave the patient the wrong medicine which caused an allergic reaction.     (13tok)
+2   )  wilson gave the patient blood infected with aids.     (9tok)
+3   )  wilson failed the heart surgery.     (6tok)
+4 GT)  wilson felt he gave the patient too much chemo.     (10tok)
+~~~~~~~~~~~ Example 3 005695~friends_s10e12_seg02_clip_07 ~~~~~~~~
+ 22 to 77<|START|> why does ross think chandler is bitter after phoebe cannot make up her mind?
+0   )  chandler is bitter because rachel will not make the right decision.     (12tok)
+1 GT)  chandler is bitter because phoebe did not choose him in the first place.     (14tok)
+2   )  chandler is bitter because phoebe chose ross.     (8tok)
+3   )  chandler is bitter because phoebe went to use the restroom instead of making the decision.     (16tok)
+4   )  chandler is bitter because phoebe chose joey.     (8tok)
+Finished writing 56 questions; max len = 273

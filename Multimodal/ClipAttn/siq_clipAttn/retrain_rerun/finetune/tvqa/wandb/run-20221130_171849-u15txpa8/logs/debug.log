@@ -1,0 +1,27 @@
+2022-11-30 17:18:49,418 INFO    MainThread:1133014 [wandb_setup.py:_flush():68] Configure stats pid to 1133014
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_setup.py:_flush():68] Loading settings from /home/sakter/.config/wandb/settings
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_setup.py:_flush():68] Loading settings from /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/settings
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'entity': 'snat', 'project': 'merlotreserve-retrain-siq', 'sweep_id': '4v4a8tsj', 'root_dir': '/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa', 'run_id': 'u15txpa8', 'sweep_param_path': '/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/sweep-4v4a8tsj/config-u15txpa8.yaml'}
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'tvqa_finetune.py', 'program': '/home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/tvqa_finetune.py'}
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_init.py:_log_setup():476] Logging user logs to /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221130_171849-u15txpa8/logs/debug.log
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_init.py:_log_setup():477] Logging internal logs to /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221130_171849-u15txpa8/logs/debug-internal.log
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_init.py:init():516] calling init triggers
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_init.py:init():519] wandb.init called with sweep_config: {'alpha': 0.8, 'joint_proj': 'no_proj', 'lr': 5e-06, 'mask_where': 'face', 'ne': 10, 'output_grid_h': 12, 'output_grid_w': 24, 'percent_data': 0.2}
+config: {'data': {'train_fns': '/data/siq-less-files/train{:03d}of064.tfrecord', 'num_train_files': 13, 'use_audio_token_prob': 0.5, 'random_scale_max': 1.1, 'random_scale_min': 1.0, 'fft_hop_length': 588, 'fft_window_size': 1536, 'num_mels': 64, 'sample_rate': 22050, 'spec_size': 188, 'mask_rate': 0.25, 'num_audio2text_seqs': 1, 'num_text2audio_seqs': 1, 'num_text_seqs': 1, 'num_text_seqs_in_record': 1, 'num_segments': 7, 'num_segment_groups': 2, 'num_audio_subsegments': 3, 'seq_len': 640, 'lang_seq_len': 256, 'num_text_spans_to_include': 48, 'text_span_budget': 38, 'num_answers': 5, 'mask_where': 'face', 'alpha': 0.8, 'seed': 123456}, 'model': {'hidden_size': 768, 'joint_num_layers': 12, 'use_bfloat16': True, 'audio_num_layers': 12, 'audio_patch_size': 2, 'audio_seq_length': 60, 'audio_token_length': 6, 'output_grid': [12, 24], 'vit_patch_size': 16, 'vit_pooling_ratio': 2, 'vit_num_layers': 12, 'span_num_layers': 4, 'text_span_length': 15}, 'device': {'use_tpu': True, 'num_tpu_cores': 512, 'output_dir': '/home/sakter/results/retrain_siq/out/base.yaml/tvqa_face_0.2_12_24_0.8_no_proj', 'batch_size': 8, 'iterations_per_loop': 445, 'commit_every_nsteps': 50, 'n_fns_per_cycle': 64, 'num_parallel_reads': 128, 'shuffle_buffer_size': 4096, 'wandb_project': 'merlotreserve', 'prefetch_size': 0}, 'optimizer': {'beta_2': 0.98, 'eps': 1e-06, 'learning_rate': 5e-06, 'num_train_steps': 4450, 'num_warmup_steps': 222, 'use_bfloat16_adam': True, 'weight_decay_rate': 0.1, 'do_bias_correction': True}, '_ckpt': 'gs://merlotreserve/ckpts/base_resadapt'}
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_init.py:init():569] starting backend
+2022-11-30 17:18:49,419 INFO    MainThread:1133014 [wandb_init.py:init():573] setting up manager
+2022-11-30 17:18:49,424 INFO    MainThread:1133014 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-30 17:18:49,427 INFO    MainThread:1133014 [wandb_init.py:init():580] backend started and connected
+2022-11-30 17:18:49,431 INFO    MainThread:1133014 [wandb_run.py:_config_callback():1145] config_cb None None {'alpha': 0.8, 'joint_proj': 'no_proj', 'lr': 5e-06, 'mask_where': 'face', 'ne': 10, 'output_grid_h': 12, 'output_grid_w': 24, 'percent_data': 0.2}
+2022-11-30 17:18:49,435 INFO    MainThread:1133014 [wandb_init.py:init():658] updated telemetry
+2022-11-30 17:18:49,435 INFO    MainThread:1133014 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-11-30 17:18:49,558 INFO    MainThread:1133014 [wandb_run.py:_on_init():1974] communicating current version
+2022-11-30 17:18:49,629 INFO    MainThread:1133014 [wandb_run.py:_on_init():1978] got version response upgrade_message: "wandb version 0.13.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-11-30 17:18:49,629 INFO    MainThread:1133014 [wandb_init.py:init():727] starting run threads in backend
+2022-11-30 17:18:53,422 INFO    MainThread:1133014 [wandb_run.py:_console_start():1954] atexit reg
+2022-11-30 17:18:53,423 INFO    MainThread:1133014 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2022-11-30 17:18:53,423 INFO    MainThread:1133014 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2022-11-30 17:18:53,423 INFO    MainThread:1133014 [wandb_run.py:_redirect():1899] Redirects installed.
+2022-11-30 17:18:53,424 INFO    MainThread:1133014 [wandb_init.py:init():764] run started, returning control to user process
+2022-11-30 17:49:07,744 WARNING MsgRouterThr:1133014 [router.py:message_loop():77] message_loop has been closed

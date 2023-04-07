@@ -1,0 +1,107 @@
+2022-12-29 05:55:06 INFO Running runs: []
+2022-12-29 05:55:06 INFO Agent received command: run
+2022-12-29 05:55:06 INFO Agent starting run with config:
+	alpha: 1
+	extn: _run_1
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: clipAttn
+	ne: 3
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-12-29 05:55:06 INFO About to run command: /usr/bin/env python /home/sakter/merlot_reserve_clipAttn/downstream_task_linear/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml -scan_minibatch --output_ext --alpha=1 --extn=_run_1 --joint_proj=no_proj --lr=5e-06 --mask_where=clipAttn --ne=3 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-12-29 05:55:11 INFO Running runs: ['9jg686gn']
+2022-12-29 12:36:40 INFO Cleaning up finished run: 9jg686gn
+2022-12-29 12:36:53 INFO Agent received command: exit
+2022-12-29 12:36:53 INFO Received exit command. Killing runs and quitting.
+2022-12-30 04:50:38 INFO Running runs: []
+2022-12-30 04:50:39 INFO Agent received command: run
+2022-12-30 04:50:39 INFO Agent starting run with config:
+	alpha: 0.2
+	extn: _run_1
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: clipAttn
+	ne: 3
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-12-30 04:50:39 INFO About to run command: /usr/bin/env python /home/sakter/merlot_reserve_clipAttn/downstream_task_linear/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml -scan_minibatch --output_ext --alpha=0.2 --extn=_run_1 --joint_proj=no_proj --lr=5e-06 --mask_where=clipAttn --ne=3 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-12-30 04:50:44 INFO Running runs: ['hla27gqt']
+2022-12-30 11:14:36 ERROR 500 response executing GraphQL.
+2022-12-30 11:14:36 ERROR {"errors":[{"message":"context deadline exceeded"}]}
+2022-12-30 11:32:25 INFO Cleaning up finished run: hla27gqt
+2022-12-30 11:32:30 INFO Agent received command: run
+2022-12-30 11:32:30 INFO Agent starting run with config:
+	alpha: 0.4
+	extn: _run_1
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: clipAttn
+	ne: 3
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-12-30 11:32:30 INFO About to run command: /usr/bin/env python /home/sakter/merlot_reserve_clipAttn/downstream_task_linear/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml -scan_minibatch --output_ext --alpha=0.4 --extn=_run_1 --joint_proj=no_proj --lr=5e-06 --mask_where=clipAttn --ne=3 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-12-30 11:32:35 INFO Running runs: ['m8lkydnm']
+2022-12-30 18:14:22 INFO Cleaning up finished run: m8lkydnm
+2022-12-30 18:14:22 INFO Agent received command: run
+2022-12-30 18:14:22 INFO Agent starting run with config:
+	alpha: 0.6
+	extn: _run_1
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: clipAttn
+	ne: 3
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-12-30 18:14:22 INFO About to run command: /usr/bin/env python /home/sakter/merlot_reserve_clipAttn/downstream_task_linear/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml -scan_minibatch --output_ext --alpha=0.6 --extn=_run_1 --joint_proj=no_proj --lr=5e-06 --mask_where=clipAttn --ne=3 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-12-30 18:14:27 INFO Running runs: ['4flr55r2']
+2022-12-31 00:56:15 INFO Cleaning up finished run: 4flr55r2
+2022-12-31 00:56:15 INFO Agent received command: run
+2022-12-31 00:56:15 INFO Agent starting run with config:
+	alpha: 0.8
+	extn: _run_1
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: clipAttn
+	ne: 3
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2022-12-31 00:56:15 INFO About to run command: /usr/bin/env python /home/sakter/merlot_reserve_clipAttn/downstream_task_linear/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml -scan_minibatch --output_ext --alpha=0.8 --extn=_run_1 --joint_proj=no_proj --lr=5e-06 --mask_where=clipAttn --ne=3 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2022-12-31 00:56:20 INFO Running runs: ['relfd698']
+2022-12-31 07:38:20 INFO Cleaning up finished run: relfd698
+2022-12-31 07:38:20 INFO Agent received command: exit
+2022-12-31 07:38:20 INFO Received exit command. Killing runs and quitting.
+2023-01-13 13:57:37 INFO Running runs: []
+2023-01-13 13:57:37 INFO Agent received command: run
+2023-01-13 13:57:37 INFO Agent starting run with config:
+	alpha: 1
+	extn: _run_1
+	joint_proj: no_proj
+	lr: 5e-06
+	mask_where: clipAttn
+	ne: 3
+	output_grid_h: 12
+	output_grid_w: 24
+	percent_data: 1
+2023-01-13 13:57:37 INFO About to run command: /usr/bin/env python /home/sakter/merlot_reserve_clipAttn/downstream_task_linear/finetune/tvqa/tvqa_finetune.py ../../pretrain/configs/base.yaml -scan_minibatch --output_ext --alpha=1 --extn=_run_1 --joint_proj=no_proj --lr=5e-06 --mask_where=clipAttn --ne=3 --output_grid_h=12 --output_grid_w=24 --percent_data=1
+2023-01-13 13:57:42 INFO Running runs: ['4ioko5t6']
+2023-01-13 18:40:26 ERROR 502 response executing GraphQL.
+2023-01-13 18:40:26 ERROR 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2023-01-13 20:39:34 INFO Cleaning up finished run: 4ioko5t6
+2023-01-13 20:39:39 INFO Agent received command: exit
+2023-01-13 20:39:39 INFO Received exit command. Killing runs and quitting.

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003826~house_s03e12_seg02_clip_06 ~~~~~~~~
+ 4 to 94<|START|> why does house ask cuddy to have someone cover his patient after he realizes his patient was raped?
+0   )  the patient asked house if she could have another doctor.     (11tok)
+1   )  house is uncomfortable treating a rape victim.     (8tok)
+2   )  house thinks a female rape victim should be treated by a female doctor.     (14tok)
+3 GT)  house doesn't think he is the right doctor for this patient.     (13tok)
+4   )  house is uncomfortable treating any women at all.     (9tok)
+~~~~~~~~~~~ Example 1 011250~s07e10_seg02_clip_07 ~~~~~~~~
+ 45 to 53<|START|> why does sheldon say he's down to seven friends when penny is over?
+0   )  she insulted his mother.      (6tok)
+1   )  she insulted him.      (5tok)
+2   )  she insulted his friends.      (6tok)
+3   )  she insulted his career.      (6tok)
+4 GT)  she says something to make him mad.      (9tok)
+~~~~~~~~~~~ Example 2 012530~house_s04e11_seg02_clip_13 ~~~~~~~~
+ 38 to 60<|START|> why did cameron say house was behind it when she accused him of trying to make her miserable?
+0   )  cameron said she overheard two of the interns talking about the plan.     (15tok)
+1   )  cameron said cole had told her about his little plan.     (11tok)
+2   )  cameron said she found the email where he set the whole thing up.     (14tok)
+3   )  cameron said house had been trying for months to get her removed from the hospital budget committee.     (18tok)
+4 GT)  cameron said house was trying to get her to push for cable in the hospital.     (16tok)
+~~~~~~~~~~~ Example 3 013554~met_s06e08_seg02_clip_12 ~~~~~~~~
+ 42 to 57<|START|> why was lily now satisfied with sex when she had it with marshall?
+0 GT)  marshall lasted two or three times longer during sex.     (10tok)
+1   )  marshall did more positions.     (5tok)
+2   )  marshall acted more confident during sex.     (7tok)
+3   )  lily was more comfortable with having sex with marshall.     (10tok)
+4   )  lily found marshall more attractive.     (6tok)
+Finished writing 40 questions; max len = 229

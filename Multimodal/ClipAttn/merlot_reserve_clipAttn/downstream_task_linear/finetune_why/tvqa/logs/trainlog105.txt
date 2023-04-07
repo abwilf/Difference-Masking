@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000873~friends_s09e05_seg02_clip_18 ~~~~~~~~
+ 12 to 30<|START|> why does ross tell rachel that she's becoming an obsessive mother when rachel keeps looking at emma?
+0   )  because ross is afraid that rachel will become like his own mother.     (13tok)
+1   )  because rachel isn't a good mother.     (8tok)
+2 GT)  because rachel keeps looking at emma and is ignoring everyone else at the table.     (15tok)
+3   )  because ross doesn't want emma to be spoiled.     (10tok)
+4   )  because rachel is a good mother and ross is afraid he won't be able to measure up as a father.     (22tok)
+~~~~~~~~~~~ Example 1 010857~s08e18_seg02_clip_02 ~~~~~~~~
+ -25 to 125<|START|> why sheldon massages leonard after he read the article?
+0   )  because somebody stole leonard's article.     (7tok)
+1   )  because leonard broke with penny.     (6tok)
+2   )  because leonard learned that penny has an affair.     (9tok)
+3 GT)  because leonard is angry.     (5tok)
+4   )  because leonard has a headache.     (6tok)
+~~~~~~~~~~~ Example 2 013161~house_s07e21_seg02_clip_23 ~~~~~~~~
+ 30 to 69<|START|> why does house fall down after he tries to punch a fellow patron?
+0   )  he's really drunk     (4tok)
+1   )  his bad knee gives way     (5tok)
+2 GT)  fellow patron hits him hard     (5tok)
+3   )  his stool breaks     (3tok)
+4   )  wilson pushes him     (3tok)
+~~~~~~~~~~~ Example 3 019305~castle_s03e01_seg02_clip_07 ~~~~~~~~
+ 11 to 31<|START|> why does beckett walk away from castle after yelling at him?
+0   )  beckett has a job interview     (7tok)
+1   )  beckett is trying to get to a dinner date     (11tok)
+2   )  beckett likes to yell     (6tok)
+3   )  beckett is late for an appointment     (8tok)
+4 GT)  beckett is mad at castle     (7tok)
+Finished writing 42 questions; max len = 233

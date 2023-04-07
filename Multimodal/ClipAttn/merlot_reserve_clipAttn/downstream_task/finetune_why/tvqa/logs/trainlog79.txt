@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000847~house_s08e07_seg02_clip_15 ~~~~~~~~
+ 16 to 54<|START|> why did chase close the laptop when house and taub are watching a video?
+0   )  they were reading his emails     (5tok)
+1   )  they found his facebook page     (5tok)
+2   )  they found old photos of him     (6tok)
+3 GT)  they were watching an old video of him     (8tok)
+4   )  they were reading his files     (5tok)
+~~~~~~~~~~~ Example 1 004687~grey_s02e22_seg02_clip_18 ~~~~~~~~
+ 22 to 76<|START|> why is alex irritated with dr. burke after he told him to leave the room
+0 GT)  because alex wants to tell patients the truth     (8tok)
+1   )  because dr. burke told him to stop being immature     (10tok)
+2   )  because dr. burke pulled him from the case     (9tok)
+3   )  because dr. burke told him to go home     (9tok)
+4   )  because alex want to be a neurosurgeon      (10tok)
+~~~~~~~~~~~ Example 2 009295~friends_s03e01_seg02_clip_22 ~~~~~~~~
+ 3 to 96<|START|> why did ross freak out after rachel came in his room in a princess leia costume
+0   )  because he was surprised that she was dressed in costume     (10tok)
+1   )  because she had gotten the hair wrong      (8tok)
+2 GT)  because he was picturing his mom     (7tok)
+3   )  because his work called to tell him to come into work the minute she walked in      (17tok)
+4   )  because she accidentally knocked his dinosaur model off his dresser when she walked in     (14tok)
+~~~~~~~~~~~ Example 3 011855~friends_s03e03_seg02_clip_11 ~~~~~~~~
+ 42 to 86<|START|> why does phoebe allow malcolm to read her his log when sitting on the couch in the coffee shop?
+0 GT)  because malcolm included excerpts about phoebe in the log     (10tok)
+1   )  because phoebe wants to know about everything in the log     (10tok)
+2   )  because phoebe wants to fall asleep     (6tok)
+3   )  because phoebe thinks it will give her insight into malcolm's mind     (12tok)
+4   )  because phoebe wants to impress malcolm     (6tok)
+Finished writing 46 questions; max len = 289

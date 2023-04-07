@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002040~friends_s07e16_seg02_clip_20 ~~~~~~~~
+ 30 to 70<|START|> why did on of ross's students to ask him if he ever washed his face when he was in his last class?
+0   )  he had on eyeshadow.     (5tok)
+1   )  he had a smudge of dirt on his face.     (10tok)
+2   )  he had food on his face.      (8tok)
+3   )  he had lipstick on his face.     (7tok)
+4 GT)  there was a line on his face.     (8tok)
+~~~~~~~~~~~ Example 1 004600~s03e18_seg02_clip_18 ~~~~~~~~
+ 41 to 57<|START|> why did leonard tell leonard to looked on youtube when sheldon asked him a question?
+0   )  leonard wanted sheldon to research a video.     (8tok)
+1   )  leonard wanted sheldon to watch a scary video.     (9tok)
+2   )  leonard wanted sheldon's opinion on a video.     (9tok)
+3 GT)  the youtube showed what sheldon did last night.     (9tok)
+4   )  leonard wanted sheldon to cry about the youtube video shown?     (11tok)
+~~~~~~~~~~~ Example 2 005880~house_s08e08_seg02_clip_24 ~~~~~~~~
+ 42 to 58<|START|> why does foreman refuse to go out when regina asks him?
+0   )  too many important emails to send.      (8tok)
+1   )  foreman's wife is expecting him.     (7tok)
+2   )  foreman needs to check on a patient.     (8tok)
+3   )  foreman isn't feeling well.     (6tok)
+4 GT)  too much work do.     (5tok)
+~~~~~~~~~~~ Example 3 008440~friends_s05e21_seg01_clip_01 ~~~~~~~~
+ 63 to 92<|START|> why does monica kiss chandler when they're sitting on the couch?
+0   )  he asked for one.     (5tok)
+1 GT)  he said a comforting and nice statement.     (8tok)
+2   )  he begged her for one.     (6tok)
+3   )  he told her that if she didn't kiss him he would leave.     (14tok)
+4   )  he said he needed a kiss or they'd break up.     (12tok)
+Finished writing 58 questions; max len = 249

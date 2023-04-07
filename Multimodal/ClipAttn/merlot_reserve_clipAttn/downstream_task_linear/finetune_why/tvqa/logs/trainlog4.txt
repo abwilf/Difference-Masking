@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000260~house_s02e02_seg02_clip_07 ~~~~~~~~
+ 34 to 64<|START|> why does house point out that many hookers won't kiss him on the mouth, when they're discussing a 9-year-old with cancer?
+0   )  because house wants advice about women.      (8tok)
+1   )  because house is upset that hookers won't kiss him.      (13tok)
+2   )  because house wants to show the team that he is single.      (13tok)
+3   )  because house wants to impress people with his class.      (11tok)
+4 GT)  to counter chase's conclusion that if a person has had intercourse, they probably have kissed.      (20tok)
+~~~~~~~~~~~ Example 1 003332~grey_s03e11_seg02_clip_14 ~~~~~~~~
+ 44 to 55<|START|> why did george want his father to stop acting like he was dying when his father was complimenting him?
+0 GT)  george's dad was not actually dying.     (8tok)
+1   )  george did not want to accept his dad was dying.     (11tok)
+2   )  george wanted to put his dad at ease.     (9tok)
+3   )  george wanted to pretend everything was fine.     (8tok)
+4   )  george wanted to make his mother believe his dad was alright when she arrived.     (15tok)
+~~~~~~~~~~~ Example 2 004100~house_s08e21_seg02_clip_20 ~~~~~~~~
+ 43 to 55<|START|> why was the patient suffering from dizzines and voices when house found out the diagnosis?
+0   )  because the patient had a lack of certain vitamins     (9tok)
+1   )  because the patient had a difficult disease     (7tok)
+2   )  because the patient artery was pressing on his heart valve     (10tok)
+3   )  because the patient was not well in his habits     (9tok)
+4 GT)  because the patient artery's was pressing against his temporal lobe of his brain     (16tok)
+~~~~~~~~~~~ Example 3 004356~s04e20_seg02_clip_13 ~~~~~~~~
+ 35 to 64<|START|> why is sheldon acting funny when leonard asks if he and amy are okay?
+0   )  sheldon is acting funny because he ate something bad.      (11tok)
+1   )  sheldon is acting funny because that's who he is.      (12tok)
+2   )  sheldon is acting funny because  he doesn't like leonard.      (13tok)
+3 GT)  sheldon is acting funny because he and amy had sex and he isn't sure if leonard knows.      (20tok)
+4   )  sheldon is acting funny because he missed his dose of medicine.      (13tok)
+Finished writing 54 questions; max len = 255

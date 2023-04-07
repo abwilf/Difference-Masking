@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001529~s02e10_seg02_clip_09 ~~~~~~~~
+ 36 to 63<|START|> why does steph and leonard seem to joke about sheldon's illness after sheldon leaves the room?
+0   )  steph was studying a new virus that sheldon has and is excited to test on sheldon.     (17tok)
+1   )  steph and sheldon do not like sheldon and wish him to be sick.     (14tok)
+2   )  sheldon won a 100 dollar bet that sheldon would get sick.     (12tok)
+3 GT)  steph was lying about sheldon's illness to make him be quiet.     (13tok)
+4   )  sheldon was playing a prank on steph and leonard.     (10tok)
+~~~~~~~~~~~ Example 1 003833~castle_s06e09_seg02_clip_04 ~~~~~~~~
+ 36 to 62<|START|> why did pam have cheek implants put in before she died?
+0   )  to look like her mom     (5tok)
+1   )  so she can model     (4tok)
+2 GT)  to make her face broarder like lanie     (10tok)
+3   )  to look liketyra banks     (6tok)
+4   )  to look like halle berry     (5tok)
+~~~~~~~~~~~ Example 2 006905~s07e22_seg02_clip_17 ~~~~~~~~
+ 3 to 39<|START|> why was leonard wearing a tie when he entered sheldon's room?
+0 GT)  leonard had gone to a funereal.     (9tok)
+1   )  leonard had a job interview.     (6tok)
+2   )  leonard had been to the theater.     (7tok)
+3   )  leonard had auditioned for the part of a businessman.     (11tok)
+4   )  leonard had been on a date with penny.     (9tok)
+~~~~~~~~~~~ Example 3 007161~house_s02e23_seg02_clip_08 ~~~~~~~~
+ 34 to 65<|START|> why did cameron say house left the room after talking about a patient's symptoms
+0   )  cameron said house left the room because he wanted to go see cuddy     (14tok)
+1   )  cameron said house left the room because he had to go to the restroom     (14tok)
+2   )  cameron said house left the room because he had to fart     (11tok)
+3 GT)  cameron said house left the room because he leg hurts     (10tok)
+4   )  cameron said house left the room because he needed to talk to stacy     (13tok)
+Finished writing 51 questions; max len = 241

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000176~s05e14_seg01_clip_02 ~~~~~~~~
+ 66 to 90<|START|> why does amy says she put a face on her flag after sheldon ask about it
+0   )  she put a face on her flag to make him smile     (11tok)
+1   )  she put a face on her flag to give him a side kick     (13tok)
+2   )  she put a face on her flag to make him a logo     (12tok)
+3 GT)  she put a face on her flag to bring in younger viewers     (12tok)
+4   )  she put a face on her flag to create their own flag     (12tok)
+~~~~~~~~~~~ Example 1 003248~house_s07e16_seg02_clip_22 ~~~~~~~~
+ -366 to 466<|START|> why did house jump off of the balcony of the hotel room after he left the bar?
+0   )  because house was trying to freak out wilson.      (10tok)
+1   )  because house was trying to commit suicide.      (9tok)
+2 GT)  because house was tired of thinking of his regrets in life and wanted to feel carefree again.     (18tok)
+3   )  because house was trying to ruin the college students' good time.     (13tok)
+4   )  because house had had too much too drink.      (10tok)
+~~~~~~~~~~~ Example 2 007344~friends_s03e20_seg02_clip_03 ~~~~~~~~
+ 40 to 88<|START|> why didn't monica want phoebe to use the dinosaur when they were sitting in front of the dollhouse?
+0   )  it wasn't big enough.     (6tok)
+1   )  because she was afraid of it.     (7tok)
+2   )  she has reptile allergies.     (5tok)
+3 GT)  because it was not the right size and not victorian     (10tok)
+4   )  it was the wrong color.     (6tok)
+~~~~~~~~~~~ Example 3 007600~s03e14_seg02_clip_02 ~~~~~~~~
+ 43 to 55<|START|> why did sheldon correct raj's grammar after raj finished voicing his displeasure with howard and leonard ?
+0   )  raj said his friend were disloyal instead of friends were disloyal.     (16tok)
+1   )  sheldon was trying to mock raj.     (7tok)
+2   )  sheldon was trying too be mean to raj.     (9tok)
+3 GT)  raj said coccyx instead of the correct term coccyges.     (14tok)
+4   )  sheldon took pleasure in correcting raj.     (7tok)
+Finished writing 56 questions; max len = 237

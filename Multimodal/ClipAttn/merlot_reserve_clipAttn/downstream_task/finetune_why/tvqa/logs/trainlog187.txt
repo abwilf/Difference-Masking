@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005563~house_s07e03_seg02_clip_24 ~~~~~~~~
+ 4 to 38<|START|> why does house say the patient's son would have died that day when trying to convince her to have the surgery?
+0 GT)  because the patient's son had a pool of blood building in his brain, house says he would have died anyway.     (23tok)
+1   )  because the patient's son was suffering from cystic fibrosis and the build up of mucus in his lungs and head wold have killed him anyway.     (31tok)
+2   )  because the patient's son had suffered a previous head injury and his brain had already begun to swell and die before the crash.     (25tok)
+3   )  because the patient's son was already in severe adrenal failure and was slowly dying anyway before the crash ever took place.     (24tok)
+4   )  because the patient's son had inhaled an aerosol chemical that caused a bubble to form in his brain that would have killed him anyway.     (27tok)
+~~~~~~~~~~~ Example 1 006075~friends_s01e24_seg01_clip_00 ~~~~~~~~
+ 66 to 91<|START|> why do phoebe, monica, and rachel get so excited when they come into the coffee house?
+0   )  ross promised to buy them all coffee.     (8tok)
+1   )  they haven't seen ross in a long time.     (10tok)
+2   )  they're tired and need coffee     (6tok)
+3   )  monica is going to tell them all about her blind date     (11tok)
+4 GT)  they want to see pictures of ben     (7tok)
+~~~~~~~~~~~ Example 2 013243~met_s06e12_seg02_clip_04 ~~~~~~~~
+ 42 to 86<|START|> why were lily and marshall shocked when robin explained why she took the new job?
+0   )  because robin said the job was worse than her current job.     (12tok)
+1   )  because robin said she was going to move to another town.     (12tok)
+2   )  because robin had said she wanted to be a stay-home mom.     (14tok)
+3 GT)  because robin said she wanted to give their daughter beer.     (11tok)
+4   )  because lily had wanted robin's new job herself.     (10tok)
+~~~~~~~~~~~ Example 3 014523~s03e09_seg02_clip_14 ~~~~~~~~
+ 13 to 29<|START|> why did raj ask sheldon about not putting in an abort request when they were watching the video?
+0   )  they didn't think the prank would go over well.     (11tok)
+1   )  they wanted to do a different prank.     (8tok)
+2   )  they only wanted to prank one person in the room.     (11tok)
+3   )  they didn't place the camera in the right place.      (12tok)
+4 GT)  they didn't want the prank to be completed.     (10tok)
+Finished writing 47 questions; max len = 246

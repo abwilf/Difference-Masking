@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001773~castle_s02e06_seg02_clip_06 ~~~~~~~~
+ 43 to 56<|START|> why was vixen fighting before crow was found dead?
+0   )  because he didn't show up for dinner     (8tok)
+1   )  because he was out past his curfew     (7tok)
+2   )  because he lost a bet     (5tok)
+3 GT)  because he was seeing someone else     (6tok)
+4   )  because he forgot her birthday     (5tok)
+~~~~~~~~~~~ Example 1 008173~s01e12_seg02_clip_16 ~~~~~~~~
+ -3 to 103<|START|> why did raj change his shirt after the party when the boys walk through the park?
+0   )  he was bored     (3tok)
+1   )  he got it dirty     (4tok)
+2 GT)  it's a different day.     (6tok)
+3   )  he's wearing the same clothes.     (7tok)
+4   )  he needed the right park outfit.     (7tok)
+~~~~~~~~~~~ Example 2 014317~friends_s03e07_seg02_clip_17 ~~~~~~~~
+ -6 to 107<|START|> why do dr. green and ross start getting along after rachel talks about her chiropractor.
+0 GT)  dr. green and ross both thought the chiropractor was ridiculous.     (13tok)
+1   )  dr. green and ross realize they are both related to the chiropractor.     (15tok)
+2   )  dr. green and ross both have had bad experiences with this chiropractor.     (15tok)
+3   )  dr. green and ross both dated the chiropractor's ex wife.     (14tok)
+4   )  dr. green and ross both love to talk about chiropractors.     (14tok)
+~~~~~~~~~~~ Example 3 017645~friends_s01e15_seg02_clip_19 ~~~~~~~~
+ 60 to 96<|START|> why did monica want steve to go home before dinner?
+0 GT)  steve was acting foolish.     (5tok)
+1   )  steve was wonderful.     (4tok)
+2   )  monica was in love with steve.     (7tok)
+3   )  monica was sick.     (4tok)
+4   )  monica wanted ross to come over.     (7tok)
+Finished writing 38 questions; max len = 234

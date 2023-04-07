@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004136~s05e20_seg02_clip_15 ~~~~~~~~
+ 11 to 88<|START|> why sheldon is afraid when penny took the box with leonard's toy?
+0 GT)  because penny can brake leonard's toy.     (8tok)
+1   )  because penny can take the toy for her.     (9tok)
+2   )  because the toy is broken.     (6tok)
+3   )  because penny has both hands full.     (7tok)
+4   )  because penny wants to brake the toy     (7tok)
+~~~~~~~~~~~ Example 1 004392~friends_s08e09_seg02_clip_01 ~~~~~~~~
+ 68 to 88<|START|> why is the pie special that the guest brought when he arrives to monica's apartment?
+0 GT)  the pie is no fat, no sugar, no dairy     (11tok)
+1   )  the pie is monica's favorite     (6tok)
+2   )  the pie is only found in the jungles of the amazon rainforest     (13tok)
+3   )  the pie cost $275     (6tok)
+4   )  the pie is decorated in green bay packers colors     (9tok)
+~~~~~~~~~~~ Example 2 008232~house_s06e03_seg02_clip_04 ~~~~~~~~
+ 38 to 61<|START|> why does ruwe not want to take chase's advice when chase recommends to whom he should talk?
+0   )  he says he will be deported     (6tok)
+1   )  he says he will be killed     (6tok)
+2   )  he says he will be arrested     (6tok)
+3 GT)  he says they wil do nothing     (6tok)
+4   )  he says he will be putting his own family in danger     (11tok)
+~~~~~~~~~~~ Example 3 010280~friends_s01e06_seg02_clip_20 ~~~~~~~~
+ 33 to 65<|START|> why did joey and phoebe embrace after they spoke? 
+0   )  joey and phoebe embraced because they were falling in love.      (12tok)
+1 GT)  joey and phoebe embraced because phoebe had consoled him.      (12tok)
+2   )  joey and phoebe didn't embrace.      (8tok)
+3   )  joey and phoebe embraced to make monica jealous.      (10tok)
+4   )  the embrace of joey and phoebe was to make ross jealous.      (13tok)
+Finished writing 39 questions; max len = 236

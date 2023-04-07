@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001152~castle_s04e23_seg02_clip_03 ~~~~~~~~
+ 28 to 43<|START|> why did beckett look as if 299 first avenue significant after castle asked what was there? 
+0 GT)  it was the address of captain montgomery.     (8tok)
+1   )  it was the address of captain montgue.     (9tok)
+2   )  it was the address of captain gates.     (8tok)
+3   )  it was the address of sargent franks.     (10tok)
+4   )  it was the address of captain houser.     (9tok)
+~~~~~~~~~~~ Example 1 002432~friends_s06e12_seg02_clip_13 ~~~~~~~~
+ 25 to 44<|START|> why do they call monica after they say they won't be able to settle it?
+0   )  to ask if she could order pizza     (7tok)
+1   )  they call her to say hi     (6tok)
+2   )  to tell her a joke     (5tok)
+3 GT)  they call her to let her decide     (7tok)
+4   )  to say oh, hi mark     (6tok)
+~~~~~~~~~~~ Example 2 003968~grey_s03e25_seg02_clip_14 ~~~~~~~~
+ 19 to 79<|START|> why did jeff not look for his wife when his wife went missing?
+0   )  jeff was unconscious     (3tok)
+1   )  jeff and his wife were estranged     (7tok)
+2   )  jeff hated his wife     (4tok)
+3   )  jeff's wife told him she'd be back in a few days     (13tok)
+4 GT)  jeff thought his wife left him     (6tok)
+~~~~~~~~~~~ Example 3 004224~friends_s09e23-24_seg02_clip_17 ~~~~~~~~
+ 12 to 30<|START|> why does the waiter not say after not giving any food to rachel and joey
+0   )  i'm sorry, sir you need to pay for those     (11tok)
+1 GT)  i'm sorry, sir these are for the pharmaceutical convention     (11tok)
+2   )  i'm sorry, sir these aren't for you     (10tok)
+3   )  these are for the scientist only     (6tok)
+4   )  joey doesn't share food!     (6tok)
+Finished writing 59 questions; max len = 242

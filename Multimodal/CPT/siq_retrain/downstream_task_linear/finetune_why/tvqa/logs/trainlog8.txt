@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000008~castle_s07e13_seg02_clip_07 ~~~~~~~~
+ 26 to 74<|START|> why is castle vexed after he read the note?
+0   )  castle is in an affair with whitney.     (8tok)
+1   )  castle is on the verge of being constipated.     (10tok)
+2 GT)  castle believed he will see blood in the kitchen of the crime scene.     (14tok)
+3   )  castle needs some appreciation.     (5tok)
+4   )  castle wants to look in the car again for his keys.     (12tok)
+~~~~~~~~~~~ Example 1 001288~house_s07e15_seg02_clip_21 ~~~~~~~~
+ 11 to 88<|START|> why does chase say house won't be able to concentrate after masters insists on getting his help?
+0   )  chase says house won't be able to concentrate because he is too focused on his second job.     (19tok)
+1 GT)  chase says house won't be able to concentrate because cuddy, his girlfriend, is dying.     (19tok)
+2   )  chase says house won't be able to concentrate because he has adhd.     (14tok)
+3   )  chase says house won't be able to concentrate because he doesn't care about his patients.     (18tok)
+4   )  chase says house won't be able to concentrate because he is always playing the sims.     (17tok)
+~~~~~~~~~~~ Example 2 004104~house_s04e05_seg02_clip_18 ~~~~~~~~
+ 3 to 39<|START|> why does foreman call for help before a team rushes into the room?
+0   )  he can not hold a machine up      (8tok)
+1   )  a child is losing blood too quick     (7tok)
+2   )  an ambulance is bringing a man     (6tok)
+3 GT)  a patient is dying in an ice bath     (8tok)
+4   )  there is a man with a gun inside     (8tok)
+~~~~~~~~~~~ Example 3 005384~grey_s03e19_seg02_clip_11 ~~~~~~~~
+ 16 to 84<|START|> why is addison surprised when talking with izzy? 
+0 GT)  because izzy starts talking about her affair that she had out of no where.      (16tok)
+1   )  izzy starts yelling at addison.      (7tok)
+2   )  izzy starts crying.      (5tok)
+3   )  izzy randomly gives addison a hug.      (8tok)
+4   )  izzy confronts addison about her affair with mark.      (11tok)
+Finished writing 57 questions; max len = 269

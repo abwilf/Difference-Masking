@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001361~friends_s06e19_seg02_clip_05 ~~~~~~~~
+ 70 to 85<|START|> why is ross startled when holding elizabeth in the office?
+0   )  ross is startled to hear rachel call his name.     (10tok)
+1   )  ross is startled by elizabeth's screams.     (8tok)
+2 GT)  ross is startled when the office door opens.     (9tok)
+3   )  ross is startled by a mouse that runs across his foot.     (12tok)
+4   )  ross is startled by the students looking through the window.     (11tok)
+~~~~~~~~~~~ Example 1 002897~castle_s08e16_seg02_clip_02 ~~~~~~~~
+ 32 to 67<|START|> why does esposito say the mix of jello and perfume work exactly when he is explaining it to detectives?
+0   )  the gelatin blocks the security lasers and the smellies in the perfume creates an even distribution over the sensors.     (21tok)
+1   )  the perfume blocks the security lasers and the gelatin pthalates in the perfume creates an even distribution over the sensors.     (24tok)
+2   )  the gelatin blocks the security lasers and the perfume water creates an even distribution over the sensors.     (18tok)
+3   )  the gelatin makes lasers go away like magic and the perfume pthalates in the perfume creates an even distribution over the sensors.     (26tok)
+4 GT)  the gelatin blocks the security lasers and the perfume pthalates in the perfume creates an even distribution over the sensors.     (24tok)
+~~~~~~~~~~~ Example 2 006737~house_s04e07_seg02_clip_17 ~~~~~~~~
+ 24 to 76<|START|> why does wilson want house to rewind the video to the part when the doctor leans forward?
+0   )  he is convinced foreman did not screw up     (8tok)
+1   )  he wants to make sure he can hear the doctor where she screwed up     (14tok)
+2   )  he thinks foreman scewed up     (7tok)
+3   )  he wants to listen again to the terzi's question     (11tok)
+4 GT)  he wants to see it again, he also comments he can see right through the doctors dress     (18tok)
+~~~~~~~~~~~ Example 3 006993~castle_s08e01_seg02_clip_14 ~~~~~~~~
+ 39 to 59<|START|> why is hayley dubious about bracken being the criminal protagonist in their current case after castle states, "because bracken's behind this?"
+0 GT)  hayley points out bracken is serving life in prison.     (11tok)
+1   )  hayley points out eyewitness identifications of a better suspect.     (11tok)
+2   )  hayley points out bracken wasn't the man who kicked her ass.     (14tok)
+3   )  hayley points out bracken's brother has mafia ties.     (11tok)
+4   )  hayley points out bracken has stage iv lung cancer and can no longer speak.     (16tok)
+Finished writing 51 questions; max len = 236

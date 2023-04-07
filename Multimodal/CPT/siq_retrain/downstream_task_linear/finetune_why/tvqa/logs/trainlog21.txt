@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002581~house_s08e04_seg02_clip_16 ~~~~~~~~
+ 12 to 87<|START|> why was there a shy look on park face when she saw dr andrews
+0   )  park had to terminate andrew     (5tok)
+1   )  park was shocked to see andrews     (6tok)
+2   )  park found out that andrew was her dad     (8tok)
+3 GT)  park knew andrews from before     (5tok)
+4   )  there was no surprising look on either of their faces     (10tok)
+~~~~~~~~~~~ Example 1 004117~s08e12_seg02_clip_06 ~~~~~~~~
+ 43 to 85<|START|> why does sheldon say there is a reason he allows leonard to drive him to work after he finds outs how sheldon feels about driving
+0 GT)  because it gives leonard's life purpose     (7tok)
+1   )  because leonard would be lonely     (5tok)
+2   )  because he keeps leonard awake and entertained     (7tok)
+3   )  because he navigates for leonard     (6tok)
+4   )  because he keeps the music going      (7tok)
+~~~~~~~~~~~ Example 2 004373~castle_s05e16_seg02_clip_22 ~~~~~~~~
+ 2 to 70<|START|> why was castle touched when he realized that hunt had supported his writing career?
+0 GT)  because it made castle feel like he had never truly been abandoned by hunt.     (15tok)
+1   )  because castle thought his career had been a failure.     (10tok)
+2   )  because it made castle feel like he could be a cia agent.     (13tok)
+3   )  because no one else had ever supported castle's career.      (12tok)
+4   )  because castle thought that hunt would disapprove of his career.     (13tok)
+~~~~~~~~~~~ Example 3 006933~castle_s06e07_seg02_clip_10 ~~~~~~~~
+ 26 to 73<|START|> why does alexis believe frank couldn't have wiped down the doorknob when talking to castle about the murder?
+0 GT)  because alexis knows the rag frank used was covered in grease, and there was no grease found on the doorknob.     (23tok)
+1   )  because alexis knows frank would have never gone to the office in the first place.      (17tok)
+2   )  because alexis knows for a fact that frank was not present before or after the murder. he was with her.     (22tok)
+3   )  because alexis knows frank's hands were covered in dye and there was no dye on the doorknob.     (20tok)
+4   )  because alexis knows frank was working with a friend the night of the murder, and couldn't have been in the room.     (24tok)
+Finished writing 39 questions; max len = 231

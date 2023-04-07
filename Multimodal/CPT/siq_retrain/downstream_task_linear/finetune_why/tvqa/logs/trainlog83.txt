@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002387~grey_s02e13_seg02_clip_00 ~~~~~~~~
+ 23 to 76<|START|> why did george ask bex if she was taking birth control pills after he spoke with addison?
+0   )  bex had a boyfriend and george wanted to make sure she was being careful.     (16tok)
+1   )  george suspected bex was having sex.     (8tok)
+2 GT)  bex's labwork showed her estrogen and progesterone levels were very high.     (18tok)
+3   )  bex's mother had asked george if her daughter was taking birth control pills.     (16tok)
+4   )  george was being nosy.     (6tok)
+~~~~~~~~~~~ Example 1 005203~s03e16_seg01_clip_00 ~~~~~~~~
+ 31 to 69<|START|> why are howard and sheldon uncomfortable after raj enters the store?
+0 GT)  raj is playing music from his shirt.     (8tok)
+1   )  raj is blowing water bubbles.     (6tok)
+2   )  raj is dressed in women's clothes.     (8tok)
+3   )  raj is whistling.     (4tok)
+4   )  raj is singing.     (4tok)
+~~~~~~~~~~~ Example 2 006483~castle_s05e07_seg02_clip_23 ~~~~~~~~
+ 36 to 63<|START|> why does castle bring zeke's bass into the interrogation room when he is being questioned?
+0   )  to prove that castle is a jerk.      (9tok)
+1   )  to prove he can play it.      (8tok)
+2 GT)  to prove he can't play it.      (9tok)
+3   )  to prove a point to beckett.      (10tok)
+4   )  so castle can show off.      (7tok)
+~~~~~~~~~~~ Example 3 010579~grey_s03e07_seg02_clip_21 ~~~~~~~~
+ 13 to 86<|START|> why was meredith surprised after mark decided to help with the surgery?
+0   )  meredith believed that mark had religious objections to the surgery.     (12tok)
+1   )  meredith thought that mark was still upset after their fight.     (11tok)
+2   )  meredith believed that mark was still sick with the flu.     (11tok)
+3 GT)  meredith did not think mark would do a plastic surgery operation.     (12tok)
+4   )  meredith thought that mark was still considering retirement.     (9tok)
+Finished writing 49 questions; max len = 259

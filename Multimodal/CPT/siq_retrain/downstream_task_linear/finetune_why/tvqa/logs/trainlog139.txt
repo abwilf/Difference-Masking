@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000139~s09e12_seg02_clip_01 ~~~~~~~~
+ 44 to 55<|START|> why does bernadette wishes stuart wasn't around before he knocks on the bedroom door?
+0   )  so howard and bernadett wouldn't have to sneak to be together.     (15tok)
+1   )  so howard and bernadett wouldn't have to be so loud.     (14tok)
+2   )  so stuart wouldn't hear howard and bernadette talking about him.     (14tok)
+3   )  because stuart doesn't give howard and bernadette their privacy.     (13tok)
+4 GT)  so howard and bernadett wouldn't have to be so quiet.     (14tok)
+~~~~~~~~~~~ Example 1 003723~friends_s08e02_seg01_clip_01 ~~~~~~~~
+ 35 to 64<|START|> why is joey excited about his pictures before they are developed?
+0   )  joey is immature     (3tok)
+1 GT)  he took a picture of something he should not have     (10tok)
+2   )  it was monica and chandler's honeymoon     (7tok)
+3   )  joey ordered porn     (3tok)
+4   )  ross is late.     (4tok)
+~~~~~~~~~~~ Example 2 007819~friends_s05e16_seg02_clip_03 ~~~~~~~~
+ 9 to 61<|START|> why did ross ask rachel for help after he stood up
+0   )  skyler was expected to lift the other side of the couch     (12tok)
+1   )  chandler was expected to lift the other side of the couch     (11tok)
+2   )  lenny was expected to life tht other side of the couch     (12tok)
+3   )  jimmy was expected to lift the other side of the couch     (11tok)
+4 GT)  rachel was expected to lift the other side of the couch     (11tok)
+~~~~~~~~~~~ Example 3 017547~castle_s07e06_seg02_clip_08 ~~~~~~~~
+ 32 to 66<|START|> why did castle feel like he couldn't when being seduced by chelsea?
+0   )  he was thinking about beckett      (8tok)
+1   )  he was scared     (3tok)
+2   )  she was to aggressive     (4tok)
+3   )  he wasnt turned on     (5tok)
+4 GT)  he had to get back to work     (7tok)
+Finished writing 48 questions; max len = 286

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000419~s08e08_seg02_clip_10 ~~~~~~~~
+ 42 to 86<|START|> why was leonard embarrassed when he realized that jeanie was stuart' date?
+0   )  jeanie is a scientist at the university who has made sexual advances towards howard.     (16tok)
+1   )  jeanie is a member of the board which either approves or denies grants for his job.     (19tok)
+2   )  jeanie is howard's ex-wife.     (9tok)
+3 GT)  jeanie is howard's second cousin and he had sex with her in the past.     (17tok)
+4   )  jeanie is howard's high school friend who grew up as a male named gene.     (17tok)
+~~~~~~~~~~~ Example 1 006819~house_s06e01_seg02_clip_12 ~~~~~~~~
+ 31 to 67<|START|> why did house get a pleased look when he was sitting on a bench in the locked mental ward?
+0   )  house realized that he could escape the locked mental facility he was in.     (14tok)
+1   )  house realized his new meds were starting to kick in.     (11tok)
+2   )  house was just informed he would be discharged that day.     (11tok)
+3 GT)  house realized he was sitting in front of a working piano.     (12tok)
+4   )  house really liked the nurse that ran the med cart.     (11tok)
+~~~~~~~~~~~ Example 2 012707~friends_s10e07_seg02_clip_16 ~~~~~~~~
+ 14 to 28<|START|> why does chandler joke with monica when she comes into the room?
+0   )  chandler wants to watch a game with joey.     (9tok)
+1   )  chandler is tired.     (4tok)
+2   )  chandler wants to go to the coffee shop.     (9tok)
+3 GT)  chandler is trying to divert monica and laura away from the room.     (13tok)
+4   )  chandler is hungry.     (4tok)
+~~~~~~~~~~~ Example 3 020131~friends_s05e07_seg02_clip_05 ~~~~~~~~
+ 21 to 48<|START|> why did larry want to leave the table when he and phoebe were having dinner?
+0   )  he wanted to change his tie     (6tok)
+1   )  he had to speak with someone     (6tok)
+2   )  he didn't leave the table     (6tok)
+3 GT)  he wanted to go wash his hands     (7tok)
+4   )  he had to make a call     (6tok)
+Finished writing 43 questions; max len = 205

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001227~castle_s03e08_seg02_clip_24 ~~~~~~~~
+ 19 to 79<|START|> why does castle say it's meant to be after he devises his plan to kill the ambient light?
+0 GT)  castle says it's meant to be because there is a fuse box right next to where they are standing.     (21tok)
+1   )  castle says it's meant to be because right after he finishes telling beckett his plan, the subway loses power.     (24tok)
+2   )  castle says it's meant to be because a lightning bolt strikes the armed man.     (16tok)
+3   )  castle says it's meant to be because the armed man dies of a heart attack.     (17tok)
+4   )  castle says it's meant to be because the kid manages to kill the armed man.     (17tok)
+~~~~~~~~~~~ Example 1 001739~grey_s02e11_seg02_clip_24 ~~~~~~~~
+ 29 to 71<|START|> why does alex stay after derek tells him to go home?
+0   )  alex wants to stay in case his patient makes a miraculous recovery.     (13tok)
+1   )  alex wants to stay and work.     (7tok)
+2   )  alex is too depressed to leave.     (7tok)
+3 GT)  alex stays with his patient because he doesn't think anyone should die alone.     (15tok)
+4   )  alex doesn't like to listen to derek.     (9tok)
+~~~~~~~~~~~ Example 2 005067~friends_s07e05_seg02_clip_00 ~~~~~~~~
+ 41 to 58<|START|> why did rachel think it wasn't a good idea to date the guy when she was talking to phoebe.
+0   )  because he hums in the bathroom.     (8tok)
+1 GT)  because he was getting a divorce.     (7tok)
+2   )  because he knew ross.     (5tok)
+3   )  because he was married.     (5tok)
+4   )  because he didn't look right.     (7tok)
+~~~~~~~~~~~ Example 3 006091~house_s04e05_seg02_clip_04 ~~~~~~~~
+ 19 to 79<|START|> why does house think the patient has mirror syndrome after speaking with foreman
+0   )  house thinks he has mirror syndrome because he was in a fun house when he passed out.     (18tok)
+1   )  house thinks he has mirror syndrome because he can't see his reflection     (13tok)
+2   )  house thinks he has mirror syndrome since he is afraid of mirrors     (12tok)
+3   )  house thinks he has mirror syndrome because he becomes nauseous looking in the mirror     (14tok)
+4 GT)  house thinks he has mirror syndrome because he is copying things he sees     (13tok)
+Finished writing 45 questions; max len = 211

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001974~grey_s03e08_seg02_clip_08 ~~~~~~~~
+ 38 to 91<|START|> why did meredith say mia hadn't had it easy before the operation? 
+0   )  mia grew up in poverty, according to meredith.      (11tok)
+1   )  meredith said mia was not an attractive child.      (10tok)
+2   )  according to meredith, mia was a troublemaker in school.      (13tok)
+3   )  mia wasn't very smart, according to meredith.      (11tok)
+4 GT)  meredith said that mia's parents were neglectful.      (11tok)
+~~~~~~~~~~~ Example 1 004278~met_s03e13_seg02_clip_00 ~~~~~~~~
+ 38 to 61<|START|> why does ted plan to wait until all 10 medical session are completed before asking stella out?
+0   )  ted thinks ten is a lucky number.     (8tok)
+1   )  ted wants to get to know her better first.     (10tok)
+2 GT)  stella is not allowed to date her patients.      (10tok)
+3   )  ted is afraid to ask stella out.     (8tok)
+4   )  ted wants to wait until her birthday before asking her out.     (12tok)
+~~~~~~~~~~~ Example 2 008374~castle_s03e14_seg02_clip_14 ~~~~~~~~
+ 30 to 69<|START|> why did hixton call the page brothers after he was released from prison?
+0   )  to pay them off     (4tok)
+1   )  to get back into drugs     (5tok)
+2   )  to hook up with his old buddies     (7tok)
+3 GT)  to help his daughter.     (5tok)
+4   )  to buy a gun from them.      (8tok)
+~~~~~~~~~~~ Example 3 009654~house_s06e08_seg02_clip_04 ~~~~~~~~
+ 26 to 44<|START|> why did wilson say he didn't answer house when house sent him urgent pages?
+0   )  wilson said he didn't answer because he had blocked house's number.     (14tok)
+1   )  wilson said he didn't answer because he had his pager number changed.     (15tok)
+2   )  wilson said he didn't answer because he needed to replace the battery in his pager.     (18tok)
+3   )  wilson said he didn't answer because he was tired of house bothering him all the time.     (18tok)
+4 GT)  wilson said he didn't answer because they weren't urgent pages.     (13tok)
+Finished writing 54 questions; max len = 257

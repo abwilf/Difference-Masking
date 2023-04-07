@@ -1,0 +1,31 @@
+~~~~~~~~~~~ Example 0 122077~s01e09_seg02_clip_08 ~~~~~~~~
+ 1 to 13<|START|> why sheldon was angry after talk with penny?
+0   )  because leonard did not open the door     (7tok)
+1   )  because penny does not support sheldon     (6tok)
+2   )  because penny was making fun of sheldon     (7tok)
+3 GT)  because penny said it was a little idea      (9tok)
+4   )  actually sheldon was happy with penny     (6tok)
+~~~~~~~~~~~ Example 1 122101~castle_s03e05_seg02_clip_22 ~~~~~~~~
+ 43 to 55<|START|> why did calderon give valerie the bracelette when he was questioned by beckett and castle?
+0   )  to bribe valerie     (3tok)
+1 GT)  to show a token of calderons affection     (9tok)
+2   )  to pay valerie back     (4tok)
+3   )  to be a player     (4tok)
+4   )  no reason     (2tok)
+~~~~~~~~~~~ Example 2 122109~castle_s08e19_seg02_clip_19 ~~~~~~~~
+ 40 to 58<|START|> why is castle on edge when he is trying to pour cream into his coffee?
+0   )  castle is in trouble with the chief      (8tok)
+1 GT)  castle thinks assassins are coming for him     (7tok)
+2   )  castle is in trouble with beckett     (8tok)
+3   )  castle isn't on edge     (5tok)
+4   )  castle knows something about espo     (6tok)
+~~~~~~~~~~~ Example 3 122149~castle_s06e23_seg02_clip_26 ~~~~~~~~
+ 28 to 71<|START|> why did beckett thank martha after lanie left the room? 
+0   )  for coming to the wedding.     (6tok)
+1   )  for being so great about everything.     (7tok)
+2   )  for being a great mother in law.     (8tok)
+3 GT)  for putting the wedding together.     (6tok)
+4   )  for doing a great job with her son.     (9tok)
+Have written 100 / 1906
+Have written 200 / 1906
+Finished writing 202 questions; max len = 289

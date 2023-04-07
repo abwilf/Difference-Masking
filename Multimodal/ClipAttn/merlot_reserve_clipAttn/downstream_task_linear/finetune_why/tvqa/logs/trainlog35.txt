@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000291~house_s05e23_seg02_clip_08 ~~~~~~~~
+ 29 to 69<|START|> why is wilson in the room when the doctors are talking are talking about there current patient?
+0   )  house says he is there for moral support because he is going through things.     (15tok)
+1 GT)  house says he is there because they thought the patient may be diagnosed with cancer.     (16tok)
+2   )  house says he is there just to oversee procedures because he is going to join the team.     (19tok)
+3   )  house says he is there because he is bored and he was curious about learning more.     (17tok)
+4   )  house says he is there because cuddy thinks he needs a babysitter and he's watching him.     (19tok)
+~~~~~~~~~~~ Example 1 001827~friends_s07e16_seg02_clip_24 ~~~~~~~~
+ -4 to 104<|START|> why did rachel stop ross when he was leaving?
+0   )  rachel wanted to kiss ross good-bye     (8tok)
+1   )  rachel wanted to apologize     (4tok)
+2   )  ross was taking rachel's purse     (6tok)
+3   )  ross forgot to take some cookies rachel had baked for him     (11tok)
+4 GT)  ross didn't realize he had a sign that said "poop" on his back     (17tok)
+~~~~~~~~~~~ Example 2 003363~met_s02e11_seg02_clip_13 ~~~~~~~~
+ -39 to 139<|START|> why does marshall get in the back of the truck after stopping the driver?
+0   )  because marshall wanted a ride     (5tok)
+1 GT)  because marshall is looking for his package     (7tok)
+2   )  because the driver told marshall he was nuts     (8tok)
+3   )  because marshall wanted to take a nap     (7tok)
+4   )  because marshall thought lily was back there     (7tok)
+~~~~~~~~~~~ Example 3 004387~s03e11_seg02_clip_03 ~~~~~~~~
+ 16 to 84<|START|> why is leonard's mother proud of him when she is in the car
+0   )  she is proud because solved a difficult equation     (8tok)
+1   )  she is proud because he has a girlfriend     (8tok)
+2   )  she is proud because he bought the time machine     (9tok)
+3 GT)  she is proud because he is driving     (7tok)
+4   )  she is proud because watch some football     (7tok)
+Finished writing 61 questions; max len = 259

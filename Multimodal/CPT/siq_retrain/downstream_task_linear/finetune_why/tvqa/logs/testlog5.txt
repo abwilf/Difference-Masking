@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 137333~castle_s05e07_seg02_clip_25 ~~~~~~~~
+ 63 to 92<|START|> why did gates bring beckett and castle to her office after she congratulated the group?
+0 GT)  to discuss a past case.      (7tok)
+1   )  to tell them they did a good job.     (9tok)
+2   )  to ask if there was anything they needed.     (9tok)
+3   )  to review some documents for the next case.     (9tok)
+4   )  for them to explain the footage.     (7tok)
+~~~~~~~~~~~ Example 1 137726~grey_s03e13_seg02_clip_11 ~~~~~~~~
+ 41 to 58<|START|> why did burke apologize after derek walked in the door.
+0 GT)  because derek found out about the chief after the fact.     (11tok)
+1   )  because derek was lied to about the chief.     (9tok)
+2   )  because burke forgot to help derek.     (7tok)
+3   )  because burke wanted to go home.     (7tok)
+4   )  because derek felt left at the party.     (8tok)
+~~~~~~~~~~~ Example 2 137796~grey_s03e15_seg02_clip_17 ~~~~~~~~
+ 15 to 85<|START|> why was the pregnant woman brought into the hospital after the trauma?
+0 GT)  the victim was crushed.      (6tok)
+1   )  the victim was bleeding.     (5tok)
+2   )  the victim had a broken arm.     (7tok)
+3   )  the victim was unconscious.     (5tok)
+4   )  the victim was not eating.     (6tok)
+~~~~~~~~~~~ Example 3 137895~friends_s10e12_seg02_clip_04 ~~~~~~~~
+ 31 to 68<|START|> why did monica tell phoebe to "spit that out" when she was eating?
+0 GT)  monica had already seen a few people get sick off the food, she was just warning phoebe.     (19tok)
+1   )  phoebe wasn't welcome to the food because monica was mad at her.     (14tok)
+2   )  monica wanted to spare phoebe the unappetizing food.     (12tok)
+3   )  phoebe is a vegetarian and didn't know her food had pork in it.     (15tok)
+4   )  phoebe was on a diet and monica was being a pal.     (12tok)
+Have written 100 / 953
+Finished writing 105 questions; max len = 261

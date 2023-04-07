@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002687~s06e22_seg02_clip_02 ~~~~~~~~
+ -38 to 139<|START|> why leonard can't sleep when sheldon is talking?
+0   )  because sheldon turn on the radio.     (7tok)
+1   )  because the alarm ring.     (5tok)
+2 GT)  because sheldon speaks loud.     (5tok)
+3   )  because sheldon shouted.     (4tok)
+4   )  because sheldon is super happy.     (6tok)
+~~~~~~~~~~~ Example 1 003711~castle_s07e17_seg02_clip_11 ~~~~~~~~
+ 25 to 74<|START|> why did beckett tell castle not to wait up for her after she dismissed esposito and ryan? 
+0   )  because she wanted to meet some new people.      (10tok)
+1   )  because she was going out with some girlfriends.     (9tok)
+2   )  because she had to work late.     (7tok)
+3   )  becuase she was going to a late exercise class.     (12tok)
+4 GT)  because she was going to go out with zhang.     (11tok)
+~~~~~~~~~~~ Example 2 004991~castle_s07e06_seg02_clip_02 ~~~~~~~~
+ 45 to 54<|START|> why did beckett tell castle he was right when the were at the coal plant?
+0   )  beckett just didn't want to argue any more with castle.     (14tok)
+1 GT)  beckett saw the shooters' g-wagen was there.     (14tok)
+2   )  beckett saw a stockpile of weaponry beside a forklift.     (13tok)
+3   )  beckett spotted two men approaching with high powered rifles directly behind castle.     (15tok)
+4   )  beckett saw the shooters' cryptic message for them on the wall dripping in fresh spray paint.     (20tok)
+~~~~~~~~~~~ Example 3 012159~house_s01e08_seg02_clip_02 ~~~~~~~~
+ 41 to 57<|START|> why does chase request diazepam for matt after matt starts having a seizure?
+0   )  chase changed his mind and ordered xanax instead of diazepam.       (16tok)
+1   )  chase is trying to get matt high.      (9tok)
+2   )  house orders the diazepam to take precautions while matt is having a seizure.      (17tok)
+3   )  foreman thinks chase should have ordered xanax.      (11tok)
+4 GT)  chase orders diazepam to take precautions while matt is having a seizure.      (16tok)
+Finished writing 44 questions; max len = 242

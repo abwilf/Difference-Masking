@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003701~friends_s08e23-24_seg02_clip_26 ~~~~~~~~
+ 33 to 66<|START|> why didn't cliff make a move on phoebe before she sat next to him on the bed?
+0 GT)  he couldn't because his leg was injured.     (9tok)
+1   )  he didn't like phoebe that way.     (8tok)
+2   )  cliff is married.     (4tok)
+3   )  cliff was unconscious.     (4tok)
+4   )  phoebe told him she wasn't interested in him.     (10tok)
+~~~~~~~~~~~ Example 1 006005~castle_s03e14_seg02_clip_02 ~~~~~~~~
+ 43 to 57<|START|> why did jay and noreen hixton need a wake-up call when they were enjoying the lottery winnings?
+0 GT)  nicole got hooked on drugs.     (6tok)
+1   )  nicole ran away from home.     (6tok)
+2   )  nicole became very rebellious.     (5tok)
+3   )  nicole became very violent.     (5tok)
+4   )  nicole got pregnant.     (4tok)
+~~~~~~~~~~~ Example 2 009077~friends_s02e09_seg02_clip_18 ~~~~~~~~
+ 35 to 64<|START|> why are monica, ross, and rachel spraying themselves with water when chandler, joey, and phoebe walk in?
+0   )  monicas apartment is on fire.      (8tok)
+1   )  ross, monica, and rachel like the way the water feels     (12tok)
+2   )  monica wants to save money on electricity     (7tok)
+3   )  ross, monica, and rachel are pretending to be at a beach     (13tok)
+4 GT)  monica's apartment is hot.     (6tok)
+~~~~~~~~~~~ Example 3 009333~castle_s07e23_seg02_clip_06 ~~~~~~~~
+ 39 to 61<|START|> why did frank say no ones heard anything from zoey after castle asks? 
+0   )  zoey was a loner     (5tok)
+1 GT)  zoey didnt have family     (4tok)
+2   )  zoey was hiding from everyone     (5tok)
+3   )  zoey lost her phone     (4tok)
+4   )  zoey didnt communicate well     (4tok)
+Finished writing 44 questions; max len = 242

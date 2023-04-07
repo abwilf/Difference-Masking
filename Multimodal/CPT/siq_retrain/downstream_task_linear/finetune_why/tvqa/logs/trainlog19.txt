@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002323~friends_s04e22_seg02_clip_11 ~~~~~~~~
+ 32 to 68<|START|> why does ross thank chandler and joey after entering the apartment?
+0   )  because ross likes joey's new clothes     (7tok)
+1 GT)  because ross had a great time at a party they threw the night before     (14tok)
+2   )  because chandler bought ross a gift     (6tok)
+3   )  because joey bought ross a gift     (6tok)
+4   )  because chandler gave ross some money     (6tok)
+~~~~~~~~~~~ Example 1 003859~house_s03e08_seg02_clip_08 ~~~~~~~~
+ 1 to 99<|START|> why does chase become angry after he is left alone with house?
+0 GT)  chase becomes angry because house asks him to help him obtain pills illegally.     (14tok)
+1   )  chase becomes angry because house burps in front of him.     (12tok)
+2   )  chase becomes angry because house's breath stinks badly.     (10tok)
+3   )  chase becomes angry because house tells chase that he thinks he is a failure.     (15tok)
+4   )  chase becomes angry because house yells at chase for not being more polite to him.     (16tok)
+~~~~~~~~~~~ Example 2 004115~s09e15_seg02_clip_11 ~~~~~~~~
+ 16 to 83<|START|> why did sheldon get upset after amy finished talking?
+0   )  amy was singing in the video.     (7tok)
+1   )  amy embarrassed sheldon.     (4tok)
+2   )  amy was making fun of raj.     (7tok)
+3 GT)  amy was talking about relationships and being alone after ending them.     (12tok)
+4   )  amy was saying inappropriate things.     (6tok)
+~~~~~~~~~~~ Example 3 011283~friends_s03e19_seg02_clip_04 ~~~~~~~~
+ 29 to 98<|START|> why is ross excited when he enters joey and chandler's apartment?
+0   )  ross just got a big promotion at work.     (9tok)
+1   )  rachel called ross and wants to see him, and he's certain she'll pay him the money she owes him.     (23tok)
+2   )  rachel called ross and wants to see him, and he's likes seeing rachel.     (16tok)
+3 GT)  rachel called ross and wants to see him, and he's certain they'll get back together.     (19tok)
+4   )  ross just got engaged to rachel.     (7tok)
+Finished writing 48 questions; max len = 234

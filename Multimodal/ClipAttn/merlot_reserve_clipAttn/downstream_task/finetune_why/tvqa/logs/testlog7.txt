@@ -1,0 +1,30 @@
+~~~~~~~~~~~ Example 0 137513~house_s03e18_seg02_clip_03 ~~~~~~~~
+ 35 to 65<|START|> why did house stop and go back to his seat when he started to go find cuddy?
+0 GT)  house went back to get his phone.     (8tok)
+1   )  house went back to get his bag.     (8tok)
+2   )  house went back to grab a magazine.     (8tok)
+3   )  house went back to get his food.     (8tok)
+4   )  house went back to get his drink.     (8tok)
+~~~~~~~~~~~ Example 1 137546~house_s05e10_seg02_clip_05 ~~~~~~~~
+ 35 to 92<|START|> why is lisa getting annoyed when she is on the phone?
+0 GT)  lisa misunderstood the other person on the line     (8tok)
+1   )  lisa forgot to go to her appointment     (7tok)
+2   )  lisa needs to leave quickly     (5tok)
+3   )  lisa woke up late and has a bad temper     (9tok)
+4   )  house, kutner, and taub are annoying her     (11tok)
+~~~~~~~~~~~ Example 2 137583~met_s02e09_seg02_clip_15 ~~~~~~~~
+ 25 to 45<|START|> why does robin have her arms crossed when lily, barney, marshall, and ted are watching the old music video?
+0 GT)  she is excited.      (5tok)
+1   )  she is happy.      (5tok)
+2   )  she is sad.      (5tok)
+3   )  she is embarrassed.      (5tok)
+4   )  she is hormonal.      (5tok)
+~~~~~~~~~~~ Example 3 137706~grey_s03e04_seg02_clip_20 ~~~~~~~~
+ 6 to 64<|START|> why did derek say it is very funny after finn told him meredith only tells him a lot of things?
+0 GT)  because finn told derek that meredith only tells him a lot of things.     (14tok)
+1   )  because finn said meredith doesn't tell derek everything.     (10tok)
+2   )  because finn said meredith doesn't tell derek nothing.     (10tok)
+3   )  because finn said meredith doesn't tell him a lot of things.     (13tok)
+4   )  because finn said meredith doesn't them everything.     (9tok)
+Have written 100 / 952
+Finished writing 106 questions; max len = 264

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002734~friends_s06e15-16_seg02_clip_40 ~~~~~~~~
+ 20 to 78<|START|> why does chandler say he beeped dr. roger when he talks to monica?
+0   )  chandler had the flu     (4tok)
+1   )  chandler had a stomach ache     (5tok)
+2   )  chandler had a kidney stone.     (6tok)
+3   )  chandler had a headache     (4tok)
+4 GT)  chandler doesn't think monica should be with dr. roger.     (12tok)
+~~~~~~~~~~~ Example 1 004014~friends_s10e07_seg02_clip_16 ~~~~~~~~
+ 34 to 65<|START|> why did joey come back through the door after chandler kicked him out because he didn't want their social worker to see him
+0   )  joey came back to talk to the social worker despite chandlers warnings     (13tok)
+1   )  joey came back to grab a beer     (7tok)
+2 GT)  joey came back to grab his bat     (7tok)
+3   )  joey came back to grab his french toast sticks     (9tok)
+4   )  joey came back to grab his clock     (7tok)
+~~~~~~~~~~~ Example 2 007854~s10e08_seg02_clip_00 ~~~~~~~~
+ 27 to 71<|START|> why does the custodian, issabella, ask for raj's name after he talks about the gravitational wobble?
+0 GT)  she wants to compare his name to the hypothetical hard-to-pronounce alien name for the extrasolar planet.     (23tok)
+1   )  she is strictly anti-imperialist.     (10tok)
+2   )  she wanted to make sure she was in the right office.     (12tok)
+3   )  she thought she recognized him.     (6tok)
+4   )  she just really like indian names.     (7tok)
+~~~~~~~~~~~ Example 3 017582~house_s07e21_seg02_clip_03 ~~~~~~~~
+ 46 to 53<|START|> why did foley feel he did not throw the fight he was in when he was looking at house's face?
+0   )  foley had too much honor to throw the fight.     (10tok)
+1 GT)  foley just sucked.     (4tok)
+2   )  foley had nothing to gain from throwing the fight.     (10tok)
+3   )  no one told him about throwing the fight.     (9tok)
+4   )  foley did not receive anything for losing the fight.     (10tok)
+Finished writing 45 questions; max len = 240

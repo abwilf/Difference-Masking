@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004279~friends_s02e16_seg02_clip_20 ~~~~~~~~
+ 0 to 101<|START|> why does chandler appear sad after joey leaves. 
+0   )  joey was mad at him     (5tok)
+1   )  joey gave him bad news.      (7tok)
+2 GT)  he is going to miss his friend.      (9tok)
+3   )  joey took his girlfriend.      (6tok)
+4   )  joey is never coming back.      (7tok)
+~~~~~~~~~~~ Example 1 004791~friends_s05e13_seg02_clip_01 ~~~~~~~~
+ 7 to 92<|START|> why was phoebe at the hospital before she met up with her friends?
+0   )  she was visiting a friend     (5tok)
+1 GT)  her grandma died     (3tok)
+2   )  she had a minor outpatient procedure     (8tok)
+3   )  she was working as a nurse     (6tok)
+4   )  she was delivering flowers     (4tok)
+~~~~~~~~~~~ Example 2 005047~castle_s03e10_seg02_clip_26 ~~~~~~~~
+ 35 to 63<|START|> why does montgomery indicate the da believes the bottles of wine are owned by the city when talking to castle?
+0   )  the city name is displayed on them     (7tok)
+1   )  they were displayed in a city museum     (7tok)
+2   )  the current mayor has them in his office     (8tok)
+3   )  they have been located in the city for over 100 years     (11tok)
+4 GT)  they belonged to former mayor beau james     (7tok)
+~~~~~~~~~~~ Example 3 005559~friends_s02e02_seg01_clip_01 ~~~~~~~~
+ 6 to 65<|START|> why are joey and chandler uncomfortable when talking to carol?
+0   )  joey and chandler are uncomfortable that carol is naked.     (10tok)
+1   )  joey and chandler are uncomfortable that carol is hitting ont hem.     (12tok)
+2 GT)  joey and chandler are uncomfortable that carol is breastfeeding.     (10tok)
+3   )  joey and chandler are uncomfortable that carol is making out with ross.     (13tok)
+4   )  joey and chandler are uncomfortable that carol is giving birth.     (11tok)
+Finished writing 48 questions; max len = 264

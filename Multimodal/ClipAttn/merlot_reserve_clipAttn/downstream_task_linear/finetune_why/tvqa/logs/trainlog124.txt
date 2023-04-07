@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000124~s09e15_seg02_clip_01 ~~~~~~~~
+ 6 to 93<|START|> why is amy disappointed after sheldon removes the sheet covering the whiteboard?
+0   )  because amy was under the impression the whiteboard was a valentines day gift from sheldon.     (17tok)
+1   )  because amy thought sheldon had drawn her a proposal on the whiteboard.     (13tok)
+2   )  because sheldon erased amy's valentines day message to him.     (12tok)
+3   )  because amy was expecting to see a portrait of herself.     (11tok)
+4 GT)  because amy thought sheldon was putting her name in the actual title of his show, but he only puts it in the introduction to the show's name.     (30tok)
+~~~~~~~~~~~ Example 1 002684~house_s05e13_seg02_clip_22 ~~~~~~~~
+ 10 to 89<|START|> why is cuddy crying before begging for some help?
+0 GT)  a baby is crying intensely      (6tok)
+1   )  she has fell down stairs     (5tok)
+2   )  her nose and eyes bleed     (5tok)
+3   )  she thinks she is blind     (5tok)
+4   )  her baby isn't breathing     (5tok)
+~~~~~~~~~~~ Example 2 004476~house_s04e10_seg02_clip_00 ~~~~~~~~
+ 44 to 55<|START|> why did house like kutner 15 seconds ago before kutner mentioned a secret santa?
+0   )  kutner talked less then.     (6tok)
+1 GT)  kutner was afraid for his job then.     (9tok)
+2   )  kutner was less crazy then.     (7tok)
+3   )  kutner was more serious then.     (7tok)
+4   )  kunter listened to others better then.     (8tok)
+~~~~~~~~~~~ Example 3 005500~friends_s02e22_seg02_clip_15 ~~~~~~~~
+ 42 to 58<|START|> why did mr. greene say he felt like gulliver after his wife bought something?
+0   )  mr. greene is taller than his wife.     (10tok)
+1   )  mr. greene was out on his boat.     (10tok)
+2 GT)  mrs green bought bonsai trees.     (6tok)
+3   )  mr. greene really likes sailing on his boat     (10tok)
+4   )  mrs. greene made pottery.     (7tok)
+Finished writing 42 questions; max len = 228

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004514~house_s01e09_seg02_clip_14 ~~~~~~~~
+ 44 to 55<|START|> why did cameron think the senator may have had a stroke when he was intubated?
+0   )  because his symptoms were similar to that of a stroke victim.     (12tok)
+1   )  because his speech was similar to that of a stroke victim.     (12tok)
+2 GT)  because blood clots are common in paralyzed patients.     (10tok)
+3   )  because sleeping so much can cause someone to have a stroke.     (12tok)
+4   )  because he needs to take blood thinners.     (9tok)
+~~~~~~~~~~~ Example 1 009634~castle_s08e21_seg02_clip_06 ~~~~~~~~
+ 29 to 98<|START|> why does dave say shaw was amped more so than usual right before he decided to break out of prison?
+0   )  he had a vendetta for killing random people because he was angry inside.     (15tok)
+1   )  he was tired of that place and felt like he was never gonna get out.     (16tok)
+2   )  he didn't wanna die in there.     (8tok)
+3   )  he wanted to see his kids.     (7tok)
+4 GT)  he got a visitor who bothered him.     (8tok)
+~~~~~~~~~~~ Example 2 010146~friends_s10e09_seg02_clip_10 ~~~~~~~~
+ 21 to 79<|START|> why did erica say they didn't have to talk after the man said they should? 
+0   )  she wanted to keep her baby.     (7tok)
+1   )  she wanted to talk to them more.     (8tok)
+2 GT)  erica chose them.     (4tok)
+3   )  she didn't want them to have her baby.     (10tok)
+4   )  she chose another couple.     (5tok)
+~~~~~~~~~~~ Example 3 011426~house_s02e02_seg02_clip_10 ~~~~~~~~
+ 46 to 53<|START|> why was house sure chase would not be in danger when he was with a patient?
+0   )  house was going to have other doctors go with chase.     (11tok)
+1   )  the patient had been cured.     (6tok)
+2   )  house was going to make chase were safety equipment.     (10tok)
+3   )  house was going to pull chase out if a problem arose.     (12tok)
+4 GT)  the patient was unconscious.     (5tok)
+Finished writing 51 questions; max len = 261

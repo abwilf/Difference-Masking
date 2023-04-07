@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002268~house_s04e03_seg02_clip_05 ~~~~~~~~
+ 23 to 75<|START|> why does foreman say the patient stopped doing her crossword puzzle after he says she didn't stop because she was bored?
+0 GT)  he says the patient stopped because she is having trouble reading.     (12tok)
+1   )  he says the patient stopped because she got a new boyfriend.     (12tok)
+2   )  he says the patient stopped because she found something else to do.     (13tok)
+3   )  he says the patient stopped because she started doing circle words.     (12tok)
+4   )  he says the patient stopped because she got a new job.     (12tok)
+~~~~~~~~~~~ Example 1 002524~castle_s06e14_seg02_clip_12 ~~~~~~~~
+ 32 to 67<|START|> why did matilda king order surveillance after she got freaked out about her job?
+0 GT)  she didn't know who to trust     (7tok)
+1   )  she wanted to make sure she wasn't killed by her employer     (12tok)
+2   )  she wanted to have a record of her whereabouts     (9tok)
+3   )  she was planning on using the surveillance as blackmail     (9tok)
+4   )  she wanted to be able to prove her innocence just in case there was foul play afoot     (18tok)
+~~~~~~~~~~~ Example 2 006108~s09e03_seg02_clip_01 ~~~~~~~~
+ 73 to 83<|START|> why did amy make cookies shaped like male genitals before she came to visit penny and bernadette?
+0   )  amy made the cookies because they were bernadette's favorite.     (13tok)
+1   )  amy made the cookies because penny asked for them.     (10tok)
+2 GT)  amy made the cookies in the spirit of bacherlorette parties.     (14tok)
+3   )  amy made the cookies because the ingredients she was using were going to spoil.     (15tok)
+4   )  amy made the cookies to celebrate penny's birthday.     (10tok)
+~~~~~~~~~~~ Example 3 013276~house_s04e06_seg02_clip_00 ~~~~~~~~
+ 12 to 87<|START|> why did house outright reject each patient when he or she was brought up in the meeting?
+0   )  he wasn't interested in the mundane illnesses he was hearing     (11tok)
+1 GT)  he had already decided the patient he wanted to be the team's case     (14tok)
+2   )  he was trying to get a rise out of the various members of his team     (15tok)
+3   )  he was in a hurry to end the meeting     (9tok)
+4   )  he had a big announcement to make     (7tok)
+Finished writing 56 questions; max len = 292

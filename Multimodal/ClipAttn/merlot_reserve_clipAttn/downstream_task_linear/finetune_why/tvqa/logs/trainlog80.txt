@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001616~castle_s01e05_seg02_clip_01 ~~~~~~~~
+ 31 to 69<|START|> why was castle disappointed when learning how beckett checked missing persons? 
+0 GT)  castle hadn't realized they'd be paper files that had to be gone through by hand.      (19tok)
+1   )  castle was unaware how many missing persons there were in the world.      (14tok)
+2   )  castle had an aversion to sitting for long periods of time.      (14tok)
+3   )  castle feared they'd find he'd committed crimes.      (11tok)
+4   )  castle was late for dinner.      (7tok)
+~~~~~~~~~~~ Example 1 002128~house_s08e11_seg02_clip_08 ~~~~~~~~
+ 37 to 63<|START|> why did house use a stink bomb to get ideas from the team when they were in the conference room?
+0   )  to win a prank     (4tok)
+1   )  to be cruel     (3tok)
+2 GT)  to encourage fast responses     (4tok)
+3   )  on a dare     (3tok)
+4   )  to make park laugh     (4tok)
+~~~~~~~~~~~ Example 2 003664~s05e22_seg01_clip_00 ~~~~~~~~
+ 69 to 88<|START|> why does leonard pick horse when he is answering sheldon's question?
+0 GT)  leonard picks horse because of the height.      (9tok)
+1   )  leonard picks horse because of being able to gallop.      (12tok)
+2   )  leonard picks horse because of the mane.      (9tok)
+3   )  leonard picks horse because of the freedom.      (9tok)
+4   )  leonard picks horse because of their hair.      (9tok)
+~~~~~~~~~~~ Example 3 006480~friends_s03e07_seg02_clip_06 ~~~~~~~~
+ 60 to 96<|START|> why did phoebe have to become good at boxing when she stayed at the y? 
+0   )  because there was a free class     (6tok)
+1   )  because there weren't enough beds to go around     (9tok)
+2   )  because ever respects a tough guy     (6tok)
+3 GT)  because some of the young men weren't acting christian enough     (11tok)
+4   )  because she needed to punch things     (6tok)
+Finished writing 53 questions; max len = 238

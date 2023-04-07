@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 004132~friends_s09e16_seg02_clip_00 ~~~~~~~~
+ 37 to 91<|START|> why does chandler say they won't borrow money from monica's parents when they need money?
+0 GT)  they are bings     (4tok)
+1   )  her parents already hate them     (5tok)
+2   )  he knows asking them would make monica miserable     (8tok)
+3   )  they already borrowed so much for the wedding     (8tok)
+4   )  ross owes them money and they never let him forget it.     (12tok)
+~~~~~~~~~~~ Example 1 004900~house_s05e06_seg02_clip_00 ~~~~~~~~
+ 11 to 88<|START|> why does house think the woman is giving up a baby to cuddy after finding out it is true?
+0   )  owed cuddy a favor     (5tok)
+1 GT)  she was a drug addict      (6tok)
+2   )  wanted some money     (3tok)
+3   )  needed an income     (3tok)
+4   )  father is a deadbeat      (6tok)
+~~~~~~~~~~~ Example 2 005924~castle_s01e01_seg02_clip_13 ~~~~~~~~
+ 20 to 79<|START|> why did castle doubt the evidence when montgomery went over it? 
+0 GT)  castle thought the evidence was too "easy", readers would never buy it.       (16tok)
+1   )  castle thought the evidence pointed to beckett instead.      (12tok)
+2   )  montgomery had a long history of lying to castle.      (11tok)
+3   )  castle had committed the crime himself, so he knew the evidence was wrong.      (16tok)
+4   )  castle had been with the accused during the time of the crime.      (14tok)
+~~~~~~~~~~~ Example 3 006436~house_s07e05_seg02_clip_03 ~~~~~~~~
+ 16 to 83<|START|> why is house talking in a soothing voice when he is on the phone with his colleagues?
+0   )  house is talking in a soothing voice because there is a robber in the house and he is trying to stay quiet.     (23tok)
+1   )  house is talking in a soothing voice because he is trying to get his puppy to sleep.     (18tok)
+2   )  house is talking in a soothing voice because he is trying not to wake up his pet turtle.     (19tok)
+3 GT)  house is talking in a soothing voice because there is a sleepy child his couch.     (16tok)
+4   )  house is talking in a soothing voice because he has bronchitis and can't strain his voice too much.     (22tok)
+Finished writing 48 questions; max len = 240

@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002767~castle_s03e11_seg02_clip_21 ~~~~~~~~
+ 14 to 85<|START|> why is the actress dressed the way she is when she is talking to kate beckett?
+0   )  she is striving to be more like kate     (8tok)
+1 GT)  character research for her role as nikki heat     (8tok)
+2   )  she had to borrow clothes from beckett after hers were soaked     (13tok)
+3   )  she is hoping to get richard castle to fall in love with her.     (14tok)
+4   )  she doesn't want the paparazzi to recognize her.     (10tok)
+~~~~~~~~~~~ Example 1 004303~house_s03e14_seg02_clip_00 ~~~~~~~~
+ 45 to 55<|START|> why did wendy want to know when foreman was getting out when she questioned house about him?
+0   )  wendy wanted to take foreman to a movie.     (9tok)
+1 GT)  wendy planned a surprise getaway for valentine's day.     (10tok)
+2   )  wendy wanted to give foreman his valentine's day gift.     (11tok)
+3   )  wendy wanted to give foreman the money he let her borrow.     (12tok)
+4   )  wendy wanted to give foreman a massage.     (8tok)
+~~~~~~~~~~~ Example 2 008911~friends_s07e15_seg02_clip_22 ~~~~~~~~
+ 13 to 29<|START|> why did ross throw the bagpipes down when monica and chandler both said, "no"?
+0   )  because ross wanted to break the bagpipes so he could get his money back.     (17tok)
+1   )  because chandler didn't want to buy the bagpipes from him.     (14tok)
+2   )  because monica told him they didn't improve his persona.     (11tok)
+3   )  because rachel asked him where his kilt was at.     (11tok)
+4 GT)  because monica and chandler didn't like ross' musical ability.     (12tok)
+~~~~~~~~~~~ Example 3 009679~s02e11_seg02_clip_15 ~~~~~~~~
+ -30 to 131<|START|> why is sheldon acting weird before raj opens his gift
+0 GT)  sheldon received a sign autograph.     (6tok)
+1   )  sheldon is having a seizure.     (6tok)
+2   )  sheldon is mad.     (4tok)
+3   )  sheldon is freaking out over dirt.     (7tok)
+4   )  sheldon is weird.     (4tok)
+Finished writing 56 questions; max len = 236

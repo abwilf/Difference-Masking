@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 007401~s08e02_seg02_clip_15 ~~~~~~~~
+ 14 to 57<|START|> why is howard quizzing sheldon when he is over at his apartment?
+0   )  he's trying to figure out how dumb sheldon is.      (12tok)
+1 GT)  he is trying to find out if he knows something that sheldon doesn't.      (16tok)
+2   )  he's trying to locate his keys.      (9tok)
+3   )  he's trying to help sheldon navigate the city.      (11tok)
+4   )  he's trying to make a point.      (9tok)
+~~~~~~~~~~~ Example 1 011753~s05e03_seg02_clip_08 ~~~~~~~~
+ 44 to 56<|START|> why did howard tell bernadette not to be jealous after he explained why his mother cuts his meat for him?
+0 GT)  howard told bernadette not to be jealous because she will get to cut his meat for him, someday.     (22tok)
+1   )  howard told bernadette not to be jealous because he was buying expensive meat that won't need to be cut.     (23tok)
+2   )  howard told bernadette not to be jealous because mrs. wolowitz was going to teach her how to take care of him.     (27tok)
+3   )  howard told bernadette not to be jealous because a female sent a message to howard on  his phone.     (22tok)
+4   )  howard told bernadette not to be jealous because she could cut up his vegetables.     (17tok)
+~~~~~~~~~~~ Example 2 012777~met_s03e19_seg02_clip_03 ~~~~~~~~
+ -40 to 140<|START|> why lily get excited after marshall told that they need money?
+0   )  because lily's mom will borrow money to her.     (10tok)
+1   )  because lily has gold to sell.     (7tok)
+2 GT)  because lily has paintings to sell.     (7tok)
+3   )  because lily has money in the bank.     (8tok)
+4   )  because llily will make a loan.     (8tok)
+~~~~~~~~~~~ Example 3 018921~s08e10_seg02_clip_08 ~~~~~~~~
+ 8 to 35<|START|> why are there two flags behind the couch when sheldon is filming an interview with levar burton.
+0 GT)  sheldon is filming a youtube show titles fun with flags.     (11tok)
+1   )  sheldon is preparing to celebrate veteran's day     (8tok)
+2   )  sheldon is taking a class in flag repair class online     (10tok)
+3   )  levar burton brought the flags to sheldon as a gift.     (12tok)
+4   )  the flags are valuable antiques that sheldon is trying to sell on ebay.     (15tok)
+Finished writing 41 questions; max len = 218

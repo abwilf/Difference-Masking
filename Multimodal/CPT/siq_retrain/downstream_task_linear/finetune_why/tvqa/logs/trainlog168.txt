@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 005288~castle_s08e22_seg02_clip_13 ~~~~~~~~
+ 37 to 62<|START|> why were ryan and esposito unable to find details when attempting to search the security cameras?
+0 GT)  the security cameras were disabled     (5tok)
+1   )  the security cameras were already removed     (6tok)
+2   )  the footage was unclear     (4tok)
+3   )  they were told the search warrant did not include the cameras behind the house     (14tok)
+4   )  the security cameras were damaged     (5tok)
+~~~~~~~~~~~ Example 1 005544~castle_s03e21_seg02_clip_21 ~~~~~~~~
+ 31 to 69<|START|> why does beckett tell esposito he won't find any steroids before esposito leaves to get the warrant to search dr collabro's office
+0   )  because dr colabro does not keep any drugs in his office     (13tok)
+1   )  because dr colabro's had his nurse dispose of all the steroids in his office     (17tok)
+2 GT)  because benjamin has already called dr colabro to formulate a plan to protect brian     (17tok)
+3   )  because castle and beckett have already secretly searched dr colabro's office     (16tok)
+4   )  because dr colabro has closed down his office      (11tok)
+~~~~~~~~~~~ Example 2 011944~house_s08e12_seg02_clip_12 ~~~~~~~~
+ 8 to 34<|START|> why was chase moving slowly when he went down the hall to his apartment door?
+0   )  chase couldn't see because the light was out.     (10tok)
+1 GT)  chase was on crutches and had to go slow.     (10tok)
+2   )  chase had a little too much to drink.     (9tok)
+3   )  chase was texting on his smartphone.     (7tok)
+4   )  chase was trying to find his key on the ring.     (11tok)
+~~~~~~~~~~~ Example 3 016552~friends_s05e09_seg02_clip_02 ~~~~~~~~
+ 42 to 57<|START|> why did phoebe say she stabbed a cop when she was tell them about living on the street?
+0   )  she didn't mean to.     (6tok)
+1 GT)  he stabbed her first.     (5tok)
+2   )  he was trying to steal her food.     (8tok)
+3   )  he made a pass at her.     (7tok)
+4   )  he thought she was someone else and was trying to kill her.     (13tok)
+Finished writing 48 questions; max len = 234

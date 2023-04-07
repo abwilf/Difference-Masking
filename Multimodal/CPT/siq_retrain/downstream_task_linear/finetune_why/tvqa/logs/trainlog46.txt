@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000046~grey_s02e15_seg02_clip_13 ~~~~~~~~
+ 45 to 53<|START|> why was richard not willing to accept a fax from alice with her signature on it when agnes suggested it?
+0   )  richard did not want t go through the trouble of having to receive the fax.     (16tok)
+1   )  richard thought the fax would not arrive on time.     (10tok)
+2   )  richard thought someone would forge alice's signature in the fax.     (12tok)
+3   )  richard did not think alice was capable of sending the fax.     (12tok)
+4 GT)  richard needed her original signature.     (6tok)
+~~~~~~~~~~~ Example 1 009518~castle_s02e17_seg02_clip_05 ~~~~~~~~
+ 15 to 83<|START|> why does beckett say the killer is sending a message when they are examining the body?
+0   )  there was a note in her mouth     (7tok)
+1 GT)  there were letters on the bullets     (6tok)
+2   )  the carousel has a special importance to kate     (8tok)
+3   )  there was a message on the answering machine     (8tok)
+4   )  the victim was a close friend of kate's     (9tok)
+~~~~~~~~~~~ Example 2 011310~s04e15_seg02_clip_10 ~~~~~~~~
+ 14 to 84<|START|> why did penny ask leonard was he broken when in the kitchen?
+0   )  the donor lied on him.     (6tok)
+1   )  the donor slapped him.     (5tok)
+2 GT)  the donor offered to donate for sex.     (8tok)
+3   )  the donor told penny he was broken.     (8tok)
+4   )  the donor made up a situation.     (7tok)
+~~~~~~~~~~~ Example 3 012846~castle_s08e04_seg02_clip_16 ~~~~~~~~
+ 38 to 62<|START|> why does castle seem confused after he hangs up?
+0 GT)  ryan said he loves castle.     (6tok)
+1   )  ryan told castle the victim was at city hall.     (10tok)
+2   )  ryan told castle to call the mayor.     (8tok)
+3   )  ryan said beckett says hi.     (8tok)
+4   )  ryan wants to know if castle is with alexis.     (10tok)
+Finished writing 46 questions; max len = 243

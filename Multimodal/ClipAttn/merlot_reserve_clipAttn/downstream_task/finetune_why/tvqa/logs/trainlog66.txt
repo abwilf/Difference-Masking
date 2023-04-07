@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 006210~friends_s02e12-13_seg02_clip_32 ~~~~~~~~
+ 41 to 59<|START|> why is monica upset with rachel when talking in the living room?
+0   )  monica is upset because rachel made her out to be a bad chef.     (14tok)
+1   )  monica is upset because rachel stole richard from her.     (10tok)
+2 GT)  monica is upset because she feels rachel sold her out.     (11tok)
+3   )  monica is upset because rachel broke her seashell lamp.     (11tok)
+4   )  monica is upset because rachel said phoebe was a better cook.     (12tok)
+~~~~~~~~~~~ Example 1 006978~s04e17_seg02_clip_00 ~~~~~~~~
+ 28 to 70<|START|> why is raj upset when leonard and sheldon come over?
+0   )  because he wanted penny to come over instead.     (9tok)
+1   )  because leonard owes him money.     (6tok)
+2 GT)  because leonard kisses his sister.     (6tok)
+3   )  because howard punched him.     (5tok)
+4   )  because raj is in a hurry to leave.     (9tok)
+~~~~~~~~~~~ Example 2 009026~house_s07e07_seg02_clip_19 ~~~~~~~~
+ 38 to 62<|START|> why does house run to the patient's bedside when he is talking with cuddy through the glass?
+0   )  because the patient calls his name.      (8tok)
+1 GT)  because the patient's vitals are unstable.      (10tok)
+2   )  because the patient is yelling.      (7tok)
+3   )  because the patient is seizing.      (8tok)
+4   )  because the patient is yelling at cuddy.      (10tok)
+~~~~~~~~~~~ Example 3 009538~met_s03e11_seg02_clip_14 ~~~~~~~~
+ 65 to 91<|START|> why does barney pour a drink over his shoulder when he is sitting in the bar?
+0   )  because barney thinks his drank has been laced.      (11tok)
+1 GT)  because barney thinks wendy is crazy.      (8tok)
+2   )  because barney thinks the alcohol tastes bad.     (8tok)
+3   )  because barney is drunk.     (5tok)
+4   )  because barney accidentally spilled it.      (7tok)
+Finished writing 52 questions; max len = 252

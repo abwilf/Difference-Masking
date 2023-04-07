@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 008629~met_s02e02_seg02_clip_13 ~~~~~~~~
+ 17 to 82<|START|> why did ted slam his hand on the table before yelling touching his temples. 
+0   )  he didn't want lily to ask out barney.     (10tok)
+1   )  he wanted lily to leave the state.     (8tok)
+2 GT)  he didn't want lily to be unsure if she was going to call marshall.     (16tok)
+3   )  he didn't want lily to eat pie.     (9tok)
+4   )  he didn't want lily to work out.     (9tok)
+~~~~~~~~~~~ Example 1 009653~friends_s07e15_seg01_clip_01 ~~~~~~~~
+ 2 to 12<|START|> why does monica ask about dool when joey mentions it?
+0   )  she wants to know where she can get it.     (10tok)
+1   )  she wants to join.     (5tok)
+2   )  she wants to understand the acronym.     (7tok)
+3   )  she needs to know the answer.     (7tok)
+4 GT)  she doesn't know what it is.     (8tok)
+~~~~~~~~~~~ Example 2 010933~castle_s06e07_seg02_clip_18 ~~~~~~~~
+ 28 to 72<|START|> why did castle say john had been arrested after receiving the text from ryan?
+0   )  theft by unlawful taking     (5tok)
+1   )  dui     (2tok)
+2   )  public intoxication     (3tok)
+3   )  leaving the scene of an accident     (6tok)
+4 GT)  possession of a controlled substance     (5tok)
+~~~~~~~~~~~ Example 3 011189~castle_s06e20_seg02_clip_20 ~~~~~~~~
+ 23 to 75<|START|> why is decker so confident beckett can't get him for anything after she enters the room?
+0   )  he has everyone scared      (5tok)
+1   )  the witness ended up dead     (5tok)
+2 GT)  there is no witnesses to any crimes     (7tok)
+3   )  no one else has ever convicted him     (7tok)
+4   )  there is no evidence to support her theory.      (10tok)
+Finished writing 64 questions; max len = 268

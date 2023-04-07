@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000151~friends_s01e21_seg02_clip_18 ~~~~~~~~
+ 5 to 37<|START|> why does fake monica say "thanks" to monica before monica says "no, thank you"
+0 GT)  it was not monica who turned fake monica in     (9tok)
+1   )  monica says she will look after fake monica's family     (10tok)
+2   )  monica says she has never had an experience like this     (10tok)
+3   )  monica tells fake monica that she is really pretty     (9tok)
+4   )  monica gives fake monica a granola bar     (7tok)
+~~~~~~~~~~~ Example 1 000919~s07e07_seg02_clip_12 ~~~~~~~~
+ 13 to 87<|START|> why did raj tell howard he was upset when he threw down the necklace
+0   )  he is secretly gay     (4tok)
+1   )  he hates howard     (3tok)
+2   )  howard was trying to steal the girls away     (8tok)
+3 GT)  because he was ruining his girl time     (7tok)
+4   )  he is a girl     (4tok)
+~~~~~~~~~~~ Example 2 001431~house_s01e11_seg02_clip_01 ~~~~~~~~
+ 37 to 62<|START|> why did the father hire cleaners when the teen got sick 
+0   )  lazy     (1tok)
+1   )  bedbugs     (2tok)
+2   )  lice      (2tok)
+3   )  mice infestation      (3tok)
+4 GT)  they thought it may be an enviromental sickness     (12tok)
+~~~~~~~~~~~ Example 3 004503~met_s03e13_seg02_clip_04 ~~~~~~~~
+ 17 to 82<|START|> why wouldn't robin date barney after he asked?
+0   )  she doesn't like his attitude.     (7tok)
+1 GT)  she didn't want to change the friendship of the group.     (12tok)
+2   )  he's too fancy for her tastes.     (8tok)
+3   )  he acts like a big kid.     (7tok)
+4   )  he was mean to her.     (6tok)
+Finished writing 49 questions; max len = 261

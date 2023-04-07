@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002105~friends_s07e09_seg01_clip_00 ~~~~~~~~
+ 69 to 87<|START|> why does ross mention something being unfair when phoebe is telling her story?
+0 GT)  ross mentions phoebe's first bike experience as being unfair     (10tok)
+1   )  ross menitons that phoebe is unfair      (9tok)
+2   )  ross mention phoebe being unfair in her sharing     (8tok)
+3   )  ross didn't mention about anything being unfair     (8tok)
+4   )  ross mention phoebe's childhood being unfair     (7tok)
+~~~~~~~~~~~ Example 1 002361~friends_s02e17_seg02_clip_11 ~~~~~~~~
+ 29 to 70<|START|> why does phoebe say about the others opinions of the video before she plays it?
+0   )  phoebe says it matters if they like it because they've made videos before.     (15tok)
+1   )  phoebe says it doesn't matter if they don't like it because it's her video.     (18tok)
+2 GT)  phoebe says it doesn't matter if they don't like it because they've never made a video.     (20tok)
+3   )  phoebe says it matters if they like it because they are her friends.     (14tok)
+4   )  phoebe says if they don't like it, she will redo it.     (14tok)
+~~~~~~~~~~~ Example 2 003897~castle_s03e16_seg02_clip_13 ~~~~~~~~
+ 36 to 63<|START|> why did montgomery enter the hazmat unit when castle and beckett were chatting?
+0   )  to bring them back to the office.     (8tok)
+1   )  to tell them about who poisoned everyone.     (8tok)
+2   )  to dismiss the hazmat wearing gentleman.     (8tok)
+3 GT)  to deliver them a message and make sure they were okay.     (12tok)
+4   )  he entered to solve the crime.     (7tok)
+~~~~~~~~~~~ Example 3 007993~met_s03e17_seg02_clip_14 ~~~~~~~~
+ 52 to 76<|START|> why wasn't ted mad at robin after she slept with barney?
+0 GT)  they broke up a long time ago and he is in a new relationship with stella.     (17tok)
+1   )  ted didn't really care about robin.     (8tok)
+2   )  ted was mad at robin.     (6tok)
+3   )  ted was not friends with barney     (6tok)
+4   )  robin told the truth so he was not mad.     (10tok)
+Finished writing 58 questions; max len = 263

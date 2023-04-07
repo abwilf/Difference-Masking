@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 002504~house_s03e12_seg02_clip_03 ~~~~~~~~
+ 59 to 96<|START|> why does cuddy say house can't offer the money when he offers it to all who wil leave?
+0 GT)  she says the people there are poor and desperate     (9tok)
+1   )  she says there are sick children there     (7tok)
+2   )  she says that behavior is unethical     (8tok)
+3   )  she says the clinic could be shut down permanently over that     (11tok)
+4   )  she says somebody might go home and die     (8tok)
+~~~~~~~~~~~ Example 1 004552~friends_s06e15-16_seg02_clip_17 ~~~~~~~~
+ 59 to 98<|START|> why did phoebe say there is smoke coming out from from under the door when phoebe is in the bathroom?
+0   )  the fire from the next room spread     (7tok)
+1   )  she set herself on fire     (5tok)
+2   )  the bath tub exploded     (4tok)
+3 GT)  she said the doctor said that could be one of the side effects     (13tok)
+4   )  there is no smoke      (5tok)
+~~~~~~~~~~~ Example 2 005576~s04e23_seg02_clip_02 ~~~~~~~~
+ 25 to 75<|START|> why does raj say that's my water when sheldon sip the water?
+0   )  because raj want to befriend sheldon      (8tok)
+1   )  because it's the truth     (5tok)
+2   )  because that's what raj does     (6tok)
+3   )  because raj is inquisitive     (5tok)
+4 GT)  to play a joke on him     (6tok)
+~~~~~~~~~~~ Example 3 006600~grey_s02e12_seg02_clip_15 ~~~~~~~~
+ 44 to 55<|START|> why was o'malley helping alex study when he needed help?
+0   )  alex wanted to work with o'malley more.     (10tok)
+1   )  alex wanted to gain more knowledge.     (7tok)
+2   )  o'malley wanted to pass on his skills.     (10tok)
+3 GT)  alex failed his practical board exam and needed help studying.     (11tok)
+4   )  alex wanted to build a better relationship with o'malley.     (12tok)
+Finished writing 50 questions; max len = 260

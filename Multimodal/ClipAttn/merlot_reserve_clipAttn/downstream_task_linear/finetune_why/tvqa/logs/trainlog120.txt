@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000120~castle_s08e16_seg02_clip_10 ~~~~~~~~
+ 37 to 61<|START|> why does esposito think it necessary to subdue joey quickly after joey replies "screw that" to esposito's order to put the gun down?
+0 GT)  esposito needs to chase after sonia.     (9tok)
+1   )  esposito is near the end of his shift and wants to go home.     (16tok)
+2   )  esposito fears the building has a bomb in it.     (12tok)
+3   )  esposito knows castle and ryan have lost tracking signal.     (12tok)
+4   )  esposito can see joey needs to go to the emergency room quickly.     (15tok)
+~~~~~~~~~~~ Example 1 001912~friends_s05e22_seg02_clip_14 ~~~~~~~~
+ 42 to 58<|START|> why couldn't monica give rachel the eye drops after she pinned her?
+0   )  rachel ran out the apartment.     (6tok)
+1   )  rachel kept moving.     (4tok)
+2 GT)  the bottle was empty.     (5tok)
+3   )  rachel locked herself in the bedroom.     (7tok)
+4   )  rachel went to the bathroom.     (6tok)
+~~~~~~~~~~~ Example 2 005240~castle_s08e04_seg02_clip_25 ~~~~~~~~
+ -2 to 102<|START|> why did wendy kill dave when she confesses to kate?
+0   )  he was going to kill her.     (7tok)
+1   )  he broke a stained glass window     (6tok)
+2   )  he found out she was having an affair     (8tok)
+3   )  she found out he was having an affair     (8tok)
+4 GT)  he lied about being a famous author     (7tok)
+~~~~~~~~~~~ Example 3 006776~met_s02e13_seg02_clip_03 ~~~~~~~~
+ 18 to 82<|START|> why does robin apologize to vicky before she does robin's makeup?
+0 GT)  robin apologizes to vicky because she has to fire her.     (12tok)
+1   )  robin apologizes to vicky because she dropped vicky's makeup.     (12tok)
+2   )  robin apologizes to vicky because she lost vicky's makeup kit.     (13tok)
+3   )  robin apologizes to vicky because she wrecked vicky's car.     (12tok)
+4   )  robin apologizes to vicky because she stole vicky's job.     (12tok)
+Finished writing 56 questions; max len = 263

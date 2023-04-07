@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000483~house_s04e02_seg02_clip_07 ~~~~~~~~
+ 32 to 96<|START|> why does amber bring up kutner using charged paddles in a hyperbaric chamber after kutner explains that the attack wasn't caused by the procedure?
+0   )  she wants to know why kutner isn't in trouble     (11tok)
+1   )  she was jealous she didn't do it     (8tok)
+2 GT)  she wants to get kutner fired     (7tok)
+3   )  she wants to praise kutner     (6tok)
+4   )  she thinks kutner should be regarded as a hero     (10tok)
+~~~~~~~~~~~ Example 1 007139~met_s06e20_seg02_clip_04 ~~~~~~~~
+ 39 to 60<|START|> why doesn't barney want to play "who's hot and who's scott" with ted after ted asks?
+0 GT)  because marshall ruined everything     (4tok)
+1   )  because barney wins all the time     (6tok)
+2   )  ted cheats at that game     (5tok)
+3   )  barney doesn't have the time     (6tok)
+4   )  barney wants to play a different game.      (9tok)
+~~~~~~~~~~~ Example 2 008675~met_s06e10_seg02_clip_05 ~~~~~~~~
+ 36 to 63<|START|> why is ted temporarily surprised after hearing about lily's sliding?
+0   )  lily cleaned up after herself     (5tok)
+1   )  lily slid for two miles     (5tok)
+2   )  lily did not get injured     (5tok)
+3 GT)  lily reached 4g     (4tok)
+4   )  lily offered to pay ted back for the butter     (9tok)
+~~~~~~~~~~~ Example 3 014051~castle_s04e18_seg02_clip_13 ~~~~~~~~
+ 17 to 25<|START|> why did castle say barbara was not so lucky when he was going over her past?
+0   )  castle said barbara was abused as a child.     (9tok)
+1   )  castle said barbara was born blind.     (7tok)
+2   )  castle said barbara's dad was not in her life.     (11tok)
+3 GT)  castle said barbara bounced around from one foster home to the next.     (13tok)
+4   )  castle said barbara failed multiple school grades.     (8tok)
+Finished writing 52 questions; max len = 234

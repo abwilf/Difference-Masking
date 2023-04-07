@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 001376~house_s08e05_seg02_clip_19 ~~~~~~~~
+ 38 to 60<|START|> why did bob feel justified about what he did when he was talking to park about his actions?
+0 GT)  he felt it was to pay for his sins     (9tok)
+1   )  because he had to feed his children     (7tok)
+2   )  because he was blackmailed into doing so     (8tok)
+3   )  because he was tired of living anyway     (7tok)
+4   )  because he felt the other people deserved it     (8tok)
+~~~~~~~~~~~ Example 1 001888~s08e06_seg02_clip_17 ~~~~~~~~
+ -34 to 135<|START|> why was bernadette apologizing to howard when they were in bed?
+0   )  because bernadette didn't want to be with howard anymore.     (13tok)
+1   )  because bernadette accidentally stepped on his toe.      (11tok)
+2   )  because bernadette insulted his mother.     (8tok)
+3   )  because bernadette ate the last piece of cake.     (11tok)
+4 GT)  because bernadette made him feel bad about money.     (11tok)
+~~~~~~~~~~~ Example 2 007008~met_s06e03_seg02_clip_12 ~~~~~~~~
+ 25 to 74<|START|> why did robin say she called don before she said she wasn't over their breakup?
+0   )  she was returning his phone call.     (7tok)
+1   )  she saw him on the internet.     (7tok)
+2   )  he sent her a letter.     (6tok)
+3 GT)  she saw him on the news.     (7tok)
+4   )  lilly told her to call him.     (7tok)
+~~~~~~~~~~~ Example 3 008032~friends_s04e13_seg02_clip_14 ~~~~~~~~
+ 14 to 28<|START|> why is chandler upset when he is talking to joey?
+0   )  chandler is wondering if he should call brother.     (9tok)
+1   )  chandler is wondering if he should call his mom.     (10tok)
+2 GT)  chandler is wondering if he should call an ex.     (10tok)
+3   )  chandler is wondering if he should call friend.     (9tok)
+4   )  chandler is wondering if he should call his sister.     (10tok)
+Finished writing 52 questions; max len = 230

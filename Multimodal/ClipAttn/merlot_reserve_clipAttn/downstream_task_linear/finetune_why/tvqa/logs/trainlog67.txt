@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000835~friends_s01e12_seg02_clip_14 ~~~~~~~~
+ 36 to 92<|START|> why did rachel seem unsure after she and phoebe called paolo a pig? 
+0   )  phoebe had insulted rachel and rachel had hurt feelings.      (11tok)
+1   )  rachel was worried she'd confused paolo with someone else.      (12tok)
+2   )  chandler had heard her, and rachel was worried he'd tell ross.      (15tok)
+3   )  rachel was worried how she'd get away from rachel.      (12tok)
+4 GT)  rachel seemed to still miss paolo in spite of his being a pig.      (15tok)
+~~~~~~~~~~~ Example 1 002371~house_s03e20_seg02_clip_11 ~~~~~~~~
+ 25 to 74<|START|> why does house become intrested in the patient after taking foreman's place?
+0   )  to prove them wrong once and for all     (8tok)
+1   )  thinks he will do a better job than he can     (10tok)
+2   )  chase made a bet that he would not do it     (10tok)
+3 GT)  wants to know why she doesn't like foreman     (9tok)
+4   )  the patient thinks he is sexy and like it      (10tok)
+~~~~~~~~~~~ Example 2 004419~castle_s08e20_seg02_clip_14 ~~~~~~~~
+ 42 to 58<|START|> why was castle supposed to meet up with martha before getting kidnapped?
+0   )  to go to the doctor     (5tok)
+1   )  to go shopping     (3tok)
+2 GT)  to go to dinner     (4tok)
+3   )  to go to the spa     (5tok)
+4   )  to go to the airport     (5tok)
+~~~~~~~~~~~ Example 3 005955~friends_s09e16_seg02_clip_11 ~~~~~~~~
+ 8 to 34<|START|> why is mike nervous when they are unpacking boxes?
+0   )  he doesn't know what is in the box     (9tok)
+1   )  he wants to propose     (4tok)
+2   )  he doesn't know how to feel about her being there     (11tok)
+3 GT)  he is hoping phoebe is not expecting a proposal.      (11tok)
+4   )  he thinks this was not a good idea.      (10tok)
+Finished writing 55 questions; max len = 248

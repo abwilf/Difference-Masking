@@ -1,0 +1,625 @@
+2022-11-27 01:35:14,151 INFO    StreamThr :2216598 [internal.py:wandb_internal():88] W&B internal server running at pid: 2216598, started at: 2022-11-27 01:35:14.150504
+2022-11-27 01:35:14,153 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: status
+2022-11-27 01:35:14,154 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: status
+2022-11-27 01:35:14,157 INFO    WriterThread:2216598 [datastore.py:open_for_write():75] open: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/run-qpij53ej.wandb
+2022-11-27 01:35:14,157 DEBUG   SenderThread:2216598 [sender.py:send():301] send: header
+2022-11-27 01:35:14,157 DEBUG   SenderThread:2216598 [sender.py:send():301] send: run
+2022-11-27 01:35:14,275 INFO    SenderThread:2216598 [dir_watcher.py:__init__():216] watching files in: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files
+2022-11-27 01:35:14,276 INFO    SenderThread:2216598 [sender.py:_start_run_threads():912] run started: qpij53ej with start time 1669512914.147554
+2022-11-27 01:35:14,276 DEBUG   SenderThread:2216598 [sender.py:send():301] send: summary
+2022-11-27 01:35:14,276 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: check_version
+2022-11-27 01:35:14,276 INFO    SenderThread:2216598 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-11-27 01:35:14,277 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: check_version
+2022-11-27 01:35:14,395 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: run_start
+2022-11-27 01:35:14,396 DEBUG   HandlerThread:2216598 [meta.py:__init__():34] meta init
+2022-11-27 01:35:14,396 DEBUG   HandlerThread:2216598 [meta.py:__init__():49] meta init done
+2022-11-27 01:35:14,396 DEBUG   HandlerThread:2216598 [meta.py:probe():215] probe
+2022-11-27 01:35:14,397 DEBUG   HandlerThread:2216598 [git.py:repo():40] git repository is invalid
+2022-11-27 01:35:14,397 DEBUG   HandlerThread:2216598 [meta.py:_save_pip():53] save pip
+2022-11-27 01:35:14,398 DEBUG   HandlerThread:2216598 [meta.py:_save_pip():67] save pip done
+2022-11-27 01:35:14,398 DEBUG   HandlerThread:2216598 [meta.py:_save_conda():74] save conda
+2022-11-27 01:35:15,277 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/wandb-summary.json
+2022-11-27 01:35:15,278 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/requirements.txt
+2022-11-27 01:35:15,278 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/conda-environment.yaml
+2022-11-27 01:35:18,089 DEBUG   HandlerThread:2216598 [meta.py:_save_conda():84] save conda done
+2022-11-27 01:35:18,089 DEBUG   HandlerThread:2216598 [meta.py:probe():253] probe done
+2022-11-27 01:35:18,118 DEBUG   SenderThread:2216598 [sender.py:send():301] send: files
+2022-11-27 01:35:18,119 INFO    SenderThread:2216598 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-11-27 01:35:18,126 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:35:18,127 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:35:18,153 DEBUG   SenderThread:2216598 [sender.py:send():301] send: telemetry
+2022-11-27 01:35:18,277 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/conda-environment.yaml
+2022-11-27 01:35:18,278 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/wandb-metadata.json
+2022-11-27 01:35:18,357 INFO    Thread-18 :2216598 [upload_job.py:push():139] Uploaded file /tmp/tmpxa3fapmmwandb/oz3jkd1e-wandb-metadata.json
+2022-11-27 01:35:20,279 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_created():275] file/dir created: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:35:22,282 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:35:25,284 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:35:33,161 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:35:33,161 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:35:35,288 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:35:37,289 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:35:39,290 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:35:42,508 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:35:44,323 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/config.yaml
+2022-11-27 01:35:45,325 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:35:48,216 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:35:48,217 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:35:48,326 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:35:52,328 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:35:54,329 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:00,332 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:02,333 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:03,247 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:36:03,247 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:36:06,335 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:08,335 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:12,800 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:36:14,338 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:16,339 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:18,277 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:36:18,277 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:36:20,341 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:22,342 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:24,343 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:28,345 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:30,346 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:33,309 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:36:33,310 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:36:36,349 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:38,350 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:42,352 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:43,206 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:36:44,354 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:46,355 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:48,348 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:36:48,348 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:36:50,407 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:52,409 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:36:58,411 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:00,412 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:03,380 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:37:03,380 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:37:04,414 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:06,415 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:12,419 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:13,610 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:37:14,420 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:18,517 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:37:18,528 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:37:20,574 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:22,575 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:26,576 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:28,577 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:33,601 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:37:33,601 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:37:34,580 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:36,581 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:42,584 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:43,872 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:37:44,585 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:48,632 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:37:48,633 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:37:48,644 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:50,644 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:56,647 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:37:58,648 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:02,650 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:03,664 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:38:03,665 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:38:04,651 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:06,655 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:11,657 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:13,658 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:14,187 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:38:18,698 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:38:18,698 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:38:19,661 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:21,662 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:27,665 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:29,666 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:33,668 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:33,773 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:38:33,773 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:38:35,669 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:41,672 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:43,673 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:44,400 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:38:47,675 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:48,804 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:38:48,804 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:38:49,676 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:51,677 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:55,679 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:38:57,680 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:03,683 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:03,835 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:39:03,835 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:39:05,684 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:09,834 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:11,835 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:14,775 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:39:17,838 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:18,866 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:39:18,867 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:39:19,839 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:25,841 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:27,842 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:31,844 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:33,845 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:33,901 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:39:33,901 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:39:39,848 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:41,849 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:44,946 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:39:45,851 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:47,852 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:48,935 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:39:48,935 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:39:49,853 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:53,855 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:39:55,856 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:01,859 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:03,860 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:03,988 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:40:03,988 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:40:10,018 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:12,019 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:15,113 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:40:16,021 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:18,022 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:19,021 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:40:19,021 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:40:24,025 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:26,026 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:30,028 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:32,029 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:34,030 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:34,068 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:40:34,068 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:40:38,087 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:40,087 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:45,268 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:40:46,090 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:48,091 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:49,096 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:40:49,096 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:40:52,093 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:40:54,094 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:00,097 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:02,097 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:04,127 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:41:04,128 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:41:06,143 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:08,139 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:10,139 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:15,173 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:15,520 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:41:17,174 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:19,160 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:41:19,161 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:41:23,177 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:25,178 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:29,180 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:31,181 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:34,193 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:41:34,193 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:41:37,184 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:39,185 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:45,187 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:45,859 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:41:47,188 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:49,226 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:41:49,226 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:41:51,190 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:53,191 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:41:59,194 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:01,195 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:04,276 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:42:04,277 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:42:07,198 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:09,199 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:13,201 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:15,202 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:16,081 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:42:19,313 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:42:19,314 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:42:21,205 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:23,206 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:27,352 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:29,354 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:31,355 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:34,350 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:42:34,350 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:42:35,357 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:37,358 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:43,360 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:45,361 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:46,293 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:42:49,363 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:49,383 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:42:49,384 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:42:51,364 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:57,469 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:42:59,470 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:03,472 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:04,415 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:43:04,415 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:43:05,473 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:07,474 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:11,476 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:13,477 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:16,475 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:43:19,447 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:43:19,448 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:43:19,479 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:21,480 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:25,547 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:27,548 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:33,552 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:34,478 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:43:34,479 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:43:35,553 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:39,556 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:41,556 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:43,557 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:46,646 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:43:47,559 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:49,510 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:43:49,511 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:43:49,560 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:55,580 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:43:57,581 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:01,582 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:03,584 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:04,540 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:44:04,540 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:44:09,586 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:11,587 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:15,603 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:16,858 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:44:18,604 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:19,571 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:44:19,572 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:44:24,664 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:26,665 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:30,666 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:32,668 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:34,603 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:44:34,603 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:44:34,668 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:38,670 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:40,671 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:46,674 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:47,031 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:44:48,675 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:49,633 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:44:49,634 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:44:52,718 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:44:54,719 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:00,722 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:02,723 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:04,668 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:45:04,669 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:45:08,726 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:10,727 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:14,729 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:16,730 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:17,166 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:45:19,703 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:45:19,704 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:45:22,774 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:24,775 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:28,777 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:30,778 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:34,737 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:45:34,737 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:45:36,781 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:38,782 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:44,785 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:46,786 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:47,402 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:45:49,770 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:45:49,770 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:45:50,825 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:52,826 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:45:58,829 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:00,830 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:04,831 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:04,973 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:46:04,973 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:46:06,832 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:08,833 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:12,862 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:14,862 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:17,576 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:46:20,029 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:46:20,029 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:46:20,865 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:22,866 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:26,868 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:28,869 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:34,871 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:35,060 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:46:35,061 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:46:36,872 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:42,937 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:44,938 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:47,760 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:46:48,940 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:50,095 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:46:50,095 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:46:50,941 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:57,991 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:46:59,992 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:03,994 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:05,128 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:47:05,128 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:47:05,995 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:11,131 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:13,132 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:17,944 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:47:19,161 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:20,160 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:47:20,160 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:47:21,164 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:26,167 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:28,168 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:34,170 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:35,190 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:47:35,190 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:47:36,171 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:40,207 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:42,208 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:48,156 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:47:48,211 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:50,212 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:47:50,222 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:47:50,223 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:47:56,215 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:02,218 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:04,219 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:05,254 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:48:05,254 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:48:10,293 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:12,294 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:16,296 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:18,297 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:18,339 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:48:20,283 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:48:20,283 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:48:20,298 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:24,299 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:26,300 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:32,303 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:34,304 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:35,313 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:48:35,314 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:48:38,399 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:40,400 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:46,402 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:48,403 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:48,517 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:48:50,344 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:48:50,344 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:48:52,405 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:48:54,406 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:00,408 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:02,409 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:05,376 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:49:05,376 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:49:06,411 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:08,411 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:10,412 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:14,414 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:16,415 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:18,718 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:49:20,409 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:49:20,410 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:49:22,424 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:25,425 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:29,427 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:31,428 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:35,517 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:49:35,522 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:49:36,544 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:38,545 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:43,599 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:45,600 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:48,973 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:49:50,589 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:49:50,589 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:49:51,603 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:53,604 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:57,605 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:49:59,606 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:01,607 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:05,609 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:05,622 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:50:05,622 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:50:07,610 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:13,612 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:15,613 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:19,148 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:50:19,615 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:20,651 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:50:20,651 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:50:21,616 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:27,619 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:29,620 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:35,623 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:35,689 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:50:35,689 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:50:37,624 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:41,626 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:43,627 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:49,303 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:50:49,630 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:50,721 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:50:50,721 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:50:51,631 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:55,633 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:50:57,634 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:03,637 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:05,638 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:05,756 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:51:05,756 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:51:09,640 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:11,640 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:13,641 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:17,643 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:19,549 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:51:19,644 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:20,791 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:51:20,792 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:51:25,647 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:27,647 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:31,649 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:33,650 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:35,826 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:51:35,827 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:51:39,686 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:42,688 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:45,773 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:47,774 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:49,775 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:49,789 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:51:50,859 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:51:50,859 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:51:53,794 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:51:56,796 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:02,798 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:04,799 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:05,889 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:52:05,890 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:52:08,801 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:10,802 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:16,823 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:18,824 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:19,976 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:52:20,927 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:52:20,927 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:52:24,827 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:26,827 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:30,829 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:32,830 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:35,959 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:52:35,959 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:52:38,832 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:40,833 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:44,882 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:46,883 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:48,884 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:50,214 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:52:50,999 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:52:50,999 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:52:52,886 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:52:54,887 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:00,890 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:02,891 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:06,043 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:53:06,044 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:53:06,893 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:08,894 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:14,897 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:16,898 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:20,522 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:53:20,900 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:21,099 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:53:21,099 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:53:22,901 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:24,902 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:28,904 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:30,906 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:36,143 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:53:36,143 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:53:36,966 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:38,967 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:42,969 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:44,970 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:50,804 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:53:50,972 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:51,175 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:53:51,175 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:53:52,973 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:56,975 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:53:58,976 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:00,977 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:05,024 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:06,205 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:54:06,205 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:54:07,025 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:13,028 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:15,029 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:19,031 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:21,020 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:54:21,031 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:21,238 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:54:21,238 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:54:27,057 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:30,059 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:34,061 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:36,062 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:36,283 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:54:36,284 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:54:42,068 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:44,069 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:48,071 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:50,072 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:51,315 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:54:51,315 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:54:51,344 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:54:52,073 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:56,075 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:54:58,076 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:04,079 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:06,080 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:06,347 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:55:06,347 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:55:10,134 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:12,135 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:18,137 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:20,138 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:21,375 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:55:21,375 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:55:21,638 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:55:24,140 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:26,141 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:28,142 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:32,144 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:34,144 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:36,407 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:55:36,407 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:55:40,214 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:42,215 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:46,217 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:48,218 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:51,442 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:55:51,443 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:55:51,895 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:55:54,221 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:55:56,222 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:02,225 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:04,226 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:06,475 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:56:06,475 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:56:08,265 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:10,266 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:16,269 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:18,270 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:21,529 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:56:21,545 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:56:22,194 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:56:22,273 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:24,274 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:30,290 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:32,291 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:36,608 DEBUG   HandlerThread:2216598 [handler.py:handle_request():138] handle_request: stop_status
+2022-11-27 01:56:36,608 DEBUG   SenderThread:2216598 [sender.py:send_request():315] send_request: stop_status
+2022-11-27 01:56:38,294 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:40,295 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:44,333 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:47,335 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:53,856 INFO    Thread-14 :2216598 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/sakter/siq_retrain/retrain_rerun/finetune/tvqa/wandb/run-20221127_013514-qpij53ej/files/output.log
+2022-11-27 01:56:54,658 DEBUG   SenderThread:2216598 [sender.py:send():301] send: stats
+2022-11-27 01:57:06,450 INFO    MainThread:2216598 [internal.py:handle_exit():78] Internal process exited
+2022-11-27 01:57:06,451 WARNING MsgRouterThr:2216598 [router.py:message_loop():74] EOFError seen in message_loop

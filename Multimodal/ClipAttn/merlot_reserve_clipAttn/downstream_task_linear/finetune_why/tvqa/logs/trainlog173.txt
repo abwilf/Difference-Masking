@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 003501~friends_s03e18_seg01_clip_01 ~~~~~~~~
+ 38 to 62<|START|> why do monica and joey mockingly laugh after chandler lets the tape fall off his arm?
+0   )  monica and joey want to make fun of rachel     (9tok)
+1 GT)  monica and joey want to sarcastically acknowledge chandler's attempt to mock rachel's gift     (17tok)
+2   )  monica and joey saw something funny on the television     (9tok)
+3   )  monica and joey want to show chandler their appreciation of his humor.     (13tok)
+4   )  monica and joey are upset with rachel, so they pretend to laugh at chandler.      (17tok)
+~~~~~~~~~~~ Example 1 007341~friends_s04e22_seg02_clip_14 ~~~~~~~~
+ 43 to 55<|START|> why does monica say phoebe can't have the baby in her apartment after phoebe has a contraction?
+0 GT)  she hasn't sterilized the apartment since the guys moved out     (11tok)
+1   )  she is afraid of the germs     (6tok)
+2   )  she thinks it's better to have the baby in a hospital     (12tok)
+3   )  she doesn't have room in her apartment     (8tok)
+4   )  she is afraid of babies     (5tok)
+~~~~~~~~~~~ Example 2 007853~friends_s01e16-17_seg02_clip_01 ~~~~~~~~
+ 26 to 45<|START|> why was chandler surprised pheobe knew her sister ursula worked at riff's when he asked?
+0   )  they are sisters, of course she would know where she works.     (13tok)
+1 GT)  ursula said they hadn't spoken in years.     (9tok)
+2   )  everyone in the group knew ursula worked there.     (9tok)
+3   )  phoebe wasn't surprised at all.     (7tok)
+4   )  he thought phoebe and ursula were very close.     (9tok)
+~~~~~~~~~~~ Example 3 010669~s09e22_seg02_clip_00 ~~~~~~~~
+ 22 to 76<|START|> why does leonard think that raj is no longer dating emily when raj is talking about the wine tasting?
+0   )  because sheldon is dating emily now.     (7tok)
+1   )  because raj is allergic to emily's perfume.     (9tok)
+2   )  because emily didn't want to go the wine tasting.     (11tok)
+3 GT)  because raj is planning to bring another girl to the wine tasting.     (13tok)
+4   )  because leonard saw emily out with another man.     (9tok)
+Finished writing 53 questions; max len = 259

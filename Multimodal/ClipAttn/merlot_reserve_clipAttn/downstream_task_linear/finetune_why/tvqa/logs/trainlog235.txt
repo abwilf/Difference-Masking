@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 006635~friends_s09e05_seg02_clip_05 ~~~~~~~~
+ -40 to 139<|START|> why did ross kick rachel out after trying to convince her to go?
+0   )  ross wanted to be traditional and not see the bride before the wedding     (13tok)
+1   )  ross was angry with rachel and needed some time alone     (10tok)
+2   )  ross was worried rachel would tempt him into an indiscretion      (13tok)
+3 GT)  ross thought rachel needed a break from the baby and to take care of herself     (15tok)
+4   )  ross wanted rachel to go on a beer run for him     (11tok)
+~~~~~~~~~~~ Example 1 007147~grey_s01e05_seg02_clip_00 ~~~~~~~~
+ -6 to 107<|START|> why was alex turned off by the patient when he explained his back pain?
+0   )  because alex felt the patient's back pain was not responding to the medication.     (15tok)
+1   )  because alex thought the patient's condition was much worst then described.      (14tok)
+2   )  because alex couldn't understand the patient's accent.     (10tok)
+3 GT)  because alex suspected the patient was addicted to pain medication.     (11tok)
+4   )  because alex felt the patient was high and did not explain his problem well.      (16tok)
+~~~~~~~~~~~ Example 2 008939~met_s06e02_seg02_clip_13 ~~~~~~~~
+ 15 to 28<|START|> why did ted bring up the point that sam only knew loretta for a few months when he was talking to lily, marshall and robin?
+0 GT)  this proved that sam could not possibly be barney's father.     (12tok)
+1   )  this showed that sam and loretta could not have possibly raised a kid together.     (16tok)
+2   )  this showed that sam and loretta did not rally love each other.     (14tok)
+3   )  this proved that barney was sam's son.     (9tok)
+4   )  this showed that sam and loretta did not know each other that well.     (15tok)
+~~~~~~~~~~~ Example 3 013803~friends_s10e15_seg02_clip_12 ~~~~~~~~
+ 16 to 54<|START|> why was ross happy before he stood up? 
+0   )  monica called him.     (4tok)
+1   )  rachel called him.     (4tok)
+2 GT)  mr zelner made a deal with him.     (10tok)
+3   )  a pretty lady in the hallway called him.     (9tok)
+4   )  ben was outside.     (4tok)
+Finished writing 64 questions; max len = 241

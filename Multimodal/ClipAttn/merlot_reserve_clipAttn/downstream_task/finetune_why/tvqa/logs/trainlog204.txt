@@ -1,0 +1,29 @@
+~~~~~~~~~~~ Example 0 000716~grey_s02e23_seg02_clip_21 ~~~~~~~~
+ -19 to 118<|START|> why were dr. addison and rose upset when they started discussing chris?
+0   )  neither rose or dr. addison spoke a word.     (10tok)
+1   )  the conversation ended with laughter.      (7tok)
+2   )  dr. addison and rose hugged each other with warmth and the mood was calmer when they were done speaking.      (22tok)
+3 GT)  the mood gradually continued to become uncomfortable and troublesome for both dr. addison and rose.      (18tok)
+4   )  the newborn child, joseph, said the words "my thumb tastes good" and both dr. addison and rose were amazed in wonderment.      (29tok)
+~~~~~~~~~~~ Example 1 004556~house_s02e22_seg02_clip_02 ~~~~~~~~
+ 42 to 57<|START|> why did chase tell the nurse to get an eeg after examining the baby?
+0 GT)  to confirm brain function is ok     (6tok)
+1   )  to confirm heart function     (4tok)
+2   )  to check for abnormalities     (5tok)
+3   )  to check for clots     (5tok)
+4   )  to make sure there are no blockages     (8tok)
+~~~~~~~~~~~ Example 2 006092~house_s02e11_seg02_clip_11 ~~~~~~~~
+ 33 to 67<|START|> why does foreman owe house money after he hung his coat
+0   )  because he lost a bet by arriving late finally     (9tok)
+1 GT)  because he lost a bet about cameron taking a test     (10tok)
+2   )  because he lost a bet told him what he was going to wear     (13tok)
+3   )  because he lost the bet when he told him cameron would never kiss him     (14tok)
+4   )  because he bought him some lotto tickets     (8tok)
+~~~~~~~~~~~ Example 3 008396~friends_s07e10_seg01_clip_00 ~~~~~~~~
+ 33 to 66<|START|> why is rachel worried after phoebe tells rachel about the skull?
+0 GT)  rachel thinks it is phoebe's mom's skull.     (10tok)
+1   )  rachel thinks it is bad luck.     (7tok)
+2   )  rachel does not like the look of a skull.     (10tok)
+3   )  rachel could not find the candy in the skull.     (10tok)
+4   )  rachel wanted a different skull on the table.     (9tok)
+Finished writing 42 questions; max len = 233
