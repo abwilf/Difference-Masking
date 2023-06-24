@@ -2,7 +2,7 @@
 
 ![](diffmask_process.png)
 
-This is code for the paper Difference-Masking (under submission to ACL'23). For any questions about the experiments, please reach out to {awilf,sakter}@cs.cmu.edu.
+This is code for the paper Difference-Masking (under submission to EMNLP).
 
 ## Domain-Adaptive Setting (NLP)
 We reproduce the experiments from [Don't Stop Pretraining](https://github.com/allenai/dont-stop-pretraining) using the setting from [AANG](https://arxiv.org/pdf/2205.14082.pdf).  Our modifications on the repositories for these papers will be posted soon.
