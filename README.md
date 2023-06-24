@@ -1,7 +1,5 @@
 # Difference-Masking
 
-![](diffmask_process.png)
-
 This is code for the paper Difference-Masking (under submission to EMNLP).
 
 ## Domain-Adaptive Setting (NLP)
